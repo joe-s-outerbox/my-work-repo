@@ -1,0 +1,8 @@
+#ignore media files
+*.jpg
+*.png
+*.webp
+*.gif
+*.mp*
+*.mkv
+*.mov
