@@ -1,0 +1,419 @@
+<head></head>
+<body>
+    
+<style>
+.obx-boc-container {
+    margin: 0;
+    padding: 0;
+    max-width: 980px;
+    margin: 0 0 0 30.5%;
+    padding: 0 20px;
+}
+.obx-boc-container h2 {
+    font-size: 31px;
+}
+.obx-boc-container p {
+    text-align: center;
+    line-height: 1.8;
+}
+.obx-boc-container h2,
+.obx-boc-container p {
+    margin-top: 0;
+}
+.obx-banner.bgimg {
+    background: url(https://cdn.shopify.com/s/files/1/0499/5253/files/backyard-wild-bird-feeders-overlay.png?v=1680798948);
+    background-size: cover;
+}
+.obx-boc-container .obx-banner {
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.obx-boc-container .flex-row {
+    display: flex;
+}
+.obx-boc-container .image-col {
+    flex-basis: 50%;
+    max-width: 470px;
+    width: 100%;
+    object-fit: cover;
+}
+.obx-boc-container .content-col {
+    flex-basis: 50%;
+    max-width: 470px;
+    align-self: center;
+    padding: 60px 40px;
+}
+.obx-boc-container .two-col {
+    background: #F5F6F4;
+    margin-bottom: 60px;
+}
+.obx-boc-container .obx-list-container {
+    line-height: 1.8;
+}
+.obx-boc-container .obx-list-container ul {
+    padding-left: 30px;
+}
+.obx-faq-section {
+    margin-bottom: 60px;
+}
+.obx-faq-section p {
+    padding: 0 20px;
+}
+.obx-faq-section .faq-heading {
+    font-size: 30px;
+}
+.obx-faq-section .faq-intro {
+    padding-left: 0;
+}
+.obx-faq-section h3 {
+    margin: 0;
+    text-transform: none;
+    padding-left: 20px;
+    position: relative;
+}
+.obx-banner.bgcolor {
+    margin-bottom: 80px;
+    background: #166299;
+    padding: 40px;
+    text-align: left;
+}
+.obx-banner.bgcolor {
+    margin-bottom: 80px;
+}
+.obx-related-articles {
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 0 60px 19.5%;
+    text-align: center;
+    font-family: 'Cooper BT';
+}
+.obx-related-articles h2 {
+    font-size: 31px;
+    margin: 0 auto 30px;
+}
+.obx-related-articles a {
+    text-decoration: none;
+    color: black;
+}
+.obx-related-articles .obx-article-heading {
+    font-size: 22px;
+    font-family: 'Cooper BT';
+    padding: 0 20px;
+}
+.obx-related-articles span {
+    display: block;
+    padding: 0 20px 20px;
+    line-height: 1.8;
+}
+.obx-related-articles .obx-article {
+    max-width: 368px;
+    flex-basis: 33%;
+    box-shadow: 0px 1px 4px #8080801C;
+    border: 1px solid #EEEEEE;
+}
+.obx-related-articles .flex-row {
+    display: flex;
+    column-gap: 20px;
+}
+.obx-related-articles img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 184 / 125;
+    margin-bottom: 10px
+}
+.accordion {
+    display: inline;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    }
+    .faq-button-wrapper {
+        border: 1px solid #EEEEEE;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 4px #80808029;
+        margin-bottom: 20px;
+    }
+    button.accordion {
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+    .panel {
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    .section-header .h5:after, .section-header h5:after {
+        content: " ";
+        color: inherit;
+        height: 2px;
+        width: 25px;
+        margin-right: 7px;
+        display: block;
+    }
+
+    .accordion h3:after {
+        position: absolute;
+        right: 14px;
+        content: url(https://cdn.shopify.com/s/files/1/0499/5253/files/arrow-down.svg?v=1680798948);
+    }
+    .accordion.active h3:after {
+        position: absolute;
+        right: 14;
+        top: 8;
+        content: url(https://cdn.shopify.com/s/files/1/0499/5253/files/arrow-up.svg?v=1680798948)
+    }
+
+@media screen and (max-width: 1300px) {
+    .obx-boc-container,
+    .obx-boc-container .two-col .content-col, 
+    .obx-boc-container .two-col .image-col, 
+    .obx-related-articles {
+        margin: 0 auto;
+    }
+    .obx-related-articles {
+        max-width: 940px;
+    }
+
+}
+ @media screen and (max-width: 767px) {
+    .obx-boc-container .two-col .content-col, 
+    .obx-boc-container .two-col .image-col {
+        margin: auto;
+    }
+    .obx-boc-container .two-col.image-col img {
+        padding-bottom: 40px;
+    }
+    .obx-boc-container .content-col{
+        /* max-width: unset; */
+        flex-basis: unset;
+    }
+    .obx-boc-container .two-col .content-col {
+        padding: 20px;
+    }
+    .image-col img {
+        /* padding-bottom: 40px; */
+        width: 100%;
+    }
+    .obx-boc-container .flex-row {
+        display: block;
+    }
+    .obx-related-articles .flex-row { 
+        display: block;
+}
+    .obx-related-articles h2,
+     .obx-boc-container h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .obx-boc-container .obx-banner {
+        padding: 30px 20px 20px;
+    }
+     
+}
+
+</style>
+<!-- split -->
+<div class="obx-display-wrapper" style="display: none;">
+    <div class="obx-boc-container">
+        <div class="obx-banner bgimg">
+            <div class="container">
+                <h2>CONTENT HEADING - H2</h2>
+                <p>Aliquam eleifend scelerisque massa, at interdum sem laoreet vitae. Donec commodo, mi et dapibus varius, quam enim placerat metus, vel accumsan dui ipsum ac justo. Vivamus accumsan euismod massa ac laoreet. Nullam molestie, nulla vel lobortis sagittis, enim justo lacinia lectus, ac aliquam metus urna eu lorem. Orci varius natoque penatibus et magnis dis parturient.</p>
+            </div>
+        </div>
+        <div class="two-col">
+            <div class="container">
+                <div class="flex-row">
+                    <div class="content-col">
+                        <h2 class="content-heading">CONTENT HEADING - H2</h2>
+                        <p class="content-body">Praesent varius nibh ut lacus dapibus, sed feugiat odio varius. Donec a nulla et augue interdum congue sed ut purus. Nulla ut mauris sit amet diam semper pretium. Donec nec ex id sem sagittis scelerisque vel sagittis lorem. Aenean efficitur, metus a aliquam facilisis, nisi justo pellentesque urna, eu pellentesque nisl:</p>
+                        <div class="obx-list-container">
+                          <ul>
+                            <li>CONTENT HEADING - H2</li>
+                            <li>Nam non congue ligula, vitae vehicula nunc phasellus dapibus neque ut interdum</li>
+                            <li>Nam non congue vitae vehicula maybe <a href="#">a link here</a>
+    </li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="image-col">
+                        <img src="https://cdn.shopify.com/s/files/1/0499/5253/files/goldfinch-chickadee-bird-feeder.png?v=1680798949" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="obx-faq-section">
+            <div class="container">
+            <h2 class="faq-heading">Frequently Asked Questions</h2>
+            <p class="faq-intro">Nam non congue ligula, vitae vehicula nunc. Phasellus dapibus neque ut interdum maximus. Donec luctus, augue efficitur faucibus ultricies, tellus lectus cursus elit, nec tristique quam leo at erat.</p>
+                <div class="faq-button-wrapper">
+                    <button class="accordion"><h3 class="">Etiam Non Ultrices Leo In Non Sapien? - H3</h3></button>
+                    <div class="panel">
+                        <p>Praesent dapibus odio semper vehicula condimentum. Morbi ultricies gravida volutpat. Nulla vitae neque dictum, feugiat eros ut, auctor neque. Pellentesque egestas rutrum orci id semper. Phasellus cursus interdum arcu, non sollicitudin sapien consequat a.</p>
+                    </div>
+                </div>
+                <div class="faq-button-wrapper">
+                    <button class="accordion"><h3 class="">Etiam Non Ultrices Leo In Non Sapien? - H3</h3></button>
+                    <div class="panel">
+                        <p>Praesent dapibus odio semper vehicula condimentum. Morbi ultricies gravida volutpat. Nulla vitae neque dictum, feugiat eros ut, auctor neque. Pellentesque egestas rutrum orci id semper. Phasellus cursus interdum arcu, non sollicitudin sapien consequat a.</p>
+                    </div>
+                </div>
+                <div class="faq-button-wrapper">
+                    <button class="accordion"><h3 class="">Etiam Non Ultrices Leo In Non Sapien? - H3</h3></button>
+                    <div class="panel">
+                        <p>Praesent dapibus odio semper vehicula condimentum. Morbi ultricies gravida volutpat. Nulla vitae neque dictum, feugiat eros ut, auctor neque. Pellentesque egestas rutrum orci id semper. Phasellus cursus interdum arcu, non sollicitudin sapien consequat a.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="obx-banner bgcolor">
+            <div class="container">
+                <h2>CONTENT HEADING - H2</h2>
+                <p>Aliquam eleifend scelerisque massa, at interdum sem laoreet vitae. Donec commodo, mi et dapibus varius, quam enim placerat metus, vel accumsan dui ipsum ac justo. Vivamus accumsan euismod massa ac laoreet. <a href="#">Nullam molestie</a>, nulla vel lobortis sagittis, enim justo lacinia lectus, ac aliquam metus urna eu lorem. Orci varius natoque penatibus et magnis dis parturient.</p>
+            </div>
+        </div>
+    </div>
+        <div class="obx-related-articles">
+            <div class="container">
+                <h2>header</h2>
+                </div>
+                    <div class="flex-row">
+                        <div class="obx-article">
+                            <a href="#">
+                                <img src="https://picsum.photos/368/250" alt="">
+                                <span class="obx-article-heading">Heading</span>
+                                <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                            </a>    
+                        </div>
+                        <div class="obx-article">
+                            <a href="#">
+                                <img src="https://picsum.photos/368/250" alt="">
+                                <span class="obx-article-heading">Heading</span>
+                                <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                            </a>    
+                        </div>
+                        <div class="obx-article">
+                            <a href="#">
+                                <img src="https://picsum.photos/368/250" alt="">
+                                <span class="obx-article-heading">Heading</span>
+                                <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+    </div>
+<!-- <div class="obx-boc-container">
+    <div class="obx-banner bgimg">
+        <div class="container">
+            <h2>CONTENT HEADING - H2</h2>
+            <p>Aliquam eleifend scelerisque massa, at interdum sem laoreet vitae. Donec commodo, mi et dapibus varius, quam enim placerat metus, vel accumsan dui ipsum ac justo. Vivamus accumsan euismod massa ac laoreet. Nullam molestie, nulla vel lobortis sagittis, enim justo lacinia lectus, ac aliquam metus urna eu lorem. Orci varius natoque penatibus et magnis dis parturient.</p>
+        </div>
+    </div>
+    <div class="two-col">
+        <div class="container">
+            <div class="flex-row">
+                <div class="content-col">
+                    <h2 class="content-heading">CONTENT HEADING - H2</h2>
+                    <p class="content-body"></p>
+                    <div class="obx-list-container">
+                        <li>CONTENT HEADING - H2</li>
+                        <li>Nam non congue ligula, vitae vehicula nunc phasellus dapibus neque ut interdum</li>
+                        <li>Nam non congue vitae vehicula maybe <a href="#">a link here</a></li>
+                    </div>
+                </div>
+                <div class="image-col">
+                    <img src="https://cdn.shopify.com/s/files/1/0499/5253/files/goldfinch-chickadee-bird-feeder.png?v=1680798949" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="obx-faq-section">
+        <div class="container">
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+        <p class="faq-intro">Nam non congue ligula, vitae vehicula nunc. Phasellus dapibus neque ut interdum maximus. Donec luctus, augue efficitur faucibus ultricies, tellus lectus cursus elit, nec tristique quam leo at erat.</p>
+            <div class="faq-button-wrapper">
+                <button class="accordion"><h3 class="">Etiam Non Ultrices Leo In Non Sapien? - H3</h3></button>
+                <div class="panel">
+                    <p>Praesent dapibus odio semper vehicula condimentum. Morbi ultricies gravida volutpat. Nulla vitae neque dictum, feugiat eros ut, auctor neque. Pellentesque egestas rutrum orci id semper. Phasellus cursus interdum arcu, non sollicitudin sapien consequat a.</p>
+                </div>
+            </div>
+            <div class="faq-button-wrapper">
+                <button class="accordion"><h3 class="">Etiam Non Ultrices Leo In Non Sapien? - H3</h3></button>
+                <div class="panel">
+                    <p>Praesent dapibus odio semper vehicula condimentum. Morbi ultricies gravida volutpat. Nulla vitae neque dictum, feugiat eros ut, auctor neque. Pellentesque egestas rutrum orci id semper. Phasellus cursus interdum arcu, non sollicitudin sapien consequat a.</p>
+                </div>
+            </div>
+            <div class="faq-button-wrapper">
+                <button class="accordion"><h3 class="">Etiam Non Ultrices Leo In Non Sapien? - H3</h3></button>
+                <div class="panel">
+                    <p>Praesent dapibus odio semper vehicula condimentum. Morbi ultricies gravida volutpat. Nulla vitae neque dictum, feugiat eros ut, auctor neque. Pellentesque egestas rutrum orci id semper. Phasellus cursus interdum arcu, non sollicitudin sapien consequat a.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="obx-banner bgcolor">
+        <div class="container">
+            <h2>CONTENT HEADING - H2</h2>
+            <p>Aliquam eleifend scelerisque massa, at interdum sem laoreet vitae. Donec commodo, mi et dapibus varius, quam enim placerat metus, vel accumsan dui ipsum ac justo. Vivamus accumsan euismod massa ac laoreet. Nullam molestie, nulla vel lobortis sagittis, enim justo lacinia lectus, ac aliquam metus urna eu lorem. Orci varius natoque penatibus et magnis dis parturient.</p>
+        </div>
+    </div>
+</div>
+    <div class="obx-related-articles">
+        <div class="container">
+            <h2>header</h2>
+            </div>
+                <div class="flex-row">
+                    <div class="obx-article">
+                        <a href="#">
+                            <img src="https://picsum.photos/368/250" alt="">
+                            <span class="obx-article-heading">Heading</span>
+                            <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        </a>    
+                    </div>
+                    <div class="obx-article">
+                        <a href="#">
+                            <img src="https://picsum.photos/368/250" alt="">
+                            <span class="obx-article-heading">Heading</span>
+                            <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        </a>    
+                    </div>
+                    <div class="obx-article">
+                        <a href="#">
+                            <img src="https://picsum.photos/368/250" alt="">
+                            <span class="obx-article-heading">Heading</span>
+                            <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        </a>    
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+</script> -->
+</body>

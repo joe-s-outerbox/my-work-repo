@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.obx-blog-wrapper {
+    display: flex;
+    column-gap: 40px;
+}
+
+.obx-blog-wrapper .main-column {
+    max-width: 851px;
+}
+.obx-blog-wrapper .sidebar {
+    max-width: 268px;
+}
+.obx-blog-wrapper .obx-section {
+    margin-bottom: 60px;
+}
+.obx-blog-wrapper a {
+    text-decoration: none;
+}
+.obx-blog-wrapper p {
+    font-size: 16px;
+    line-height:1.4; 
+}
+.obx-blog-wrapper h2 {
+    font-size: 25px;
+    line-height: 1;
+    margin-top: 0;
+}
+.obx-blog-wrapper h3 {
+    font-size: 20px;
+    line-height: 1;
+}
+.obx-blog-wrapper .flex-row {
+    display: flex;
+}
+.obx-blog-wrapper .btn-full {
+    text-align: center;
+    padding: 8px 88px 6px;
+    background: #FD4804;
+}
+.obx-blog-wrapper .btn-full a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    
+}
+
+.obx-blog-wrapper .obx-section.split .flex-cnt {
+    padding-right: 30px;
+}
+.obx-blog-wrapper .obx-section.split .flex-img {
+    align-self: center;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1.436;
+}
+.obx-blog-wrapper .product-block.full-width .prod-img img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: center center;
+}
+
+.obx-blog-wrapper .prod-desc {
+    padding-left: 70px;
+}
+.obx-blog-wrapper  .prod-desc h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.obx-blog-wrapper .product-block.full-width {
+    padding: 60px 0 55px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;;
+}
+
+.obx-blog-wrapper .prod-desc span {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #505050;
+}
+.obx-blog-wrapper .prod-desc a {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #4A8AFD;
+    color: #fff;
+    padding: 10px 19px 11px;
+    display: block;
+    max-width: 205px;
+    text-align: center;
+}
+
+.obx-blog-wrapper .obx-section.faq {
+    padding: 60px 0 30px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.obx-blog-wrapper .faq-panel {
+    padding: 30px 0;
+    border-top: 2px solid #eee;
+}
+
+.obx-blog-wrapper h3 {
+    margin-top: 0;
+}
+.obx-blog-wrapper .obx-related-articles .flex-row {
+    justify-content: space-between;
+}
+.obx-blog-wrapper .obx-related-articles .obx-article {
+    max-width: 264px; 
+    flex-basis: 33%;
+}
+.obx-blog-wrapper .faq-panel p {
+    margin-bottom: 0;
+}
+.obx-blog-wrapper .faq-panel a {
+    color: #FD4804;
+    text-decoration: underline;
+}
+.obx-blog-wrapper .obx-related-articles h2 {
+    margin-bottom: 30px;
+}
+.obx-blog-wrapper .obx-related-articles span {
+    color: #282828;
+    display: block;
+}
+.obx-blog-wrapper .obx-related-articles .obx-article-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #282828;
+    margin: 22px 0 10px;
+}
+
+.obx-blog-wrapper span.obx-readmore {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FD4804;
+    padding: 20px 0;
+}
+
+.obx-blog-wrapper span.obx-article-body {
+    line-height: 1.5;
+    font-size: 16px;
+}
+.obx-blog-wrapper .obx-section.bg-img-full {
+    color: #fff;
+    padding: 30px 30px 40px;
+}
+
+
+.obx-blog-wrapper .obx-section.bg-img-full a {
+    color: #fff !important;
+    background: #FD4804;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 24px;
+}
+
+.obx-blog-wrapper .bg-img-full p {
+    margin-bottom: 40px;
+}
+.obx-blog-wrapper .related-list {
+    border: 2px solid #eee;
+}
+.obx-blog-wrapper .related-list span,
+.obx-blog-wrapper .related-list a{
+    display: block;
+}
+.obx-blog-wrapper .related-list span {
+    font-weight: 700;
+    font-size: 14px;
+}
+.obx-blog-wrapper .related-list a {
+    color: #FD4804;
+    border-bottom: 2px solid #E2E0E0;
+    padding: 15px 0;
+}
+
+.obx-blog-wrapper .related-list a:last-child {
+    border: none;
+}
+.obx-blog-wrapper .related-list {
+    padding: 20px 20px 0;
+    margin-bottom: 60px;
+}
+.obx-blog-wrapper .sidebar .product-block {max-width: 237px;margin: auto;}
+
+.obx-blog-wrapper .sidebar span.name {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.obx-blog-wrapper .sidebar span.price {
+    font-size: 18px;
+    font-weight: 700;
+    color: firebrick;
+    display: block;
+    text-align: center;
+}
+
+.obx-blog-wrapper .sidebar .product-block a {
+    color: #fff;
+    font-size: 16px;
+    background: #4A8AFE;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    max-width: 198px;
+    margin: auto;
+    border-radius: 1px;
+}
+span.obx-readmore {
+    font-size: 16px;
+}
+
+.obx-logo-row {
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    
+}
+.obx-logo-row img {
+    margin-right: 10px
+}
+
+.obx-section.text-full p {
+    margin-bottom: 30px;
+}
+
+.obx-blog-wrapper img {
+    max-width: unset;
+}
+
+.obx-blog-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.obx-blog-wrapper .faq-header p {
+    margin: 0 0 30px;
+}
+.prod-desc h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+</style>
+<body>
+<div class="obx-blog-wrapper">
+    <div class="main-column">
+    <div class="obx-logo-row">
+        <span>
+            <img src="https://via.placeholder.com/20x20" alt="">
+            <img src="https://via.placeholder.com/20x20" alt="">
+            <img src="https://via.placeholder.com/20x20" alt="">
+            <img src="https://via.placeholder.com/20x20" alt="">
+        </span>
+    </div>
+    <div class="obx-section text-full">
+            <p>Hey everyone Lucas at Lamin-x. If your door sill on your vehicle is scratched up from years of carelessly getting in and out of your vehicle then our Lamin-x Door Sill Guards might be the answer for you. Our Lamin-x Door Sill Guards are a thick, yet invisible, layer of film that protects your door sill from any scratches as you’re entering or exiting your vehicle. Today I’m going to show you how to install this product. Let’s go.</p>
+            <img src="https://via.placeholder.com/850x324" alt="">
+    </div>
+    <div class="obx-section text-full">
+            <h2>PREP YOUR WORK</h2>
+            <p>To start you will want to clean the area using a microfiber towel and some water to make sure all the dust, dirt, lint, and debris is all removed from the area, because you don’t want that to get trapped underneath the adhesive as you go to install the Lamin-x. Now we’re going to take our roll of Lamin-x and lay it out, to get an idea of how much Lamin-x we’re going to need, before we trim it down and install it. Now soak the paint on your door sill with the spray bottle and then we’re gonna remove our Lamin-x from the liner and mist the adhesive side of the film with a few water droplets.</p>
+    </div>
+    <div class="obx-section split">
+            <div class="flex-row">
+                <div class="flex-cnt">
+                    <h2>GET TO WORK</h2>
+                    <p>Gently lay the film into position and start tacking it down with your fingers, mainly focusing on getting where the door sill curves. First run your finger in a sweeping motion back and forth right on the curve of your door sill, making sure the film is all lined up. Now we’re gonna mist the outside layer of the Lamin-x and this is going to serve as a lubrication layer. We take our squeegee with a moderate to firm pressure and all four fingers equally distributed on it to start squeegeeing the water out from underneath the film. Again we’re focusing on the curved part of the door sill, making sure that it’s all applied down there first. Use tiny motions repeated all the way down the door sill. Once you have the film applied all around the curved area you can then start squeegeeing the water out from underneath the flat part, keeping the same sweeping motion with the squeegee using moderate to firm pressure to make sure the film is applied all the way down.</p>
+                </div>
+                <div class="flex-img">
+                    <img src="https://via.placeholder.com/405x282" alt="">
+                </div>
+            </div>
+    </div>
+    <div class="obx-section text-full">
+            <h3>Get To Work</h3>
+            <p>Gently lay the film into position and start tacking it down with your fingers, mainly focusing on getting where the door sill curves. First run your finger in a sweeping motion back and forth right on the curve of your door sill, making sure the film is all lined up. Now we’re gonna mist the outside layer of the Lamin-x and this is going to serve as a lubrication layer. We take our squeegee with a moderate to firm pressure and all four fingers equally distributed on it to start squeegeeing the water out from underneath the film. Again we’re focusing on the curved part of the door sill, making sure that it’s all applied down there first. Use tiny motions repeated all the way down the door sill. Once you have the film applied all around the curved area you can then start squeegeeing the water out from underneath the flat part, keeping the same sweeping motion with the squeegee using moderate to firm pressure to make sure the film is applied all the way down.</p>
+    </div>
+    <div class="obx-section product-block full-width">
+            <div class="flex-row">
+                <div class="prod-img">
+                    <img src="https://via.placeholder.com/165x165" alt="">
+                </div>
+                <div class="prod-desc">
+                    <h3>Door Sill Guard - Clear 2.75” X 64” Universal</h3>
+                    <span>sku:dsg</span>
+                    <img src="" alt="">
+                    <a href="#">add to cart</a>
+                </div>
+            </div>
+    </div>
+    <div class="obx-section text-full">
+            <h2>KNOW YOUR PRODUCT</h2>
+            <p>Gently lay the film into position and start tacking it down with your fingers, mainly focusing on getting where the door sill curves. First run your finger in a sweeping motion back and forth right on the curve of your door sill, making sure the film is all lined up. Now we’re gonna mist the outside layer of the Lamin-x and this is going to serve as a lubrication layer. We take our squeegee with a moderate to firm pressure and all four fingers equally distributed on it to start squeegeeing the water out from underneath the film. Again we’re focusing on the curved part of the door sill, making sure that it’s all applied down there first. Use tiny motions repeated all the way down the door sill. Once you have the film applied all around the curved area you can then start squeegeeing the water out from underneath the flat part, keeping the same sweeping motion with the squeegee using moderate to firm pressure to make sure the film is applied all the way down.</p>
+    </div>
+    <div class="obx-section btn-full">
+        <a href="">CTA BANNER TEXT - CLICK TO SHOP NOW</a>
+    </div>
+    <div class="obx-section faq">
+        <div class="faq-header">
+            <h2>FREQUENTLY ASKED QUESTIONS</h2>
+            <p>Lamin-x headlight protection film has been safeguarding vehicles like yours for over twenty years. Our products are used by commercial fleets and individuals alike who want to keep their cars safe. Learn more about our headlight tint film with some of our frequently asked questions.</p>
+        </div>
+        <div class="faq-panel">
+            <h3>What Colors Are Available For Headlight Tint Film?</h3>
+            <p>Our headlight protection film comes in a variety of colors and tints. Choose from either a pre-cut kit made for your specific vehicle or a universal sheet for custom installation. Our current colors include Blue, Yellow, Gunsmoke, Tint and Clear.</p>
+        </div>
+        <div class="faq-panel">
+            <h3>Do You Work With Installers And Body Shops?</h3>
+            <p>Yes. We offer business-to-business solutions for a variety of retailers and businesses who are interested in our headlight tint films. Learn more about our authorized dealer programs by contacting us at <a href="mailto:sales@lamin-x.com">sales@lamin-x.com</a>.</p>
+        </div>
+    </div>
+    <div class="obx-section bg-img-full" style="background-image: url(https://via.placeholder.com/850x222)">
+            <h2>DOOR SILL GUARD ROLL</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+            <a href="#">shop now</a>
+    </div>
+
+    <div class="obx-section obx-related-articles">
+            <h2>RECENT POSTS</h2>
+            </div>
+                <div class="flex-row">
+                    <div class="obx-article">
+                        <a href="https://birdertown.com/blogs/birds-on-a-wire-wild-bird-blog/types-of-bird-suet-and-the-best-suet-feeders">
+                            <img src="https://via.placeholder.com/264x124" alt="">
+                            <span class="obx-article-heading">Lamin-x For Industrial Applications</span>
+                            <span class="obx-article-body">Hey everyone Lucas at Lamin-x. Today I will be talking to you about some of our Lamin-x products that can be used for…</span>
+                            <span class="obx-readmore">read more</span>
+                        </a>    
+                    </div>
+                    <div class="obx-article">
+                        <a href="https://birdertown.com/blogs/birds-on-a-wire-wild-bird-blog/types-of-bird-suet-and-the-best-suet-feeders">
+                            <img src="https://via.placeholder.com/264x124" alt="">
+                            <span class="obx-article-heading">Lamin-x For Industrial Applications</span>
+                            <span class="obx-article-body">Hey everyone Lucas at Lamin-x. Today I will be talking to you about some of our Lamin-x products that can be used for…</span>
+                            <span class="obx-readmore">read more</span>
+                        </a>    
+                    </div>
+                    <div class="obx-article">
+                        <a href="https://birdertown.com/blogs/birds-on-a-wire-wild-bird-blog/types-of-bird-suet-and-the-best-suet-feeders">
+                            <img src="https://via.placeholder.com/264x124" alt="">
+                            <span class="obx-article-heading">Lamin-x For Industrial Applications</span>
+                            <span class="obx-article-body">Hey everyone Lucas at Lamin-x. Today I will be talking to you about some of our Lamin-x products that can be used for…</span>
+                            <span class="obx-readmore">read more</span>
+                        </a>    
+                    </div>
+                </div>
+    </div>
+    <div class="sidebar">
+        <div class="related-list">
+            <span>Related Articles:</span>
+            <a href="#">Article title</a>
+            <a href="#">Article title</a>
+            <a href="#">Article title</a>
+            <a href="#">Article title</a>
+            <a href="#">Article title</a>
+            <a href="#">Article title</a>
+        </div>
+        <div class="product-block">
+            <img src="https://via.placeholder.com/237x237" alt="">
+            <span class="name">Subaru Outback (2020-2022) Edge Guards</span>
+            <span class="price">$16.95</span>
+            <img src="" alt="">
+            <a href="#">shop now</a>
+        </div>
+
+
+    </div>
+</div>
+
+
+</body>
+</html>

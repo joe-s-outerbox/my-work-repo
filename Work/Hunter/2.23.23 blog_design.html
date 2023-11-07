@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/custom.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*************obx-blog****************/
+.obx-blog-container {
+    width: 775px;
+    margin: 0 auto;
+}
+.obx-blog-container h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.obx-blog-container h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.obx-blog-container h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin:10px 0 7px 0;
+}
+.obx-blog-container p {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 20px;
+}
+.blog-body-section {
+    margin-bottom: 60px;
+}
+.blog-learn-more {
+    color: #547F52;
+}
+.blog-img-wide img {
+    margin-bottom: 20px;
+}
+.blog-page-top h2 {
+    margin: 30px 0 10px;
+}
+.blog-top-img {
+    margin-bottom: 40px;
+}
+.blog-author {
+    margin-bottom: 10px;
+}
+.social
+.blog-author p, .blog-toc {
+    font-size: 16px;
+}
+.blog-toc table {
+    width: 100%;
+    border: .5px solid #A7A7A7;
+    border-style: solid none;
+    padding: 18px 0 10px;
+    margin-bottom:  60px;
+    table-layout: fixed;
+}
+.blog-toc th {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #547F52;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.blog-toc td{ 
+    padding-bottom: 10px;
+}
+.blog-toc a {
+    text-decoration: none;
+    color: #292929;
+}
+.blog-toc a:hover {
+    text-decoration: underline;
+}
+.blog-toc .center {
+    text-align: center;
+} 
+.blog-toc .right {
+    text-align: right;
+} 
+.social-share, .blog-return {
+    flex-basis: 50%;
+    font-weight: 700;
+}
+.blog-author {
+    flex-basis: 50%;
+}
+.social-share-row.bottom {
+    padding-bottom: 40px;
+    border-bottom: .5px solid #A7A7A7;
+}
+.social-share a {
+    padding: 0 4px;
+    text-align: right;
+
+}
+.social-share, .blog-return {
+    color:#547f52
+}
+.blog-return p {
+    font-weight: 700;
+}
+.blog-ul ul{
+    margin: 0 0 20px 0;
+    font-style: italic;
+    list-style-position: outside;
+    padding-left: 26px;
+}
+.blog-ul li {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.blog-ul li::marker {
+    color: #547F52;
+    font-size: 32px;
+    vertical-align: middle;
+}
+.blog-li-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.blog-product-section h2 {
+    margin-bottom: 20px;
+}
+.tight {
+    margin-bottom: 10px !important;
+}
+.blog-product-section p {
+    margin-bottom: 20px;
+}
+.blog-two-col .flex{
+    column-gap: 30px;
+}
+.blog-img-col {
+    background-color:#547F52;
+    margin-bottom: 0;
+    max-width: unset;
+}
+.blog-body-section.green {
+    color: white;
+    background-color: #547F52;
+    padding: 30px 30px 10px 30px;
+}
+
+.blog-button a {
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #547f52;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 230px;
+    transition: background .25s ease-in-out;    
+    border: solid 2px #537f53;
+
+}
+.blog-button a:hover {
+    background: white;
+    color: #537f53;
+    border: solid 2px #537f53;
+    }
+
+.blog-cta h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.blog-content-wheel .flex{
+    column-gap: 30px;
+}
+.obx-blog-article img {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.obx-blog-article h4 {
+    color: #547F52;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+.blog-faq {
+    padding: 60px 0;
+}
+.blog-accordion-span {
+    border-bottom: 2px solid #537f53;
+}
+.blog-accordion {
+  background-color: #f6f6f6;
+  color: black;
+  cursor: pointer;
+  padding: 18px 0;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .blog-accordion:hover {
+  background-color: #f6f6f6;
+}
+.blog-panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f6f6f6;
+
+}
+/* .blog-accordion::before {
+  content: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/icons8-plus-math-30.png?v=1677620003); 
+  height: 15px;
+  width: 15px;
+  font-size: 13px;
+  color: black;
+  float: left;
+  margin-left: 5px;
+}
+
+.active::before {
+  content: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/icons8-subtract-30.png?v=1677620003); 
+  height: 15px;
+  width: 15px;
+  color: black;
+} */
+.blog-panel p {
+    margin: 0;
+}
+</style>
+
+
+<div class="obx-blog-container">
+    <div class="blog-page-top">
+        {{article__subheader/breadcrumbs}}
+        <div class="flex">
+            <h1>Blog Title</h1>
+        </div>
+        <div class="social-share-row">
+            <div class="flex">
+                <div class="blog-author">
+                    <p>Posted by: Variable | Date </p> 
+                </div>
+                <div class="social-share">
+                    <p>Share:
+                        <a href="#"><img src="/Blog Images/Icon awesome-twitter.svg" alt="Tweeter"></a>
+                        <a href="#"><img src="/Blog Images/Icon awesome-facebook-f.svg" alt="Facebook"></a>
+                        <a href="#"><img src="/Blog Images/Icon awesome-instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="/Blog Images/Icon awesome-link.svg" alt="Facebook"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="blog-top-img">
+            <img src="https://via.placeholder.com/775x375" alt="#">
+        </div>
+    </div>
+    <div class="blog-toc">
+        <div class="flex">
+            <table>
+                <th>Table Of Contents</th>
+                <tr>
+                    <td>> <a href="#">Section Jump</a></td>
+                    <td class="center">> <a href="#"> Section Jump</a></td>
+                    <td class="right">> <a href="#"> Section Jump</a></td>
+                </tr>
+                <tr>
+                    <td>> <a href="#">Section Jump</a></td>
+                    <td class="center">> <a href="#">Section Jump</a></td>
+                    <td class="right">> <a href="#">Section Jump</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="blog-body-section" id="#">
+        <h2>Article Heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum amet rerum unde voluptatem iusto dolore ab officia harum provident inventore numquam, nobis excepturi. In repellat obcaecati accusantium commodi soluta?</p>
+    </div>
+    {{product carousel}}
+    <div class="blog-body-section blog-product-section" id="#">
+        <h2 class="tight">Tight header</h2>
+        <div class="blog-img-wide">
+            <img src="https://via.placeholder.com/774x230" alt="">
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ad sit ea in, maiores qui harum, repellat amet odio aperiam officiis consequatur perferendis? Saepe consectetur inventore consequatur, aliquid eveniet aut?</p>
+        <p><strong>Learn More: </strong><a class="blog-learn-more" href="#">IP66 Drive Enclosure</a></p>
+        <h3>Subheading to above product</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae ipsam, voluptatum hic aperiam ratione suscipit vero distinctio. Eum facere expedita placeat quam quis rem quaerat animi natus molestias aliquam.</p>
+        <div class="blog-ul">
+            <ul>
+                <li>ListItem</li>
+                <li>ListItem</li>
+                <li>ListItem</li>
+                <li>ListItem</li>
+                <li>ListItem</li>
+                <li>ListItem</li>
+            </ul>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore perspiciatis ab est iusto quia voluptates, aut aliquid!</p>
+    </div>
+    <div class="blog-body-section blog-product-section" id="#">
+        <h2>Article Heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum amet rerum unde voluptatem iusto dolore ab officia harum provident inventore numquam, nobis excepturi. In repellat obcaecati accusantium commodi soluta?</p>
+    </div>
+    <div class="blog-body-section blog-two-col" id="#">
+            <div class="flex">
+                <div class="blog-img-col ">
+                    <img src="https://via.placeholder.com/240x415" alt="">
+                </div>
+                <div class="blog-content-col">
+                    <h2>more header</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum amet rerum unde voluptatem iusto dolore ab officia harum provident inventore numquam, nobis excepturi. In repellat obcaecati accusantium commodi soluta?</p>
+                </div>
+            </div>
+    </div>
+    <div class="blog-toc">
+        <div class="flex">
+            <table>
+                <th>Table Of Contents</th>
+                <tr>
+                    <td><a href="#">Page Jump</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Page Jump</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="blog-body-section blog-product-section" id="#">
+        <h2>more header</h2>
+        <img src="https://via.placeholder.com/774x230" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ad sit ea in, maiores qui harum, repellat amet odio aperiam officiis consequatur perferendis? Saepe consectetur inventore consequatur, aliquid eveniet aut?</p>
+        <p><strong>Learn More: </strong><a class="blog-learn-more"href="#">IP66 Drive Enclosure</a></p>
+    </div>
+    <div class="blog-body-section green" id="#">
+        <h2>Conclusion:</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nisi, consequuntur fugiat ab officiis corrupti, dolore laborum neque vitae debitis tempore? Praesentium adipisci veritatis possimus hic consectetur voluptas animi quis.</p>   
+    </div>
+    <div class="blog-body-section">
+        <div class="blog-cta">
+            <h3>Header</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus ipsam minima voluptatibus, nam, soluta facere illo quasi, culpa impedit optio obcaecati esse quam ullam omnis. Deserunt, consequatur. Ullam, distinctio.</p>
+            <div class="blog-button">
+                <a href="">Button</a>
+            </div>
+        </div>
+    </div>
+    <div class="social-share-row bottom">
+        <div class="flex">
+            <div class="blog-return"><a href="#>"><p>All Articles</p></a></div>
+            <div class="social-share">
+                <p>Share:
+                    <a href="#"><img src="/Blog Images/Icon awesome-twitter.svg" alt="Tweeter"></a>
+                    <a href="#"><img src="/Blog Images/Icon awesome-facebook-f.svg" alt="Facebook"></a>
+                    <a href="#"><img src="/Blog Images/Icon awesome-instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="/Blog Images/Icon awesome-link.svg" alt="Facebook"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="blog-faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="blog-accordion-span">
+            <button class="blog-accordion">Section 1</button>
+            <div class="blog-panel">
+            <p>Lorem ipsum...</p>
+            </div>
+        </div>
+        <div class="blog-accordion-span">
+            <button class="blog-accordion">Section 1</button>
+            <div class="blog-panel">
+            <p>Lorem ipsum...</p>
+            </div>
+        </div>
+        <div class="blog-accordion-span">
+            <button class="blog-accordion">Section 1</button>
+            <div class="blog-panel">
+            <p>Lorem ipsum...</p>
+            </div>
+        </div>
+        <div class="blog-accordion-span">
+            <button class="blog-accordion">Section 1</button>
+            <div class="blog-panel">
+            <p>Lorem ipsum...</p>
+            </div>
+        </div>
+        <div class="blog-accordion-span">
+            <button class="blog-accordion">Section 1</button>
+            <div class="blog-panel">
+            <p>Lorem ipsum...</p>
+            </div>
+        </div>
+    </div>
+    <script>var acc = document.getElementsByClassName("blog-accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+        
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }</script>
+    <div class="blog-body-section blog-content-wheel">
+        <h2>Related Articles</h2>
+        <div class="flex">
+            <div class="obx-blog-article">
+                <a href="#">
+                <img src="https://via.placeholder.com/240x240" alt="#">
+                </a>    
+                <h4>Lorem Heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, est voluptatum !</p>
+            </div>
+            <div class="obx-blog-article">
+                <a href="#">
+                <img src="https://via.placeholder.com/240x240" alt="#">
+                </a>
+                <h4>Lorem Heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, est voluptatum !</p>
+            </div>       
+            <div class="obx-blog-article">
+                <a href="#">
+                <img src="https://via.placeholder.com/240x240" alt="#">
+                </a>
+                <h4>Lorem Heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, est voluptatum !</p>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>

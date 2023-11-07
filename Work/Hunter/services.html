@@ -1,0 +1,18 @@
+<div class="obx-services-list">
+    <ul>
+        {% if section.settings.tro_number_title != blank %}
+        <li>{{ section.settings.tro_number_title }}</li>
+        {% endif %}
+        <li>Email us at <a href="mailto:fansupport@hunterfan.com">fansupport@hunterfan.com</li>
+        {% if section.settings.tro_link != blank %}
+        <li>Check Out Our <a href="{{section.settings.tro_link}}">{{ section.settings.tro_btn_title }}</a></li>
+        {% endif %}
+        {% if section.settings.faq_link != blank %}
+        <li>Read our <a href="{{section.settings.faq_link}}">{{ section.settings.faq_btn_title }}</a></li>
+        {% endif %}    
+    </ul>
+</div>
+
+<style>
+    
+</style>

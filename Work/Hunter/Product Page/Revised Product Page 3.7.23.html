@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<style>
+#OBX-container {
+	--main-heading-green: #547F52;
+	--section-bg-lgrey: #F5F5F5;
+}
+#OBX-container h2, p{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+#OBX-container p{
+	line-height: 32px;
+}
+#OBX-container .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+	column-gap: 20px;
+	justify-content: center;
+}
+
+#OBX-container .container {
+    max-width: 1346px;
+    padding: 0 20px;
+    margin: auto;
+}
+#OBX-container .green-full .container img {
+    margin: 0 auto 15px;
+}
+#OBX-container .obx-icon-group {
+    flex-basis: 23%;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+	min-width: 160px;
+}
+#OBX-container .obx-icon-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+#OBX-container .cta {
+    background: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/dark_background.png?v=1678732911);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+#OBX-container .cta-content {
+	margin-bottom: 30px;
+}
+#OBX-container .cta-header {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#OBX-container .cta-body {
+    font-size: 18px;
+} 
+#OBX-container .cta-button{
+	max-width: 230px;
+	margin: auto;
+}
+#OBX-container .cta-button a {
+	display: inline-block;
+	padding: 15px 0px 13px;
+	min-width: 230px;
+	font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none; 
+    color: #547F52;
+    background: #fff;
+	border: 2px solid #fff;
+    text-align: center;
+	transition: 
+        background .25s ease-in-out,
+        border .25s ease-in-out,
+        color .25s ease-in-out;
+}
+#OBX-container .cta-button.bottom a {
+	display: inline-block;
+	padding: 15px 0px 13px;
+	min-width: 230px;
+	font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none; 
+    color: #fff;;
+    background: var(--main-heading-green);
+	border: 2px solid var(--main-heading-green);
+    text-align: center;
+	transition: 
+        background .25s ease-in-out,
+        border .25s ease-in-out,
+        color .25s ease-in-out;
+}
+#OBX-container .cta-button a:hover {
+    color: #fff;
+    background: transparent;
+	border: 2px solid #fff;
+}
+#OBX-container .cta-button.bottom a:hover {
+    color: var(--main-heading-green);
+    background: var(--section-bg-lgrey);
+	border: 2px solid var(--main-heading-green);
+
+}
+
+#OBX-container .full-width.grey{
+    background-color: var(--section-bg-lgrey);
+	padding: 100px 0;
+}
+#OBX-container .full-width.white{
+	background: #fff;
+	padding: 100px 0;
+}
+#OBX-container .full-width.grey .container:first-child,
+#OBX-container .full-width.white .container:first-child{
+	margin-bottom: 42px;
+}
+#OBX-container .full-width.green {
+	color: #fff;
+	background: var(--main-heading-green);
+	box-shadow: inset 0px 0px 33px #1B2C1B;
+}
+/* #OBX-container .flex-content, 
+#OBX-container .flex-img  {
+    flex-basis: 50%;
+} */
+#OBX-container .full-width.grey .flex-row, 
+#OBX-container .full-width.white .flex-row{
+	justify-content: space-between;
+}
+#OBX-container .flex-content {
+	max-width: 670px;
+}
+#OBX-container .flex-content,
+#OBX-container .flex-img {
+	margin-bottom: 30px;
+}
+#OBX-container .flex-img img{
+	max-width: 560px;
+	width: 100%;
+	display: flex;
+	height: auto;
+}
+#OBX-container .flex-content-header{
+	font-size: 50px;
+	max-width: 600px;
+	font-weight: 700;
+	color: var(--main-heading-green);
+}
+#OBX-container .flex-content-subheader {
+	font-size: 24px;
+	font-weight: 700;
+	display: block;
+}
+#OBX-container .bottom-cta-gray {
+	padding: 50px 20px;
+	text-align: center;
+	background-color: var(--section-bg-lgrey);
+}
+#OBX-container .bottom-cta-header {
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-weight: 700;
+	color: var(--main-heading-green);
+}
+#OBX-container .bottom-cta-body {
+    margin: 30px auto;
+    max-width: 860px;
+}
+
+@media screen and (max-width: 1300px) {
+	#OBX-container .flex-content-header {
+		font-size: 44px;
+	}
+
+	#OBX-container .full-width.grey,
+	#OBX-container .full-width.white,
+	#OBX-container .cta {
+		padding: 50px 0;
+	}
+	#OBX-container .obx-icon-group {
+		min-width: 40%;
+	}
+	#OBX-container .flex-content {
+		order: 1;
+		margin: 0 auto 20px;
+	}
+	#OBX-container .flex-img {
+		order: 2;
+		margin: 0 auto;
+	}
+	#OBX-container .list-container ul,
+	#OBX-container .list-container ol{ 
+		padding-left: 16px;
+	}
+}
+@media screen and (max-width: 767.9px) {
+	#OBX-container .flex-content-header,
+	#OBX-container .cta-header,
+	#OBX-container .bottom-cta-header
+	 {
+		font-size: 32px;
+		line-height: 1.25;
+	}
+}
+
+</style>
+<div class="OBX-container">
+    <div class="full-width green">
+		<div class="container">
+      		<div class="flex-row">
+        		<div class="obx-icon-group">
+            		<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_material-local-shipping_414b94ef-23ea-47f5-91cb-aa423a4d12a5.svg?v=1678810169" alt="">
+            		<p class="obx-icon-text">Lorem Ipsum Dolor</p>
+        		</div>
+				<div class="obx-icon-group">
+					<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/warranty-icon_79fa96f5-b85b-4545-b912-56976175bbe4.svg?v=1678810169" alt="">
+					<p class="obx-icon-text">Lorem Ipsum Dolor</p>
+				</div>
+				<div class="obx-icon-group">
+					<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/installation_icon_36921541-c614-4b71-93db-4c829b0d8639.svg?v=1678810169" alt="">
+					<p class="obx-icon-text">Lorem Ipsum Dolor</p>
+				</div>
+				<div class="obx-icon-group">
+					<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/windy-strong.svg?v=1678810686" alt="">
+					<p class="obx-icon-text">Lorem Ipsum Dolor</p>
+				</div>
+        	</div>
+      	</div>
+  	</div>
+	<div class="cta background-img-full" style="background: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/dark_background_2cd707a2-00fc-442e-be79-2bd5c27f2d7a.png?v=1678810174)">
+    	<div class="container">
+			<div class="cta-content">
+        	<h2 class="cta-header">Lorem Ipsum Dolor Sit Amet</h2>
+			<p class="cta-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!</p>
+		</div>
+		<div class="cta-button">
+				<a href="#" >Learn More</a>
+			</div>	
+    	</div>
+  	</div>
+  	<div style="background: url(https://placehold.co/2400x300);">
+    	<h2>Tabbed menu goes here!</h2>
+  	</div>
+	<div class="full-width grey">
+		<div class="container">
+			<div class="flex-row">
+				<div class="flex-content">
+					<h2 class="flex-content-header">Lorem Ipsum Dolor Sit Amet, Consectetur</h2>
+					<p class="flex-content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+				</div>
+				<div class="flex-img">
+					<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Rectangle_48.png?v=1678810174" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="flex-row">
+				<div class="flex-img">
+					<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Rectangle_160.png?v=1678810174" alt="">
+				</div>
+				<div class="flex-content">
+					<p class="flex-content-subheader"> Lorem Ipsum Dolor Sit Amet, Consectetur</p>
+					<p class="flex-content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+					<p class="flex-content-subheader"> Lorem Ipsum Dolor Sit Amet, Consectetur</p>
+					<p class="flex-content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="full-width white">
+		<div class="container">
+			<div class="flex-row">
+				<div class="flex-content">
+					<h2 class="flex-content-header">Ipsum Urna Warranty</h2>
+					<p class="flex-content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+				<div class="flex-img">
+					<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Rectangle_161.png?v=1678810174" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="flex-row">
+				<div class="flex-img">
+					<img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Rectangle_163.png?v=1678810174" alt="">
+				</div>
+				<div class="flex-content">
+					<h2 class="flex-content-header">Donec Vitae Sapien Ut Libero Venenatis</h2>
+					<p class="flex-content-body">Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+					<div class="list-container">
+						<ul>
+							<li>Aliquam lorem ante, dapibus in, viverra quis.</li>
+							<li>Feugiat a tellus. Phasellus viverra nulla.</li>
+							<li>Quisque rutrum. Aenean imperdiet.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="full-width green">
+		<div class="container">
+			<div class="quote-centered">
+				<h2>WHERE SERVICE IS BIGGER THAN OUR FANS</h2>
+				<p class="quote-body">“Hunter Fans cut down on our air conditioning load and our utility bill. We cut 15 percent of our bill at a time when everybody 
+				else is seeing a 20 percent increase.”</p> 
+				<p class="quote-author">Dave Leon</p> 
+				<p class="quote-author-business">Planet Fitness Owner</p> 
+			</div>
+		</div>
+	</div>
+	<div class="full-width white">
+		<div class="container">
+			<div class=" bottom-cta-gray">
+				<h2 class="bottom-cta-header">Lorem Ipsum Dolor Hunter</h2>
+				<p class="bottom-cta-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br><strong> tempor incididunt ut labore et dolore magna aliqua!</strong></p>
+				<div class="cta-button bottom">
+					<a  href="#">Learn Less</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<div class="OBX-container"></div>

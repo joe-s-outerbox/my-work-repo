@@ -1,0 +1,287 @@
+<style>
+    #main-nav .mn-lvl1:hover li:not(.no-children)>.mega-wrapper {
+        opacity: 1;
+        top: 99%;
+        z-index: 99999;
+        -webkit-transition: opacity 0.3s linear;
+        -moz-transition: opacity 0.3s linear;
+        -o-transition: opacity 0.3s linear;
+        -ms-transition: opacity 0.3s linear;
+        transition: opacity 0.3s linear;
+    }
+
+    .sub-menu.mn-lvl2.no-img.clearfix {
+        background: #1d191a;
+    }
+
+    a.centered {
+        margin: unset;
+    }
+
+    .no-img a {
+        padding: unset;
+        text-align: center;
+        max-width: 88px;
+    }
+
+    .sub-menu.mn-lvl2.no-img.clearfix .six-columns {
+        max-width: 180px;
+    }
+
+    /*backup*/
+    .page-template-markets-landing #interior-form {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        height: auto;
+    }
+
+    .page-template-markets-landing .heading-banner {
+        height: auto;
+    }
+
+    .page-template-markets-detail #interior-form {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        height: auto;
+    }
+
+    .page-template-markets-detail .heading-banner {
+        height: auto;
+    }
+
+    .page-template-markets-landing #main-content .wp-block-image.size-large img {
+        height: auto;
+    }
+
+    /*obx homepage updates 7.18.23*/
+    /*fix for align with right col*/
+    .dieforging {
+        margin-top: 114px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .dieforging {
+            margin-top: 0px;
+        }
+    }
+
+    /*homepage video lazy load*/
+    .youtube:hover .play {
+        background: red;
+        opacity: 0.9;
+    }
+
+    .play {
+        font-size: 1em;
+        transform: translateY(220px);
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: #3b3636;
+        opacity: 0.75;
+        border-radius: 50% / 10%;
+        color: #FFFFFF;
+        height: 3em;
+        padding: 0;
+        text-align: center;
+        text-indent: 0.1em;
+        transition: all 150ms ease-out;
+        width: 4em;
+    }
+
+    .play::before {
+        background: inherit;
+        border-radius: 5% / 50%;
+        bottom: 9%;
+        content: "";
+        left: -5%;
+        position: absolute;
+        right: -5%;
+        top: 9%;
+    }
+
+    .play::after {
+        border-style: solid;
+        border-width: 1em 0 1em 1.732em;
+        border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+        content: ' ';
+        font-size: 0.75em;
+        height: 0;
+        margin: -1em 0 0 -0.75em;
+        top: 50%;
+        position: absolute;
+        width: 0;
+    }
+
+    /*obx landing page*/
+    .obx-landing-list {
+        max-width: 210px;
+        margin: 0 auto 15px;
+    }
+
+    .obx-landing-list.wide {
+        max-width: 490px;
+    }
+
+    .obx-landing-faq {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /*obx menu fix*/
+
+    #main-nav .mn-lvl1 li:not(.no-children):hover>.mega-wrapper {
+        opacity: 1;
+        top: 99%;
+        z-index: 99999;
+        -webkit-transition: opacity 0.3s linear;
+        -moz-transition: opacity 0.3s linear;
+        -o-transition: opacity 0.3s linear;
+        -ms-transition: opacity 0.3s linear;
+        transition: opacity 0.3s linear;
+    }
+
+    .sub-menu.mn-lvl2.no-img.clearfix {
+        background: #1d191a;
+    }
+
+    a.centered {
+        margin: 10px 0;
+        padding: 18px 15px 15px;
+    }
+
+    .mn-lvl2>li {
+        margin: 0;
+    }
+
+    ul.sub-menu.mn-lvl2.no-img.clearfix li:first-child {
+        margin-top: 20px
+    }
+
+    .mn-lvl2>li a {
+        border-bottom: 1px transparent;
+    }
+
+    .mn-lvl2>li:hover {
+        background: #ffffff;
+        color: #000;
+    }
+
+    .mn-lvl2>li a:hover {
+        background: #ffffff;
+        color: #000;
+    }
+
+    .no-touch #main-nav ul.mn-lvl1>li:hover {
+        border-bottom: 1px transparent;
+    }
+
+    .no-touch #main-nav ul.mn-lvl1>li:is(.no-children):hover {
+        border-bottom: 1px solid #fff;
+    }
+
+
+    @media (max-width: 1024px) {
+
+        .youtube img,
+        .youtube {
+            width: 90%;
+            height: 90%;
+        }
+    }
+
+    @media only screen and (max-width: 980px) {
+        #video-section iframe {
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        #video-section {
+            padding: 20px 0 40px !important;
+        }
+
+        #video-section .video-header {
+            width: 70% !important;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        #video-section iframe {
+            height: 200px !important;
+        }
+    }
+</style>
+
+<style>
+    .footer-nav li {
+        margin: 0 0 5px;
+        list-style-type: none;
+        -webkit-transform: translateZ(0);
+        display: block;
+    }
+</style>
+<div id="footer-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="six columns">
+                <div class="footer-heading">MARKETS</div>
+                    <div class="menu-footer-markets-container">
+                        <ul id="menu-footer-markets" class="footer-nav">
+                            <li id="menu-item-56"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a
+                                    href="https://cantondropforge.com/markets/aerospace/">Aerospace Forgings</a></li>
+                            <li id="menu-item-62"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
+                                    href="https://cantondropforge.com/markets/mechanical-power/">Mechanical Power</a></li>
+                            <li id="menu-item-60"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a
+                                    href="https://cantondropforge.com/markets/oilfield/">Oilfield</a></li>
+                            <li id="menu-item-59"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a
+                                    href="https://cantondropforge.com/markets/power-generation/">Power Generation</a></li>
+                            <li id="menu-item-58"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a
+                                    href="https://cantondropforge.com/markets/off-highway/">Off Highway</a></li>
+                            <li id="menu-item-57"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a
+                                    href="https://cantondropforge.com/markets/pumps-compressors/">Pumps &amp;
+                                    Compressors</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="six columns">
+                <div class="footer-heading">CAPABILITIES</div>
+                    <div class="menu-capabilities-container">
+                        <ul id="menu-capabilities" class="footer-nav">
+                            <li id="menu-item-63"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a
+                                    href="https://cantondropforge.com/capabilities/facilities/">Facilities</a></li>
+                            <li id="menu-item-67"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a
+                                    href="https://cantondropforge.com/capabilities/engineering-design/">Custom Forging
+                                    Engineering &amp; Design Solutions</a></li>
+                            <li id="menu-item-68"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a
+                                    href="https://cantondropforge.com/capabilities/inspection-and-testing/">Inspection &amp;
+                                    Testing</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="six columns">
+                <div class="footer-heading">ABOUT CDF</div>
+                <div class="menu-about-container">
+                    <ul id="menu-about" class="footer-nav">
+                        <li id="menu-item-829"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829"><a
+                                href="https://cantondropforge.com/the-history-of-canton-drop-forge/">History</a></li>
+                        <li id="menu-item-2041"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2041"><a
+                                href="https://cantondropforge.com/terms-conditions/">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>        
+.obx-category-bottom-content {
+    line-height: 1;
+    margin: auto;
+    max-width: 900px;
+    margin-top: 30px;
+}
+.obx-category-bottom-content .obx-section {
+    margin-bottom: 60px;
+}
+.obx-category-bottom-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.obx-category-bottom-content p:last-child {
+    margin-bottom: 0;
+}
+.obx-category-bottom-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.obx-category-bottom-content .obx-cta-heading {
+    color: #fff;
+    margin-bottom: 16px;
+}
+.obx-category-bottom-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.obx-category-bottom-content .obx-faq h3 {
+    font-size: 18px;
+    margin: 0 auto;
+    display: inline;
+}
+.obx-category-bottom-content .obx-faq h2 {
+    margin-bottom: 15px;
+}
+.obx-category-bottom-content .top-banner-bg-img a {
+    color: white;
+}
+.obx-category-bottom-content .top-banner-bg-img a:hover {
+    color: #29dbfd;
+}
+
+.obx-category-bottom-content ul {
+    font-size: 16px;
+    padding: 0;
+    list-style-position: inside;
+}
+.obx-category-bottom-content .top-banner-bg-img li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+.obx-category-bottom-content .flex-row {
+    display: flex;
+    margin: 0 auto;
+}
+.container {
+    margin: 0 auto;
+}
+.obx-category-bottom-content .top-banner-bg-img {
+    background-image: url(https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/background-image-golf-cart-parts-accessories.png);
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #777;
+    padding: 60px 50px;
+}
+.obx-category-bottom-content .top-banner-bg-img .flex-row {
+    justify-content: space-evenly;
+}
+.obx-category-bottom-content .two-col .content-col {
+    flex-basis: 52%;
+    padding: 0;
+}
+.obx-category-bottom-content .two-col .img-col{
+    flex-basis: 44%;
+    margin-bottom: 20px;
+}
+.obx-category-bottom-content .two-col .img-col img {
+    flex-basis: 44%;
+    width: 100%;
+}
+.obx-category-bottom-content .two-col .flex-row {
+    column-gap: 30px;
+}
+.obx-category-bottom-content .obx-content-wheel .flex-row {
+    column-gap: 30px;
+}
+.obx-category-bottom-content .obx-cta a {
+    margin: 0 auto;
+}
+.obx-category-bottom-content ul li {
+    margin-bottom: 8px;
+}
+.obx-category-bottom-content .obx-ul-container ul {
+    margin: 0 auto;
+}
+.obx-category-bottom-content .obx-ul-container li {
+    margin-bottom: 7px;
+}
+.obx-category-bottom-content .obx-ul-container li:last-child {
+    margin-bottom: 0px;
+}
+.obx-category-bottom-content .obx-article {
+    padding: 7px 0;
+    flex-basis: 33%;
+}
+.obx-category-bottom-content .obx-article img{
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 230px;
+    object-fit:cover;
+}
+.obx-category-bottom-content .obx-faq p {
+    margin: 0 0 10px;
+}
+.obx-category-bottom-content .obx-bottom-cta {
+    background-image: url(https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/cta-shop-golf-cart-parts-accessories.png);
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 60px 50px;
+}
+.obx-category-bottom-content .obx-bottom-cta a {
+    display: inline-block;
+    font-family: Anton,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #198ed4;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 80px 3px;
+    border-radius: 2px;
+    border: 1px solid;
+    border-color: #198ed4;
+    border-radius: 4px;
+}
+.obx-category-bottom-content .obx-bottom-cta a:hover {
+    background-color: #29dbfd;
+    color: #fff!important;
+    border-color: #29dbfd;}
+.obx-category-bottom-content .obx-article-heading {
+    font-size:18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2F2F2B;
+}
+.obx-category-bottom-content .obx-article p {
+    padding: 14px 0;
+}
+.obx-category-bottom-content .container {
+    padding: 0;
+}
+.obx-category-bottom-content .accordion {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    width: 100%;
+    max-width: 940px;
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 24px;
+}
+.obx-category-bottom-content button.accordion  {
+    background-color: #FAFAFA;
+    border: 1px solid #E5E5E5;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.obx-category-bottom-content button.accordion:after {
+    content: url(https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/arrow-down.png);
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.obx-category-bottom-content button.accordion.active {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.obx-category-bottom-content button.accordion.active:after {
+content: url(https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/arrow-up.png); 
+}
+.obx-category-bottom-content .panel {
+padding: 0 30px;
+max-width: 900px;
+padding: 0 24px 24px;
+margin: 0 auto 24px;
+background-color: #FAFAFA;
+border: 1px solid #E5E5E5;
+border-top: none;
+display: none;
+overflow: hidden;
+text-align: left;
+}
+.obx-category-bottom-content .panel p {
+    font-size: 18px;
+    padding: 0;
+}
+@media (max-width: 800px) {
+    .obx-category-bottom-content .flex-row {
+        display: block;
+    }
+    .obx-category-bottom-content .obx-section {
+        margin-bottom: 30px;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .obx-section li {
+        text-align: left;
+    }
+    .obx-category-bottom-content .top-banner-bg-img { 
+        padding: 30px 20px;
+    }
+    .obx-category-bottom-content .top-banner-bg-img .obx-ul-container li  {
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .obx-category-bottom-content .obx-bottom-cta a{
+        text-align: center;    
+    }
+    
+}
+        
+        </style>
+</head>
+<body>
+    <div class="obx-category-bottom-content">
+        <div class="top-banner-bg-img obx-section">
+            <div class="content">
+                <h2 class="obx-cta-heading">Power Up Your Golf Cart With Eco-Friendly Eco Batteries</h2>
+                <p>Eco golf cart batteries are made of advanced lithium-ion technology, which provides a longer lifespan, lower maintenance requirements, and a significantly lighter weight than lead-acid battery systems. As a result, <strong>Eco batteries are more environmentally friendly, provide better performance, and reduce the overall cost of ownership.</strong> Lithium-ion batteries have a higher energy density. They can store more energy than traditional lead-acid batteries, making them an excellent choice for golf carts.
+                <br><br>
+                Using Eco lithium batteries also helps you reduce your carbon footprint. Unlike traditional lead-acid batteries that contain toxic chemicals, Eco batteries are recyclable and do not contain harmful substances. They can be safely disposed of without causing harm to the environment.
+                </p>
+
+
+            </div>
+        </div>
+        <div class="two-col obx-section">
+            <div class="flex-row">
+                <div class="img-col">
+                    <img src="https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/golf-cart-parts-accessories.png" alt="#">
+                </div>
+                <div class="content-col">
+                    <h2>Earn Near-Zero Maintenance by Upgrading to Eco Batteries</h2>
+                    <p><strong>Eco batteries for golf carts require little maintenance during their lifespan.</strong> Unlike lead-acid batteries, that require regular upkeep and time-consuming procedures to maintain, your Eco lithium batteries will work in most conditions and require just a few maintenance processes to maximize their lifespan:</p>
+                    <div>
+                        <ul>
+                            <li>Keep the Battery Clean and Dry</li>
+                            <li>Avoid Deep Discharges</li>
+                            <li>Charge Promptly After Use</li>
+                            <li>Monitor the Battery's Temperature</li>
+                            <li>Perform Regular Inspections</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="obx-bottom-cta obx-section">
+            <div class="container">
+                <div class="flex">
+                    <div class="content">
+                        <h2 class="obx-cta-heading">Get More Uptime and Faster Recharging With Eco Golf Cart Batteries
+                        </h2>
+                            <p>Eco golf cart batteries are an excellent choice for golfers who want a longer operational window and faster recharging times. Batteries are one of the most important golf cart parts, so it makes sense to get the best the industry has to offer. Traditional lead-acid batteries  have a limited lifespan, require frequent maintenance, and have a long charging time. Eco lithium golf cart batteries offer several advantages that make them a superior choice.</p>
+                            <p>Eco batteries have significantly longer drive time than traditional batteries. You can go further for longer with Eco lithium batteries powering your golf cart. Eco batteries are also designed to deliver consistent power output, even when they are nearing the end of their operational window, providing a smooth and reliable driving experience.</p>
+                            <p>Eco batteries for golf carts also have a faster recharging time than traditional lead-acid batteries. They can be fully charged in just a few hours, so you can spend more time playing and less time waiting.</p>
+                            <p>Combined with the fact that Eco lithium batteries require far less servicing and maintenance, you have the ultimate solution to power your golf cart. <strong>Eco batteries offer superior performance and efficiency in a more reliable, cost-effective package than other methods.</strong> Get everything you need with one of our <a href="https://wildaboutcarts.com/golf-cart-battery-bundles/">golf cart battery bundles</a> today.</p>
+                        <!-- <a href="#" class="">CTA Button</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="two-col">
+            <div class="flex-row">
+                <div class="content-col obx-section">
+                    <h2>Heading Video Section</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores officiis enim aperiam voluptatibus delectus nisi autem vitae provident eum adipisci obcaecati, necessitatibus dolorem dignissimos quibusdam veritatis rerum, quam molestiae.</p>
+                    <h3>H3 Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam quisquam voluptas nesciunt labore iure ipsam numquam velit necessitatibus, soluta est sequi quos in ratione, corporis consectetur dignissimos autem temporibus!</p>
+                </div>
+                <div class="img-col">
+                    <a href="#"><img src="https://via.placeholder.com/450x450" alt="#"></a>
+                </div>
+            </div>
+        </div> -->
+        <div class="obx-faq obx-section" >
+            <div class="container">
+                <h2>Frequently Asked Questions About Eco Lithium Batteries</h2>
+                <p>It's not uncommon for our customers to have questions about our Eco batteries and other related products. We've selected a few of the most frequently asked questions and provided answers to them below.</p>
+                <div class="flex-row">
+                    <div class="obx-faq-accordion">
+                        <button class="accordion"><h3>Which Brand of Golf Cart Can Use Eco Batteries?</h3></button>
+                        <div class="panel">
+                            <p>Total charge time will depend on how much your battery drained, the charging method, and its total capacity. Most Eco batteries reach a full charge in three hours or less.</p>
+                        </div>
+                        <button class="accordion">  <h3>How Long Before an Eco Lithium Battery Needs to be Replaced?</h3>
+                        </button>
+                        <div class="panel">
+                            <p><strong> Eco lithium golf cart batteries are designed to last ten times longer than lead-acid batteries.</strong> They are rated for 1,000 cycles and typically last about ten years before replacement, given regular use.</p>
+                        </div>
+                        <button class="accordion">  
+                            <h3>How Much Does an Eco Battery Weigh?</h3>
+                        </button>
+                        <div class="panel">
+                            <p>
+                                The overall weight depends on the size of your Eco Battery. That being said, Eco batteries for golf carts weigh five times less than lead-acid batteries of similar size. The weight reduction could potentially allow for additional capacity to be added to your current Eco Battery system.
+                            </p>
+                        </div>
+                        <button class="accordion">  
+                            <h3>Do You Carry Other Golf Cart Parts and Accessories?</h3>
+                        </button>
+                        <div class="panel">
+                            <p>
+                                Yes! On our website you will find everything from <a href="https://wildaboutcarts.com/shop-by-make-and-model/e-z-go-parts/">E-Z-GO golf</a> cart parts to aftermarket accessories like golf cart covers, battery chargers, coolers, racks, cupholders and more. Shop from the biggest brands in the industry with products from Club Car, Universal, Yamaha, and more.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="obx-bottom-cta obx-section">
+            <div class="container">
+                <div class="flex">
+                    <div class="content">
+                        <h2 class="obx-cta-heading">Order an Eco Battery For Your Golf Cart Today
+                        </h2>
+                            <p>Upgrade your golf cart battery to a more efficient and environmentally-friendly option with Eco lithium batteries. With their longer lifespan, faster charging times, and lighter weight, Eco lithium golf cart batteries are the pinnacle of golf cart energy solutions. <strong>Gain superior performance, longevity, and durability with a brand new Eco golf cart battery today!</strong>
+                            </p>
+                        <!-- <a href="#" class="">CTA Button</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="obx-content-wheel obx-section">
+            <h2>Related Articles</h2>
+            <div class="flex-row">
+                <div class="obx-article">
+                    <a href="#"><img src="https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/featured-1.png" alt=""></a>
+                    <a class="obx-article-heading" href="#">Blog titles may span one or more lines. Lorem ipsum.</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum cum. Inventore, rerum sed. Optio pariatur,</p>
+                </div>
+                <div class="obx-article">
+                    <a href="#"><img src="https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/featured-2.png" alt=""></a>
+                    <a class="obx-article-heading" href="#">Blog titles may span one or more lines. Lorem ipsum.</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum cum. Inventore, rerum sed. Optio pariatur,</p>
+                </div>
+                <div class="obx-article">
+                    <a href="#"><img src="https://cdn11.bigcommerce.com/s-dzcujuh/images/stencil/original/image-manager/featured-3.png" alt=""></a>
+                    <a class="obx-article-heading" href="#">Blog titles may span one or more lines. Lorem ipsum.</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum cum. Inventore, rerum sed. Optio pariatur,</p>
+                </div>
+        </div> -->
+    </div>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+</script>
+</body>
+</html>
+
+  

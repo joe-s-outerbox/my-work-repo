@@ -1,0 +1,93 @@
+<style>
+    @media only screen and (max-width: 980px){
+    #video-section iframe {
+    width: 90%;
+    }
+    }
+    @media only screen and (max-width: 768px){
+    #video-section {
+    padding: 20px 0 40px !important;
+    }
+    #video-section .video-header {
+    width: 70% !important;
+    }
+    }
+    
+    @media only screen and (max-width: 500px){
+    #video-section iframe {
+    height: 200px !important;
+    }}
+    </style>
+    
+    <div style="margin: 30px 0 0;">
+    <iframe width="854" height="481" src="https://www.youtube.com/embed/fLc0rGIkdzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <style>
+        .youtube:hover .play {
+    background: red;
+    opacity: 0.9;
+  }
+
+.play {
+  font-size: 1em;
+  transform: translateY(130px);
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  background: #3b3636;
+  opacity: 0.75;
+  border-radius: 50% / 10%;
+  color: #FFFFFF;
+  height: 3em;
+  padding: 0;
+  text-align: center;
+  text-indent: 0.1em;
+  transition: all 150ms ease-out;
+  width: 4em;
+}
+
+.play::before {
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.play::after {
+  border-style: solid;
+  border-width: 1em 0 1em 1.732em;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+  content: ' ';
+  font-size: 0.75em;
+  height: 0;
+  margin: -1em 0 0 -0.75em;
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+@media only screen and (max-width: 980px){
+#video-section iframe {
+width: 90%;
+}
+}
+@media only screen and (max-width: 768px){
+#video-section {
+padding: 20px 0 40px !important;
+}
+#video-section .video-header {
+width: 70% !important;
+}
+}
+
+@media only screen and (max-width: 500px){
+#video-section iframe {
+height: 200px !important;
+}}
+    </style>

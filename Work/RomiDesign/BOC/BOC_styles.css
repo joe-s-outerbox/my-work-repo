@@ -1,0 +1,216 @@
+
+
+#obx-bottom-content .obx-section h2 {
+    font-size: 24px;
+    margin: 0 auto 15px;
+}
+#obx-bottom-content .obx-section.top-banner {
+    text-align: center;
+    padding: 100px;
+}
+#obx-bottom-content .obx-section img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+#obx-bottom-content .flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+#obx-bottom-content .flex-section {
+    margin-bottom: 20px;
+}
+#obx-bottom-content .flex-section.last {
+    margin-bottom: 100px;
+}
+#obx-bottom-content .flex-row .flex-image {
+    max-width: 580px;
+    align-self: center;
+}
+#obx-bottom-content .flex-row .flex-content {
+    flex-basis: 50%;
+}
+#obx-bottom-content .flex-content p:last-child  {
+    margin-bottom: 0
+}
+#obx-bottom-content .flex-row .flex-content.right {
+    padding: 0 56px 0 100px;
+}
+#obx-bottom-content .flex-row .flex-content.left {
+    padding: 0 100px 0 56px;
+}
+#obx-bottom-content .flex-video-section {
+    margin-bottom: 100px;
+}
+#obx-bottom-content .flex-video img {
+    max-height: 326px;
+}
+#obx-bottom-content .flex-video-section .flex-content,
+#obx-bottom-content .flex-video-section .flex-video {
+    flex-basis: 50%;
+    max-width: 580px;
+}
+#obx-bottom-content .flex-video-section .flex-content {
+    padding: 0 56px 0 100px;
+}
+#obx-bottom-content .obx-list li::marker {
+    color: #B08E73;
+    font-size: 30px
+}
+#obx-bottom-content .obx-bottom-cta.obx-section h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1;
+}
+#obx-bottom-content .obx-bottom-cta.obx-section {
+    text-align: center;
+    color: #fff;
+    padding: 130px 100px;
+    background-size:cover;
+    margin-bottom: 100px;
+}
+
+#obx-bottom-content .obx-section.obx-faq {
+    max-width: 1000px;
+    margin: 0 auto 100px;
+}
+#obx-bottom-content .obx-faq .intro,
+#obx-bottom-content .obx-related-articles .intro{
+    margin-bottom: 60px
+}
+#obx-bottom-content .obx-section.obx-faq h2,
+#obx-bottom-content .obx-section.obx-faq p:not[.faq-answer] {
+    text-align: center;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#obx-bottom-content .obx-section.obx-faq h3 {
+    text-transform: unset;
+    margin-bottom: 30px
+}
+#obx-bottom-content .obx-section.obx-faq details h3:after {
+    content: url(https://cdn.shopify.com/s/files/1/0226/4601/files/arrow-down.svg?v=1693586055);
+    float: right;
+}
+#obx-bottom-content .obx-section.obx-faq details[open] h3:after {
+    content: url(https://cdn.shopify.com/s/files/1/0226/4601/files/arrow-up.svg?v=1693586055);
+    float: right;
+}
+#obx-bottom-content .obx-section.obx-faq .faq-item {
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 30px;
+}
+#obx-bottom-content .obx-section.obx-faq .faq-answer p{
+    text-align: left;
+
+}
+#obx-bottom-content .obx-section.obx-faq details[open] h3  {
+    margin-bottom: 15px
+}
+#obx-bottom-content .obx-section.obx-related-articles {
+    padding: 100px 0;
+}
+#obx-bottom-content .obx-section.obx-related-articles .obx-article {
+    max-width: 375px;
+}
+#obx-bottom-content .obx-section.obx-related-articles .obx-article img {
+    margin-bottom: 20px;
+}
+#obx-bottom-content .obx-section.obx-related-articles .intro {
+    max-width: 780px;
+    margin: 0 auto 60px;
+    text-align: center
+}
+#obx-bottom-content .obx-section.obx-related-articles span {
+    display: block;
+    text-align: center;
+    color: #000000;
+}
+#obx-bottom-content .obx-section.obx-related-articles .m-d-y {
+    color: #B08E73;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#obx-bottom-content .obx-section.obx-related-articles .obx-article-heading {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#obx-bottom-content .obx-section.obx-related-articles .obx-article-body {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1024px) {
+    #obx-bottom-content .obx-section.top-banner {
+        padding: 30px 0;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    #obx-bottom-content .obx-section,
+    #obx-bottom-content .flex-section.last {
+        margin-bottom: 30px;
+    }
+    #obx-bottom-content .flex-row .flex-content,
+    #obx-bottom-content .flex-row .flex-content.right,
+    #obx-bottom-content .flex-row .flex-content.left {
+    padding: 30px;
+    }
+    #obx-bottom-content .obx-section.obx-related-articles {
+    padding: 30px 0;
+    }
+    #obx-bottom-content .obx-section.obx-related-articles .obx-article {
+    max-width: 300px;
+    }
+    #obx-bottom-content .obx-bottom-cta.obx-section{
+        padding: 50px;
+        margin-bottom: 60px;
+    }
+    #obx-bottom-content .obx-section.obx-faq {
+    margin: 0 auto 60px;
+}
+}
+@media only screen and (max-width: 768px) {
+    #obx-bottom-content .flex-row {
+        flex-wrap:wrap;
+    }
+    #obx-bottom-content .flex-row .flex-content,
+    #obx-bottom-content .flex-row .flex-content.right,
+    #obx-bottom-content .flex-row .flex-content.left {
+    padding: 0px;
+    margin-bottom: 25px;
+    }
+#obx-bottom-content .flex-row .flex-content,
+    #obx-bottom-content .flex-row .flex-image,
+    #obx-bottom-content .flex-row .flex-video,
+    #obx-bottom-content .flex-row .flex-image{
+    flex-basis: 100%;
+    max-width: unset;
+    }
+    #obx-bottom-content .flex-row .flex-image {
+    order: 1;
+    }
+    #obx-bottom-content .flex-video-section .flex-video,
+    #obx-bottom-content .flex-video-section  {
+        margin: 30px 0;
+    }
+    #obx-bottom-content .obx-section.obx-related-articles .obx-article {
+    max-width: 340px;
+            margin-bottom: 20px
+    }
+    
+}    
+
+@media only screen and (max-width: 425px) {
+    ul.obx-list {
+        padding-left: 20px;
+    }
+    #obx-bottom-content .obx-bottom-cta.obx-section {
+    padding: 40px 20px 20px;
+    }
+    #obx-bottom-content .obx-section.obx-related-articles .obx-article {
+    max-width: 380px;
+    }
+}
+    
+

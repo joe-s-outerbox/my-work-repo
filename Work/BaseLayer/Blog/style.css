@@ -1,0 +1,76 @@
+div#obx-blog {
+    max-width: 936px;
+    margin: 0 auto;
+}
+div#obx-blog a {
+    text-transform: none;
+}
+div#obx-blog a:hover {
+    color: #000;
+}
+#obx-blog .obx-hero img {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#obx-blog .section.obx-jumplinks {padding: 30px;border: 2px solid #E1E1E1;}
+
+#obx-blog .section.obx-jumplinks p {
+    font-weight: 700;
+    margin-bottom: 0
+}
+#obx-blog .section.obx-jumplinks hr {
+    margin: 12px 0;    
+}
+#obx-blog .section.obx-jumplinks .obx-list a {
+    color: #FE5000;
+    font-size: 18px;
+    text-decoration: none;
+}
+#obx-blog .obx-jumplinks .obx-list :last-child {
+    margin-bottom: 0;
+}
+#obx-blog .obx-list li::before{
+    left: -20px;
+    top: -3px;
+}
+#obx-blog .section.img-section img {
+    margin-bottom: 24px;
+}
+#obx-blog .caption {
+    font-size: 16px;
+    font-style: italic;
+}
+#obx-blog .caption a{
+    color: #FE5000;
+    text-decoration: none;
+}
+
+#obx-blog .section.grey-bg p {
+    margin-bottom: 0;
+}
+#obx-blog .section.cta.bottom a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fe5000;
+    border: 2px solid #fe5000;
+    padding: 10px;
+    max-width: 294px;
+    border-radius: 25px;
+}
+#obx-blog .section.cta.bottom a:hover {
+    border: 2px solid white;
+    background-color: none;
+
+}
+p.blog-date,
+h1.blog-title {
+    text-align: center !important;
+}
+h1.blog-title {
+    margin-bottom: 5px !important;
+}
+

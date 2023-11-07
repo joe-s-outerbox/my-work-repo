@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+
+.obx-boc-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.obx-boc-container span {display: block;}
+.obx-boc-container span.h5.subtitle {
+    color: #345022;
+}
+
+.obx-boc-container span.h5.subtitle:before {
+    content: " ";
+    background-color: #345022;
+    height: 2px;
+    width: 25px;
+    margin-right: 7px;
+    display: block;
+}
+.obx-boc-container .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.obx-boc-container .obx-reviews .container {
+    background: url(https://cdn.shopify.com/s/files/1/0617/6846/6597/files/background.png?v=1680530046);
+    padding-bottom: 60px;
+}
+
+.obx-boc-container .obx-article img {
+    border-radius: 25px 25px 0px 0px;
+    margin-bottom: 20px;
+}
+.obx-boc-container .obx-article a {
+    text-decoration: none;
+}
+.obx-boc-container .obx-review-card {
+    background: #fff;
+    max-width: 332px;
+    flex-basis: 332px;
+    padding: 46px 80px 42px 46px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.obx-boc-container .obx-review-heading {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.obx-boc-container .obx-review-body {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+.obx-review-name {
+    font-size: 15px;
+    font-weight: 900;
+}
+.obx-boc-container .container {
+    max-width: 1180px;
+    margin-bottom: 60px;
+}
+
+.obx-boc-container .obx-reviews .flex-row {
+    justify-content: space-between;
+    margin: 0 60px;
+}
+.obx-boc-container .obx-reviews .section-header {
+    padding: 26px 60px 0;
+    margin-bottom: 50px;
+}
+.obx-boc-container .obx-review-card img {
+    margin-bottom: 28px;
+    display: inline;
+}
+.obx-boc-container .obx-article {
+    max-width: 345px;
+    flex-basis: 345px;
+    display: flex;
+    justify-content: space-between;
+}
+.obx-boc-container .img-content-row .flex-row {
+    justify-content: space-between;
+}
+.obx-boc-container .flex-img {
+    flex-basis: 570px;
+    border-radius: 0px 25px 25px 0px;
+}
+.obx-boc-container .flex-img img{
+    border-radius: 0px 25px 25px 0px;
+}
+.obx-boc-container .flex-content {
+    flex-basis: 448px;
+    align-self: center;
+}
+.obx-boc-container .obx-faq-section .container {
+    padding: 60px 172px;
+}
+.obx-boc-container span.content-header {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.obx-boc-container .obx-button {
+    min-width: 320px;
+}
+.obx-boc-container span.content-body {
+    margin-bottom: 30px;
+}
+.obx-boc-container span.obx-article-heading {font-size: 20px;font-weight: 900;padding: 20px 35px 10px;}
+
+.obx-boc-container span.obx-article-body {
+    padding: 0 35px 26px;
+}
+.obx-boc-container .obx-related-articles {
+    max-width: 1062px;
+    margin: auto;
+}
+
+
+
+        /*****accordion******/
+    .accordion {
+        font-size: 18px;
+        font-weight: 900;
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        padding: 18px 0;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+    .active, .accordion:hover {
+        background-color: #F3F4F4;
+    }
+    .panel {
+        padding: 20px 0; 
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    .section-header .h5:before, .section-header h5:before {
+        content: " ";
+        color: inherit;
+        height: 2px;
+        width: 25px;
+        margin-right: 7px;
+        display: block;
+    }
+    .accordion:before {
+        padding-right: 10px;
+        content: url("https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_ionic-md-add.svg?v=1680530041");
+    }
+    .accordion.active:before {
+        content: url("https://cdn.shopify.com/s/files/1/0617/6846/6597/files/collapse.svg?v=1680530041");
+    }
+
+.obx-boc-container .obx-article {
+    max-width: 345px;
+    flex-basis: 345px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obx-boc-container .flex-img {
+    flex-basis: 570px;
+}
+
+.obx-boc-container .flex-content {
+    flex-basis: 448px;
+}
+
+
+.obx-boc-container .obx-review-card img {
+    margin-bottom: 28px;
+    display: inline;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .obx-boc-container .obx-reviews .flex-row {
+    margin: 0 20px;
+}
+    .obx-boc-container .obx-related-articles .obx-article,
+    .obx-boc-container .obx-review-card {
+    max-width: 280px;
+    flex-basis: 280px;
+}
+    .obx-boc-container .obx-review-card img {
+        max-width: 20px;
+    }
+    .obx-boc-container .container {
+        margin-bottom: 40px;
+    }
+    .obx-boc-container .img-content-row .flex-row {
+        display: block;
+        text-align: center;
+    }
+    .obx-boc-container .img-content-row .flex-img img{
+        border-radius: 25px;
+    }
+    .obx-boc-container .img-content-row .obx-button {
+        min-width: unset;
+        max-width: 240px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+
+    .obx-boc-container .obx-reviews .flex-row {
+        display: block;
+}
+
+    
+    .obx-boc-container .obx-review-card {
+        max-width: 90%;
+        margin: 30px auto;
+}
+    .obx-boc-container .obx-related-articles .obx-article {
+        max-width: 270px;
+        margin: auto;
+    }
+    .obx-boc-container span.obx-article-heading,
+    .obx-boc-container span.obx-article-body {
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .obx-boc-container .obx-review-card img {
+        max-width: 12px;
+        margin-bottom: 10px;
+    }
+    .obx-boc-container .obx-review-card {
+        padding: 25px
+    }
+    .obx-boc-container .obx-reviews .container {
+        margin-bottom: 25px;
+    }
+    .obx-boc-container .obx-related-articles .obx-article img {
+        border-radius: 25px;
+        margin-bottom: 0;
+    }
+    .obx-boc-container .obx-related-articles .obx-article {
+        max-width: 270px;
+        margin-bottom: 40px;
+    }
+}
+    </style>
+
+    <!-- banner -->
+    <div class="obx-boc-container">
+        <div class="full-width-banner boc-banner" style="background-color: #F3F4F4;">
+            <div class="container page-width-small">
+                <div class="section-header text-center">
+                    <span class="h5 subtitle">Subtitle</span>
+                    <h2>header</h2>
+                    <div class="banner-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut magnam voluptates pariatur nesciunt blanditiis nulla, ipsam placeat earum sed, delectus, nemo unde cumque maiores recusandae omnis repellat non sunt!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="obx-faq-section">
+            <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <button class="accordion">How do I check the status of my order?</button>
+            <div class="panel">
+                <p>When your order has shipped, you will receive an email notification from us which will include a tracking number you can use to check its status. Please allow 24 hours for the tracking information to become available. If you haven’t received your order within 5 days of receiving your shipping confirmation email, please contact us at sales@westernloghomesupply.com with your name and order number, and we will look into it for you.</p>
+            </div>
+            </div>
+        </div>
+        <div class="obx-reviews">
+            <div class="container">
+                <div class="section-header">
+                    <span class="h5 subtitle">Reviews</span>
+                    <h2>Reviews Headline</h2>
+                </div>
+                <div class="flex-row">
+                    <div class="obx-review-card">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <span class="obx-review-heading">Review Headline Here!</span>
+                        <span class="obx-review-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        <span class="obx-review-name">Name D. Namelinson</span>
+                    </div>
+                    <div class="obx-review-card">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <span class="obx-review-heading">Review Headline Here!</span>
+                        <span class="obx-review-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        <span class="obx-review-name">Name D. Namelinson</span>
+                    </div>
+                    <div class="obx-review-card">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0617/6846/6597/files/Icon_awesome-star.svg?v=1680530041" alt="">
+                        <span class="obx-review-heading">Review Headline Here!</span>
+                        <span class="obx-review-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        <span class="obx-review-name">Name D. Namelinson</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="full-width-banner boc-banner" style="background-color: #FFF;">
+            <div class="container page-width-small">
+                <div class="section-header text-center">
+                    <span class="h5 subtitle">Subtitle</span>
+                    <h2>header</h2>
+                    <div class="banner-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut magnam voluptates pariatur nesciunt blanditiis nulla, ipsam placeat earum sed, delectus, nemo unde cumque maiores recusandae omnis repellat non sunt!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img-content-row">
+            <div class="container">
+                <div class="flex-row">
+                    <div class="flex-img">
+                        <img src="https://picsum.photos/570/540" alt="">
+                    </div>
+                    <div class="flex-content">
+                        <span class="content-header">Header</span>
+                        <span class="content-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, delectus? Vel adipisci unde repellendus ipsam eos, modi fugit fuga cupiditate cumque at esse aut perspiciatis iure possimus? Sint, obcaecati amet.</span>
+                        <a class="obx-button btn btn-primary" href="#">
+                            <!-- <svg class="icon icon--tail-right" viewBox="0 0 24 24" role="presentation">
+                                <path fill="currentColor" d="M22.707 11.293L15 3.586 13.586 5l6 6H2c-.553 0-1 .448-1 1s.447 1 1 1h17.586l-6 6L15 20.414l7.707-7.707c.391-.391.391-1.023 0-1.414z"></path>
+                            </svg> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="obx-related-articles">
+            <div class="container">
+            <div class="section-header text-center">
+                <span class="h5 subtitle">Subtitle</span>
+                <h2>header</h2>
+            </div>
+                <div class="flex-row">
+                    <div class="obx-article">
+                        <a href="#">
+                            <img src="https://picsum.photos/345/300" alt="">
+                            <span class="obx-article-heading">Heading</span>
+                            <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        </a>    
+                    </div>
+                    <div class="obx-article">
+                        <a href="#">
+                            <img src="https://picsum.photos/345/300" alt="">
+                            <span class="obx-article-heading">Heading</span>
+                            <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        </a>    
+                    </div>
+                    <div class="obx-article">
+                        <a href="#">
+                            <img src="https://picsum.photos/345/300" alt="">
+                            <span class="obx-article-heading">Heading</span>
+                            <span class="obx-article-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsa consequatur voluptatem laboriosam.</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            }
+    </script>
+</body>
+</html>

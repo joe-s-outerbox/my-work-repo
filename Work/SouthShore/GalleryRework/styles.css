@@ -1,0 +1,8 @@
+#gallery-4 > div.ftg-pages.crp-pagination-style-2 a.selected {
+    font-weight: 700;
+    color: #9c1c1f;
+}
+#gallery-4 > div.ftg-pages.crp-pagination-style-2 a.selected:after {
+    display: none;
+    background-color: #9c1c1f;
+}

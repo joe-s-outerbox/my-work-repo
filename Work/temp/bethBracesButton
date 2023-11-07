@@ -1,0 +1,19 @@
+#headerNav:nth-child(7)  {
+    padding: 13px 26px;
+    font-size: 17px;
+    font-weight: 600;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    background-color: #88b961;
+    border-color: #88b961;
+}
+#headerNav a.sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element:hover {
+    opacity: .8;
+}
+#headerNav .active a.sqs-block-button-element--small.sqs-button-element--tertiary.sqs-block-button-element  {
+    background: #fff;
+    color: #88b961;
+    border: 2px solid #88b961;
+    border-radius: 2px;
+}

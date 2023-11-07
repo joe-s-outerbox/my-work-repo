@@ -1,0 +1,37 @@
+{% assign main_description = collection.description | split: '<!-- video id -->' | first %}
+{% if main_description != blank or collection.metafields.custom_fields["video_id"] != blank %}
+  <header class="section-header">
+    <div class="grid">
+      {%  if collection.metafields.custom_fields["video_id"] == blank and collection.image == blank %}
+           <div class="collection-description obx" style="padding-left:0;">{{ collection.description | split: '<!-- split -->' | first }}</div>
+      {% else %}
+      <div class="grid__item collection-image large--one-half large--one-whole medium--one-half small--one-whole view-by-video">
+        {% if collection.metafields.custom_fields["video_id"] != blank %}
+            {% assign video_id = collection.metafields.custom_fields["video_id"] %}
+              <div class="grid__item-content" style="background-image:url({{ collection.image | img_url: 'large' }});cursor:pointer;" data-video_id="{{ video_id | strip}}">
+                {% comment %} <img src="https://cdn.shopify.com/s/files/1/0036/6703/4212/files/play-icon.png?1263333322167019150"/> {% endcomment %}
+              </div>
+              <a href="{{ sublink.url }}"><h6>{{ sublink.object.title }}</h6></a>
+          {% else %}
+          {% if collection.image != blank %}
+            <div class="grid__item-content" style="background-image:url({{ collection.image | img_url: 'large' }})"></div>
+          {% endif %}
+          {% endif %}
+
+        </div>
+        <div class="grid__item large--one-half medium--one-half small--one-whole collection-description {% if video_id %}collection-description--flex{% endif %}">
+          {{ collection.description | split: '<!-- split -->' | first }}
+          {% if video_id %}
+            <a class="grid__item_play-btn" data-video_id="{{- video_id -}}">
+              <i class="fa fa-youtube-play product-details__play-icon grid__item_play-btn__icon" data-video_id="{{- video_id -}}"></i>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </header>
+{% endif %}
+
+if it's not a designer page, just show the description
+if it's a designer page with a video, show the video and the description
+if it's a designer page with no video, show the image and the description

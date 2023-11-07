@@ -1,0 +1,271 @@
+<!--goes in metafields - namespace: global key: obx-boc -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="obx-container">
+        <div class="two-col white">
+            <div class="container">
+                <div class="flex top">
+                    <div class="content-col">
+                        <h2>Heading 2</h2>
+                        <p class="subheading-blue">Subheading Blue</p>
+                        <p><strong>Random words about LED lighting in bold.</strong><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt consectetur vero quia optio quod, odit repudiandae dolorem perferendis, eum at expedita corrupti quidem autem quaerat architecto recusandae minus reprehenderit!
+                        </p>
+                        <div class="obx-button">
+                            <a href="#">CTA Button</a>
+                        </div>
+                    </div>
+                    <div class="img-col">
+                        <img src="https://via.placeholder.com/622x420" alt=""/>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="two-col white lower">
+            <div class="container">
+                <div class="flex">
+                    <div class="img-col lower-row">
+                        <img src="https://via.placeholder.com/622x420" alt=""/>
+                    </div>
+                    <div class="content-col">
+                        <h2>Heading 2</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt consectetur vero quia optio quod, odit repudiandae dolorem perferendis, eum at expedita corrupti quidem autem quaerat architecto recusandae minus reprehenderit!
+                        </p>
+                        <p class="subheading-blue bold">Subheading Blue</p>
+                        <ul>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                        </ul>
+                   
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="obx-faq">
+            <div class="container">
+                    <div class="section-heading"><h2>FAQ Heading</h2></div>
+                    <div class="obx-faq-contact"><p>Below, you will find the most frequently asked questions. If you still need help then please contact us at:
+                        <a href="mailto:contact@revolveled.com"><strong>contact@revolveled.com</strong></a> -or- call <strong>1-877-718-0808</strong>   Open Mon.-Fri 9AM-6PM EST.</div>
+                    </p>
+                    <div class="obx-faq-accordion">
+                        <button class="accordion">Section 1</button>
+                        <div class="panel">
+                        <p>Lorem ipsum...</p>
+                        </div>
+
+                        <button class="accordion">Section 2</button>
+                        <div class="panel">
+                        <p>Lorem ipsum...</p>
+                        </div>
+
+                        <button class="accordion">Section 3</button>
+                        <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </div>
+                    <a href="#">Read all Frequently Asked Questions</a>
+            </div>
+        </div>
+          <div class="content-wheel">
+            <div class="container">
+                <div class="section-heading"><h2>Content Wheel Heading</h2></div>
+                <div class="flex">
+                    <div class="article">
+                        <img src="https://via.placeholder.com/415x260" alt="">
+                        <h4>Article Heading H4</h4>
+                        <p class="subheading-blue">Subheading Blue</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            
+                    </div>
+                    <div class="article">
+                        <img src="https://via.placeholder.com/415x260" alt="">
+                        <h4>Article Heading H4</h4>
+                        <p class="subheading-blue">Subheading Blue</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>       
+                   </div>                
+                    <div class="article">
+                        <img src="https://via.placeholder.com/415x260" alt="">
+                        <h4>Article Heading H4</h4>
+                        <p class="subheading-blue">Subheading Blue</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cta">
+            <div class="container">
+                <div class="flex">
+                    <div class="cta-content">
+                        <h2>Heading 2</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt consectetur vero quia optio quod, odit repudiandae dolorem perferendis, eum at expedita corrupti quidem autem quaerat architecto recusandae minus reprehenderit!
+                        </p>
+                        <div class="obx-button">
+                            <a href="#">CTA Button</a>
+                        </div>                    
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    <div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+    </script>
+</body>
+</html>
+<div class="obx-container">
+            <div class="two-col white">
+                <div class="container">
+                    <div class="flex top">
+                        <div class="content-col">
+                            <h2>LED Parking Lot Lights for Safety & Security</h2>
+                            <!-- <p class="subheading-blue"></div></p>-->
+                            <p><strong>Revolve LED has a large selection of LED parking lot lights to illuminate spaces large and small. </strong><br>
+    <p>
+    Whether you're a contractor setting up a new lighting scheme for a parking lot project or an owner replacing existing lighting, we can help. From car dealerships to sports venues to commercial parking lots, we have the lighting to beautifully brighten your space. Let's work together to get you the parking lot lighting you need ASAP!
+                            </p>
+                            <!--<div class="obx-button">
+                                <a href="#">CTA Button</a>
+                            </div>-->
+                        </div>
+                        <div class="img-col">
+                            <img src="https://cdn.shopify.com/s/files/1/0377/8933/5692/files/Rectangle_19.png?v=1676304906" alt="LED parking lot lights"/>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="two-col white lower">
+                <div class="container">
+                    <div class="flex">
+                        <div class="img-col lower-row">
+                            <img src="https://cdn.shopify.com/s/files/1/0377/8933/5692/files/Rectangle_19-1.png?v=1676304906" alt=""/>
+                        </div>
+                        <div class="content-col">
+                            <h2>Key Features of LED Parking Lot Lights</h2>
+                            <p>
+                                LED parking lot lights provide abundant lighting with the added advantage of being energy efficient, burning longer and brighter with little maintenance. There's no need for crews to make frequent changeouts – and you'll also appreciate the cost-effectiveness LED parking lot lighting brings to the party. They're the preferred method for illuminating outdoor parking areas because they offer many advantages over old-style lighting fixtures. Key features include:
+                            </p>
+                            <!--<p class="subheading-blue bold">Subheading Blue</p>-->
+                            <div class="list-container">
+                            <ul>
+                                <li><strong>Energy Efficiency:</strong> LED lighting uses significantly less energy than traditional light fixtures, resulting in lower operating costs and few carbon emissions.</li>
+                                <li><strong>Lasting Performance:</strong> LEDs burn longer, so they don't need to be replaced as often. This is a major benefit, given the labor involved in replacing parking lot lights. </li>
+                                <li><strong>Brightness:</strong> LED lights produce a high level of brightness.</li>
+                                <li><strong>Durability:</strong> Resistant to impact and able to withstand harsh weather conditions, LEDs are a durable option for parking lot lighting.</li>
+                                <li><strong>Dusk-to-Dawn Capability:</strong> An optional add-on to LED parking lot lighting is the dusk-to-dawn feature, which ensures the lights come on only when needed. This feature saves the owner significant energy costs over the life of the LED lamp.</li>
+                            </ul>
+                        </div>    
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="obx-faq" >
+                <div class="container">
+                        <div class="section-heading"><h2>Frequently Asked Questions About LED Parking Lot Lights</h2></div>
+                        <div class="obx-faq-contact"><p>Need more information about LED parking lot lights? We've answered a few questions below, but please reach out if you have additional concerns.
+                            <a href="mailto:contact@revolveled.com"><strong>contact@revolveled.com</strong></a> -or- call <strong>1-877-718-0808</strong>   Open Mon.-Fri 9AM-6PM EST.</div>
+                        </p>
+                        <div class="obx-faq-accordion">
+                            <button class="accordion">How Do I Choose the Right LED Parking Lot Lighting?</button>
+                            <div class="panel">
+                            <p>The type of LED parking lot lighting you choose will be based on the size of your space and your style preference. Before purchasing your parking lot lights, you'll need to plan the placement and coverage to ensure you're adequately illuminating your space. If you haven't created a plan yet, knowing 
+                            <a href="https://revolveled.com/blogs/shop-talk/parking-lot-lights-distribution-types-selection-guide">how to choose the right light distribution types for parking lot lighting</a> can be a huge help. </p>
+                            </div>
+                            <button class="accordion">What Types of Commercial Parking Lot Lights Are There?</button>
+                            <div class="panel">
+                            <p>These are the two types of outdoor fixtures most associated with commercial parking lot lights and street lights. <a href="https://revolveled.com/collections/led-area-and-site-lights">LED area lights</a> and site lights are installed on poles at a height that's most effective at providing a given area with adequate illumination.</p>
+                            </div>
+    
+                            <button class="accordion">What's the Difference Between Lumens and Watts?</button>
+                            <div class="panel">
+                            <p><em>Lumens measure the brightness of a light source.</em>  The larger the quantity of lumens, the brighter the light. <em>Watts refers to energy consumption.</em> Low-energy LED lamps have higher light output while consuming less power than old types of lighting. </p>
+                        </div>
+                        <button class="accordion">What Are the Benefits of LED Parking Lot Lighting?</button>
+                            <div class="panel">
+                            <p>In addition to providing efficient, cost-saving solutions for parking lot lighting, LEDs feature these added benefits:</p>
+                            <div class="list-container">
+                                <ul>
+                                <li>Improved quality of lighting</li>
+                                <li>No harmful mercury or UV rays</li>
+                                <li>Low maintenance, long life span</li>
+                                <li>Weather tolerance</li>
+                                <li>Instant-on capability</li>
+                            </ul>
+                            </div>
+                      </div>
+                    </div>
+
+                        <div><a href="https://revolveled.com/a/faq">Read all Frequently Asked Questions</a></div>
+                </div>
+            </div>
+              <div class="content-wheel" >
+                <div class="container">
+                    <div class="section-heading"><h2>Related Articles: LED Parking Lot Lights</h2></div>
+    
+                    <div class="flex">
+                        <div class="article">
+                            <a href="https://revolveled.com/blogs/shop-talk/parking-lot-lights-distribution-types-selection-guide"><img src=https://cdn.shopify.com/s/files/1/0377/8933/5692/files/closeup-view-cylindrical-grinder-industrial-concept_2x_4a383690-0cbe-4b79-a9b8-907707889949.png?v=1676304906 alt=""></a>
+                            <h4>How to Choose Right Light Distribution Types for Parking Lot Lighting</h4>
+                            <!--<p class="subheading-blue">Subheading Blue</p>-->
+                            <p>A guide to achieving the top lighting performance from your LED parking lot lights.</p>            
+                        </div>
+                        <div class="article">
+                            <a href="https://revolveled.com/blogs/shop-talk/providing-safe-and-secure-environments-with-led"><img src="https://cdn.shopify.com/s/files/1/0377/8933/5692/files/closeup-view-cylindrical-grinder-industrial-concept-1_2x_2b47795b-17b4-4e61-8b0c-bf400adc892e.png?v=1676304906" alt=""></a>
+                            <h4>Providing Safe and Secure Environments With LED Lighting</h4>
+                            <!--<p class="subheading-blue">Subheading Blue</p>-->
+                            <p>Discover why LED lighting is the top choice for any organization to ensure the well-being of its workers and deter crime.</p>       
+                       </div>                
+                        <div class="article">
+                            <a href="https://revolveled.com/blogs/shop-talk/6-led-lighting-certifications-ul-dlc-csa-etl-ce-and-rohs-what-are-they-and-what-do-they-mean"></a><img src="https://cdn.shopify.com/s/files/1/0377/8933/5692/files/closeup-view-cylindrical-grinder-industrial-concept-2_2x_4ab530e7-2550-4a5c-9a1f-fea749d4ed69.png?v=1676304906" alt=""></a>
+                            <h4>6 LED Lighting Certifications: UL, DLC, CSA, ETL, CE and ROHS. What Are They, and What Do They Mean? </h4>
+                            <!--<p class="subheading-blue">Subheading Blue</p>-->
+                            <p>Learn more about what to look for when buying LED lighting for your property.</p>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta">
+                <div class="container">
+                    <div class="flex">
+                        <div class="cta-content">
+                            <h2>Light Up the Lot With LED Parking Lot Lights From Revolve LED</h2>
+                            <p>
+                                Commercial parking lot lights must provide adequate, efficient illumination to safely guide workers, visitors and others across your property. Make sure you're providing the best solution with LED parking lot lights from Revolve LED. Whether you have a few parking spaces, a large lot or a multi-story garage, we have the fixtures to light the way. Shop for your parking lot lights today!
+                            </p>
+                            <!--<div class="obx-button">
+                                <a href="#">CTA Button</a>
+                            </div>-->                    
+                        </div>
+    
+                    </div>
+                </div>
+        </div>

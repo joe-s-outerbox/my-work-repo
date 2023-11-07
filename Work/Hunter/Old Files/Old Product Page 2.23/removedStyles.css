@@ -1,0 +1,397 @@
+/* OBX Custom Product Page */
+
+.OBX-container {
+    margin: 0;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .OBX-container p {
+      margin-top: 0;
+  }
+  .OBX-container h2 {
+      margin-top: 0;
+    margin-bottom:5px;
+    font-size: 50px;
+    line-height:5.9rem;
+  }
+  .OBX-container h3 {
+      margin-top: 0;
+    margin-bottom: 5px;
+    font-size:24px;
+    line-height:3.3rem;
+  }
+  
+  /*****flex sections*****/
+  
+  div.flex {
+      display: flex;
+    max-width: 1300px;
+      margin: auto;
+  }
+  
+  div.green .flex, div.white .flex{
+      column-gap:85px ;
+  }
+  
+  div.two-col {
+      margin: 0 auto;
+     padding:100px 0;
+  }
+  
+  .content-col {
+      flex-basis: 65%;
+      align-self: center;
+  }
+  .img-col {
+      flex-basis: 35%;
+  }
+  
+  .content-col.large-col{
+    flex-basis:46%;
+  }
+  .img-col.large-col{
+    flex-basis:54%;
+  }
+  
+  /* colors */
+  
+  .two-col.green, .quote-centered.green {
+      background: #547f52;
+      color: white;
+      box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 35%);
+  }
+  
+  div.two-col.white {
+      background :white;
+      margin: 0 auto;
+  }
+  
+  div.two-col.white h2, div.two-col.white h3{
+        color: #547f52;
+  }
+  
+  div.two-col.white a {
+    background: #547f52;
+    color: white;
+  }
+  div.two-col.white a:hover {
+    background: white;
+    color: #537f53;
+    border: solid 2px #537f53;
+  }
+  div.two-col.green a:hover {
+      background: #547f52;
+      color: white;
+      border: solid 3px white;
+  }
+  
+  .two-col.slim {
+      padding: 60px 0;
+  }
+  div.two-col.slim h2 {
+    text-transform: uppercase;
+  }
+  div.two-col.slim h3 {
+      text-transform: uppercase;
+      font-size: 24px;
+  }
+  div.two-col.slim h2{
+      margin: 0 0 10px 0;
+      font-size: 36px;
+  }
+  .slim p {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+  }
+  
+  .slim .content-col {
+      flex-basis: 80%;
+  }
+  
+  .OBX-button {
+      flex-basis: 20%;
+      margin: auto;
+  }
+  .OBX-button a {
+      color: #547f52;
+      text-decoration: none;
+      background: white;
+      padding: 15px;
+      text-align: center;
+      font-weight: 700;
+      display: inline-block;
+      min-width: 230px;
+  }
+  
+  
+  /*****content wheel*****/
+  .content-wheel {
+      margin: auto;
+      background: url("https://cdn.shopify.com/s/files/1/0555/5434/3079/files/content-wheel-background.png?v=1675694738");
+  }
+  .content-wheel .flex {
+      column-gap:75px;
+  }
+  .content-wheel .article {
+      flex-basis: 33%;
+      margin: 83px 0;
+      background: white;
+    text-align: center;
+  }
+  .content-wheel .article img {
+      padding: 7px;
+    width: 100%;
+    height: 230px;
+  }
+  .content-wheel .article p {
+      padding: 0 36px 20px;
+      margin-top: 0;
+    text-align:center;
+  }
+  .content-wheel .article h4 {
+      margin: 0 auto;
+      color: #547f52;
+      padding: 20px 36px 0;
+  }
+  /*****OBX Custom Product Page *****/
+/*
+.OBX-container {
+  margin: 0;
+}
+.OBX-container p {
+    margin-top: 0;
+}
+.OBX-container h2 {
+    margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height:5.9rem;
+}
+.OBX-container h3 {
+    margin-top: 0;
+  margin-bottom: 5px;
+  font-size:24px;
+  line-height:3.3rem;
+}
+.list-container {
+  line-height: 1.6;
+}
+
+/*****flex sections*****/
+
+div.flex {
+    display: flex;
+  max-width: 1300px;
+    margin: auto;
+}
+
+div.green .flex, div.white .flex{
+    column-gap:85px ;
+}
+
+div.two-col {
+    margin: 0 auto;
+   padding:100px 0;
+}
+
+.content-col {
+    flex-basis: 65%;
+    align-self: center;
+}
+.img-col {
+    flex-basis: 35%;
+}
+
+.content-col.large-col{
+  flex-basis:46%;
+}
+.img-col.large-col{
+  flex-basis:54%;
+}
+
+/* colors */
+
+.two-col.green, .quote-centered.green {
+    background: #547f52;
+    color: white;
+    box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 35%);
+}
+
+div.two-col.white {
+    background :white;
+    margin: 0 auto;
+}
+div.two-col.white.even-split .content-col {
+  flex-basis: 50%;
+}
+div.two-col.white.even-split .img-col {
+  flex-basis: 50%;
+}
+
+div.two-col.white h2, div.two-col.white h3{
+      color: #547f52;
+}
+
+div.two-col.white a {
+  background: #547f52;
+  color: white;
+}
+div.two-col.white a:hover {
+  background: white;
+  color: #537f53;
+  border: solid 2px #537f53;
+}
+div.two-col.green a:hover {
+    background: #547f52;
+    color: white;
+    border: solid 3px white;
+}
+
+.two-col.slim {
+    padding: 60px 0;
+}
+div.two-col.slim h2 {
+  text-transform: uppercase;
+}
+div.two-col.slim h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+div.two-col.slim h2{
+    margin: 0 0 10px 0;
+    font-size: 36px;
+}
+.slim p {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.slim .content-col {
+    flex-basis: 80%;
+}
+
+.OBX-button {
+    flex-basis: 20%;
+    margin: auto;
+}
+.OBX-button a {
+    color: #547f52;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    min-width: 230px;
+}*/
+
+
+/*****content wheel*****/
+/*!commented out when content wheel is shown */.static-product {
+  padding-bottom: 0px !important
+}
+.content-wheel {
+  background: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/content-wheel-background.png?v=1675694738);
+      margin: auto;
+}
+.content-wheel .flex {
+    column-gap:75px;
+}
+.content-wheel .article {
+    flex-basis: 33%;
+    margin: 83px 0;
+    background: white;
+}
+.content-wheel .article img {
+    padding: 7px;
+  width: 100%;
+  height: 230px;
+  object-fit:cover;
+}
+.content-wheel .article p {
+    padding: 0 36px 20px;
+    margin-top: 0;
+}
+.content-wheel .article h4 {
+    margin: 0 auto;
+    color: #547f52;
+    padding: 20px 36px 0;
+}
+
+
+/*****quote section*****/
+.quote-centered {
+    text-align: center;
+    padding: 105px 0;
+}
+.quote-centered h2 {
+  font-size: 56px;
+    margin: 0 auto 30px;
+    text-transform: uppercase;
+}
+.quote-body {
+    font-style: italic;
+    font-size: 20px;
+    max-width: 767px;
+    margin: 0 auto 40px;
+    font-weight: 700;
+}
+.quote-author {
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: .9;
+}
+.quote-author-business {
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.3;
+}
+/************OBX ACCORDION*************/
+/* .blog-faq {
+    padding: 60px 0;
+}
+.accordion-span {
+    border-bottom: 2px solid #537f53;
+
+}
+.accordion {
+  background-color: #f6f6f6;
+  color: black;
+  cursor: pointer;
+  padding: 18px 0;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #f6f6f6;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.accordion::before {
+  content: '\02795'; 
+  font-size: 13px;
+  color: black;
+  float: left;
+  margin-left: 5px;
+}
+
+.active::before {
+  content: "\2796"; 
+  padding-top: 10px;
+}
+.panel p {
+    margin: 0;
+
+} */

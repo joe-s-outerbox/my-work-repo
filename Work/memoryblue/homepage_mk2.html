@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.obx-section {
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+.obx-section h2 {
+    font-family: "Chronicle";
+}
+.obx-section p,
+.obx-section li {
+    line-height: 1.4;
+    font-size: 18px;
+    font-family:Georgia
+}
+.obx-section a:hover,
+.obx-section details:hover {
+    opacity: .8;
+}
+.obx-section .flex-row {
+    max-width: 1101px;
+    margin: auto;
+}
+.obx-section.blue-gradient {
+    background: transparent linear-gradient(109deg, #325AB8 0%, #223E7D 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+.obx-section .blue-check-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1102px;    
+    margin: auto;
+}
+.obx-section.blue-gradient h2 {
+    font-size: 42px;
+    max-width: 820px;
+    margin: 0 auto 18px;
+    line-height: 1.1;
+}
+.obx-section.blue-gradient p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.obx-section.blue-gradient ul {
+    text-align: left;
+    vertical-align: text-top;
+    display: inline-block;
+    list-style-type: none;
+    text-indent: -1.75em;
+    margin-bottom: 0;
+    padding-left: 80px;
+}
+.obx-section.blue-gradient li {
+    margin-bottom: 20px;
+    width: 280px;
+}
+.obx-section.blue-gradient li::before {
+    content: url(https://memoryblue.com/wp-content/uploads/2023/05/check-box.svg);
+    margin-right: 10px;
+}
+.obx-section.blue-gradient li:last-child {
+    margin-bottom: 0;
+}
+.obx-section .flex-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 80px;
+    /* column-gap: 70px; */
+    justify-content: space-between;
+}
+.obx-section .flex-body {
+    max-width: 500px;
+}
+.obx-section .flex-body h2 {
+    font-family: "Chronicle Display";
+    font-size: 30px;
+    font-weight: 700;
+    color: #223E7D;
+    line-height: 1.3;
+    margin-bottom: 14px;
+}
+.obx-section .flex-body p {
+    margin-bottom: 30px;
+}
+.obx-section .obx-list ul {
+    list-style-position: inside;
+    margin-left: 20px;
+    list-style-type:none;
+}
+.obx-section .obx-list li {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.obx-section .obx-list li::before {
+    content: "\2022";
+    color: #ABB8C3;
+    font-size: 21px;
+    padding-right: 10px;
+}
+.obx-section.image-rows {
+    padding: 80px 0;
+    background: #EDF7FA;
+}
+.obx-section .flex-image {
+    align-self: center;
+}
+.obx-section .flex-image img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 528 / 380;
+}
+.obx-section.flex-boxes {
+    background: #EDF7FA;
+    padding: 80px;
+}
+.obx-section.flex-boxes :last-child {
+    margin-bottom: 0;
+}
+.obx-section.obx-video {
+    background: #EDF7FA;
+    padding: 80px 20px;
+    text-align: center;
+}
+.obx-section.obx-video .obx-container 
+{max-width: 870px;
+margin: auto;}
+.obx-section.obx-video h2,
+.obx-section.obx-video p {
+    max-width: 750px;
+}
+.obx-section.obx-video h2 {
+    font-size: 42px;
+    color: #223E7D;
+    font-family: 'Chronicle Deck A';
+    line-height: 1;
+    margin: 0 auto 18px;
+}
+.obx-section.obx-video p {
+    line-height: 1.6;
+    margin: 0 auto 40px;
+}
+.obx-section.obx-cta span.superheader {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: #D06238;
+}
+.obx-section.obx-cta .flex-row {
+    max-width: 1148px;
+    margin: auto;
+}
+.obx-section.obx-cta h2 {
+    font-size: 40px;
+    line-height:1.1;
+}
+.obx-section.obx-cta p {
+    margin-bottom: 30px;
+}
+.obx-section.obx-cta .subheader {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight:600;
+    margin-bottom: 14px;
+}
+
+.obx-section.obx-cta .flex-body{
+    max-width: 550px;
+}
+.obx-section.obx-cta .flex-image {
+    flex-basis: 528px;
+}
+.obx-section .obx-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #52ADCC 0%, #3358AC 100%) 0% 0%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 17px 25px;
+    min-width: 250px;
+    text-align: center;
+    border-radius: 50px;
+}
+.obx-section.obx-cta .obx-button:hover {
+    background: #52ADCC;
+}
+.obx-section.obx-cta :first-child a{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.obx-section.obx-faq{
+    background: #223E7D;
+    padding: 80px 20px;
+}
+.obx-section.obx-faq .obx-container {
+    max-width: 870px;
+    margin: auto;
+    color: #fff;
+}
+.obx-section.obx-faq h2 {
+    font-size: 30px;
+    font-family: 'Chronicle Deck A';
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.obx-section.obx-faq p {
+    margin-bottom: 40px;
+}
+.obx-section.obx-faq h3 {
+    color: #00CCFF;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.obx-section.obx-faq h3:after {
+content: url(https://memoryblue.com/wp-content/uploads/2023/05/icon-plus.svg);
+    float: right;
+}
+.obx-section.obx-faq details[open] h3:after {
+content: url(https://memoryblue.com/wp-content/uploads/2023/05/icon-minus.svg);
+    float: right;
+}
+.obx-section .faq-answer p {
+    padding: 14px 0 0;
+    margin-bottom: 30px;
+}
+.obx-section .faq-item {
+    cursor: pointer;
+    margin-bottom: 30px
+}
+.section.section--testimonial-video {
+    margin-bottom: 0;    
+}
+@media only screen and (max-width: 1024px) {
+    .obx-section .blue-check-list ul,
+    .obx-section .blue-check-list {
+        display: block;
+        padding: 0 0 0 10px;
+    }
+    .obx-section .blue-check-list li {
+        margin:0 auto 10px !important;
+    }
+    .obx-section.obx-cta .flex-body,
+    .obx-section .flex-body {
+        max-width: 400px;
+    }
+        .obx-section.obx-cta a {
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .obx-section {
+        margin-bottom: 40px;
+    }
+    .obx-section.blue-gradient,
+    .obx-section.obx-video,
+    .obx-section.obx-faq {
+        padding: 40px 25px;
+    }
+    .obx-section .flex-row {
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0 10px;
+    }
+    .obx-section.obx-cta .flex-body,
+    .obx-section .flex-body {
+        max-width: unset;
+    }
+    .obx-section .flex-row .flex-image {
+        max-width: 528px;
+        margin: 0 auto 30px;
+        order: 0;
+    }
+    .obx-section .flex-row .flex-body {
+        margin: auto;
+        order: 2;
+    }
+
+    .obx-section.obx-cta :first-child a{
+        margin-right:0;
+    }
+    .obx-section.blue-gradient h2,
+    .obx-section .flex-body h2,
+    .obx-section.obx-cta h2,
+    .obx-section.obx-video h2,
+    .obx-section.obx-faq h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+}
+
+
+
+
+
+
+
+    </style>
+    <div class="obx-section full-width blue-gradient">
+            <h2>What One of the Top Outsourced Sales Companies Can Do for You</h2>
+            <p>We use a range of sales techniques and technologies to reach out to potential customers, build relationships with them and close deals. As one of the top outsourced sales companies, we have the tools to help you take your business to the next level:</p>
+                <div class="blue-check-list">
+                    <ul>
+                        <li><a href="https://memoryblue.com/inside-sales-services/sales-development/">Outsourced Sales Development</a></li>
+                        <li><a href="https://memoryblue.com/memoryblue-public-sector/">memoryBlue Public Sector</a> Practice</li>
+                        <li><a href="https://memoryblue.com/inside-sales-services/sales-development/campaign-building-blocks/">Campaign Building</a></li>
+                    </ul>
+                    <ul>
+                        <li>Lead Generation</li>
+                        <li>Sales Training & Coaching</li>
+                        <li>Sales Operations Consulting</li>
+                    </ul>
+                    <ul>    
+                        <li>Account-Based Marketing</li>
+                        <li>CRM and Sales Technology Optimization</li>
+                        <li>Market Research</li>
+                    </ul>
+                </div>
+        </div>
+    <div class="obx-section image-rows">
+        <div class="flex-row">
+            <div class="flex-image">
+                <img src="https://fakeimg.pl/528x380" alt="">
+            </div>
+            <div class="flex-body">
+                <h2>B2B Sales Consulting Begins With Your Input</h2>
+                <p>The crucial first step in B2B sales consulting is getting client input. While we have a unique perspective on your overarching business model, no one knows your particular business better than you. We'll work with your tech sales company to:</p>
+            <div class="obx-list">
+            <ul>
+            <li>Analyze your current sales strategy</li>
+            <li>Identify areas of improvement</li>
+            <li>Define your sales goals</li>
+            <li>Determine your target demographic</li>
+            <li>Create a plan of action</li>
+            </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="obx-section image-rows">
+        <div class="flex-row">
+            <div class="flex-body">
+                <h2>B2B Sales Consulting Begins With Your Input</h2>
+                <p>The crucial first step in B2B sales consulting is getting client input. While we have a unique perspective on your overarching business model, no one knows your particular business better than you. We'll work with your tech sales company to:</p>
+                <div class="obx-list">
+                    <ul>
+                        <li>Analyze your current sales strategy</li>
+                        <li>Identify areas of improvement</li>
+                        <li>Define your sales goals</li>
+                        <li>Determine your target demographic</li>
+                        <li>Create a plan of action</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex-image">
+                <img src="https://fakeimg.pl/528x380" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="obx-section obx-video">
+        <div class="obx-container">
+            <h2>Hear What Our Clients Have to Say</h2>
+            <p>memoryBlue helps high-tech firms tackle sales development challenges. What makes us the right fit? We’ll let our clients tell you how our role as lead generation outsourced sales specialists made an impact on their businesses.</p>
+            <style>
+                .iframe-container {
+                    position: relative;
+                    width: 100%;
+                    height: 0;
+                    padding-bottom: 56.25%;
+                }
+                .iframe-video {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            <div class="iframe-container">
+                <iframe class="youtube-video iframe-video lazy" 
+                    data-src="https://www.youtube.com/embed/vx5-fQ67yDA"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="obx-section obx-cta">
+        <div class="flex-row">
+            <div class="flex-body">
+                <span class="superheader">Reach Out Today</span>
+                <h2>memoryBlue Can Help Boost Your B2B Sales</h2>
+                <span class="subheader">Filling sales pipelines is a critical part of B2B sales consulting and requires a combination of effective marketing, lead nurturing and sales tactics to succeed.</span>
+                <p>memoryBlue is your partner in B2B lead generation services. Discover how together we create a sales force to be reckoned with.</p>
+                <a href="#" class="obx-button">WORK WITH US</a>
+                <a href="#" class="obx-button">REQUEST AN ESTIMATE</a>
+            </div>
+            <div class="flex-image">
+                <img src="https://fakeimg.pl/528x380" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="obx-section obx-faq">
+        <div class="obx-container">
+        <h2>Frequently Asked Questions About B2B Sales</h2>
+        <p>Following are some of the questions we’ve received about B2B sales. Please reach out with any other concerns you may have.</p>
+            <details class="faq-item">
+                <summary><h3 class="question">What Are B2B Sales?</h3></summary>
+                <div class="faq-answer">
+                    <p>B2B sales, or business-to-business sales, refer to the process of selling products or services from one business to another. In B2B sales, the customer is typically a company or organization rather than an individual consumer.</p>
+                </div>
+            </details>
+            <details class="faq-item">
+                <summary><h3 class="question">What Are B2B Sales?</h3></summary>
+                <div class="faq-answer">
+                    <p>B2B sales, or business-to-business sales, refer to the process of selling products or services from one business to another. In B2B sales, the customer is typically a company or organization rather than an individual consumer.</p>
+                </div>
+            </details>
+            <details class="faq-item">
+                <summary><h3 class="question">What Are B2B Sales?</h3></summary>
+                <div class="faq-answer">
+                    <p>B2B sales, or business-to-business sales, refer to the process of selling products or services from one business to another. In B2B sales, the customer is typically a company or organization rather than an individual consumer.</p>
+                </div>
+            </details>            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if ("IntersectionObserver" in window) {
+                var iframes = document.querySelectorAll("iframe.lazy");
+                var iframeObserver = new IntersectionObserver(function (entries, observer) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting && entry.target.src.length == 0) {                    
+                            entry.target.src = entry.target.dataset.src;
+                            iframeObserver.unobserve(entry.target);
+                        }
+                    });
+                });
+    
+                iframes.forEach(function (iframe) {
+                    iframeObserver.observe(iframe);
+                });
+            } else {
+                var iframes = document.querySelector('iframe.lazy');
+    
+                for (var i = 0; i < iframes.length; i++) {
+                    if (lazyVids[i].getAttribute('data-src')) {
+                        lazyVids[i].setAttribute('src', lazyVids[i].getAttribute('data-src'));
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+
+
+
+
+.obx-accordion-summary {
+    max-width: 1062px;
+    margin: auto;
+    font-family: 'Poppins';
+    font-size: 20px;
+    
+    
+}
+.obx-accordion-summary  .fl-accordion-button-label {
+    color:#105FAD;
+    font-weight: 700;
+
+} 
+    
+.obx-accordion-summary  .fl-accordion-item {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px #6F6F6F67;
+}
+.obx-gr-outline-btn {
+    text-transform: capitalize;
+    padding: 12px 24px;
+    
+}
+.obx-land-head-btn a.fl-button {
+    background: none;
+}
+color: #105FAD; font-family: 'Poppins'; font-size: 24px; font-weight: 700;
+

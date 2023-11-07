@@ -1,0 +1,211 @@
+#obx-boc-wrapper {
+    max-width: 1245px;
+   padding: 0 20px;
+    margin: 0 auto 0 492px;
+}
+#obx-boc-wrapper h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #3A4B85;
+    line-height: 1.2;
+    margin: 0 0 24px;
+}
+#obx-boc-wrapper span {
+    display: block;
+}
+#obx-boc-wrapper img {
+    display: block;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+#obx-boc-wrapper .ctr-txt {
+    text-align: center;
+}
+#obx-boc-wrapper .txt-only:not(.bg-color) .obx-container{
+    max-width: 885px;
+    margin: 100px auto;
+}
+#obx-boc-wrapper .txt-only h3 {
+    margin-top: 60px;
+    font-weight: 700;
+}
+#obx-boc-wrapper .grid-img-txt {
+    background-color: #EBEBEB;
+    display: grid;
+    grid-template: auto [row]/ repeat(8, [col] 12.5%);
+}
+#obx-boc-wrapper .grid-img-txt .grid-img-box {
+    grid-column: col 1/ span 4;
+    padding: 60px;
+    grid-row: row 1;
+    z-index: 0;
+}
+#obx-boc-wrapper .grid-txt-box {
+    background-color: #fff;
+    grid-column: col 4 / span 5;
+    grid-row: row 1;
+    z-index: 1;
+    max-width: 650px;
+    margin: 120px 60px 120px 30px;
+    padding: 60px 60px 57px;
+}
+#obx-boc-wrapper .grid-txt-box:last-child p{
+    margin-bottom: 30px;
+}
+#obx-boc-wrapper .obx-btn {
+    background-color: #3A4B85;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px 14px;
+    max-width: fit-content;
+    display: block;
+}
+#obx-boc-wrapper .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.obx-section.flex.img-txt {
+   margin-bottom: 100px;
+}
+#obx-boc-wrapper .flex-img {
+    flex-basis: 45%;
+    align-self: center;
+}
+#obx-boc-wrapper .flex-txt {
+    flex-basis: 50%;
+    align-self: center;
+}
+#obx-boc-wrapper .bg-color {
+    background-color: #334FB4;
+}
+.bg-color{
+       padding: 50px 100px;
+}
+.bg-color .obx-container {
+    color: #ffffff;
+}
+#obx-boc-wrapper .bg-color h2 {
+    color: #ffffff;
+}
+#obx-boc-wrapper .obx-section.faq {
+    max-width: 704px;
+    margin: 100px auto ;
+}
+#obx-boc-wrapper .obx-section.faq h2 {
+    text-align: center;
+}
+#obx-boc-wrapper .obx-section.faq summary {
+    list-style-type: none;
+}
+#obx-boc-wrapper .obx-section.faq h3.question {
+    text-transform: none;
+}
+
+#obx-boc-wrapper .obx-section.faq h3.question:after {
+   content: url(https://cdn.shopify.com/s/files/1/2603/0862/files/icon-Close.svg?v=1686665757);
+   float: right;
+}
+#obx-boc-wrapper .obx-section.faq details[open] h3.question:after {
+   content: "-";
+}
+
+#obx-boc-wrapper details.faq-item {
+    border-bottom: 1px solid #EBEBEB;
+}
+#obx-boc-wrapper details[open].faq-item {
+   padding-bottom: 10px;
+}
+#obx-boc-wrapper details.faq-item:hover {
+   cursor: pointer;
+}
+#obx-boc-wrapper .obx-ra h2 {
+    text-align: left;
+}
+#obx-boc-wrapper .obx-article {
+    flex-basis: 31%;
+    text-decoration: none;
+}
+#obx-boc-wrapper .obx-article a {
+    text-decoration: none;
+    color: #121212;
+}
+#obx-boc-wrapper .obx-article img {
+    margin-bottom: 20px;
+}
+#obx-boc-wrapper .obx-article-heading {
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#obx-boc-wrapper .obx-article-date {
+    font-size: 16px;
+    color:#808080;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1979px) {
+   #obx-boc-wrapper {
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width: 1023px) {
+   #obx-boc-wrapper .grid-img-txt {
+      display: block;
+      padding-bottom: 5px;
+   }
+   #obx-boc-wrapper .grid-img-txt .grid-txt-box {
+      margin: 0 60px 60px;
+   }
+   #obx-boc-wrapper .txt-only:not(.bg-color) .obx-container{
+       margin: 60px auto;
+   }
+   #obx-boc-wrapper .obx-section{
+      display: block;
+      margin: 60px 60px!important;
+   }
+   .bg-color{
+       padding: 50px 50px;
+   }
+   #obx-boc-wrapper .ctr-txt:not(.bg-color) {
+      text-align: left
+   }
+
+}
+@media only screen and (max-width: 767px) {
+
+   #obx-boc-wrapper .obx-section{
+      margin: 60px 0 !important;
+   }
+   #obx-boc-wrapper .obx-section.obx-ra .flex {
+      display: block;
+   }
+   #obx-boc-wrapper .obx-article {
+      margin-bottom: 30px
+   }
+   #obx-boc-wrapper .obx-article span {
+      margin-bottom: 5px;
+      line-height: 1.2;
+   }
+}
+@media only screen and (max-width: 540px) {
+      #obx-boc-wrapper .grid-img-txt .grid-txt-box {
+      margin: 20px;
+      padding: 20px
+      }
+   #obx-boc-wrapper .grid-img-txt .grid-img-box {
+      padding: 20px;
+   }
+   #obx-boc-wrapper h2 {
+    font-size: 28px;
+}
+   #obx-boc-wrapper .bg-color {
+      padding: 20px
+   }
+}
+
+
+
+
+
+
+

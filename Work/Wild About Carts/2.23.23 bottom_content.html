@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>        
+.obx-container {
+    line-height: 1;
+}
+.obx-container p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.obx-container h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.obx-container h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.obx-container ul {
+    line-height: 1.5;
+}
+.obx-container .flex {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+.container {
+    margin: 0 auto;
+}
+.one-col {
+    margin-bottom: 60px;
+}
+.one-col .content{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #777;
+    padding: 90px 40px;
+}
+.two-col .content-col {
+    flex-basis: 60%;
+}
+.two-col .img-col{
+    flex-basis: 40%;
+}
+.two-col .flex {
+    column-gap: 50px;
+}
+.obx-content-wheel  {
+}
+.obx-faq h2, .obx-cta h2 {
+    text-align: center;
+}
+.obx-cta a {
+    margin: 0 auto;
+}
+.obx-article {
+    padding: 7px;
+}
+.obx-article img{
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 230px;
+    object-fit:cover;
+}
+    /*Accordion menu*/
+        .accordion {
+        background-color: #FFFFFF;
+        cursor: pointer;
+        padding: 25px;
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 900px;
+        text-align: left;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        }
+        button.accordion  {
+            background-color: rgb(249, 253, 253);
+            border: 1px solid lightgray;
+            font-weight: 700;
+        }
+        button.accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        }
+        button.accordion.active:after {
+        content: "\2212"; /* Unicode character for "minus" sign (-) */
+        }
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
+        .active, .accordion:hover {
+        background-color: #ccc;
+        }
+        /* Style the accordion panel. Note: hidden by default */
+        .panel {
+        padding: 0 30px;
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #F1F8FE;
+        display: none;
+        overflow: hidden;
+        text-align: left;
+        }
+        .panel p {
+            font-size: 18px;
+            margin-left: 25px;
+        }
+        
+        </style>
+</head>
+<body>
+    <script></script>
+    <div class="obx-container">
+        <div class="one-col bg-img">
+            <div class="flex" >
+                <div class="content">
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores officiis enim aperiam voluptatibus delectus nisi autem vitae provident eum adipisci obcaecati, necessitatibus dolorem dignissimos quibusdam veritatis rerum, quam molestiae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="two-col">
+            <div class="flex">
+                <div class="img-col">
+                    <img src="https://via.placeholder.com/450x450" alt="#">
+                </div>
+                <div class="content-col">
+                    <h2>Heading Text H2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores officiis enim aperiam voluptatibus delectus nisi autem vitae provident eum adipisci obcaecati, necessitatibus dolorem dignissimos quibusdam veritatis rerum, quam molestiae. <br> aperiam voluptatibus delectus nisi autem vitae provident eum adipisci obcaecati, necessitatibus dolorem dignissimos.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores officiis enim aperiam voluptatibus delectus</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="two-col">
+            <div class="flex">
+                <div class="content-col">
+                    <h2>Heading Video Section</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores officiis enim aperiam voluptatibus delectus nisi autem vitae provident eum adipisci obcaecati, necessitatibus dolorem dignissimos quibusdam veritatis rerum, quam molestiae.</p>
+                    <h3>H3 Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam quisquam voluptas nesciunt labore iure ipsam numquam velit necessitatibus, soluta est sequi quos in ratione, corporis consectetur dignissimos autem temporibus!</p>
+                </div>
+                <div class="img-col">
+                    <a href="#"><img src="https://via.placeholder.com/450x450" alt="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="obx-faq" >
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="flex">
+                    <div class="obx-faq-accordion">
+                        <button class="accordion">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A recusandae nobis sunt dolorum amet, facere vero harum aperiam officia ad. Incidunt, perferendis maxime officia quo dolorem.
+                        </div>
+                        <button class="accordion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus blanditiis ratione? </button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deleniti nihil soluta pariatur ad commodi possimus incidunt ratione odio molestias eveniet alias voluptatem obcaecati doloremque tenetur adipisci eum, corporis totam!</p>
+                        </div>
+                        <button class="accordion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias</button>
+                        <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam cupiditate ad!</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="one-col bg-img obx-cta content">
+            <div class="container">
+                <div class="flex">
+                    <div class="content">
+                        <h2>Heading Text H2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores officiis enim aperiam voluptatibus delectus nisi autem vitae provident eum adipisci obcaecati, necessitatibus dolorem dignissimos quibusdam veritatis rerum, quam molestiae.</p>
+                        <a href="#" class="button button--small card-figcaption-button">CTA Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="obx-content-wheel">
+            <div class="flex">
+                <div class="obx-article">
+                    <img src="https://via.placeholder.com/300x225 
+                    " alt="">
+                    <h3>Blog titles may span one or more lines. Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum cum. Inventore, rerum sed. Optio pariatur,</p>
+                </div>
+                <div class="obx-article">
+                    <img src="https://via.placeholder.com/300x225 
+                    " alt="">
+                    <h3>Blog titles may span one or more lines. Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum cum. Inventore, rerum sed. Optio pariatur,</p>
+                </div>
+                <div class="obx-article">
+                    <img src="https://via.placeholder.com/300x225 
+                    " alt="">
+                    <h3>Blog titles may span one or more lines. Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum cum. Inventore, rerum sed. Optio pariatur,</p>
+                </div>
+        </div>
+    </div>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+</script>
+</body>
+</html>

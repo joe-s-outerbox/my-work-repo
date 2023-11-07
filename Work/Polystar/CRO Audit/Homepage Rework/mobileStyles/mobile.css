@@ -1,0 +1,114 @@
+@media only screen and (max-width: 767px) {
+    .container .navbar-header img {
+        padding: 28px 0 0;
+    }
+    span.glyphicon.glyphicon-envelope {
+        display: none;
+    }
+    span.glyphicon.glyphicon-earphone {
+        font-size: 35px !important;
+    }
+    span.glyphicon.glyphicon-earphone {
+        padding-top: 0 !important; 
+        margin: 9px 0 !important;
+    }
+    button.navbar-toggle,
+    button.navbar-toggle.collapsed {
+        margin-top: 32px;
+    }
+    div#obx-home-top-content {
+        text-align: left;
+        padding: 0 20px;
+    }
+    div#obx-home-top-content h1 {
+        font-size: 38px;
+    }
+        div#obx-home-top-content p {
+        margin-bottom: 20px !important;
+    }
+    .col-sm-5.welcomecontainer .orangebutton.clear  {
+        border: 3px #dd8728 solid;
+    }
+    .container-fluid.welcomefluid {
+        border-bottom: 5px white solid;
+    }
+
+    .container-fluid.contactfluid {
+        padding: 10px 15px;
+    }
+    .container-fluid.contactfluid .white.animated.fadeInLeft {
+        line-height: 1.4;
+    }
+    .container-fluid.contactfluid .white.animated.fadeInLeft h2{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .container-fluid.contactfluid .white.animated.fadeInLeft p {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .contactfluid .orangebutton.animated.fadeIn {
+        margin: 0 0 15px;
+        padding: 0;
+        background: none;
+        text-transform: capitalize;
+        border: none;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        text-align: left;
+    }
+    .contactfluid .orangebutton.animated.fadeIn:after {
+        content: " > ";
+    }
+}
+
+div#navbar {
+    background-color: #444444;
+}
+ul#menu-mobile {
+    padding: 10px 40px !important;
+}
+ul#menu-mobile li>a {
+    border-top: none;
+    border-bottom: 1px #707070 solid;
+    
+    font-size: 20px;
+    color:  #fff;
+    padding: 20px 0 !important;
+    font-weight: 400;
+    position: relative;
+}
+ul#menu-mobile li>a:last-child {
+    border-bottom: none;
+}
+.caret {
+    display: inline-block;
+}
+/* ul#menu-mobile li>a::after {
+    content:"";
+    background: url('https://www.polystarcontainment.com/wp-content/uploads/2023/08/right-pointing-arrow-icon.png');
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* z-index: 99999; */
+} */
+
+
+.navbar-header .col-xs-6 {
+    padding: 0 !important;
+}
+
+.mobilesection {
+    padding: 20px 0 0!important;
+}
+    .navbar-toggle {
+        background-color: #fff !important;
+    }
+.navbar-default .navbar-toggle .icon-bar {
+    height: 5px;
+    width: 35px;
+    margin-bottom: 6px;
+}
+

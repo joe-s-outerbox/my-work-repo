@@ -1,0 +1,104 @@
+.faux-h4 {
+    font-family: Montserrat, sans-serif;
+}
+.section--by-the-numbers .faux-h4 {
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #d06238;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section--testimonial-video .faux-h1 {
+    font-size: 48px;
+    margin-bottom: 18px;
+    line-height: 1.4;
+}
+.best-alumni .best-alumni__inner .faux-h4 {
+    margin-bottom: 9px;
+    font-weight: 400;
+    color: #d06238;
+    text-transform: uppercase;
+}
+.best-alumni .best-alumni__inner .faux-h1 {
+    margin-bottom: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Chronicle Deck A", "Chronicle Deck B", serif;
+    font-size: 42px;
+    color: #223e7d;
+}
+.section--testimonials .faux-h1 {
+    margin-bottom: 40px;
+    font-size: 52px;
+    color: #fff;
+    font-family: "Chronicle Deck A", "Chronicle Deck B", serif;
+}
+.section--testimonials .section__content .faux-h1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+.section--testimonials .section__content .faux-h4 {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #e9d586;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section--logos .faux-h4 {
+    margin-bottom: 48px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+.widget-ebook .faux-h5{
+    font-size: 16px;
+    padding: 0 20px 20px;
+    background-color: #213d7c;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+}
+.section .section__content .faux-h2 {
+    margin-bottom: 19px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #213d7c;
+    font-size: 26px;
+    font-family: "Chronicle Deck A", "Chronicle Deck B", serif;
+}
+.card .faux-h6 {
+    margin-bottom: 9px;
+    padding: 0px 20px;
+    color: #d06238;
+    font-size: inherit;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    transition: color .6s;
+}
+.card:hover .faux-h6 {
+    color: #e9d586;
+}
+.card .faux-h4 {
+    margin-bottom: 23px;
+    padding: 0px 20px;
+    font-weight: 600;
+    color: #223e7d;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    transition: color .6s;
+
+}
+.card:hover .faux-h4 {
+    color: #fff;
+}
+.footer .footer__body .faux-h5 {
+    margin-bottom: 0;
+    font-size: inherit;
+    font-weight: bold;
+}
