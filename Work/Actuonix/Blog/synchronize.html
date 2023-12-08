@@ -1,0 +1,57 @@
+<div class="obx-blog-wrapper">
+    <div class="obx-section top">
+        <p id="ch1" style="margin: 0px auto 40px;"><em>Synchronize linear actuators like a pro: Read our step-by-step guide to perfect motion control. Achieve precision in your automation projects with Actuonix.</em></p>
+        <p>From time to time, our clients ask us how to synchronize two or more linear actuators. At first glance, actuator synchronization should be a relatively simple task. Choosing two actuators of the exact same model, and running them at the same voltage, via the same control circuit should result in both devices running at the exact same speed and reaching their end limit at the exact same time. While it would be nice if two actuators could be synchronized simply by wiring them to a common switch, in reality, it’s a little more complicated than that.</p>
+        <div class="jump-links">
+            <span class="header">In this Article:</span>
+            <ul>
+                <li><a href="#ch1">How to Synchronize Two Linear Actuators?</a></li>
+                <li><a href="#ch2">Why is synchronization necessary?</a></li>
+                <li><a href="#ch3">How to run multiple actuators at the same speed?</a></li>
+                <li><a href="#ch4">Actuonix’s Guide On How To Synchronize Linear Actuators</a></li>
+            </ul>
+        </div>
+
+            <h2 id="ch2">Why is synchronization necessary?</h2>
+            <p>Simply put, no two actuators are exactly the same. Two DC actuators that are well within manufacturers' specifications can experience a variation in speed, sometimes up to 5%.</p>
+            <p>If the actuators have been used previously, there are dozens of variables that can affect how the devices operate. The conditions that an actuator has been subjected to through its life can have a significant effect on speed. How much load has been applied, duty cycle, total life cycles, operating temperature, input voltage and more will have an effect on how an actuator operates.</p>
+            <p>When it comes to brand new actuators, even those will not necessarily travel at the same speed. Variations in internal friction resulting from manufacturing processes can result in slight differences in speed. The reality is no two DC motors will move at exactly the same speed. There are a number of potential reasons for this including:</p>
+            <ul style="list-style-position: inside;
+            padding-left: 0;">
+                <li>Slight variations in raw materials used in manufacturing</li>
+                <li>Variations in manufacturing tolerances that still fall within specification</li>
+                <li>Variation in friction on lead screws, bearings or other internal components</li>
+                <li>A variety of other factors can affect actuator performance</li>
+            </ul>
+            <p>Some linear actuators integrate feedback sensors, such as encoders or hall-effect sensors, which provide real-time information about the actuator's position, allowing for closed-loop control and enhanced accuracy.</p>
+    </div>
+    <div id="ch3" class="obx-section grey-bg">
+        <h2 id="ch2">How to run multiple actuators at the same speed?</h2>
+        <p>So now we have outlined the problem and why it occurs, let’s have a look at potential solutions. There are a number of ways that you can approach the issue, and we’ve outlined your best options below.</p>
+        <ol style="margin-top: 20px;">
+            <li><strong>Do Nothing</strong><p>Ask yourself if the actuators really need to move at exactly the same speed. Actuators that are driving separate mechanisms might arrive at their end of stroke at slightly different speeds, but is it completely necessary that they be matched? If the actuators are driving a common load, they will equalize the load between them. One actuator may carry ~5% more load than the other. This will not be an issue unless you’re running your actuators close to their load and/or duty cycle limits.</p></li>
+            <li><strong>Ask us to match a pair of actuators for you</strong><p>We have the ability to match a pair of actuators more closely than what could be achieved by grabbing two random actuators off the shelf. If a closely matched set is a priority, but you want to avoid the extra work of building a custom control circuit to achieve identical speeds, this might be your best option.</p></li>
+            <li><strong>Use <a href="https://www.actuonix.com/lac">LAC boards</a></strong><p>You can achieve a much more closely matched pair by driving two actuators with a common PWM signal via LAC boards. This will allow you to independently adjust the speed of each actuator and fine tune it to your requirements.  This option only applies to our P-series actuators as the LCA board leverages its position feedback signal to provide closed-loop position control.</p></li>
+            <li><strong>Develop a Custom Solution</strong><p>Because the LAC is single-channel only, there may still be slight discrepancies between the parallel actuators.  To fully optimize a parallel actuator solution, one would need to use the feedback signal from both actuators with a custom position control system to ensure the error in position is as close to zero as possible.  Like option #3, this option applies to -P actuators with their potentiometer-based position feedback.</p></li>
+        </ol>
+
+    </div>
+
+    <div id="ch4" class="obx-section cta" style="background-image: url(https://www.actuonix.com/assets/images/cta-stepper-motor-actuators-overlay.png);">
+        <h2>Actuonix’s Guide On How To Synchronize Linear Actuators</h2>
+        <p>As you can see there are a few options for synchronizing multiple actuators. What option you choose comes down to the specifications of your application and how closely matched you need your actuators to be. If you have further questions about this, you can reach out to our sales department anytime at <a href="mailto:sales@actuonix.com">sales@actuonix.com</a>. One of our representatives will be happy to help you choose a setup that suits your needs.</p>
+    </div>
+
+</div>
+<style>
+.obx-blog-wrapper p,
+.obx-blog-wrapper ul,
+.obx-blog-wrapper ol {
+
+    margin-bottom: 30px;
+}
+
+.obx-blog-wrapper li {
+    margin-bottom: 15px
+}
+</style>
