@@ -1,0 +1,268 @@
+.obx-home-wrapper {
+    font-family: "Montserrat";
+  }
+  .obx-home-wrapper .container {
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+  .top-cta {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  .subheading {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bo
+  }
+  p {
+    max-width: 887px;
+    margin: 0 auto 30px;
+  }
+  a.btn-green {
+    color: #000;
+    background: #41963f;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    max-width: fit-content;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #41963f;
+    cursor: pointer;
+    transition: color 0s;
+  }
+  .obx-home-wrapper .section {
+    margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  .obx-home-wrapper .section img {
+  margin: 0 auto;
+  }
+  .obx-home-wrapper .top-cta {
+    color: white;
+    text-shadow: 0px 2px 1px #00000058;
+    padding: 160px 0;
+    background-size: cover;
+    background-position: center center;
+        box-shadow: 0px 0px 0px 4000px rgba(50, 50, 50, 0.6) inset; 
+  }
+  .obx-home-wrapper .top-cta .subheading {
+    margin-bottom: 0
+  }
+  .obx-home-wrapper  .top-cta .container {
+    max-width: 50%;
+  }
+  .obx-home-wrapper .top-cta h2 {
+    color: white;
+  }
+  .obx-home-wrapper a.btn-green {
+    color: #000;
+    background: #41963F;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    max-width: fit-content;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 40px;
+    border: 1px solid #41963f;
+    cursor: pointer;
+  }
+  .obx-home-wrapper .top-cta a.btn-green {
+    text-shadow: none;
+    margin: 0 auto;
+  }
+  .obx-home-wrapper span.faux-h2{
+    margin: 2.2em 0 0.9em;
+    font-size:20px;
+    letter-spacing: .2em;
+      text-transform: uppercase;
+  }
+  
+  .obx-home-wrapper .flex-row{
+    display:flex;
+    flex:wrap;
+  }
+  
+  .obx-home-wrapper .container{
+    max-width:1468px;
+    margin:0 auto;
+  }
+  
+  .obx-home-wrapper .center-content .container-alt{
+    max-width:887px;
+      margin: 0 auto;
+  }
+  .obx-home-wrapper hr {
+      margin: 0 auto 100px;
+      color: #EAEAEA;
+  }
+  .obx-home-wrapper .center-content h2, .obx-home-wrapper .center-content h3, .obx-home-wrapper .center-content .subheading, .obx-home-wrapper .center-content p{
+    text-align:center;
+  }
+  
+  .obx-home-wrapper h2, .obx-home-wrapper h3{
+    font-size:22px;
+    text-transform:uppercase;
+    line-height:36px;
+    margin-top:0;
+  }
+  .obx-home-wrapper .subheading{
+    font-size:13px;
+    text-transform:uppercase;
+      margin-bottom: 20px;
+  }
+  
+  .obx-home-wrapper .fw-grey{
+    background:#EAEAEA;
+    padding:100px;
+  }
+  
+  .obx-home-wrapper .two-colsplit {
+    /* padding-top:100px; */
+    margin-bottom: 100px;
+  }
+  
+  .obx-home-wrapper .two-colsplit .flex-row{
+    column-gap: 112px;
+  }
+  
+  .obx-home-wrapper .two-colsplit .col{
+    flex-basis:50%;
+    align-self: center;
+  }
+  
+  .obx-home-wrapper .two-colsplit .image img{
+  width:100%;
+  object-fit: cover;
+  margin: 0 auto!important;
+  }  
+  .obx-home-wrapper .two-colsplit .text{
+    /* padding-top:60px; */
+    align-self: center;
+  }
+  .obx-home-wrapper .two-colsplit .flex-row h3 {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 50px 0 20px;
+  }
+  
+  .obx-home-wrapper .two-colsplit .text a.btn-green {
+    width: 140px;
+    color: #000;
+    background: #41963F;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    max-width: fit-content;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 40px;
+    border: 1px solid #41963f;
+  }
+  
+  .obx-home-wrapper  .faq-item{
+    border-bottom:1px solid #d1d1d1;
+  }
+  .obx-home-wrapper .fw-grey .container .faq-item:first-of-type h3 {
+  border-top: 1px solid #d1d1d1;
+  padding-top: 30px;
+  }
+  .obx-home-wrapper .fw-grey .container .faq-item h3{
+    font-weight:bold; 
+    font-size:18px;
+    text-transform:none;
+    margin: 20px 0 20px;
+  }
+  .obx-home-wrapper .fw-grey .container .faq-item p {
+  margin-bottom: 30px
+  }
+  
+  
+  .obx-home-wrapper .fw-grey .container {
+  max-width: 888px;
+  margin: 0 auto;
+  }
+  
+  .obx-home-wrapper .fw-grey .faq-item:last-of-type {
+  border-bottom: none;
+  
+  }
+  .obx-home-wrapper .fw-grey .faq-item:last-of-type p {
+  margin-bottom: 0;  
+  }
+  
+  .obx-home-wrapper .section.content-wheel  {
+  max-width: 1470px;
+  margin: 0 auto;
+  
+  }
+  .obx-home-wrapper .section.content-wheel h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  }
+  .obx-home-wrapper .section.content-wheel .flex-row {
+  column-gap: 80px
+  }
+  .obx-home-wrapper .section.content-wheel .article {
+  width: 33%;
+  }
+  .obx-home-wrapper .section.content-wheel .flex-row img {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 437 / 250;
+  margin-bottom: 20px;
+  }
+  .obx-home-wrapper .section.content-wheel .article span {
+  display: block;
+  margin-top: 18px
+  }
+  .obx-home-wrapper .section.content-wheel .article a {
+  text-decoration: none;
+  }
+  .obx-home-wrapper .section.content-wheel .article .title {
+  text-transform: uppercase;
+  font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+  .obx-home-wrapper .section .flex-row {
+    column-gap: 40px
+  }
+  }
+  @media only screen and (max-width: 767px) {
+  .obx-home-wrapper .section,
+  .obx-home-wrapper hr {
+    margin-bottom: 40px;
+  }
+  .obx-home-wrapper .section .flex-row {
+    display: block;
+  }
+  .obx-home-wrapper .article {
+    width: 90%;
+    margin: 0 auto 40px;
+    border-bottom: 2px solid #b5b5b5;
+  }
+  .obx-home-wrapper .article .readmore {
+    margin-bottom: 10px;
+  }
+  }
+  
+
+  .top-cta a.btn-green:hover {
+    background: transparent;
+    opacity: 1;
+  }
+  .container {
+    max-width: 1340px;
+  }
