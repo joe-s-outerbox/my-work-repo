@@ -106,17 +106,19 @@ ul.jumplinks li::marker{
 .obx-section.cta .phone {
     display: block;
 }
-.obx-section.bg-color a.obx-button,
+.obx-section .obx-button,
 .obx-section.cta .obx-button {
     display: block;
     background:#5FAD00;
+    border: 2px solid #5fad00;
     max-width:fit-content;
     margin: 0 auto;
     color: white;
     text-decoration: none; 
     font-family: 'Source Sans Pro';
-    padding: 10px 70px 13px;
+    padding: 9px 68px 12px;
     border-radius: 5px;
+    transition: all .25s ease;
 }
 
 
@@ -225,4 +227,106 @@ section#custom_html-2 { padding: 0;}
     .obx-side-section.cta.lazyloaded {
         display: none;
     }
+}
+/*Pricing&Finance Additions*/
+a.obx-button.pf-top {
+    display: inline-block;
+    padding: 13px 28px 12px;
+    margin-right: 30px;
+}
+
+a.obx-button.pf-top.tp-bg {
+    background: #fff;
+    color: #5fad00;
+}
+a.obx-button:hover {
+    background: transparent;
+    color: #5fad00;
+    cursor: pointer;
+}
+a.obx-button.pf-top.tp-bg:hover {
+    background: #5fad00;
+    color: #fff;
+}
+ul.light {
+    list-style-type:none;
+    padding-left: 0;
+}
+ul.light li::before {
+  content: "\2022";  
+  color: #666666; 
+  font-weight: bold; 
+  display: inline-block;
+  width: 7px; 
+  padding-right: 10px;
+}
+.jump-dd details {
+    border: 2px solid #CCCCCC;
+    padding: 20px;
+}
+.jump-dd summary::marker {
+    display: none;
+}
+.jump-dd ul.light li {
+     margin: 0 18px 15px;
+ }
+.jump-dd ul.light li a {
+    color: #5FAD00;
+}
+.obx-section.bg-color .obx-button {
+    margin-left: 0;
+}
+.obx-section.bg-grey {
+    background-color: #EBEBEB;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.price-cards span {
+    display: block;
+}
+.price-cards .subtitle {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.4
+}
+.price-cards .flex-row {
+    display: flex;
+    column-gap: 32px;
+    margin-bottom: 30px;
+}
+.price-cards .flex-row:last-of-type {
+    margin-bottom: 0;
+}
+.price-cards .p-card {
+    text-align: center;
+    background-color: #fff;
+    flex-basis: 50%;
+    padding: 30px;
+    border-radius: 5px;
+    min-height: 205px;
+    position: relative;
+}
+.p-card .name {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.p-card .price {
+    font-size: 36px;
+    font-weight: 600;
+    color: #3253BC;
+    margin-bottom: 10px
+}
+.p-card .oldprice {
+    color:#333333;
+    text-decoration:line-through;
+}
+.p-card .obx-button {
+    position: absolute;
+    bottom: 30px;
+    left: 78px;
+    right: 78px;
+    /* max-width: 126px; */
+    padding: 14px 20px 13px;
 }
