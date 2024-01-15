@@ -1,0 +1,291 @@
+
+div.obx-bottom-wrapper h2,
+div.obx-bottom-wrapper h3,
+div.obx-bottom-wrapper p {
+    margin: 0 0 20px;
+}
+div.obx-bottom-wrapper h2 {
+    font-size: 30px;
+    font-family: Stangith,serif;
+    font-weight: 100;
+}
+div.obx-bottom-wrapper h3 {
+    font-size: 20px;
+}
+.obx-bottom-wrapper h2.border {
+    position: relative;
+}
+.obx-bottom-wrapper h2.border:after {
+    content: "";
+    width: 84px;
+    height: 3px;
+    position: absolute;
+    background: #CCCCCC;
+    left: 0;
+    bottom: -15px;
+}
+div.obx-bottom-wrapper img {
+    display: block;
+    width: 100%;
+}
+.obx-bottom-wrapper .obx-container {
+    max-width: 1142px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.obx-bottom-wrapper .obx-container.sm {
+    max-width: 942px;
+}
+.obx-bottom-wrapper .obx-container.x-sm {
+    max-width: 882px;
+}
+div.obx-bottom-wrapper .flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+.obx-bottom-wrapper .flex-row > *{
+    align-self: center;
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+    flex-basis: 47%;
+}
+div.obx-section.bg-img {
+    color: #ffffff;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+div.obx-round.overlay {
+    box-shadow: 0px 0px 0px 4000px rgba(33, 33, 33, .68) inset;
+    border-radius: 50%;
+    margin: 0 auto;
+    max-height: 486px;
+    max-width: 486px;
+    height: 486px;
+    width: 486px;
+    position: relative;
+}
+.overlay .content {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 72px;
+}
+.overlay .content > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-img .subheading {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.overlay .content h2 {
+    font-size: 40px;
+    line-height: 1.375;
+    max-width: 342px;
+    font-family: Stangith,sans-serif;
+}
+.obx-button {
+    color: white;
+    text-decoration: none;
+    max-width: fit-content;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    font-size: 10px;
+    border: 1px solid #ffffff;
+    display: block;
+}
+
+
+.obx-bottom-wrapper .obx-section.dual-flex-row{
+    padding: 100px 0;
+}
+.obx-bottom-wrapper .dual-flex-row .flex-row {
+    column-gap: 60px;
+    margin-bottom: 40px;;
+}
+.obx-bottom-wrapper .dual-flex-row .flex-row:last-of-type{
+    column-gap: 60px;
+    margin-bottom: 0px;;
+}
+.obx-bottom-wrapper .dual-flex-row .flex-row p {
+    line-height: 1.4;
+}
+.obx-list ul {
+    margin-bottom: 0;
+}
+.obx-bottom-wrapper .obx-list li {
+    list-style-type:disc;
+    list-style-position: inside;
+    margin-bottom: 15px;
+}
+.obx-list li:last-of-type {
+    margin-bottom: 0
+}
+
+.bg-beige {
+    background-color: #FFF9F8;
+}
+.basic-content {
+    padding: 120px 20px;
+}
+.basic-content .intro {
+    margin-bottom: 50px;
+}
+.basic-content .flex-row {
+    column-gap: 60px;
+}
+.basic-content .flex-content {
+    flex-basis: 50%;
+    align-self: auto;
+    
+}
+.obx-video {
+    padding: 120px 20px;
+}
+.obx-bottom-wrapper .obx-video .obx-container {
+    max-width: 1195px;
+
+}
+.obx-video .flex-image {
+    box-shadow: -15px 15px 0px 1px rgba(236, 228, 221, 1);
+}
+.obx-bottom-wrapper .bg-img .container {
+    max-width: 882px;
+    padding: 100px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.obx-bottom-wrapper .faq-item {
+    margin-bottom: 50px;
+}
+.obx-bottom-wrapper.ra {
+    max-width: 1338px;
+    margin: 0 auto;
+    padding: 120px 20px;
+}
+.obx-bottom-wrapper.ra .intro {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.obx-bottom-wrapper.ra h2{
+    margin-bottom: 50px;
+}
+.obx-bottom-wrapper.ra .intro h2.border:after {
+    left: 30%;
+}
+.obx-bottom-wrapper.ra .flex-row {
+    column-gap: 30px;
+}
+.obx-bottom-wrapper .article {
+    max-width: 426px;
+    flex-basis: 33%;
+    align-self:auto;
+}
+.obx-bottom-wrapper .article span {
+    display: block;
+}
+.obx-bottom-wrapper .article img {
+    object-fit: cover;
+    margin-bottom:20px;
+}
+.obx-bottom-wrapper .article a {
+    text-decoration: none;
+}
+.obx-bottom-wrapper .article a .date,
+.obx-bottom-wrapper .article a .author,
+.obx-bottom-wrapper .article a .excerpt {
+    color: #646464;
+}
+.obx-bottom-wrapper .article a .date {
+    margin-bottom: 20px;
+}
+.obx-bottom-wrapper .article a .title {
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.obx-bottom-wrapper .article a .author {
+    margin-bottom: 10px;
+}
+.obx-bottom-wrapper .article a .excerpt {
+    margin-bottom: 20px;
+}
+
+.obx-section.bg-img.bottom p {
+    max-width: 714px;
+    margin: 0 auto 30px;
+}
+
+.obx-section.bg-img.bottom .container 
+    > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 767px) {
+    .obx-bottom-wrapper .flex-row {
+        flex-direction: column!important;
+        margin-bottom: 50px!important;
+    }
+    .obx-bottom-wrapper .flex-row .flex-content {
+        order: 1;
+    }
+    .obx-bottom-wrapper .flex-row .flex-image {
+        margin-bottom: 40px;
+    }
+    .obx-bottom-wrapper .flex-row > * {
+        margin: 0 auto;
+    }
+    .obx-bottom-wrapper .flex-row:last-of-type {
+        margin-bottom: 0!important;
+        
+    }
+    .obx-bottom-wrapper .obx-section,
+    div.obx-bottom-wrapper.basic-content{
+    padding: 40px 0!important;
+}
+    .obx-container, .intro, .faq-item {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    .obx-bottom-wrapper .faq-item:last-of-type {
+        margin-bottom: 0;
+}
+.obx-bottom-wrapper.ra {
+    padding: 40px 20px;
+}
+    .obx-section.bg-img.bottom .container {
+        padding: 20px;
+    }
+}
+@media (max-width: 540px) {
+    div.obx-round.overlay {
+        width: 400px;
+        height: 400px;
+    }
+    .overlay .content {
+    top: 40px;
+    left: 32px;
+}
+}
+@media (max-width: 424px) {
+    div.obx-round.overlay {
+        width: 320px;
+        height: 320px;
+    }
+    .overlay .content {
+    top: 80px;
+    left: 30px;
+        max-width: 80%
+}
+    .obx-round.overlay .content h2 {
+        font-size: 24px
+    }
+}
+
+
+
+
