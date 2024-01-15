@@ -13,10 +13,11 @@
     display: flex;
     justify-content:space-between
 } 
-.obx-section.bg-color {
+.obx-section.pricing.bg-color.img-left {
     padding: 24px;
-    background: #C9D2F0;
+    background: #c9d2f0;
     border-radius: 5px;
+    font-style: normal;
 }
 .img-left {
     padding: 30px 24px;
@@ -357,4 +358,7 @@ details[open] summary::after {
 }
 .obx-section.cta.left-align {
     text-align: left;
+}
+.obx-section.partners.left-align hr {
+    margin: 0;
 }
