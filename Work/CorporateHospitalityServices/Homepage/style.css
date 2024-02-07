@@ -1,48 +1,55 @@
-
-#obx-home-template h1,
-#obx-home-template h2 {
+.obx-home-template h1, 
+.obx-home-template h2,
+.obx-home-h2,
+.obx-home-template h3 {
     color: #970403;
     margin: 0 0 20px;
-    font-family: 'Museo Slab', sans-serif;
+    font-family: 'museoslab5';
 }
-#obx-home-template h1 {
+.obx-home-template h1 {
     font-size: 50px;
+    font-weight: 100;
 }
-#obx-home-template h2 {
+.obx-home-template h2,
+.obx-home-h2 {
     font-size: 36px;
 }
-#obx-home-template p,
-#obx-home-template span {
+.obx-home-template p,
+.obx-home-template span {
     font-size: 17px;
     line-height: 1.5;
     font-family: 'GothamBook', sans-serif;
 }
-#obx-home-template .obx-container {
+.obx-home-template .obx-container {
     max-width: 1172px;
     margin: 0 auto;
     padding: 0;
 }
-#obx-home-template .obx-section {
+.obx-home-template .obx-section {
     margin-bottom: 60px;
 }
-#obx-home-template .flex-row {
+.obx-home-template .flex-row {
     display: flex;
 }
-#obx-home-template .obx-section.top-banner {
-    background-size: cover;
+.obx-home-template .obx-section.top-banner {
+    background-size:cover;
+    background-position-y: 16%;
     padding: 35px !important;
 }
-#obx-home-template .top-banner .content{
+.obx-home-template .top-banner .content{
     max-width: 472px;
 }
-#obx-home-template .top-banner .obx-container h1 {
+.obx-home-template .top-banner .obx-container h1 {
     margin: 0 0 10px;
     line-height: 1.2;
 }
-#obx-home-template .top-banner .content p {
+.obx-home-template .top-banner .content p {
     margin: 0 0 10px;
 }
-#obx-home-template .top-banner p.welcome {
+.obx-home-template .top-banner .content p:last-of-type {
+    margin-bottom: 30px;
+}
+.obx-home-template .top-banner p.welcome {
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -57,23 +64,23 @@ a.obx-btn {
     padding: 12px 30px;
     border-radius: 5px;
 }
-#obx-home-template .video .flex-row {
+.obx-home-template .video .flex-row {
     column-gap: 60px;
 }
-#obx-home-template .video .col.media {
-    flex-basis: 67.5%;
+.obx-home-template .video .col.media {
+    flex-basis: 65%;
 }
-#obx-home-template .video .col.content {
-    flex-basis: 32.5%;
+.obx-home-template .video .col.content {
+    flex-basis: 35%;
 }
-#obx-home-template .obx-video-wrapper {
+.obx-home-template .obx-video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   width: 100%;
 }
 
-#obx-home-template .obx-video-wrapper iframe {
+.obx-home-template .obx-video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -81,68 +88,293 @@ a.obx-btn {
   height: 100%;
 }
 
-#obx-home-template .red-bg {
+.obx-home-template .red-bg {
     padding: 70px 0;
 }
-#obx-home-template .red-bg .flex-row {
+.obx-home-template .red-bg .flex-row {
     column-gap: 32.5px;
 }
-#obx-home-template .red-bg,
-#obx-home-template .red-bg h2 {
+.obx-home-template .red-bg,
+.obx-home-template .red-bg h2 {
     background-color: #970403;
     color: #ffffff;  
 }
-#obx-home-template .red-bg span {
+.obx-home-template .red-bg span {
     display: block;
     position: relative;
-    padding-left: 100px;
-    margin-bottom: 30px;
+    padding-left: 105px;
 }
 
-#obx-home-template .red-bg span.track::before {
+.obx-home-template .red-bg span.track::before {
     content: url('https://www.chsoilfield.com/wp-content/uploads/2024/01/performance.svg');
     position: absolute;
-    top: -10px;
+    top: 33px;
     left: 36px;
 }
-#obx-home-template .red-bg span.support::before {
+.obx-home-template .red-bg span.support::before {
     content: url('https://www.chsoilfield.com/wp-content/uploads/2024/01/customer-service.svg');
     position: absolute;
-    top: -10px;
-    left: 36px;
+    top: 50px;
+    left: 35px;
 }
-#obx-home-template .red-bg span.experience::before {
+.obx-home-template .red-bg span.experience::before {
     content: url('https://www.chsoilfield.com/wp-content/uploads/2024/01/satisfaction.svg');
     position: absolute;
-    top: -10px;
-    left: 36px;
+    top: 6px;
+    left: 34px;
 }
-#obx-home-template .red-bg span.billing::before {
+.obx-home-template .red-bg span.billing::before {
     content: url('https://www.chsoilfield.com/wp-content/uploads/2024/01/invoice.svg');
     position: absolute;
-    top: -10px;
-    left: 46px;
+    top: 8px;
+    left: 44px;
 }
-#obx-home-template .red-bg span.lodging::before {
+.obx-home-template .red-bg span.lodging::before {
     content: url('https://www.chsoilfield.com/wp-content/uploads/2024/01/hotel.svg');
     position: absolute;
-    top: -10px;
-    left: 46px;
+    top: 33px;
+    left: 41px;
 }
-#obx-home-template .red-bg span.fees::before {
+.obx-home-template .red-bg span.fees::before {
     content: url('https://www.chsoilfield.com/wp-content/uploads/2024/01/no-annual-fees.png');
     position: absolute;
-    top: -10px;
-    left: 43px;
+    top: 19px;
+    left: 37.5px;
 }
-#obx-home-template .red-bg .col.content {
-    flex-basis: 42.5%;
+.obx-home-template .red-bg .col.content {
+    flex-basis: 46.5%;
     align-self: center;
 }
-#obx-home-template .red-bg .col.icons {
+.obx-home-template .red-bg .col.icons {
     flex-basis: 62.5%;
     border-left: 3px solid white;
 }
-#obx-home-template .red-bg .col.icons li {
+.obx-home-template .red-bg .col.icons li {
     list-style-type: none;
+}
+.obx-home-template .flex-with-images .flex-row {
+    column-gap: 60px;
+}
+.obx-section.flex-with-images .col {
+    flex-basis: 50%;
+    align-self: center;
+}
+
+
+.obx-housing-row {
+    text-align: center;
+}
+.obx-housing-row p:last-of-type {
+    margin-bottom: 0
+}
+.obx-housing-row h2 {
+    margin-bottom: 60px;
+    font-size: 28px
+}
+.obx-housing-row .flex-row {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.obx-housing-row h3 {
+    font-size: 18px;
+    margin-bottom: 20px
+}
+.obx-housing-row a {
+    font-weight: 700; 
+    text-decoration: underline;
+}
+.obx-house {
+    flex-basis: 20%;
+}
+.obx-house img {
+    max-width: 80%;
+    margin: 0 auto 20px;
+}
+
+.obx-cta {
+    padding: 60px
+}
+.obx-cta,
+.obx-cta h2 {
+    color: #fff;
+    max-width: 772px;
+    margin: 0 auto;
+    text-align: center;
+}
+.obx-cta h2 {
+    max-width: 555px;
+    line-height: 1.2;
+    margin: 0 auto 20px
+}
+.obx-cta p {
+    margin-bottom: 30px;
+}
+.obx-cta a {
+    margin: 0 auto;
+}
+.obx-home-template .obx-container {
+    max-width: 1212px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.obx-home-template .flex-row .col p:last-of-type {
+    margin-bottom: 0;
+}
+@media (max-width: 1024px ) {
+
+    .obx-section.flex-with-images .col {
+        align-self:center;
+    }
+    
+    .obx-section.video .flex-row {
+        display: block;
+    }
+    .obx-section.video .flex-row .media {
+        margin-bottom: 30px;        
+    }
+}
+
+@media (max-width: 768px ) {
+    .obx-section .flex-row {
+        flex-direction: column;
+    }
+    .obx-section .col:not(.col.icons) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .obx-section .col.media {
+        order: 1;
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .obx-section .col.content: {
+        margin-bottom: 10px;
+    }
+    .obx-section .col.content p:last-of-type {
+        margin-bottom: 0;
+        
+    }
+    .obx-home-template .red-bg .col.icons {
+        border-left: none;
+    }
+    .obx-section .col img {
+        width: 100%;
+    }
+    .obx-section .col .media {
+        order: 0;
+    }
+    #obx-temp-footer .vc_row.wpb_row.vc_inner.vc_row-fluid {
+    display: flex;
+}
+    #obx-temp-footer .wpb_column.vc_column_container.vc_col-sm-2 {
+        display: none;
+    }
+
+}
+.obx-housing-row {
+    text-align: center;
+}
+.obx-housing-row p:last-of-type {
+    margin-bottom: 0
+}
+.obx-housing-row h2 {
+    margin-bottom: 60px;
+    font-size: 28px
+}
+
+.obx-housing-row .flex-row {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.obx-housing-row h3 {
+    font-size: 18px;
+    margin-bottom: 20px
+}
+.obx-housing-row a {
+    font-weight: 700; 
+    text-decoration: underline;
+}
+.obx-house {
+    flex-basis: 20%;
+}
+.obx-house h3 {
+    margin-top:0;
+    font-family: "GothamBook", sans-serif;
+    font-weight: 700;
+}
+.obx-house img {
+    max-width: 80%;
+    margin: 0 auto 30px;
+}
+@media (max-width: 900px) {
+        .obx-home-template .obx-section.top-banner {
+        background-position-x: 35%;
+}
+}
+@media (max-width: 700px) {
+        .obx-home-template .obx-section.top-banner {
+        background-position-x: 45%;
+}
+}
+@media (max-width: 767px) {
+    #obx-home-testimonials,
+    #testimonials-title {
+        display: none;
+    }
+    .obx-house {
+    flex-basis: 40%;
+        margin-bottom: 60px;
+}
+    .obx-housing-row .flex-row {
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+}
+@media only screen and (max-width: 540px) {
+.obx-house {
+    flex-basis: 50%;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+    .obx-house img {
+        margin-bottom: 20px;
+    }
+    .obx-housing-row .flex-row {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+    .obx-cta {
+        padding: 60px 10px;
+    }
+    .obx-home-template .red-bg span {
+        padding-left: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+}
+    .obx-home-template .red-bg span:last-of-type {
+        margin-bottom: 0px;
+}
+    .obx-home-template .red-bg span:first-of-type{
+        margin-top: 50px
+    }
+    .obx-home-template .red-bg span.track::before,
+    .obx-home-template .red-bg span.support::before,
+    .obx-home-template .red-bg span.experience::before {
+    top: -52px;
+    left: 45%;
+}
+        .obx-home-template .red-bg span.billing::before,
+    .obx-home-template .red-bg span.lodging::before {
+    top: -52px;
+    left: 46.75%;
+}
+        .obx-home-template .red-bg span.fees::before {
+    top: -52px;
+    left: 45%;
+}
 }
