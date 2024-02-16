@@ -1,8 +1,20 @@
+.archive-description, .entry {
+    max-width: unset;
+}
+
 #obx-homepage-template h1 {
     font-size: 46px;
 }
 #obx-homepage-template .obx-section {
     padding: 60px 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+#obx-homepage-template hr {
+    color: #cccccc;
+    max-width: 1198px;
+    margin: 0 auto;
 }
 #obx-homepage-template h2,
 #obx-homepage-template p {
@@ -19,20 +31,24 @@
     height: auto;
     object-fit: cover;
 }
-.obx-container {
-    max-width: 1194px;
+#obx-homepage-template .obx-container {
+    max-width: 1234px;
     margin: 0 auto;
+    padding: 0 20px;
 }
-.top-banner {
+#obx-homepage-template .col.content {
+    margin: 0;
+}
+#obx-homepage-template .top-banner {
     background-size:cover;
     background-repeat: no-repeat;
     background-position-x: right
 }
-.top-banner .col.content {
+#obx-homepage-template .top-banner .col.content {
     max-width:684px;
     padding: 124px 0;
 }
-a.obx-button.blue {
+#obx-homepage-template a.obx-button.blue {
     display: inline-block;
     background-color: #3353BD;
     border: 2px solid #3353BD;
@@ -40,99 +56,305 @@ a.obx-button.blue {
     padding: 9px 53px 12px;
     margin-right: 30px;
 }
-a.obx-button.blue.trans-bg {
+#obx-homepage-template a.obx-button.blue.trans-bg {
     background-color: transparent;
     color: #3353BD;
 }
-a.obx-button.blue:hover {
+#obx-homepage-template a.obx-button.blue:hover {
     background-color: transparent;
     color: #3353BD
 }
-a.obx-button.blue.trans-bg:hover {
+#obx-homepage-template a.obx-button.blue.trans-bg:hover {
     background-color: #3353BD;
-    color: #ffffff;
-    
+    color: #ffffff;   
 }
-.banner-bar {
+#obx-homepage-template .wpb_gallery .wpb_flexslider .flex-control-paging {
+    display: none;
+}
+#obx-homepage-template .banner-bar {
     padding: 30px 0;
-    box-shadow: 0px 15px 10px -20px rgba(0,0,0,0.45);
+    box-shadow: 0px 6px 20px 0px rgba(0,0,0, .1);
 }
-.banner-bar .obx-container {
-    max-width: 700px;
+#obx-homepage-template .banner-bar .obx-container {
+    max-width: 746px;
     margin: 0 auto;
 }
-.banner-bar span {
+#obx-homepage-template .banner-bar span {
     text-transform: uppercase;
     font: bold 18px Source Sans Pro, sans-serif;
     margin-right: 16%;
 }
-.banner-bar a {
+#obx-homepage-template .banner-bar a {
     font-size: 16px;
 }
-.flex-row {
+#obx-homepage-template .flex-row {
     display: flex;
     column-gap: 87px;
 }
-.flex-row:has(.img-card) {
+#obx-homepage-template .flex-row:has(.img-card) {
     column-gap: 30px
 }
-.flex-row .col {
+#obx-homepage-template .flex-row .col {
     flex-basis: 50%;
 }
-.flex-row .col.content {
+#obx-homepage-template .flex-row .col.content {
     align-self: center;
 }
-
-
-hr {
-    color: #cccccc;
-    max-width: 1198px;
-    margin: 0 auto;
+#obx-homepage-template .link-row h2 {
+    display: inline-block;
 }
-
-.border-content {
+#obx-homepage-template .link-row a {
+    float: right;
+    margin-top: 9px;
+}
+#obx-homepage-template .border-content {
     border: 4px solid #5472D2;
     padding: 60px;
 }
-.border-content .flex-row {
+#obx-homepage-template .border-content .flex-row {
     column-gap: 60px;
 }
-.border-content .col.content {
+#obx-homepage-template .border-content .col.content {
     flex-basis: 65%;
 }
-.border-content .col.btn {
+#obx-homepage-template .border-content .col.btn {
     flex-basis: 30%;
     align-self: center;
 }
-.ra h2 {
+#obx-homepage-template .ra h2 {
     margin-bottom: 30px;
 }
-.ra .flex-row {
+#obx-homepage-template .ra .flex-row {
     column-gap: 30px;
 }
-
-
-.flex-item.article-content img {
+#obx-homepage-template .flex-item.article-content img {
     margin-bottom: 20px;
 }
-@media (max-width: 768px) {
-    .flex-row {
-    flex-direction: column;
-    }
-    .flex-row .col.content {
-        order: 1
-    }
-}
-
-.flex-item.img-card {
+#obx-homepage-template .flex-item.img-card {
     text-align: center;
 }
-.flex-item.img-card span {
+#obx-homepage-template .flex-item.img-card span {
     font: bold 24px Source Sans Pro, sans-serif;
     display: block;
     margin: 22px 0 20px;
 }
-.flex-item.img-card a {
+#obx-homepage-template .flex-item.img-card a {
     /* width: 100%; */
     min-width: -webkit-fill-available;
 }
+
+
+#obx-homepage-template .flex-caption {
+    padding: 60px 140px;
+}
+
+#obx-homepage-template a.flex-prev {left: 50px;}
+#obx-homepage-template a.flex-next {right: 50px;}
+.flex-direction-nav a:before {
+    font-family: flexslider-icon;
+    font-size: 40px;
+    display: inline-block;
+    content: '\f001';
+    color: rgba(0,0,0,.3);
+}
+
+
+#obx-homepage-template h2.post-title a {
+    font-size: 28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#obx-homepage-template .wpmtst-testimonial.testimonial.t-slide {
+    width: inherit!important;
+    
+}
+#obx-homepage-template .wpmslider-viewport {
+    overflow: visible!important;
+}
+#obx-homepage-template .wpmtst-testimonial-content.testimonial-content {
+    font-style: normal;
+}
+
+#obx-homepage-template p.wpmtst-testimonial-heading.testimonial-heading {
+    font-size: 36px;
+    text-align: left;
+    font-family: 'asap-condensed';
+}
+#obx-homepage-template .wpmtst-testimonial-heading.testimonial-heading a {
+    color: #000000;
+    text-decoration: none;
+}
+#obx-homepage-template .strong-view.wpmtst-modern.nav-position-inside .wpmtst-testimonial-inner {
+    padding: 0px 100px 60px;
+    max-height: 300px;
+}
+#obx-homepage-template .wpmtst-testimonial-content.testimonial-content {
+    text-align: left;
+}
+#obx-homepage-template .wpmtst-testimonial-image.testimonial-image {
+    max-width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 155px;
+    bottom: -5.5px;
+}
+#obx-homepage-template .initials {
+    max-width: 60px!important;
+    height: 60px!important;
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    padding: 16px 0;
+}
+#obx-homepage-template .wpmtst-testimonial-field.testimonial-field.testimonial-name
+{
+    display: inline;
+    position: absolute;
+    left: 230px;
+    bottom: -25px;
+    font-weight: 700;
+    font-family: 'asap-condensed';
+    text-transform: uppercase;
+}
+
+
+#obx-homepage-template .strong-view.wpmtst-modern .wpmtst-testimonial-image .initials {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+#obx-homepage-template .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
+    bottom: -38px;
+    left: 48%;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+#obx-homepage-template .strong-view.wpmtst-modern .wpmtst-testimonial-content:before {
+    content: "";
+    left: -105px;
+    top: 2px;
+    -webkit-mask: url(//journeylite.com/wp-content/uploads/2024/02/Path-4.png) center center no-repeat;
+    mask: url(https://journeylite.com/wp-content/uploads/2024/02/Path-4.png) center center no-repeat;
+}
+#obx-homepage-template .strong-view.wpmtst-modern .wpmtst-testimonial-content:before, .strong-view.wpmtst-modern .wpmtst-testimonial-content:after {
+    background: #000;
+    width: 50px;
+    height: 66px;
+    position: absolute;
+}
+#obx-homepage-template .strong-view.wpmtst-modern .wpmtst-testimonial-content:after {
+    content: "";
+    right: -86px;
+    bottom: -25px;
+    -webkit-mask: url(//journeylite.com/wp-content/uploads/2024/02/Path-5.png) center center no-repeat;
+    mask: url(//journeylite.com/wp-content/uploads/2024/02/Path-5.png) center center no-repeat;
+}
+
+#obx-homepage-template div#gform_wrapper_32 {
+    border: 1px solid #707070;
+    padding: 30px;
+}
+
+#obx-homepage-template .col.form {
+    flex-basis: 50%;
+}
+@media (max-width: 1440px) {
+#obx-homepage-template .top-banner {
+    background-position-x: 70%;
+}
+}
+
+@media (max-width: 1024px) {
+    #obx-homepage-template .flex-row .col {
+        align-self: center;
+    }
+}
+@media (max-width: 860px) {
+.site-inner {
+    padding: 0;
+}
+}
+
+@media (max-width: 768px) {
+    #obx-homepage-template .flex-row:not(:has(.img-card)) {
+    flex-direction: column;
+    }
+    #obx-homepage-template .flex-row .col.content {
+        order: 1
+    }
+    #obx-homepage-template .flex-row .col {
+        align-self: unset;
+    }
+    #obx-homepage-template .flex-row .col.img {
+        margin-bottom: 20px;
+    }
+
+     #obx-homepage-template .flex-item.img-card:last-of-type {
+         margin-bottom: 0;
+     }
+    #obx-homepage-template .flex-caption {
+        padding: 60px 80px;
+    }
+    #obx-homepage-template a.flex-prev {
+        left: 20px;
+    }
+    #obx-homepage-template a.flex-next {
+        right: 20px;
+    }
+    #obx-homepage-template .strong-view.wpmtst-modern.nav-position-inside .wpmtst-testimonial-inner {
+        padding: 0px 60px 60px;
+    }
+    #obx-homepage-template .wpmtst-testimonial-image.testimonial-image {
+        left: 116px;
+    }
+    #obx-homepage-template .initials {
+        left: 0px;
+        bottom: -40px;
+        padding: 16px 0;
+    }
+    #obx-homepage-template .wpmtst-testimonial-field.testimonial-field.testimonial-name {
+        left: 195px;
+        bottom: -25px;
+    }
+    #obx-homepage-template .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
+        left: 21%;
+    }
+
+    
+    #obx-homepage-template span.excerpt {
+        border-bottom: 2px solid #cccccc;
+        padding-bottom: 30px;
+    }
+    #obx-homepage-template .border-content .col.btn {
+        order: 1;
+        align-self: flex-start;
+    }
+    #obx-homepage-template .form-section .col.img img {
+        height: 550px;
+        object-position: center -191px;
+    }
+    
+}
+@media (max-width: 540px) {
+    #obx-homepage-template .flex-row:has(.img-card) {
+        flex-direction: column;
+    }
+        #obx-homepage-template .flex-item.img-card {
+        margin-bottom: 60px;
+        box-shadow: 0px 0px 5px #eeeeee;
+        padding: 40px;
+    }
+}
+
+
+
+
+
+
+
+
