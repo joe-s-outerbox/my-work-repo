@@ -1,0 +1,120 @@
+
+footer.site-footer {
+    background:#F7F7F7;
+    margin: 0;
+    padding: 0 20px;
+    
+}
+footer.site-footer .obx-container {
+    max-width: 1456px;
+    margin: 0 auto;
+}
+footer.site-footer .footer-column__links {
+    max-width: 18%;
+}
+footer.site-footer .footer-column__links:last-of-type{
+    margin-left: 56px;
+}
+
+.footer-row__columns.flex-row {
+    border-top: 3px solid #5FAD00;
+    border-bottom: 1px solid #707070;
+    padding: 60px 0 100px;
+}
+.footer-row__columns .link-list__header {
+    font: 700 20px 'Source Sans Pro';
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px
+}
+footer.site-footer .footer-column__links ul {
+    margin-bottom: 30px;
+}
+
+footer.site-footer .footer-column__links li:not(li:last-of-type) {
+    margin-bottom: 15px;
+}
+footer.site-footer .footer-column__links a {
+    color: #333333;
+    text-decoration: none;
+    text-transform: none;
+    font: 200 18px 'Source Sans Pro', sans serif;
+}
+footer.site-footer .footer-column__links a:hover {
+    text-decoration: underline;
+}
+.footer-row__image {
+    padding: 60px 30px 50px
+}
+.footer-row__image img {
+    max-width: 300px;
+    aspect-ratio: 306 / 82;
+}
+.footer-row__copyright {
+    padding: 10px 0 6px;
+    position: relative;
+}
+.footer-row__copyright img {
+    float: right;
+    margin: 0 5px;
+    width: 21px;
+    height: auto;
+    vertical-align: middle;
+}
+
+img.mail-icon {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+}
+
+img.mail-icon {}
+
+img.fb-icon {
+    position: absolute;
+    right: 30px;
+}
+@media only screen and (max-width: 1024px) {
+    .wrap:has(#obx-footer) {
+        margin: 0 auto;
+        text-align: left;
+    }
+    footer.site-footer .footer-column__links ul {
+        text-align: left;
+    }
+    .footer-row__columns.flex-row {
+        flex-wrap: wrap;
+    }
+    footer.site-footer .footer-column__links {
+        flex: 0 0 50%;
+        max-width: 45%;
+    }
+    footer.site-footer .footer-column__links:nth-of-type(2) {
+        order: 1;
+    }
+    footer.site-footer .footer-column__links:last-of-type {
+        margin: 0
+    }
+}
+@media only screen and (max-width: 540px) {
+        .wrap:has(#obx-footer) {
+    }
+   .footer-row__columns.flex-row {
+        flex-direction: column;
+       padding: 20px 0;
+    }
+    footer.site-footer .footer-column__links {
+        max-width: 100%;
+    }
+    .footer-row__image {
+        padding: 20px;
+    }
+    .footer-row__image img {
+        max-width: unset;
+    }
+}
+
+
+
+
+

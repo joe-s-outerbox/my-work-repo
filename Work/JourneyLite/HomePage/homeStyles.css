@@ -180,6 +180,7 @@
     font-size: 36px;
     text-align: left;
     font-family: 'asap-condensed';
+    line-height: 1;
 }
 #obx-homepage-template .wpmtst-testimonial-heading.testimonial-heading a {
     color: #000000;
@@ -281,6 +282,9 @@
 }
 
 @media (max-width: 768px) {
+    #obx-homepage-template .top-banner {
+    background-position-x: 35%;
+    }
     #obx-homepage-template .flex-row:not(:has(.img-card)) {
     flex-direction: column;
     }
@@ -333,14 +337,28 @@
     #obx-homepage-template .border-content .col.btn {
         order: 1;
         align-self: flex-start;
+        margin-top: 30px;
     }
     #obx-homepage-template .form-section .col.img img {
         height: 550px;
-        object-position: center -191px;
+        /* object-position: center -123px; */
     }
     
 }
 @media (max-width: 540px) {
+    #obx-homepage-template .top-banner {
+        background-position-x: 45%;
+    }
+    #obx-homepage-template .top-banner .col.content {
+    padding: 40px 0;
+}
+    #obx-homepage-template a.obx-button.blue {
+        display: block;
+        margin: 0 auto;
+        min-width: 98%;
+        text-align: center;
+        margin-bottom: 20px
+    }
     #obx-homepage-template .flex-row:has(.img-card) {
         flex-direction: column;
     }
@@ -349,12 +367,102 @@
         box-shadow: 0px 0px 5px #eeeeee;
         padding: 40px;
     }
+    #obx-homepage-template .banner-bar a,
+    #obx-homepage-template .banner-bar span {
+        display: block;
+        margin: 0 auto;
+        max-width: fit-content;
+    }
+    #obx-homepage-template .strong-view.wpmtst-modern .wpmtst-testimonial-content:before {
+        left: -70px;
+    }
+    #obx-homepage-template .flex-caption {
+    padding: 40px 70px;
+}
+#obx-homepage-template .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
+    left: 73%;
+}
+    #obx-homepage-template .wpmtst-testimonial-image.testimonial-image {
+    left: 56px;
+    }
+    #obx-homepage-template .wpmtst-testimonial-field.testimonial-field.testimonial-name {
+    left: 129px;
+}
 }
 
 
 
 
+#obx-homepage-template .form-section .flex-row {
+    column-gap: 60px;
+}
 
+#obx-homepage-template .form-section .col.img {
+    flex-basis: 40%;
+}
 
+#obx-homepage-template .col.form {
+    flex-basis: 60%;
+}
+#obx-homepage-template .form-wrapper {
+        border: 1px solid #707070;
+        padding: 30px;
+        margin-bottom: 20px;
+}
+#obx-homepage-template label.gfield_label.gform-field-label {
+    display: none;
+}
+#obx-homepage-template .form-section input::placeholder {
+    color: #707070
+}
+#obx-homepage-template .form-section .gform_footer.top_label {
+    padding-bottom: 0
+}
+#obx-homepage-template #gform_submit_button_43 {
+    display: block;
+    background: #5fad00;
+    border: 2px solid #5fad00;
+    max-width: fit-content;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    padding: 9px 68px 12px;
+    border-radius: 5px;
+    transition: all .25s ease;
+}
+#obx-homepage-template .obx-button:hover {
+    box-shadow: 0 6px 24px rgba(0,0,0,.14);
+    transform: translate3d(0,-3px,0);
+}
+#obx-homepage-template .form-contact.grey a:before {
+    content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIGhlaWdodD0iMThweCIgd2lkdGg9IjE4cHgiIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTIyLjg4IDEyMi4yNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTIyLjg4IDEyMi4yNyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PHBhdGggZD0iTTMzLjg0LDUwLjI1YzQuMTMsNy40NSw4Ljg5LDE0LjYsMTUuMDcsMjEuMTJjNi4yLDYuNTYsMTMuOTEsMTIuNTMsMjMuODksMTcuNjNjMC43NCwwLjM2LDEuNDQsMC4zNiwyLjA3LDAuMTEgYzAuOTUtMC4zNiwxLjkyLTEuMTUsMi44Ny0yLjFjMC43NC0wLjc0LDEuNjYtMS45MiwyLjYyLTMuMjFjMy44NC01LjA1LDguNTktMTEuMzIsMTUuMy04LjE4YzAuMTUsMC4wNywwLjI2LDAuMTUsMC40MSwwLjIxIGwyMi4zOCwxMi44N2MwLjA3LDAuMDQsMC4xNSwwLjExLDAuMjEsMC4xNWMyLjk1LDIuMDMsNC4xNyw1LjE2LDQuMiw4LjcxYzAsMy42MS0xLjMzLDcuNjctMy4yOCwxMS4xIGMtMi41OCw0LjUzLTYuMzgsNy41My0xMC43Niw5LjUxYy00LjE3LDEuOTItOC44MSwyLjk1LTEzLjI3LDMuNjFjLTcsMS4wMy0xMy41NiwwLjM3LTIwLjI3LTEuNjkgYy02LjU2LTIuMDMtMTMuMTctNS4zOC0yMC4zOS05Ljg0bC0wLjUzLTAuMzRjLTMuMzEtMi4wNy02Ljg5LTQuMjgtMTAuNC02Ljg5QzMxLjEyLDkzLjMyLDE4LjAzLDc5LjMxLDkuNSw2My44OSBDMi4zNSw1MC45NS0xLjU1LDM2Ljk4LDAuNTgsMjMuNjdjMS4xOC03LjMsNC4zMS0xMy45NCw5Ljc3LTE4LjMyYzQuNzYtMy44NCwxMS4xNy01Ljk0LDE5LjQ3LTUuMmMwLjk1LDAuMDcsMS44LDAuNjIsMi4yNSwxLjQ0IGwxNC4zNSwyNC4yNmMyLjEsMi43MiwyLjM2LDUuNDIsMS4yMSw4LjEyYy0wLjk1LDIuMjEtMi44Nyw0LjI1LTUuNDksNi4xNWMtMC43NywwLjY2LTEuNjksMS4zMy0yLjY2LDIuMDMgYy0zLjIxLDIuMzMtNi44Niw1LjAyLTUuNjEsOC4xOEwzMy44NCw1MC4yNUwzMy44NCw1MC4yNUwzMy44NCw1MC4yNXoiLz48L2c+PC9zdmc+");
+    margin-right: 10px;
+}
+#obx-homepage-template .form-contact.grey {
+    background: #f7f7f7;
+    padding: 30px;
+}
+#obx-homepage-template .form-contact.grey p {
+    margin-bottom: 20px;
+}
 
+#obx-homepage-template p.gform_required_legend {
+    display: none
+}
 
+#obx-homepage-template .gform_wrapper.gravity-theme .gfield input.medium, .gform_wrapper.gravity-theme .gfield select.medium {
+    width: 100%;
+}
+
+#obx-homepage-template .wpmtst-testimonial-content.testimonial-content p:last-of-type {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+#obx-homepage-template .obx-section.testimonials {
+    padding-bottom: 100px;
+}
