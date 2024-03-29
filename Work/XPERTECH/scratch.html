@@ -1,0 +1,21 @@
+<style>
+h3.icon_row_title {
+    min-height: 76px;
+}
+    @media only screen and (width >= 768px) {
+    .two-col-ul {
+        column-count: 2;
+        column-gap: 30px;
+    }
+    h3.icon_row_title {
+    min-height: 75px;
+    }
+}
+@media only screen and (width <=768px) {
+    .wp-block-columns:has(.two-col-ul) {
+        display: block;
+    }
+    .wp-block-columns:has(.two-col-ul) img {
+        margin-bottom: 40px
+    }
+}
