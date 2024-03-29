@@ -1,0 +1,73 @@
+/*change book button, change font in nav*/
+.site-links__content .grid__cell:first-of-type a {
+    color: #000;
+    background: #eeeeee;
+    padding: 13px 20px;
+}
+.main-nav {
+    font: 700 22px 'Arial', sans serif!important;
+}
+/*hide home in nav*/
+.main-nav:first-of-type li.main-nav__item.grid__cell:first-of-type {
+    display: none
+}
+/*adjust hamburger*/
+.menu-layout-trigger--trigger-align-center {
+    text-align: left;
+    margin-bottom: -40px;
+}
+.menu-layout-trigger__content {
+    margin-left: 0;
+}
+.menu-layout-trigger__content span {
+    color: #000
+}
+.menu-layout-trigger__content::before {
+    content: ">"
+}
+
+/*
+TLDR:
+Nav changes limited
+-can't reorder
+-can only hide home with CSS
+-no hamburger menu or realignment
+-image size for menu will require new image
+-banner in that position doesn't look doable
+Everything else within the body of all pages can be accomplished with custom HTML/CSS blocks, FAQs may need to be static (not accordion)
+
+Nav
+-only some changes doable:
+-button change is doable
+-font change can be forced with CSS
+-order cannot be changed,could hide home
+-mobile images possibly needed
+-no hamburger menu
+-banner in that position is unclear
+-sticky contrast doable
+-homepage hero - best bet is to resize the image itself
+-high-contrast CTA button doable
+
+Homepage 
+-redesign doable - this is all our custom code in an HTML block
+-Testimonial can be added
+-FAQ can be added
+-Blogs/Insta feeds can be added
+
+Wedding Dresses 
+-Testimonials, Designer Icons to  should be doable 
+    -location shown is the start of our current code block
+
+Book Appointment 
+-currently made of PhotoBiz block, but rearranging, adding custom content like Home and Wedding Dress page doable
+-FAQs doable
+-CTA map buttons doable
+
+Dublin/Raleigh
+-All doable
+-Maps should be doable
+-reviews move doable
+
+Locations
+-All should be doable
+--events, testimonials, faqs will be custom html blocks
