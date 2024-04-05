@@ -1,0 +1,126 @@
+.orangebutton.obx-button.animated.fadeIn {
+    border: 3px white solid;
+    font: 400 20px/24px 'Abel';
+    padding: 13px 0 11px;
+    max-width: 220px;
+    min-width: fit-content;
+    text-transform: uppercase;
+}
+.obx.centered {
+    text-align: center;
+}
+.obx.basic-html.centered .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.obx.basic-html.centered {
+    padding: 100px 0
+}
+.obx h2 {
+    font-weight: 600;
+}
+.productimage2 {
+    margin-bottom: 30px;
+}
+@media only screen and (width >= 1024px){
+.orangebutton.obx-button.animated.fadeIn {
+    margin-bottom: 30px;
+}
+    .welcomefluid {
+        padding-top: 200px
+    }
+}       
+
+.obx .icon-row,
+.obx .flex {
+    display: flex;
+}
+.obx.image-flex-row .flex {
+    column-gap: 8%;
+}
+.obx.image-flex-row .col.media {
+    flex-basis: 36%;
+    align-self: center;
+}
+.obx.image-flex-row .col.content {
+    flex-basis: 55%;
+    
+}
+.obx.image-flex-row.video .flex {
+    column-gap: 5%;
+}
+.obx.image-flex-row.video .col.media{
+    flex-basis: 50%;
+    align-self: center;
+}
+.obx.image-flex-row.video .col.content {
+    flex-basis: 50%;
+    
+}
+
+.container-fluid.obx.image-flex-row {padding: 60px 0;}
+.container-fluid.obx.image-flex-row h2 {
+    font-size: 30px;
+}
+.container-fluid.obx.image-flex-row h3 {
+    font: 600 17px/1.4 'Abel';
+    margin-bottom: 0;
+}
+.container-fluid.obx.image-flex-row p,
+.container-fluid.obx.image-flex-row icon-row p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.icon-img {
+    align-self: center;
+}
+.icon-body {
+    margin-left: 23px;
+}
+.container-fluid.obx.image-flex-row .obx-button {
+    margin: 30px 0
+}
+@media only screen and (width <= 768px) {
+    .obx.basic-html.centered {
+    padding: 40px 0;
+}
+}
+@media only screen and (width < 768px) {
+    .obx .flex {
+        flex-direction: column;
+    }
+    .obx.image-flex-row.video .col.media,
+    .obx.image-flex-row .col.media{
+        align-self: unset;
+        flex-basis: unset;
+        order: 2;
+    }
+    .container-fluid.obx.image-flex-row .obx-button {
+    margin: 30px auto;
+}
+}
+
+.col.media img {
+    width: 100%;
+}
+
+.container-fluid.obx.image-flex-row.grey {
+    background-color: #F0F0F0;
+}
+.obx.image-flex-row.video .col.media iframe {
+    width: 100%;
+}
+
+
+.container-fluid.blogfluid {
+    color: #fff;
+}
+
+.container-fluid.aboutfluid {
+    background: #95CFFE;
+    
+}
+.container-fluid.aboutfluid p {
+    font-style: normal;
+}

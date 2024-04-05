@@ -1,0 +1,25 @@
+@media only screen and (width >= 768px) {
+    .breadcrumb {
+        margin-bottom: 60PX
+    }
+    .authority-featured-image {
+    margin-bottom: 40px;
+}
+.authority-featured-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.content-sidebar-wrap {
+    /* margin-top: 60px; */
+}
+
+aside#genesis-sidebar-primary {
+    margin-top: 100px;
+}
+.entry-meta {
+    margin-bottom: 60px;
+}
+}
