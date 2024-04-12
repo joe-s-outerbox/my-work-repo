@@ -1,0 +1,82 @@
+
+
+    
+    #txt-search {
+        min-height: 44px;
+    }
+    div#logo img {
+        margin: 0!important;
+    }
+    div#logo {
+        width: 17.5%;
+        padding-top: 0;
+    }
+    #menu-main-nav li a {
+        padding: 0;
+    }
+    div#nav-search {
+        display: flex;
+        max-width: 80%
+    }
+    div#nav-search .two.columns.omega {
+        padding-top: 5px;
+    }
+    .container:has(#logo) {
+        padding: 0 20px;
+    }
+    div#nav-flex-wrapper {
+        margin: 0 60px;
+    }
+@media only screen and (width <=1024px) {
+    .container:has(#logo) {
+        width: 100%;
+
+    }
+}
+@media only screen and (width = 768px) {
+
+    div#nav-flex-wrapper {
+        margin: 0 10px 0 20px;
+    }
+
+    #nav-search .column.omega, .columns.omega {
+    margin-left: 10px;
+    }
+    
+}
+div#nav-flex-wrapper img.desktop-as-img {
+    margin: 0!important;
+}
+@media only screen and (width <= 768px) {
+    #header-wrapper {
+    height: 91px;
+}
+    #header-wrapper .row {
+        margin-top: 15px
+    }
+    div#nav-search, 
+    div#nav-search img.desktop-as-img {
+    display: none;
+    }
+    div#logo{
+        width: 50%!important;
+    }
+    div#logo img {
+        width: 173px;
+        margin: 0 auto;
+    }
+    .mobile-only {
+    float: right;
+    width: 62px;
+    padding-top: 0;
+    margin-left: 0;
+}
+    .btn-side-nav {
+    top: 41%;
+    left: 25px;
+}
+    
+}
+
+ 
+

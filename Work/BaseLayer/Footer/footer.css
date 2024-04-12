@@ -1,0 +1,88 @@
+#obx-footer {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+#obx-footer > div {
+    flex: 1 1 20%;
+}
+#obx-footer span {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 20px;
+    min-height: 33px;
+    color: #d64817;
+    font-size: 1.1rem;
+}
+#obx-footer ul {
+    margin: 0 0 30px;
+    font-weight: 500;
+}
+#obx-footer li {
+    margin-bottom: 20px;
+}
+#obx-footer .footer-col:last-of-type .col-header, 
+#obx-footer li,
+#obx-footer li a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+
+#obx-footer li a {
+    max-width: fit-content;
+    margin: 0 auto 10px;
+}
+#obx-footer .footer-col:last-of-type .col-header {
+    margin: 20px 0 0;
+}
+#obx-footer li a:hover {
+    color: #d64817;
+}
+#obx-footer .phone,
+#obx-footer .mail {
+    position: relative;
+    max-width: fit-content;
+    margin: 0 auto 10px;
+}
+#obx-footer svg#Envelope {
+    position: absolute;
+    bottom: 4px;
+    left: -21px;
+}
+
+svg#Envelope {}
+#obx-footer svg#Phone {
+    position: absolute;
+    left: -20px;
+    bottom: 3px;
+}
+@media only screen and (width <= 1200px) {
+    #obx-footer {
+        flex-wrap: wrap;
+    }
+    #obx-footer > div {
+        flex-basis: 50%;
+        margin-bottom: 30px
+}
+
+}
+@media only screen and (width <= 540px) {
+    #obx-footer > div {
+    flex-basis: 100%;
+        margin-bottom: 30px
+}
+    #obx-footer .footer-col:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+    #obx-footer .footer-col:nth-of-type(3) ul {
+        margin-bottom: 0;
+    }
+    #obx-footer .footer-col:nth-of-type(4) .col-header {
+        display: none
+    }
+
+}
+
+
