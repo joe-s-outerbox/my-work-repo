@@ -1,0 +1,533 @@
+// OBX Custom CSS
+.heroCarousel-title {
+    font-family: Prompt,sans-serif!important;
+    letter-spacing: .25px;
+}
+
+.category-title.h3 {
+    font-family: Prompt,sans-serif!important;
+    letter-spacing: .25px;
+}
+
+.orange-h2 {
+    margin: 0;
+    padding: 0;
+    color: rgba(254,80,0,1);
+    font-family: Prompt, sans-serif !important;
+    font-weight: 700;
+    font-size: 34px;
+    min-height: 34px;
+    text-align: center;
+}
+
+.card .card-body .card-title.h4 {
+    color: #b33800!important;
+    font-size: 18px!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Prompt,sans-serif!important;
+    letter-spacing: .25px;
+}
+
+.productList .listItem-title.h4 {
+    color: #b33800!important;
+    font-size: 18px!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Prompt,sans-serif!important;
+    letter-spacing: .25px;
+}
+
+.sidebarBlock .sidebarBlock-heading.h5 {
+    font-family: Prompt,sans-serif!important;
+    letter-spacing: .25px;
+}
+
+.facetedSearch-navList .accordion .accordion-block .accordion-navigation .accordion-title.h5 {
+    font-family: Prompt,sans-serif!important;
+    letter-spacing: .25px;
+}
+
+.facetedSearch-refineFilters .sidebarBlock-heading.h5 {
+    font-family: Prompt,sans-serif!important;
+    color: #fe5000;
+    font-weight: 400;
+    letter-spacing: .25px;
+    margin-bottom: .77778rem;
+}
+
+.productView-brand{
+    font-family: Prompt,sans-serif!important;
+    font-weight: 400;
+    letter-spacing: .25px;
+}
+
+.videoGallery-item .video .video-body .video-title.h5 {
+    color: #fe5000;
+    font-weight: 400;
+    letter-spacing: .25px;
+    font-family: Prompt,sans-serif!important;
+}
+
+.related-products-section .section-title .section-heading.h2 {
+    font-family: Prompt,sans-serif!important;
+    letter-spacing: .25px;
+}
+
+/**OBX BOTTOM CONTENT + COMMON BLOG STYLES**/
+#obx-bottom-content .obx-video iframe {
+    width: 100%;
+    height: 100%;
+}
+#obx-bottom-content .section .obx-video .obx-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+  }
+  
+#obx-bottom-content .section .obx-video .obx-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+#obx-bottom-content {
+    text-align: left;
+    max-width: 940px;
+    margin: 0 auto;
+}
+#obx-blog .section,
+#obx-bottom-content .section {
+    margin-bottom: 60px;
+}
+#obx-blog h2,
+#obx-bottom-content h2 {
+    color: #FE5000;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+#obx-blog .obx-article-heading,
+#obx-bottom-content .obx-article-heading,
+#obx-bottom-content h3 {
+    color: #B33800;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+#obx-blog p,
+#obx-bottom-content p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#obx-blog .grey-bg,
+#obx-blog .cta,
+#obx-bottom-content .grey-bg,
+#obx-bottom-content .cta {
+    padding: 40px 60px;
+    background-position: center center;
+    background-size: cover;
+}
+#obx-blog .cta p,
+#obx-bottom-content .cta p {
+    color: #fff;
+}
+#obx-blog li,
+#obx-bottom-content li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 10px
+}
+#obx-blog .obx-list li::before,
+#obx-bottom-content .obx-list li::before {
+    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCA2IDYiPgogIDxjaXJjbGUgaWQ9ImJ1bGxldCIgY3g9IjMiIGN5PSIzIiByPSIzIiBmaWxsPSIjZmU1MDAwIi8+Cjwvc3ZnPgo=);
+    position: absolute;
+    left: -15px;
+}
+#obx-blog ol li {
+    list-style-type: decimal;
+}
+#obx-blog .flex-row,
+#obx-bottom-content .flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#obx-bottom-content .flex-content {
+    max-width: 435px;
+    align-self: center;
+}
+
+#obx-bottom-content .flex-image {
+    max-width: 455px;
+    align-self: center;
+}
+
+#obx-bottom-content .flex-image img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 455 / 319;
+}
+
+.obx-video iframe {
+    aspect-ratio: 3 / 2;
+}
+#obx-blog .obx-faq p,
+#obx-bottom-content .obx-faq p {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 24px;
+}
+#obx-blog .obx-related-articles p,
+#obx-bottom-content .obx-related-articles p {
+    margin-bottom: 20px;
+}
+#obx-blog .obx-article,
+#obx-bottom-content .obx-article {
+    max-width: 32%;
+    margin-bottom: 50px;
+}
+#obx-blog .obx-article span,
+#obx-bottom-content .obx-article span {
+    display: block;
+}
+#obx-blog .obx-article img,
+#obx-bottom-content .obx-article img {
+    margin-bottom: 10px;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 14 / 11;
+}
+#obx-blog .obx-article a,
+#obx-bottom-content .obx-article a {
+    text-decoration: none;
+}
+#obx-blog .obx-article-body,
+#obx-bottom-content .obx-article-body {
+    color: #202738;
+    line-height: 1.4;
+}
+/*OBX Blog*/
+#obx-blog {
+    max-width: 936px;
+    margin: 0 auto;
+}
+#obx-blog a {
+    text-transform: none;
+}
+#obx-blog a:hover {
+    color: #000;
+}
+#obx-blog .obx-hero img {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#obx-blog .section.obx-jumplinks {padding: 30px;border: 2px solid #E1E1E1;}
+
+#obx-blog .section.obx-jumplinks p {
+    font-weight: 700;
+    margin-bottom: 0
+}
+#obx-blog .section.obx-jumplinks hr {
+    margin: 12px 0;    
+}
+#obx-blog .section.obx-jumplinks .obx-list a {
+    color: #FE5000;
+    font-size: 18px;
+    text-decoration: none;
+}
+#obx-blog .obx-jumplinks .obx-list :last-child {
+    margin-bottom: 0;
+}
+#obx-blog .obx-list li::before{
+    left: -20px;
+    top: -3px;
+}
+#obx-blog .section.img-section img {
+    margin-bottom: 24px;
+}
+#obx-blog .caption {
+    font-size: 16px;
+    font-style: italic;
+}
+#obx-blog .caption a{
+    color: #FE5000;
+    text-decoration: none;
+}
+
+#obx-blog .section.grey-bg p {
+    margin-bottom: 0;
+}
+#obx-blog .section.cta.bottom a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fe5000;
+    border: 2px solid #fe5000;
+    padding: 10px;
+    max-width: 294px;
+    border-radius: 25px;
+}
+#obx-blog .section.cta.bottom a:hover {
+    border: 2px solid white;
+    background-color: none;
+
+}
+p.blog-date,
+h1.blog-title {
+    text-align: center !important;
+}
+h1.blog-title {
+    margin-bottom: 5px !important;
+}
+@media (max-width: 1024px) {
+    .banners.bottom-banner {
+        padding: 0
+    }
+
+    #obx-blog .grey-bg,
+    #obx-blog .cta,
+    #obx-bottom-content .grey-bg,
+    #obx-bottom-content .cta {
+        padding: 20px;
+    }
+
+    #obx-bottom-content .cta {}
+
+    #obx-bottom-content .flex-row.with-image {
+        flex-direction: column;
+        // display: block
+    }
+
+    #obx-bottom-content .flex-row .flex-image,
+    #obx-bottom-content .flex-row .flex-content {
+        max-width: unset;
+        margin: 0 auto 40px;
+    }
+    #obx-bottom-content .flex-row .flex-content {
+        order: 2;
+    }
+        #obx-bottom-content .flex-row .flex-image {
+        align-self: unset;
+        margin: 0
+    }
+    #obx-bottom-content .obx-article {
+        margin: 0 auto 40px;
+    }
+    #obx-bottom-content .flex-row img:last-child,
+    #obx-bottom-content .flex-row p:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #obx-bottom-content .flex-row {
+        flex-wrap: wrap;
+    }
+
+    .obx-video iframe {
+        aspect-ratio: 3 / 2;
+        min-height: unset;
+    }
+    li.usp-list-item {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    #obx-bottom-content .obx-article {
+        max-width: unset;
+    }
+    .usp-list .slick-slide img {
+        display: block;
+    }
+}
+@media only screen and (max-width: 540px) {
+    #obx-blog h2,
+    #obx-bottom-content h2
+    {font-size: 1.4rem}
+    #obx-blog p,
+    #obx-bottom-content p {
+        font-size: .9rem
+    }
+    #obx-blog .obx-related-articles .flex-row {
+    display: block;
+}
+    #obx-blog .obx-related-articles .flex-row .obx-article img {
+        width: 100%;
+    }
+    #obx-blog .obx-related-articles .flex-row .obx-article {
+        max-width: unset;
+    }
+}
+.obx-video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+
+.obx-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+header.blog-header {
+    max-width: 75%; 
+     margin: 0 auto;
+}
+#obx-bottom-content .obx-button,
+div#obx-blog .obx-button {
+    max-width: fit-content;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    background: rgb(254, 80, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    border-radius: 25px;
+    transition: all ease-in-out .2s;
+}
+#obx-bottom-content .obx-button:hover,
+div#obx-blog .obx-button:hover {
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px #cccccc;
+}
+
+.section.img-section {}
+#obx-blog .flex-row.blog {
+    column-gap: 50px;
+}
+#obx-bottom-content  .flex-content .obx-button,
+#obx-blog .flex-row.blog .col .obx-button {
+    margin-bottom: 0;
+}
+#obx-blog .flex-row.blog .col{
+    flex-basis: 50%;
+    align-self: center;
+}
+.flex-row.blog.dual-product {
+    text-align: center;
+}
+.flex-row.blog.dual-product .obx-button {
+    margin: 20px auto 0;
+}
+@media only screen and (max-width: 767px) {
+#obx-blog .flex-row.blog {
+    flex-direction: column;
+}
+
+#obx-blog .col.content {
+    order: 1;
+}
+}
+
+/*OBX Footer Rework*/
+#obx-footer {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+#obx-footer > div {
+    flex: 1 1 20%;
+}
+#obx-footer span {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 20px;
+    min-height: 33px;
+    color: #d64817;
+    font-size: 1.1rem;
+}
+#obx-footer ul {
+    margin: 0 0 30px;
+    font-weight: 500;
+}
+#obx-footer li {
+    margin-bottom: 20px;
+}
+#obx-footer .footer-col:last-of-type .col-header, 
+#obx-footer li,
+#obx-footer li a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+
+#obx-footer li a {
+    max-width: fit-content;
+    margin: 0 auto 10px;
+}
+#obx-footer .footer-col:last-of-type .col-header {
+    margin: 20px 0 0;
+}
+#obx-footer li a:hover {
+    color: #d64817;
+}
+#obx-footer .phone,
+#obx-footer .mail {
+    position: relative;
+    max-width: fit-content;
+    margin: 0 auto 10px;
+}
+#obx-footer svg#Envelope {
+    position: absolute;
+    bottom: 4px;
+    left: -21px;
+}
+
+svg#Envelope {}
+#obx-footer svg#Phone {
+    position: absolute;
+    left: -20px;
+    bottom: 3px;
+}
+.navPages {
+    font-size: unset;
+}
+.footer-content .footer-content-middle {
+    width: 100%;
+ }
+
+@media only screen and (max-width: 1200px) {
+    #obx-footer {
+        flex-wrap: wrap;
+    }
+    #obx-footer > div {
+        flex-basis: 50%;
+        margin-bottom: 30px
+}
+}
+@media only screen and (max-width: 540px) {
+    #obx-footer > div {
+    flex-basis: 100%;
+        margin-bottom: 30px
+}
+    #obx-footer .footer-col:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+    #obx-footer .footer-col:nth-of-type(3) ul {
+        margin-bottom: 0;
+    }
+    #obx-footer .footer-col:nth-of-type(4) .col-header {
+        display: none
+    }
+
+}
+/*END OBX Footer Rework*/
