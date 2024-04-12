@@ -434,3 +434,36 @@ Perrysburg, OH 43552
   }
 
   <p>$5000 off gastric sleeve & $1000 off other self-pay weight loss procedures - <a href="#">LEARN MORE!</a> Now prescribing Zepbound-click to <a href="">schedule a consultation!</a></p>
+
+
+  .tab-content {
+    margin-bottom: 60px;
+  }
+  .tab-content {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    max-width: 90%;
+    margin: 0 auto 60px;
+  }
+  .mobpane {
+    grid-column-start: 1;
+    grid-row: 2;
+  }
+  .tab-pane {
+    grid-column-start: ;
+    grid-row-start: 2;
+  }
+  .mobpane:first-of-type {
+    grid-column-start: 1;
+  }
+  .tab-pane:first-of-type {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  @media only screen and (width <= 540px) {
+    .product-info-detailed .tab-content {
+      display: block !important;
+    }
+  }
