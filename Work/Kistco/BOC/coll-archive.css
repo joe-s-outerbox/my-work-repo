@@ -1,0 +1,13 @@
+.obx-section.triple-flex-row.coll-arch-grid {
+    margin-bottom: 60px;
+}
+.obx-section.triple-flex-row.coll-arch-grid .flex-image {
+    flex-basis: 30%;
+    text-align: center;
+}
+.obx-section.triple-flex-row.coll-arch-grid .flex-image img {
+    margin-bottom: 30px;
+}
+.obx-section.triple-flex-row.coll-arch-grid .flex-image h3 {
+    font: 400 24px / 1.4 Stangith;
+}
