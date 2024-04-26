@@ -1,0 +1,294 @@
+
+.obx-section .container {
+    max-width: 1246px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.obx-section img {
+    width: 100%;
+    object-fit: contain;
+}
+.obx-section h2 {
+    font: 900 50px / 1.2 'AvenirNext', sans-serif;
+}
+.obx-section span {
+    display: block;
+}
+.obx-section.top-banner {
+    padding: 6.66vh 0;
+    margin-top: 60px
+}
+.obx-section .centered {
+    text-align: center;
+}
+.obx-section h1,
+.obx-section h2,
+.obx-section h3 {
+    margin: 0;
+}
+
+.obx-section .banner h1 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.267;
+}
+.obx-section .banner h3 {
+    color: #fff;
+    margin-bottom: 26px;;
+}
+
+.top-banner .obx-button {
+    display: inline-block;
+    
+}
+a.obx-button {
+    display: block;
+    background: #fff;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 14px 0 12px;
+    text-align: center;
+    max-width: 188px;
+    min-width: 188px;
+    transition: all .3s ease;
+}
+a.obx-button.white:hover {
+    background: transparent;
+    color: #ffffff;
+}
+a.obx-button.clear {
+    background: transparent;
+}
+a.obx-button.black {
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
+}
+a.obx-button.black:hover {
+    color: #000;
+    background: transparent;
+}
+.top-banner a.obx-button.clear {
+    color: #fff;
+    margin-left: 40px;
+}
+a.obx-button.clear:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+
+section.obx-section.gray-bg {
+    background-color: #7E7E7E;
+    padding: 30px 0;
+}
+
+.flex-row {
+    display:flex;
+}
+.sm-icon-row .flex-row {
+    justify-content: space-around;
+}
+.icon-card {
+    flex-basis: 25%;
+}
+.icon-card img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.icon-card span {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font: 900 18px/32px 'AvenirNext', sans-serif;
+}
+.obx-section.basic-html {
+    padding: 10vh 0;
+}
+.obx-section.basic-html .container {
+    max-width: 874px;
+}
+
+.obx-section.basic-html h2 {
+    
+    font-size: 50px;
+    line-height: 1.18;
+    margin: 0;
+    
+}
+
+.quote-card .column.quote {
+    flex-basis: 50%;
+}
+.quote-card .column.img-card {
+    flex-basis: 40.5%;
+    padding: 20px;
+    border: 2px solid #D9D9D9;
+    border-radius: 5px;
+}
+.quote-card .container {
+    max-width: 1416px;
+}
+.quote-card .flex-row {
+    column-gap: 8%;
+}
+.column.quote {
+    text-align: center;
+    align-self: center;
+}
+.column span {
+    display: block;
+}
+span.quote-sp {
+    font: 900 30px / 1.4 "AvenirNext", sans-serif;
+    margin-bottom: 3vh;
+}
+span.author-sp {
+    font:  900 18px / 1.8 'AvenirNext';
+    color: #707070;
+}
+.img-card img {
+    margin-bottom: 25px;
+}
+.img-card .head {
+    font: 900 28px / 1.25 'AvenirNext', sans-serif;
+}
+.img-card .body {
+    color: #707070;
+    margin-bottom: 30px;
+}
+section.obx-section .intro {
+    max-width: 908px;
+    margin: 0 auto 7vh;
+}
+section.obx-section.quote-card {
+    margin-bottom: 100px;
+}
+
+section.obx-section.p-cards.light-grey-bg {
+    background-color: #F6F6F6;
+}
+
+section.obx-section.p-cards {
+    padding: 11vh 0;
+}
+
+.p-card {
+    flex-basis: 33%;
+    border: 2px solid #707070;
+    border-radius: 5px;
+}
+.p-card span {
+    text-align: center;
+}
+
+.flex-row:has(.p-card) {
+    column-gap: 14.5%;
+}
+
+.p-card span.p-name {
+    background: #717B85;
+    color: #fff;
+    font: 900 20px / 1.4 'AvenirNext', sans-serif;
+    padding: 10px 20px;
+}
+
+.p-card span.starting {
+    color: #707070;
+    margin: 20px 0 10px;
+}
+.p-card span.p-price {
+    font: 900 24px / 1.25 'AvenirNext', sans-serif;
+    margin-bottom: 20px
+}
+.p-card .obx-button {
+    max-width: 85%;
+    margin: 0 auto 20px;
+}
+.p-cards .container {
+    max-width: 1349px;
+}
+section.obx-section.lg-icon-row.grey-bg {
+    background: #7E7E7E;
+    color: #fff;
+    padding: 6vh 0 0;
+}
+section.obx-section.icon-row.lg-icon-row.grey-bg .flex-row {
+    flex-wrap: wrap;
+}
+section.obx-section.lg-icon-row .flex-row {
+    justify-content: center; 
+}
+
+section.obx-section.lg-icon-row .flex-row:last-of-type {
+    margin-bottom: 0;
+}
+
+section.obx-section.lg-icon-row .icon-card {
+    flex-basis: 20%;
+    margin-bottom: 60px;
+}
+section.obx-section.img-car .flex-row {
+    column-gap: 5%;
+}
+section.obx-section.img-car .column.car {
+    flex-basis: 48%;
+}
+.column.car-body {
+    flex-basis: 52%;
+    align-self: center;
+}
+section.obx-section.img-car {
+    padding: 100px 0;
+}
+section.obx-section.img-car .container {
+    max-width: 1350px;
+}
+@media only screen and (width <= 768px) {
+    .flex-row:has(.p-card) {
+    column-gap: 5%;
+}
+}
+@media only screen and (width < 768px) {
+    section.obx-section.img-car,
+    section.obx-section.p-cards,
+    .obx-section.basic-html {
+        padding: 40px 0;
+    }
+    .flex-row:has(.p-card) {
+    column-gap: 5%;
+    }
+    section.obx-section .column {
+    margin-bottom: 30px;
+    }
+    .flex-row:not(.icon-row .flex-row)
+     {
+        flex-direction: column; 
+    }
+     section.obx-section.sm-icon-row .flex-row {
+        flex-wrap: wrap;
+    }
+    section.obx-section.lg-icon-row .icon-card,
+    section.obx-section.sm-icon-row .icon-card
+    {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    .p-card:not(.p-card:last-of-type) {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+
+
