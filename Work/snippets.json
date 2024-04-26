@@ -1,0 +1,11 @@
+{
+    "html": {
+      "snippets": {
+        "aa":"<a href=\"\" target=\"_blank\" rel=\"nofollow noopener\"></a>"
+      }
+    },
+    "css": {
+      "snippets": {
+      }
+    }
+}
