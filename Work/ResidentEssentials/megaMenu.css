@@ -1,0 +1,21 @@
+li.gm-item.gm-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    height: auto;
+    min-height: 40px;
+    text-decoration: none;
+    border: none;
+}
+ul.gm-tab-links {
+    display: none!important;
+}
+.gm-submenu-align-full .gm-submenu.gm-dropdown, .gm-submenu-align-full>.gm-submenu {
+    min-width: unset;
+}
+
+.gm-submenu.gm-mega.gm-submenu-bordered {
+    width: 68%!important;
+    margin: 0 auto;
+    padding: 20px 10px 0;
+}

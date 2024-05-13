@@ -39,7 +39,6 @@
 
 .top-banner .obx-button {
     display: inline-block;
-    
 }
 a.obx-button {
     display: block;
@@ -258,10 +257,23 @@ section.obx-section.img-car .container {
 }
 }
 @media only screen and (width < 768px) {
+    .obx-section .banner h1,
+    .obx-section .banner h3{
+        text-align: center
+    }
+    .obx-section .banner .obx-button,
+    .obx-section .banner a.obx-button.clear {
+        max-width: unset;
+        display: block;
+        margin: 0 auto 30px;
+    }
     section.obx-section.img-car,
     section.obx-section.p-cards,
     .obx-section.basic-html {
         padding: 40px 0;
+    }
+    section.obx-section.quote-card {
+        margin: 40px 0;
     }
     .flex-row:has(.p-card) {
     column-gap: 5%;
