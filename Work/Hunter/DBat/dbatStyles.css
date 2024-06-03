@@ -25,6 +25,7 @@
 .obx-section h2,
 .obx-section h3 {
     margin: 0;
+    text-transform: uppercase;
 }
 
 .obx-section .banner h1 {
