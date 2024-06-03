@@ -19,3 +19,18 @@ ul.gm-tab-links {
     margin: 0 auto;
     padding: 20px 10px 0;
 }
+
+
+.gm-product-img img {
+    max-height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+a.gm-target:has(img) {
+    padding-bottom: 0;
+}
+.obx-mm-shop-all li.gm-item.gm-no-submenu .gm-target {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
