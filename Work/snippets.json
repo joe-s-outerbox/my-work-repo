@@ -1,7 +1,7 @@
 {
     "html": {
       "snippets": {
-        "aa":"<a href=\"\" target=\"_blank\" rel=\"nofollow noopener\"></a>"
+        "a:n":"<a href=\"${1}\" target=\"_blank\" rel=\"nofollow noopener\"></a>"
       }
     },
     "css": {
