@@ -7,6 +7,9 @@
 #obx-page-wrapper .obx-section{
     margin: 100px auto;
 }
+#obx-page-wrapper .obx-section.page-top{
+    margin: 78px auto;
+}
 #obx-page-wrapper h1 {
     color: #3A4B85;
     font: 600 47px 'Montserrat';
@@ -35,6 +38,24 @@
     font: 700 22px 'Montserrat';
     margin-bottom: 10px;
     color: #121212;
+}
+#obx-page-wrapper .card {
+    flex-basis: 33%;
+}
+
+#obx-page-wrapper .obx-section.flex.landing-cards {
+    column-gap: 45px;
+}
+#obx-page-wrapper .obx-section.flex.landing-cards .card img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+#obx-page-wrapper .obx-section.flex.landing-cards {
+    margin: 0 0 60px;
+}
+#obx-page-wrapper .obx-section.flex.landing-cards:first-of-type {
+    margin: 100px 0 60px;
 }
 #obx-page-wrapper .ctr-txt {
     text-align: center;
@@ -80,18 +101,21 @@
 #obx-page-wrapper .grid-txt-box:last-child p{
     margin-bottom: 30px;
 }
+#obx-page-bottom-banner a.obx-btn,
 #obx-page-wrapper a.obx-btn.outline:hover,
 #obx-page-wrapper .obx-btn {
     background-color: #3A4B85;
     color: #fff;
     text-decoration: none;
-    padding: 15px 30px 14px;
+    padding: 15px 30px;
     max-width: fit-content;
     display: inline-block;
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif
     box-sizing: border-box;
     border: 1px solid #3A4B85;
     transition: all ease .25s;
+    line-height: 1;
 }
 #obx-page-wrapper .button-row .obx-btn:first-of-type {
     margin-right: 30px;
@@ -113,27 +137,40 @@
 }
 #obx-page-wrapper .flex-img {
     flex-basis: 45%;
-    align-self: center;
 }
 #obx-page-wrapper .flex-txt {
     flex-basis: 50%;
     align-self: center;
 }
-#obx-page-wrapper span.superheading {
-    font: 700 18px/24px 'Montserrat';
-    color: #334FB4;
+#obx-page-wrapper h2.superheading {
+    font: 700 18px/24px Montserrat;
+    color: #334fb4;
     margin-bottom: 10px;
 }
-#obx-page-wrapper .bg-color {
-    background-color: #334FB4;
+#obx-page-wrapper span.faux-h2 {
+        margin: 0 0 24px;
+        font: 600 35px/42px 'Montserrat', sans-serif;
 }
-.bg-color{
-       padding: 50px 100px;
+#obx-page-bottom-banner {
+    color: #fff;
+    text-align: center;
 }
-.bg-color .obx-container {
+#obx-page-bottom-banner.bg-color {
+    background-color: #081E69;
+    padding: 50px 100px;
+}
+#obx-page-bottom-banner.bg-color .obx-container {
     color: #ffffff;
+    max-width: 804px;
+    padding: 0 20px;
+    margin: 0 auto;
 }
-#obx-page-wrapper .bg-color h2 {
+#obx-page-bottom-banner.bg-color h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+}
+#obx-page-bottom-banner.bg-color a {
     color: #ffffff;
 }
 
@@ -153,14 +190,34 @@
     font-size: 16px;
     font-weight: 700;
     padding-left: 10px;
+    max-width: 90%;
+}
+#obx-page-wrapper h3.question:before {
+    content: " ";
+    position: absolute;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiBpY29uLWFjY29yZGlvbiIgYXJpYS1oaWRkZW49InRydWUiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGQ9Ik05LjU2Mjg1IDExLjk1OUM5LjM2MDIxIDExLjk1OSA5LjE5NTkzIDExLjc5NDcgOS4xOTU5MyAxMS41OTIxVjExLjQ2NTRDOS4xOTI2NiAxMC45NzQ1IDkuMjc5NTkgMTAuNTU1NiA5LjUxMTk0IDEwLjE2MkM5LjczODg1IDkuNzc3NTEgMTAuMDg3NSA5LjQ0NjUzIDEwLjU1MTkgOS4wOTkwNUMxMC45NjY4IDguNzg4MDQgMTEuMjE4MyA4LjUzMjU1IDExLjM2ODggOC4yODg0NEMxMS41MTMyIDguMDU0MTUgMTEuNTc3IDcuODA5OTQgMTEuNTc3IDcuNDk0MzNWNy40ODEwMUMxMS41NzcgNi41ODczNyAxMC45MTk5IDUuOTQ5NjMgMTAuMDA5MyA1Ljk0OTYzQzkuMTQ2OTMgNS45NDk2MyA4LjQ4MTc2IDYuNTU2IDguMzk2OTEgNy41NTg1OEM4LjM4OTk5IDcuNjQwNDEgOC4zNTU4MSA3LjcxNzU0IDguMjk5ODYgNy43Nzc2NUw4LjI5MzY2IDcuNzg0MzFDOC4yMjU0OCA3Ljg1NzU1IDguMTMwMzQgNy44OTk3NyA4LjAzMDI4IDcuOTAxMTlMNy41NTkwMyA3LjkwNzg1QzcuNDMyNzggNy45MDk2MyA3LjMxNDQ5IDcuODQ2MzggNy4yNDU4NiA3Ljc0MDRDNy4xOTA2MSA3LjY1NTA3IDcuMTczOCA3LjU1MTcxIDcuMTk3MTUgNy40NTQ5MkM3LjMwOTE2IDUuOTM2MDEgOC40MTU3NyA0Ljc0Mjg3IDEwLjAyMTcgNC43NDI4N0MxMS42MjQ2IDQuNzQyODcgMTIuODEzMSA1LjkxOTA2IDEyLjgxMzEgNy40NjEwM1Y3LjQ3NDM1QzEyLjgxMzEgNy45ODYxNCAxMi42OTk1IDguNDM4OCAxMi40NDczIDguODYxMzVDMTIuMTk5IDkuMjc3MzEgMTEuODI4MyA5LjY0Mzk3IDExLjM0NTUgMTAuMDA1OUwxMS4zNDMxIDEwLjAwNzdDMTAuOTI5IDEwLjMxMyAxMC43MDU4IDEwLjUzNDQgMTAuNTc5MSAxMC43NDZDMTAuNDU5NiAxMC45NDU1IDEwLjQwNzIgMTEuMTY3NyAxMC40MDcyIDExLjUxNzRWMTEuNTkyMUMxMC40MDcyIDExLjc5NDcgMTAuMjQyOSAxMS45NTkgMTAuMDQwMyAxMS45NTlIOS41NjI4NVpNMTAuNzA0OSAxNC4zODE1QzEwLjcwNDkgMTQuODU1NCAxMC4zNjk1IDE1LjI2MTMgOS44NjY2OCAxNS4yNjEzQzkuMzY5OTYgMTUuMjYxMyA5LjAyMjMxIDE0Ljg2MiA5LjAyMjMxIDE0LjM4MTVDOS4wMjIzMSAxMy45MDQ1IDkuMzczMDUgMTMuNTA4NCA5Ljg2NjY4IDEzLjUwODRDMTAuMzY2NSAxMy41MDg0IDEwLjcwNDkgMTMuOTExIDEwLjcwNDkgMTQuMzgxNVoiPjwvcGF0aD4NCiAgICAgIDxwYXRoIGQ9Ik0xOC41IDEwQzE4LjUgMTQuNjk0NCAxNC42OTQ0IDE4LjUgMTAgMTguNUM1LjMwNTU4IDE4LjUgMS41IDE0LjY5NDQgMS41IDEwQzEuNSA1LjMwNTU4IDUuMzA1NTggMS41IDEwIDEuNUMxNC42OTQ0IDEuNSAxOC41IDUuMzA1NTggMTguNSAxMFpNMTAgMTcuNDk2N0MxNC4xNDAzIDE3LjQ5NjcgMTcuNDk2NyAxNC4xNDAzIDE3LjQ5NjcgMTBDMTcuNDk2NyA1Ljg1OTcxIDE0LjE0MDMgMi41MDMzNSAxMCAyLjUwMzM1QzUuODU5NzEgMi41MDMzNSAyLjUwMzM1IDUuODU5NzEgMi41MDMzNSAxMEMyLjUwMzM1IDE0LjE0MDMgNS44NTk3MSAxNy40OTY3IDEwIDE3LjQ5NjdaIj48L3BhdGg+PC9zdmc+);
+    width: 20px;
+    height: 20px;
+    left: -26px;
+}
+#obx-page-wrapper h3.question:after {
+    content: url('https://cdn.shopify.com/s/files/1/1359/5151/files/caret_down_78397dd8-529a-4f4d-b95c-cfdf5ce21f52.svg?v=1699304052');
+    position: absolute;
+    /* top: 33%; */
+    right: 0;
+    width: 20px;
+    height: 20px;
+    fill: black;
 }
 
-#obx-page-wrapper .obx-section.faq h3.question:after {
-   content: url(https://cdn.shopify.com/s/files/1/2603/0862/files/icon-Close.svg?v=1686665757);
-   float: right;
-}
 #obx-page-wrapper .obx-section.faq details[open] h3.question:after {
-   content: "-";
+    content: url('https://cdn.shopify.com/s/files/1/1359/5151/files/caret_up.svg?v=1699304224');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    fill: black;
 }
 #obx-page-wrapper details.faq-item:first-of-type {
     border-top: 1px solid #EBEBEB;
@@ -205,7 +262,8 @@
 }
 }
 @media only screen and (max-width: 1023px) {
-   #obx-page-wrapper .grid-img-txt {
+   
+    #obx-page-wrapper .grid-img-txt {
       display: block;
       padding-bottom: 5px;
    }
@@ -215,11 +273,23 @@
    #obx-page-wrapper .txt-only:not(.bg-color) .obx-container{
        margin: 60px auto;
    }
-   #obx-page-wrapper .obx-section{
-      /* display: block; */
+   #obx-page-wrapper .obx-section,
+    #obx-page-wrapper .obx-section.page-top{
       flex-direction: column;
-      margin: 60px 60px!important;
+      margin: 60px 60px;
    }
+    #obx-page-wrapper .obx-section.flex.landing-cards .card:not(.card:last-of-type) {
+    margin: 0px 0 35px;
+    border-bottom: 2px solid #EBEBEB;
+}
+    #obx-page-wrapper .obx-section.flex.landing-cards .card:first-of-type {
+    padding-top: 35px;
+    border-top: 2px solid #EBEBEB;
+}
+
+    #obx-page-wrapper .obx-section.flex.landing-cards {
+        margin: 0 60px;
+    }
    .bg-color{
        padding: 50px 50px;
    }
@@ -228,16 +298,32 @@
     max-width: fit-content;
     margin: 0 auto 30px;
 }
+    #obx-page-wrapper .button-row.single .obx-btn {
+        margin-right: 0;
+    }
+    #obx-page-wrapper hr {
+    margin: 0 60px;
+}
 
 }
 @media only screen and (max-width: 767px) {
-
-   #obx-page-wrapper .obx-section{
+    #obx-page-wrapper h1 {
+        font-size: 4vh;
+}
+    #obx-page-wrapper hr,
+    #obx-page-wrapper .obx-section.flex.landing-cards {
+        margin: 0;
+    }
+    #obx-page-wrapper .obx-section:not(.obx-section.landing-cards){
       margin: 60px 0 !important;
    }
+
    #obx-page-wrapper .obx-section.obx-ra .flex {
       display: block;
    }
+    #obx-page-wrapper .flex-img {
+    order: 2;
+}
    #obx-page-wrapper .obx-article {
       margin-bottom: 30px
    }
@@ -246,7 +332,17 @@
       line-height: 1.2;
    }
     #obx-page-wrapper .flex:has(.text-column) {
-    flex-direction: column;
+      flex-direction: column;
+}
+    #obx-page-wrapper .obx-section.txt-only.ctr-txt .obx-container {
+      margin-bottom: 0;
+}
+    #obx-page-bottom-banner.bg-color {
+        background-color: #081E69;
+        padding: 20px;
+    }
+    #obx-page-bottom-banner.bg-color h2 {
+    font-size: 4vh;
 }
 }
 @media only screen and (max-width: 540px) {
@@ -265,9 +361,18 @@
    }
 }
 
-
-
-
+#obx-page-bottom-banner a.obx-btn {
+    background: #fff;
+    color: #081E69;
+    border: 2px solid #fff;
+    padding: 13px 28px;
+    
+}
+#obx-page-bottom-banner a.obx-btn:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
 
 
 
