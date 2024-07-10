@@ -1,0 +1,30 @@
+footer .social .social-button.gplus {
+    background: url("https://collaborativedrug.com/hubfs/Social%20SVGs/Icon%20awesome-google-plus-g.svg") no-repeat;
+    background-size: contain;
+    background-position: 0;
+    margin-left: 10px!important;
+}
+footer .social .social-button.twitter {
+    background: url("https://collaborativedrug.com/hubfs/Social%20SVGs/Icon%20awesome-twitter.svg") no-repeat;
+    background-size: contain;
+    background-position: 0;
+}
+footer .social .social-button.linkedin {
+    background: url("https://collaborativedrug.com/hubfs/Social%20SVGs/Icon%20awesome-linkedin-in.svg") no-repeat;
+    background-size: contain;
+    background-position: 0;
+}
+footer .social .social-button.rss {
+    background: url("https://collaborativedrug.com/hubfs/Social%20SVGs/Icon%20awesome-rss.svg") no-repeat;
+    background-size: contain;
+    background-position: 0;
+}
+footer .social .social-button.facebook {
+    background: url("https://collaborativedrug.com/hubfs/Social%20SVGs/Icon%20awesome-facebook-f.svg") no-repeat;
+    background-size: contain;
+    background-position: 0;
+    margin-right: 0!important;
+}
+#social.social a {
+    margin: 0 10px 0 0;
+}
