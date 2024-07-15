@@ -1,0 +1,56 @@
+.top-banner {
+    padding: 100px 0;
+    background-position: center
+}
+.top-banner h1 {
+    font: 700 52px / 56px 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+.top-banner p {
+     font: 400 16px /25px 'NunitoSans', sans-serif;
+}
+.container.landing {
+    max-width: 1412px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-box {
+    max-width: 550px;
+    color: #fff;
+}
+
+.obx-button {
+    text-align: center;
+    border: 2px solid #fff;
+    min-width: fit-content;
+    padding: 11px 26px;
+    transition: all .2s ease-in-out;
+    margin-right: 40px;
+}
+.obx-button.secondary:hover,
+.obx-button.primary {
+    background: #fff;
+    color: #1C1B1B;
+}
+.obx-button.primary:hover {
+    background: transparent;
+     color: #fff;
+}
+.button-row {
+    margin-top: 30px;
+}
+@media only screen and (width <= 540px) {
+    .top-banner {
+        padding: 30px 0;
+    }
+    .top-banner h1 {
+        font-size: 2.5rem
+    }
+    .obx-button {
+        display: block;
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+}
