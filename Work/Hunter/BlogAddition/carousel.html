@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="carousel.css">
+
+</head>
+
+<body>
+  <div class="blog-add-wrap">
+    
+    <div id="blog-addition">
+          <div class="carousel-buttons">
+        <button class="carousel-button carousel-button_previous" data-carousel-button-previous="">
+          <span><img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back.svg?v=1714169385
+"></span>
+        </button>
+        <button class="carousel-button carousel-button_next" data-carousel-button-next="">
+          <span><img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back-1.svg?v=1714169385"></span>
+        </button>
+      </div>
+      <h2>EXPLORE OTHER CATEGORIES</h2>
+
+    <div class="carousel" data-carousel="">
+
+      <div class="slides" data-carousel-slides-container="">
+  
+         <div class="slide">
+          <!-- Anything can be here. Each slide can have any content -->
+          <div class="obx-button secondary">
+            <a href="/collections/all">WAREHOUSE FANS</a>
+          </div>
+          <div class="obx-button secondary">
+            <a href="/collections/all">AGRICULTURE FANS</a>
+          </div>
+          <div class="obx-button secondary">
+            <a href="/collections/all">AUTOMOTIVE FANS</a>
+          </div>
+        </div>
+        <div class="slide">
+          <!-- Anything can be here. Each slide can have any content -->
+          <div class="obx-button secondary">
+            <a href="/collections/all">WAREHOUSE FANS</a>
+          </div>
+          <div class="obx-button secondary">
+            <a href="/collections/all">AGRICULTURE FANS</a>
+          </div>
+          <div class="obx-button secondary">
+            <a href="/collections/all">AUTOMOTIVE FANS</a>
+          </div>
+        </div>
+        
+  
+
+      </div>
+    </div>
+  </div>
+    <hr>
+  </div>
+  <style>
+  /**** Blog Addition Carousel ****/
+.carousel {
+  --current-slide: 0;
+  position: relative;
+  overflow: hidden;
+}
+.obx-button.secondary a {
+  font-size: 15px;
+  font-weight: 700;;
+  color: #3b3b3b;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel {}
+.carousel-button {
+  position: absolute;
+  top: 62%;
+  transform: translateY(-50%);
+  z-index: 1;
+  padding: 0;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.1s;
+}
+
+.carousel-button:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-button_next {
+  right: 0;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s;
+  transform: translateX(calc(-100% * var(--current-slide)));
+}
+
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  column-gap: 20px;
+}
+div#blog-addition {
+  /* max-width: 695px; */
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel {
+  max-width: 661px;
+  margin: 0 auto;
+}
+
+.slides {
+}
+@media screen and (min-width: 768px) {
+  .carousel-button {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
+
+.blog-add-wrap {
+               max-width: 735px;
+               margin: auto;
+               }
+
+div#blog-addition {
+  text-align: center;
+  padding: 100px 0;
+}
+div#blog-addition h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0 0 30px;
+  width: 100%
+}
+
+button.carousel-button.carousel-button_previous {
+  left: -18px;
+}
+button.carousel-button.carousel-button_next {
+  right: -18px;
+}
+
+.obx-button.secondary {
+  display: inline-block;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border: 2px solid #3b3b3b;
+  text-align: center;
+  flex-basis: 33%;
+  transition: all .1s ease-in-out;
+}
+.obx-button.secondary:hover {
+  background: #547F52;
+  color: white;
+  cursor: pointer;
+  border-color: #547F52;
+}
+.obx-button.secondary:hover a {
+  color: white;
+}
+@media only screen and (width < 768px) {
+  .slides {
+      flex-direction: column;
+      
+  }
+  .slide {
+      margin-bottom: 30px;
+  }
+  .carousel-buttons {
+      display: none;
+  }
+}
+@media only screen and (width < 600px) {
+  div#blog-addition {
+      padding: 30px;
+  }
+  .slide {
+      flex-direction: column;
+      margin-bottom: 0;
+  }
+  .obx-button.secondary {
+      margin: 0 auto 20px;
+      width: 80%;
+  }
+}
+div#shopify-section-obx-product-carousel button.carousel-button.carousel-button_next {
+  right: 0px;
+  top: 69.5%;
+}
+div#shopify-section-obx-product-carousel button.carousel-button.carousel-button_previous {
+  left: 0px;
+  top: 69.5%;
+}
+div#shopify-section-obx-product-carousel .carousel {
+  max-width: 621px;
+  margin: 0 auto;
+}
+div#shopify-section-obx-product-carousel div#blog-addition {
+  max-width: unset;
+  padding: 60px 0 40px;
+}
+
+
+/*****************************/
+  </style>
+  <script>function modulo(number, mod) {
+    let result = number % mod;
+    if (result < 0) {
+      result += mod;
+    }
+    return result;
+  }
+  
+  function setUpCarousel(carousel) {
+    function handleNext() {
+      currentSlide = modulo(currentSlide + 1, numSlides);
+      changeSlide(currentSlide);
+    }
+  
+    function handlePrevious() {
+      currentSlide = modulo(currentSlide - 1, numSlides);
+      changeSlide(currentSlide);
+    }
+  
+    function changeSlide(slideNumber) {
+      carousel.style.setProperty('--current-slide', slideNumber);
+    }
+  
+    // get elements
+    const buttonPrevious = document.querySelector('[data-carousel-button-previous]');
+    const buttonNext = document.querySelector('[data-carousel-button-next]');
+    const slidesContainer = carousel.querySelector('[data-carousel-slides-container]');
+  
+    // carousel state we need to remember
+    let currentSlide = 0;
+    let numSlides = slidesContainer.children.length;
+    
+    // set up events
+    buttonPrevious.addEventListener('click', handlePrevious);
+    buttonNext.addEventListener('click', handleNext);
+  }
+  
+  const carousels = document.querySelectorAll('[data-carousel]');
+  carousels.forEach(setUpCarousel);</script>
+</body>
+
+</html>
+https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back.svg?v=1714169385
+https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back-1.svg?v=1714169385
