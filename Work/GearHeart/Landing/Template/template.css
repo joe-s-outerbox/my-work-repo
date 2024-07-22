@@ -1,0 +1,97 @@
+.page-content.layout-container.rte {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: unset;
+}
+#obx-landing .obx-section {
+    margin-bottom: 60px
+    
+}
+#obx-landing h2 {
+    font: 400 29px / 36px Merriweather serif;
+    margin: 0 0 28px;
+}
+
+#obx-landing p, 
+.excerpt {
+    font: 400 16px / 25.5px Source Sans Pro, sans-serif;
+}
+#obx-landing img {
+    width: 100%;
+}
+.obx-wrapper {
+    max-width: 95.05%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.obx-section.fw {
+    color: #fff;
+    padding: 60px;
+}
+.obx-section.fw h2 {
+    color: #fff;
+}
+#obx-landing .flex-row {
+    display: flex;
+    column-gap: 30px;
+}
+#obx-landing .flex-row .col {
+    flex-basis: 50%;
+}
+
+.obx-section.testimonial {
+    padding: 60px;
+}
+.obx-section.testimonial h2 {
+    text-align: center;
+}
+.obx-section.testimonial span.name {
+    text-align: right;
+    display: block;
+}
+.cta-content-wrap {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#obx-landing h3 {
+    font: 700 20px / 28px Source Sans Pro, serif;
+    margin: 0 0 13px;
+}
+
+.question {
+    border: 1px solid #F4F0ED;
+    padding: 24px;
+    margin: 20px 0
+}
+.question p:last-of-type {
+    margin-bottom: 0
+}
+
+.obx-section.related-articles h2,
+.related-articles p {
+    text-align: center;
+}
+
+.related-articles .flew-row {
+    display: flex;
+    column-gap: 56px;
+}
+.article {
+    flex-basis: 33%;
+    text-align: center;
+}
+.article img {
+    margin-bottom: 32px
+}
+.article span {
+    display: block;
+}
+.article .title {
+    font: 400 20px / 24px Merriweather, serif;
+    margin-bottom: 16px;
+    min-height: 48px;
+}
