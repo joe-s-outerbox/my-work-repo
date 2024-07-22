@@ -8,6 +8,7 @@
 .top-banner p {
     line-height: 1.6;
 }
+div#shopify-section-obx-landing-faqs,
 section#section-obx-landing-top-banner {
     margin-bottom: 100px;
 }
@@ -47,18 +48,19 @@ section#section-obx-landing-top-banner {
 .obx-button.primary:hover {
     background: transparent;
      color: #fff;
-}
+}ß
 .button-row {
     margin-top: 30px;
 }
 .obx-landing-template .center-content h2, .obx-landing-template .center-content h3, .obx-landing-template .center-content .subheading, .obx-landing-template .center-content p{
     text-align:center;
   }
-.obx-landing-template .center-content h2{
+.obx-landing-template .center-content h2 {
     font-size: 36px;
     letter-spacing: 7px;
     line-height: 1.3;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 .obx-landing-template .subheading {
     line-height: 1;
@@ -134,5 +136,144 @@ section#section-obx-landing-top-banner {
     line-height: 1.6;
     margin: 50px 0 20px;
   }
+
+
+
+
+div#shopify-section-obx-landing-featured-collections p {
+    max-width: 888px;
+    margin: 0 auto 30px
+}
+.obx-landing-template  .faq-item{
+    border-bottom:1px solid #d1d1d1;
+  }
+  .obx-landing-template .fw-grey .container .faq-item:first-of-type h3 {
+  border-top: 1px solid #d1d1d1;
+  padding-top: 30px;
+  }
+  .obx-landing-template .fw-grey .container .faq-item h3{
+    font-weight:bold; 
+    font-size:18px;
+    text-transform:none;
+    margin: 20px 0 20px;
+  }
+  .obx-landing-template .fw-grey .container .faq-item p {
+  margin-bottom: 30px
+  }
+  
+  
+  .obx-landing-template .fw-grey .container {
+  max-width: 888px;
+  margin: 0 auto;
+  }
+  
+  .obx-landing-template .fw-grey .faq-item:last-of-type {
+  border-bottom: none;
+  
+  }
+  .obx-landing-template .fw-grey .faq-item:last-of-type p {
+  margin-bottom: 0;  
+  }
+.obx-landing-template .fw-grey{
+    background:#EAEAEA;
+    padding:100px;
+  }
+.obx-landing-template .faqs h2 {
+    font-size: 22px;
+    letter-spacing: 5.4px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.flex-row {display: flex;}
+.obx-landing-template .section.content-wheel  {
+    max-width: 1470px;
+    margin: 0 auto 100px;
+    
+    }
+    .obx-landing-template .section.content-wheel h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    .obx-landing-template .section.content-wheel p {
+      /* margin-bottom: 4vh; */
+    }
+    .obx-landing-template .section.content-wheel .flex-row {
+    column-gap: 80px
+    }
+    .obx-landing-template .section.content-wheel .article {
+    width: 33%;
+    }
+    .obx-landing-template .section.content-wheel .flex-row img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 437 / 250;
+    margin-bottom: 20px;
+      object-position: top;
+    }
+    .obx-landing-template .section.content-wheel .article span {
+    display: block;
+    }
+.obx-landing-template .section.content-wheel span.content p {
+    text-align: left;
+    line-height: 1.7;
+    margin-bottom: 20px
+}
+    .obx-landing-template .section.content-wheel .article a {
+    text-decoration: none;
+    }
+    .obx-landing-template .article:hover .title{
+        color: #41963F;
+    }
+    .obx-landing-template .article .readmore {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #EAEAEA;
+        text-underline-offset: 6px;
+    }
+ .obx-landing-template .article .readmore:hover {
+     text-decoration: none;
+ }
+    .obx-landing-template .section.content-wheel .article .title {
+    text-transform: uppercase;
+    font-size: 20px;
+      min-height: 65px;
+    }
+    @media only screen and (max-width: 768px) {
+        .obx-landing-template .top-cta {
+          padding: 40px 0;
+      }
+      
+      .obx-landing-template .two-colsplit .image img{
+        margin-bottom: 20px !important;
+      }  
+      .obx-landing-template .col.text a.btn-green {
+          margin: 0 auto 50px;
+      }
+      .obx-landing-template .section,
+      .obx-landing-template hr {
+        margin-bottom: 40px;
+      }
+        .obx-landing-template .fw-grey {
+          padding: 40px 20px;
+      }
+      .obx-landing-template .section .flex-row {
+        display: block;
+      }
+      .obx-landing-template .section.content-wheel .article {
+        width: 100%;
+        margin: 0 auto 40px;
+       
+      }
+      .obx-landing-template .article .readmore {
+        margin-bottom: 10px;
+      }
+        .obx-landing-template .section.content-wheel .article .title {
+      
+        min-height: unset;
+      }
+      }
+
 
 
