@@ -19,13 +19,69 @@
 }
 #obx-landing img {
     width: 100%;
+    /* height: 100%; */
 }
-.obx-wrapper {
+#obx-landing .obx-wrapper {
     max-width: 95.05%;
     padding: 0 20px;
     margin: 0 auto;
 }
+.obx-button {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    max-width: fit-content;
+    background-color: #FF923C;
+    border: 2px solid #FF923C;
+    padding:4px 20px;
+    transition: .2s all ease-in-out;
+}
+.obx-button:hover {
+    background-color: transparent;
+}
+#obx-landing .banner-row .obx-button,
+#obx-landing .cta .obx-button{
+    min-width: 200px;
+}
+#obx-landing .banner-row{
+    margin-bottom: 25px
+}
+#obx-landing .banner-row.flex-row {
+    column-gap: 25px;
+}
+.product-banner {
+    padding: 80px 60px;
+    flex-basis: 50%;
+    box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, .5) inset;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#obx-landing .banner-content {
+    text-align: center;
+    color: #fff;
+    max-width: 90%;
+    margin: 0 auto;
+}
+#obx-landing .banner-content h2 {
+    font: 500 28px / 42px Source Sans, sans-serif;
+    color: #fff
+}
+#obx-landing .products .flex-row {
+    column-gap: 25px;
+}
 
+#obx-landing span.product-name {
+    font: 700 16px /22px Source Sans Pro, sans-serif;
+    display: block;
+    margin-bottom: 3px;
+}
+#obx-landing span.price {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
 .obx-section.fw {
     color: #fff;
     padding: 60px;
@@ -44,6 +100,7 @@
 .obx-section.testimonial {
     padding: 60px;
 }
+.obx-section.products,
 .obx-section.testimonial h2 {
     text-align: center;
 }
@@ -76,7 +133,7 @@
     text-align: center;
 }
 
-.related-articles .flew-row {
+.related-articles .flex-row-row {
     display: flex;
     column-gap: 56px;
 }
@@ -85,7 +142,7 @@
     text-align: center;
 }
 .article img {
-    margin-bottom: 32px
+    transition: all .2s ease-in-out;
 }
 .article span {
     display: block;
@@ -95,3 +152,79 @@
     margin-bottom: 16px;
     min-height: 48px;
 }
+
+
+
+
+
+
+.obx-section.related-articles a {
+    color: unset;
+}
+.obx-section.related-articles .ra-img-wrapper {
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+.obx-section.related-articles a:hover img {
+    scale: 1.1;
+}
+@media only screen and (max-width: 768px) {
+    #obx-landing .banner-content h2 {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    #obx-landing h2 {
+        font-size: 1.8rem;
+    }
+    .product-banner {
+        padding: 30px
+    }
+    #obx-landing .testimonial .flex-row,
+    #obx-landing .split-image-row .flex-row {
+        flex-direction: column;
+    }
+    #obx-landing .col.test:not(.col.test:last-of-type) {
+        margin-bottom: 30px
+    }
+    #obx-landing .split-image-row .content {
+        order: 1;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #eee;
+    }
+    #obx-landing .related-articles .flex-row {
+        column-gap: 10px;
+    }
+    #obx-landing span.title {
+        font-size: 1.1rem;
+    }
+    
+}
+@media only screen and (max-width: 640px) {
+    #obx-landing .banners .flex-row, 
+    #obx-landing .products .flex-row {
+        flex-direction: column;
+        
+    }
+    #obx-landing .product-banner {
+        margin-bottom: 20px
+    }
+    #obx-landing .prod-card {
+    margin-bottom: 25px;
+    }
+    #obx-landing .obx-section.testimonial,
+    .obx-section.fw {
+    padding: 30px;
+    }
+    #obx-landing .related-articles .flex-row {
+        flex-direction: column;
+    }
+    #obx-landing .related-articles .article {
+        padding-bottom: 20px;
+        border-bottom: 2px solid #eee;
+        margin-bottom: 20px;
+    }
+}
+
+
+.prod-card {}
