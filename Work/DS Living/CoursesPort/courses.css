@@ -1,0 +1,217 @@
+.site-inner:has(#obx-training) {
+    max-width: 100%
+}
+#obx-training {
+    color: white;
+}
+#obx-training section:not(.clip, .has-divider) {
+    padding: 100px 0;
+    position: relative;
+}
+#obx-training .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+#obx-training .container.lg {
+    max-width: 1310;
+}
+#obx-training .container.md {
+    max-width: 1241px;
+}
+#obx-training .top-banner {
+    padding: 33vh 0!important;
+}
+#obx-training h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #FFFFFF !important;
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 1;
+}
+#obx-training h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+#obx-training .top-banner h2 {
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: #FFFFFF!important;
+    text-align: center;
+    margin-bottom: 45px;
+    text-transform: none;
+}
+#obx-training p,
+#obx-training span {
+    font-family: "Railway", sans-serif;
+}
+
+
+
+#obx-training  a.obx-button.primary.red {
+    background: #C12600;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Railway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 20px;
+    line-height: 1.7em!important;
+    min-width: fit-content;
+}
+#obx-training section.charcoal {
+    background-color: #151719;
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+#obx-training .feeling ul {
+    column-count: 3;
+    text-align: left;
+    column-gap: 100px
+
+}
+#obx-training .feeling ul li {
+    font-family: "Railway", sans-serif;
+    font-size: 16px;
+        list-style-type: disc;
+        /* padding: 0 0 23px 1em; */
+        line-height: 26px;
+}
+#obx-training .red {
+    color: #C12600 !important;
+}
+#obx-training  .included h3,
+#obx-training  .feeling h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1em;
+    margin: 1.6vh auto 3vh;
+}
+#obx-training .feeling p {
+    font-family: "Railway", sans-serif;
+    max-width: 80%;
+    margin: 0 auto 30px;
+}
+#obx-training .heading-bg-img {
+    z-index: 0;
+    position: absolute;
+    top: 67px;
+    left: 46%;
+}
+
+section.clip {
+    margin-top: -100px;
+    z-index: 1000;
+    position: relative;
+}
+#obx-training  section.fix-that {
+    background-position: center bottom 0px;
+    background-image: linear-gradient(180deg,#333333 30%,rgba(51,51,51,0.66) 100%),url(https://domsubtraining.com/wp-content/uploads/2022/04/artem-labunsky-0va1MYAcE-s-unsplash_retouched_v01-scaled.jpg)!important;
+    margin-top: -20px;
+    padding: 0 0 23vh;
+    overflow: hidden;
+}
+#obx-training  section.fix-that p {
+    font-size: 18px;
+}
+#obx-training  section.fix-that p:first-of-type {
+    font-size: 24px;
+    color: #dddddd;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+#obx-training .has-divider {
+    /* position: relative; */
+}
+#obx-training .obx-divider {
+    width: 100px;
+    height: 30px;
+    /* position: absolute; */
+    display: block;
+    border-bottom-color: #C12600;
+    border-bottom-style: double;
+    border-bottom-width: 4px;
+    margin: 0 auto 55px;
+}
+#obx-training section.included {
+    margin-top: -42px;
+    background-position: left center;
+    background-image: linear-gradient(180deg,#030303 0%,rgba(255,255,255,0) 20%),url(https://domsubliving.com/wp-content/uploads/maria-vlasova-fy2EboS8MBE-unsplash-1.jpg)!important;
+}
+#obx-training .container.xs{
+    max-width: 640px;
+}
+
+#obx-training .fire {
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 92%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#obx-training img {
+    width: 100%;
+}
+
+#obx-training .icon {
+    flex-basis: 8.5%;
+}
+
+#obx-training .text {
+    flex-basis: 88%;
+}
+
+#obx-training .italic {
+    font-style: italic;
+}
+
+#obx-training section.introducing {
+    background-color: #111111
+}
+
+#obx-training section.introducing {
+    padding-top: 130px;
+}
+
+#obx-training .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#obx-training .card.with-icon {
+    flex-basis: 27.333%;
+    background: #333333;
+    border-bottom: 3px solid #C12600;
+    margin-bottom: 30px;
+    padding: 37px 30px 46px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    column-gap: 36px;
+}
+#obx-training .card.with-icon div:first-of-type{
+    flex-basis: 20%;
+}
+#obx-training .card.with-icon div:nth-of-type(2){
+    flex-basis: 80%;
+}
+#obx-training .card.with-icon img {
+    width: 70px;
+    display: block;
+}
+#obx-training .card.with-icon p {
+    text-align: left;
+    font-size: 18px;
+}
+
+#obx-training section.learn {
+    background-color: #111111;
+}
