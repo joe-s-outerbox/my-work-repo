@@ -1,0 +1,358 @@
+<div id="obx-blog-template" class="calc-wrapper">
+    <div class="column-container">
+        <div class="left-column">
+            <section class="obx-calcuator-template">
+                <div class="obx-section flex-split">
+                    <div class="flex-row">
+                        <div class="col media"><img src="https://www.polystarcontainment.com/wp-content/uploads/2024/10/secondary-containment-calculator.jpg" alt="Secondary containment calculator">
+                        </div>
+                        <div class="col content">
+                            <p>
+                                Having secondary containment in place is mandatory, but if it's inadequate to handle a hazardous spill, you could unwittingly contaminate water supplies and cause environmental havoc. <strong>Our Secondary Containment Calculator takes the guesswork out of choosing the right size spill containment berm to safeguard your site and prevent disaster.</strong> By following a few steps, you can be sure you're fully prepared for any scenario. 
+                            </p>
+                            <p>
+                                In this article, we'll explore the benefits of using a berm calculator. We'll walk you through the process step-by-step, from entering the necessary parameters to interpreting the results for optimal spill prevention. 
+                            </p>
+
+                        </div>
+                    </div>
+                    <p>
+                        Whether you want to enhance existing containment systems or design new installations, this guide offers insights and advice to help you achieve the precise secondary containment capacity needed to safeguard your facilities and the environment.
+                    </p>
+                </div>
+                <div class="obx-section calculator">
+                    <div class="flex-row">
+
+                        <!-- Inches Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Inches (Gallons)</h3>
+                            <form id="inchesForm">
+                                <label for="lengthInches">Length (inches):</label>
+                                <input type="number" id="lengthInches" name="lengthInches" type="number" min="0"
+                                    step="0.1" required>
+                                <label for="widthInches">Width (inches):</label>
+                                <input type="number" id="widthInches" name="widthInches" type="number" min="0"
+                                    step="0.1" required>
+                                <label for="heightInches">Height (inches):</label>
+                                <input type="number" id="heightInches" name="heightInches" type="number" min="0"
+                                    step="0.1" required>
+                                <div class="output">
+                                    <label for="resultInches">Capacity (Gal.)</label>
+                                    <p id="resultInches"></p>
+                                </div>
+                                <button type="button" onclick="calculateInches()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Millimeters Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Millimeters (Liters)</h3>
+                            <form id="mmForm">
+                                <label for="lengthMm">Length (mm)</label>
+                                <input type="number" id="lengthMm" name="lengthMm" type="number" min="0" step="0.1"
+                                    required>
+                                <label for="widthMm">Width (mm)</label>
+                                <input type="number" id="widthMm" name="widthMm" type="number" min="0" step="0.1"
+                                    required>
+                                <label for="heightMm">Height (mm)</label>
+                                <input type="number" id="heightMm" name="heightMm" type="number" min="0" step="0.1"
+                                    required>
+                                <div class="output">
+                                    <label for="resultMM">Capacity (L)</label>
+                                    <p id="resultMM"></p>
+                                </div>
+                                <button type="button" onclick="calculateMM()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Feet Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Feet (Gallons)</h3>
+                            <form id="feetForm">
+                                <label for="lengthFeet">Length (feet)</label>
+                                <input type="number" id="lengthFeet" type="number" min="0" step="0.1" name="lengthFeet"
+                                    required>
+                                <label for="widthFeet">Width (feet)</label>
+                                <input type="number" id="widthFeet" type="number" min="0" step="0.1" name="widthFeet"
+                                    required>
+                                <label for="heightFeet">Height (feet)</label>
+                                <input type="number" id="heightFeet" type="number" min="0" step="0.1" name="heightFeet"
+                                    required>
+                                <div class="output">
+                                    <label for="resultFeet">Capacity (Gal.)</label>
+                                    <p id="resultFeet"></p>
+                                </div>
+                                <button type="button" onclick="calculateFeet()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Meters Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Meters (Liters)</h3>
+                            <form id="metersForm">
+                                <label for="lengthMeters">Length (meters)</label>
+                                <input type="number" id="lengthMeters" type="number" min="0" step="0.1"
+                                    name="lengthMeters" required>
+                                <label for="widthMeters">Width (meters)</label>
+                                <input type="number" id="widthMeters" type="number" min="0" step="0.1"
+                                    name="widthMeters" required>
+                                <label for="heightMeters">Height (meters)</label>
+                                <input type="number" id="heightMeters" type="number" min="0" step="0.1"
+                                    name="heightMeters" required>
+                                <div class="output">
+                                    <label for="resultMeters">Capacity (L)</label>
+                                    <p id="resultMeters"></p>
+                                </div>
+                                <button type="button" onclick="calculateMeters()">Calculate </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <script>
+                function calculateInches() {
+                    var length = document.getElementById('lengthInches').value;
+                    var width = document.getElementById('widthInches').value;
+                    var height = document.getElementById('heightInches').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityGallons = (length * width * height) / 231;
+                        document.getElementById('resultInches').innerText = capacityGallons.toFixed(2) + ' gallons';
+                    } else {
+                        document.getElementById('resultInches').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+
+                function calculateMM() {
+                    var length = document.getElementById('lengthMm').value;
+                    var width = document.getElementById('widthMm').value;
+                    var height = document.getElementById('heightMm').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityLiters = (length * width * height) / 1000000;
+                        document.getElementById('resultMM').innerText = capacityLiters.toFixed(2) + ' liters';
+                    } else {
+                        document.getElementById('resultMM').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+
+                function calculateFeet() {
+                    var length = document.getElementById('lengthFeet').value;
+                    var width = document.getElementById('widthFeet').value;
+                    var height = document.getElementById('heightFeet').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityGallons = length * width * height * 7.48052;
+                        document.getElementById('resultFeet').innerText = capacityGallons.toFixed(2) + ' gallons';
+                    } else {
+                        document.getElementById('resultFeet').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+
+                function calculateMeters() {
+                    var length = document.getElementById('lengthMeters').value;
+                    var width = document.getElementById('widthMeters').value;
+                    var height = document.getElementById('heightMeters').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityLiters = length * width * height * 1000;
+                        document.getElementById('resultMeters').innerText = capacityLiters.toFixed(2) + ' liters';
+                    } else {
+                        document.getElementById('resultMeters').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+            </script>
+            <div style="border-bottom: 2px solid #cccccc;" class="obx-section text-only wide j-links">
+                <p><strong>Table of Contents</strong></p>
+                
+                <ul class="obx-list" style="margin-bottom: 60px;">
+                    <li><a href="#accurate-containment-capacity-calculation">Accurate Containment Capacity Calculation</a></li>
+                    <li><a href="#what-is-a-secondary-containment-calculator">What Is a Secondary Containment Calculator</a></li>
+                    <li><a href="#finding-a-solution">Finding a Solution</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="obx-section flex-split">
+                <div class="flex-row">
+                    <div class="col media"><img
+                            src="https://www.polystarcontainment.com/wp-content/uploads/2024/10/berm-calculator.jpg"
+                            alt="Berm calculator">
+                    </div>
+                    <div class="col content">
+                        <h2 id="accurate-containment-capacity-calculation">The Importance of Accurate Containment Capacity Calculation</h2>
+                        <p>
+                            Secondary containment systems are essential for preventing environmental contamination and ensuring regulatory compliance. These systems capture spills from primary containment units, such as tanks and drums, and prevent hazardous substances from escaping into the environment. Accurately determining the required containment capacity is crucial for several reasons. 
+                        </p>
+                    </div>
+                </div>
+                <h3 style="margin-top: 60px">Regulatory Compliance</h3>
+                <p>
+                    Regulations like the <a href="https://www.epa.gov/oil-spills-prevention-and-preparedness-regulations/overview-spill-prevention-control-and" target="_blank" rel="nofollow noopener">SPCC (Spill Prevention, Control, and Countermeasure)</a> require facilities to have adequate secondary containment systems in place. The SPCC rules, enforced by the Environmental Protection Agency (EPA), mandate that facilities storing large quantities of oil or other hazardous substances must have a plan that includes sufficient secondary containment to manage potential spills. Failure to comply with secondary spill containment requirements can result in fines and legal repercussions, underscoring the need for precise capacity calculations.
+                </p>
+                <h3>Environmental Protection</h3>
+                <p>
+                    Proper containment prevents spills from reaching soil, groundwater, and surface water, thereby protecting ecosystems. Contaminants can devastate local wildlife, plant life, and water quality. By ensuring that secondary containment systems are adequately sized, facilities can prevent environmental damage and contribute to the planet's overall health. Organizations like the U.S. Environmental Protection Agency (EPA) and international standards such as <a href="https://www.imsm.com/us/iso-14001/" target="_blank" rel="nofollow noopener">ISO 14001</a> emphasize the importance of environmental management systems, which include effective spill response and containment measures.
+                </p>
+                <h3>Operational Safety</h3>
+                <p>
+                    Adequate containment reduces the risk of accidents and improves overall safety in industrial settings. Properly sized containment systems ensure that in the event of a spill, hazardous substances are contained and managed effectively, minimizing the risk of fire, explosion, and exposure to toxic materials. This protects the health and safety of employees and reduces the likelihood of costly operational disruptions. By adhering to OSHA (Occupational Safety and Health Administration) guidelines and industry best practices, facilities can maintain a safer working environment.
+                </p>
+            </div>
+            <div class="obx-section text-only wide"
+                style="background: #F0F0F0;padding: 3vh;">
+                <h2 id="what-is-a-secondary-containment-calculator" style="color: #41AA00;margin-top: 0;">What Is a Secondary Containment Calculator?</h2>
+                <p>
+                    A secondary containment calculator is a specialized tool for determining the volume capacity required for secondary containment systems, such as berms and containment walls. These calculators consider various parameters, including the volume of the primary containment units and additional factors like rainfall or fire suppression water.
+                </p>
+                <p>Below are the steps involved in using our berm containment calculator.</p>
+                <h3>Step 1: Gather Necessary Information</h3>
+                <p>
+                    Before using the calculator, you'll need to know the volume of the primary containment unit (e.g., tank or drum) and the dimensions of the containment area. 
+                </p>
+                <h3>Step 2: Enter the Parameters</h3>
+                <p>Input the gathered information into the calculator:</p>
+                <ul class="obx-list">
+                    <li><strong>Volume of Primary Containment:</strong> Enter the total volume of the primary containment units.</li>
+                    <li><strong>Additional Factors:</strong> Add 10% for potential rainfall or fire suppression water.</li>
+                    <li><strong>Dimensions of Containment Area:</strong> Provide the length, width, and height of the containment area.</li>
+                </ul>
+                <h3>Step 3: Calculate the Required Capacity</h3>
+                <p>The calculator will process the entered parameters and provide the required containment capacity. </p>
+            </div>
+            
+            <div class="obx-section text-only wide">
+                <h2>What Is a Secondary Containment Calculator?</h2>
+                <p>
+                    A secondary containment calculator helps you determine the volume capacity required for secondary containment systems, such as berms and containment walls. These calculators consider various parameters, including the volume of the primary containment units and additional factors like rainfall or fire suppression water. 
+                </p>
+                <p>Follow these steps to determine what type of secondary containment system is required for your job site:</p>
+                <ol style="padding-left: 16px;">
+                    <li><strong>Inventory the Containers:</strong> List all containers that will be placed in the secondary containment area.</li>
+                    <li><strong>Add Up the Contents:</strong> Determine the total volume of the containers in gallons.</li>
+                    <li><strong>Calculate Freeboard Volume:</strong> Add 10 percent to the total of all contents for freeboard and add this to the total contents.</li>
+                    <li><strong>Convert Volume to Cubic Feet:</strong> Use this conversion factor: cubic feet = gallons divided by 7.48.</li>
+                    <li><strong>Determine Area Needed:</strong> Use the height of the berm walls to convert your volume measurement into the required area (area = volume divided by height).</li>
+                    <li><strong>Calculate Dimensions:</strong> Determine a length and width that fit within the available workspace, ensuring the calculated area is maintained.</li>
+                    <li><strong>Select a Suitable Berm:</strong> Choose a standard berm that meets your calculated requirements.</li>
+                </ol>
+                <p>
+                    <strong>Pro Tip:</strong> Containment areas with multiple tanks must account for displacement to ensure the proper containment volume is determined. For example, if you have two tanks in the same containment area, you must subtract the volume the second tank would take up in the containment area from the total containment volume to get the final containment figure.
+
+                </p>
+                <h3>Putting Your Berm Calculator Into Practice</h3>
+                <p>
+                    Here's an example to give you an idea of how this works. Let's say you've got an oil refinery and you need secondary containment big enough to manage the truck's contents if there's a spill. Here's how you calculate the berm size:
+                </p>
+                <ul>
+                    <li><strong>Determine the Largest Load:</strong> The maximum truck size using this loading area is a 5,000-gallon tanker.</li>
+                    <li><strong>Add Freeboard Volume:</strong> Adding 10 percent freeboard volume results in a total secondary containment volume of 5,500 U.S. gallons.</li>
+                    <li><strong>Convert Volume to Cubic Feet:</strong> Convert the volume to cubic feet using the conversion factor (5,500 divided by 7.48 = 735.29 cubic feet).</li>
+                    <li><strong>Calculate Required Area:</strong> With a berm wall height of 3 feet, the required area is calculated as 735.29 cubic feet divided by 3 feet = 245.09 square feet. </li>
+                    <li><strong>Determine Berm Dimensions:</strong> Let's say this 5,000-gallon tanker has a width of approximately 8 feet. To accommodate a leaking tanker, select a berm width of 12 feet. The minimum length required is 245.09 square feet divided by 12 feet = 20.42 feet.</li>
+                    <li><strong>Choose a Berm:</strong> To be in compliance, you'll need a berm that's at least 12 feet by 21 feet by 3 feet. This configuration provides adequate space and volume to manage potential spills effectively, ensuring compliance with safety and environmental regulations.</li>
+                </ul>
+            </div>
+            <div class="obx-section text-only wide"
+                style="background: #F0F0F0;padding: 3vh;">
+                <h2 id="finding-a-solution" style="color: #41AA00">Finding a Solution</h2>
+                <p>
+                    Once you know what's required, it's time to determine if your current containment system is adequate or if modifications are needed. Polystar Containment has several products that can bring your facility into compliance:
+                </p>
+                <ul>
+                    <li><strong>Poly Dike:</strong> A heavy-duty, surface-mounted secondary containment system for hazardous materials. This modular dike wall system is known for its superior corrosion resistance, structural strength, and easy installation. Made from high-quality fiberglass-reinforced plastics, the <a href="https://www.polystarcontainment.com/product/camel-tri-star-ops/">Poly Dike</a> offers a durable alternative to traditional concrete dikes, making it ideal for a variety of industrial applications, including chemical storage and oil containment. </li>
+                    <li><strong>Camel Tri-Star:</strong> An innovative spill containment berm that effectively manages incidental spills during truck transfer operations. This durable, drive-over berm contains spills of hazardous liquids and fuels, preventing environmental contamination and ensuring regulatory compliance. The <a href="https://www.polystarcontainment.com/product/camel-tri-star/">Camel Tri-Star</a> is easy to install and relocate, making it a versatile solution for various industrial settings. </li>
+                    <li><strong>Camel Tri-Star OPS (One-Piece Spill Containment):</strong> A portable, <a href="https://www.polystarcontainment.com/product/camel-tri-star-ops/">one-piece spill containment berm</a> designed for quick deployment and easy relocation. This berm is engineered to provide effective spill prevention during truck transfer operations, offering a more mobile solution compared to traditional containment systems. The Camel Tri-Star OPS is ideal for dynamic job sites where spill containment requirements frequently change. </li>
+                </ul>
+            </div>
+            <div class="obx-section text-only wide">
+                <h2>Oil Driller Secondary Containment Pad Installation - Polystar Containment</h2>
+                <p>See how simple and fast the installation of a secondary containment pad can be.</p>
+                <div class="obx-video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_3Y52mwJK6I?si=TSHsf0IMbFjmVmbD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="faqs" class="obx-section text-only wide faqs">
+                <h2>FAQs: Secondary Containment Calculator</h2>
+                <p>
+                    Below, we've answered a few questions about using our Secondary Containment Calculator.  Please contact us for more information. 
+                </p>
+                <hr>
+                <h3>What is freeboard volume, and why is it added?</h3>
+                <p>Freeboard volume is an additional volume added to the containment capacity to account for potential surges, such as those caused by rainfall or fire suppression activities. It ensures that the containment system can handle unexpected increases in volume.</p>
+                <hr>
+                <h3>What are some common applications of secondary containment systems?</h3>
+                <p>Secondary containment systems are used in various industries, including:</p>
+                <ul class="obx-list two-column">
+                    <li>Oil and gas</li>
+                    <li>Chemical storage</li>
+                    <li>Military</li>
+                    <li>Railroads</li>
+                    <li>Agriculture</li>
+                    <li>Construction</li>
+                    <li>Utilities</li>
+                </ul>
+                <hr>
+                <h3>What parameters do I need to input into the calculator?</h3>
+                <p>You will need to input the volume of the primary containment unit (e.g., tank or drum), dimensions of the containment area, and any additional factors, such as potential rainfall or fire suppression water.</p>
+                <hr>
+                
+            </div>
+            <div class="obx-section blue-gradient-bg cta"
+                style="background-image: url('https://www.polystarcontainment.com/wp-content/uploads/2023/09/background.png');">
+                <h2>Find the Best Secondary Containment Solutions at Polystar</h2>
+                <p>Using a secondary containment calculator is a vital step in ensuring that your spill prevention measures are effective and compliant with regulations. By accurately determining the required containment capacity, you can protect your facilities, personnel, and the environment from hazardous spills. Polystar Containment offers <a href="https://www.polystarcontainment.com/product/" class="plain-link">secondary containment solutions</a> to meet your specific needs, ensuring robust and reliable spill management. Explore our products and leverage our expertise to achieve optimal containment solutions.</p>
+                <a href="https://www.polystarcontainment.com/contact-us/">contact us</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is freeboard volume, and why is it added?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Freeboard volume is an additional volume added to the containment capacity to account for potential surges, such as those caused by rainfall or fire suppression activities. It ensures that the containment system can handle unexpected increases in volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are some common applications of secondary containment systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Secondary containment systems are used in various industries, including:\n\n- Oil and gas\n- Chemical storage\n- Military\n- Railroads\n- Agriculture\n- Construction\n- Utilities"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What parameters do I need to input into the calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You will need to input the volume of the primary containment unit (e.g., tank or drum), dimensions of the containment area, and any additional factors, such as potential rainfall or fire suppression water."
+          }
+        }
+      ]
+    }
+    </script>
+    
+<style>
+h2[id] {
+    scroll-margin-top: 200px;
+}
+.calc-wrapper .col.media, .col.content {
+    align-self: center;
+}
+@media only screen and (max-width: 991px) {
+    .calc-wrapper .col.media, .col.content {
+    margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 769px) {
+ul.obx-list.two-column {
+    column-count: 2;
+    column-gap: 30px
+}
+}
+</style>

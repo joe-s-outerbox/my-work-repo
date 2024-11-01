@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): JD Hay Forks & Attachments",
+          "section_faqs": [
+            {
+              "faq_question": "How do you choose the right hay forks for tractors? ",
+              "faq_answer": "Consider the weight load and type of hay bale you’ll be lifting to ensure compatibility. Make sure the hay spears are long enough for the type of hay bales you’ll be lifting. You’ll also want to make sure your hay forks match your loader’s mounting system."
+            },
+            {
+              "faq_question": "What types of hay forks are available for tractors?",
+              "faq_answer": "Some types of hay forks for tractors are single-spear hay forks, dual-spear hay forks, and multi-spear hay forks. Single spear hay forks are great for lifting round hay bales, dual for lifting large or square bales as they offer more stability, and multi-spear hay forks are ideal for lifting particularly large or heavy bales that require more support and balance."
+            },
+            {
+              "faq_question": "Are all hay forks compatible with John Deere tractors?",
+              "faq_answer": "Most hay forks are compatible with John Deere tractors, as long as they fit your tractor’s mounting system and have the right weight capacity and length to match your loader and your hay bale size."
+            },
+            {
+              "faq_question": "Can hay forks be used with round and square hay bales?",
+              "faq_answer": "Yes, but you’ll want to choose your hay spears based on the type and size of hay bale you’ll be lifting. Single spears are great for lifting round hay bales, dual spears for large and square bales, and multi-spears for particularly heavy bales that need more support and balance."
+            },
+            {
+              "faq_question": "How do I care for my John Deere hay forks?",
+              "faq_answer": "Check for wear and damage regularly, especially at the tips, as they can be worn down and damaged more quickly than other areas. Store your hay forks in a dry, sheltered area when not in use."
+            }
+          ]
+        }
+      ]
+    }
+  ]

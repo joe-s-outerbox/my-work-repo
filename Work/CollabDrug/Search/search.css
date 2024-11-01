@@ -1,0 +1,94 @@
+.search-bar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 20rem;
+}
+.search-bar-wrap {
+    padding: 18px ;
+    background: linear-gradient(270deg,#f6d900,#f69300);
+    border-radius: 8px;
+}
+.hs-search-field__bar form {
+    display: flex;
+    column-gap: 18px;
+}
+.search-bar-wrap ul.hs-search-field__suggestions {
+    margin-bottom: 0;
+}
+.search-bar-wrap input.hs-search-field__input.search_input {
+    border-radius: 5px;
+    /* max-width: 80%; */
+    border: none;
+    padding: 10px;
+    flex-basis: 85%;
+}
+input.hs-search-field__input.search_input:focus {
+    outline: none;
+}
+button.hs-search-field__button {
+    background: #1262b3;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all ease .2s;
+    flex-basis: 15%;
+}
+button.hs-search-field__button:hover {
+    background: #fff;
+    color: #1262b3;
+}
+ul.hs-search-field__suggestions:empty {
+    display: none;
+}
+ul.hs-search-field__suggestions {
+    color: #fff;
+    margin-top: 20px;
+    /* list-style-position: outside; */
+}
+ul.hs-search-field__suggestions a {
+    transition: all ease .2s;
+    color: #fff;
+}
+ul.hs-search-field__suggestions a:hover {
+    text-decoration: underline;  
+}
+ul.hs-search-field__suggestions li:first-of-type {
+    list-style-type: none;
+    font-weight: 700;
+    margin-left: -20px;
+    display: block;
+}
+ul.hs-search-field__suggestions li{
+    list-style-type: disc;
+}
+
+@media only screen and (max-width: 1200px) {
+    .search-bar-container {
+        padding-left: 20rem;
+    }
+    section.u4m-blog-listing div.hero div.wrapper {
+        padding-left: 40rem;
+    }
+}
+
+@media only screen and (max-width: 643px) {
+
+    ul.hs-search-field__suggestions {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .hs-search-field__bar form {
+        display: block;
+    }
+    .search-bar-wrap input.hs-search-field__input.search_input {
+        margin-bottom: 18px
+    }
+    button.hs-search-field__button {
+        width: 100%
+    }
+}
+
+

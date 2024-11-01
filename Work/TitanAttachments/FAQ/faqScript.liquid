@@ -1,0 +1,22 @@
+{% for data in collectionFaq %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for faqitem in data.faqs %}
+          {% for faqQuestions in faqitem.section_faqs %}
+          {
+          "@type": "Question",
+          "name": "{{ faqQuestions.faq_question }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ faqQuestions.faq_answer }}"
+          }
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      {% endfor %}
+      ]
+    }
+    </script>
+    {% endfor %} 

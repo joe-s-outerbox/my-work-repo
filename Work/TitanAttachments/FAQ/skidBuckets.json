@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): Skid Steer Buckets",
+          "section_faqs": [
+            {
+              "faq_question": "What is a skid steer bucket used for?",
+              "faq_answer":  "Standard skid steer buckets are designed for loading and transporting materials, but there are also many other skid steer buckets for sale that are designed for performing other tasks, such as grabble buckets for grabbing logs and rocks, rock buckets for sifting out debris, and tooth buckets for digging."
+            },
+            {
+              "faq_question": "How do I choose the right skid steer bucket for my job?",
+              "faq_answer": "Some things you’ll want to consider are what features you’ll need to get the job done, the type and amount of material you’ll be maneuvering, the terrain you’ll be using your bucket on, and the attachment’s compatibility with your loader."
+            },
+            {
+              "faq_question": "How do I pick the right size skid steer bucket?",
+              "faq_answer": "The skid steer loader bucket you should get depends on a few factors, including the width and capacity of the bucket. You’ll want to choose a bucket that has a large enough width and capacity to get your job done efficiently, but not so large that it affects your loader’s performance or makes it hard to maneuver the bucket. A good place to start is to check your loader’s specs for compatibility and go from there."
+            },
+            {
+              "faq_question": "Should I get a skid steer bucket with a smooth edge or a tooth edge?",
+              "faq_answer": "The type of edge you need will depend on the jobs you plan to use your bucket for. Smooth edge buckets are ideal for grading and leveling tasks, while tooth edge buckets are better for breaking ground and digging material."
+            },
+            {
+              "faq_question": "How do I know if my loader can handle a specific bucket? ",
+              "faq_answer": "Check your loader’s operating capacity and hydraulic system specifications. The skid steer bucket should match or be below your machine’s rated capacity."
+            }
+          ]
+        }
+      ]
+    }
+  ]

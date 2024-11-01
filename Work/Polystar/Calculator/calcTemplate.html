@@ -1,0 +1,256 @@
+<div id="obx-blog-template" class="calc-wrapper"></div>
+    <div class="column-container">
+        <div class="left-column">
+            <section class="obx-calcuator-template">
+                <div class="obx-section top-content">
+                    <h2>Lorem ipsum dolor, sit amet </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus accusamus fugit nobis facere.
+                        Quo aut dolore ex id nesciunt corporis, ratione eligendi nemo, quisquam ipsum maiores totam
+                        quidem, ut tempore?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="obx-section calculator">
+                    <div class="flex-row">
+
+                        <!-- Inches Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Inches (Gallons)</h3>
+                            <form id="inchesForm">
+                                <label for="lengthInches">Length (inches):</label>
+                                <input type="number" id="lengthInches" name="lengthInches" type="number" min="0"
+                                    step="0.1" required>
+                                <label for="widthInches">Width (inches):</label>
+                                <input type="number" id="widthInches" name="widthInches" type="number" min="0"
+                                    step="0.1" required>
+                                <label for="heightInches">Height (inches):</label>
+                                <input type="number" id="heightInches" name="heightInches" type="number" min="0"
+                                    step="0.1" required>
+                                <div class="output">
+                                    <label for="resultInches">Capacity (Gal.)</label>
+                                    <p id="resultInches"></p>
+                                </div>
+                                <button type="button" onclick="calculateInches()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Millimeters Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Millimeters (Liters)</h3>
+                            <form id="mmForm">
+                                <label for="lengthMm">Length (mm)</label>
+                                <input type="number" id="lengthMm" name="lengthMm" type="number" min="0" step="0.1"
+                                    required>
+                                <label for="widthMm">Width (mm)</label>
+                                <input type="number" id="widthMm" name="widthMm" type="number" min="0" step="0.1"
+                                    required>
+                                <label for="heightMm">Height (mm)</label>
+                                <input type="number" id="heightMm" name="heightMm" type="number" min="0" step="0.1"
+                                    required>
+                                <div class="output">
+                                    <label for="resultMM">Capacity (L)</label>
+                                    <p id="resultMM"></p>
+                                </div>
+                                <button type="button" onclick="calculateMM()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Feet Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Feet (Gallons)</h3>
+                            <form id="feetForm">
+                                <label for="lengthFeet">Length (feet)</label>
+                                <input type="number" id="lengthFeet" type="number" min="0" step="0.1" name="lengthFeet"
+                                    required>
+                                <label for="widthFeet">Width (feet)</label>
+                                <input type="number" id="widthFeet" type="number" min="0" step="0.1" name="widthFeet"
+                                    required>
+                                <label for="heightFeet">Height (feet)</label>
+                                <input type="number" id="heightFeet" type="number" min="0" step="0.1" name="heightFeet"
+                                    required>
+                                <div class="output">
+                                    <label for="resultFeet">Capacity (Gal.)</label>
+                                    <p id="resultFeet"></p>
+                                </div>
+                                <button type="button" onclick="calculateFeet()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Meters Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Meters (Liters)</h3>
+                            <form id="metersForm">
+                                <label for="lengthMeters">Length (meters)</label>
+                                <input type="number" id="lengthMeters" type="number" min="0" step="0.1"
+                                    name="lengthMeters" required>
+                                <label for="widthMeters">Width (meters)</label>
+                                <input type="number" id="widthMeters" type="number" min="0" step="0.1"
+                                    name="widthMeters" required>
+                                <label for="heightMeters">Height (meters)</label>
+                                <input type="number" id="heightMeters" type="number" min="0" step="0.1"
+                                    name="heightMeters" required>
+                                <div class="output">
+                                    <label for="resultMeters">Capacity (L)</label>
+                                    <p id="resultMeters"></p>
+                                </div>
+                                <button type="button" onclick="calculateMeters()">Calculate </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <script>
+                function calculateInches() {
+                    var length = document.getElementById('lengthInches').value;
+                    var width = document.getElementById('widthInches').value;
+                    var height = document.getElementById('heightInches').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityGallons = (length * width * height) / 231;
+                        document.getElementById('resultInches').innerText = capacityGallons.toFixed(2) + ' gallons';
+                    } else {
+                        document.getElementById('resultInches').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+
+                function calculateMM() {
+                    var length = document.getElementById('lengthMm').value;
+                    var width = document.getElementById('widthMm').value;
+                    var height = document.getElementById('heightMm').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityLiters = (length * width * height) / 1000000;
+                        document.getElementById('resultMM').innerText = capacityLiters.toFixed(2) + ' liters';
+                    } else {
+                        document.getElementById('resultMM').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+
+                function calculateFeet() {
+                    var length = document.getElementById('lengthFeet').value;
+                    var width = document.getElementById('widthFeet').value;
+                    var height = document.getElementById('heightFeet').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityGallons = length * width * height * 7.48052;
+                        document.getElementById('resultFeet').innerText = capacityGallons.toFixed(2) + ' gallons';
+                    } else {
+                        document.getElementById('resultFeet').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+
+                function calculateMeters() {
+                    var length = document.getElementById('lengthMeters').value;
+                    var width = document.getElementById('widthMeters').value;
+                    var height = document.getElementById('heightMeters').value;
+                    if (length > 0 && width > 0 && height > 0) {
+                        var capacityLiters = length * width * height * 1000;
+                        document.getElementById('resultMeters').innerText = capacityLiters.toFixed(2) + ' liters';
+                    } else {
+                        document.getElementById('resultMeters').innerText = 'Please enter valid dimensions!';
+                    }
+                }
+            </script>
+            
+            <div class="obx-section flex-split">
+                <div class="flex-row">
+                    <div class="col media"><img
+                            src="https://www.polystarcontainment.com/wp-content/uploads/2024/04/stormwater-management-systems.png"
+                            alt="">
+                    </div>
+                    <div class="col content">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis recusandae id dolor quasi, similique accusantium aspernatur dolores necessitatibus illo atque sint, ducimus tempora? Consequuntur adipisci magni impedit corporis, voluptatum accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur voluptatibus, unde voluptates repudiandae quisquam mollitia, fugiat exercitationem amet dolore quam id. Corrupti similique magnam fugit nihil itaque mollitia eum.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="obx-section flex-split">
+                <div class="flex-row">
+                    <div class="col content">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis recusandae id dolor quasi, similique accusantium aspernatur dolores necessitatibus illo atque sint, ducimus tempora? Consequuntur adipisci magni impedit corporis, voluptatum accusamus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur voluptatibus, unde voluptates repudiandae quisquam mollitia, fugiat exercitationem amet dolore quam id. Corrupti similique magnam fugit nihil itaque mollitia eum.
+                        </p>
+                    </div>
+                    <div class="col media">
+                        <div class="obx-video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_3Y52mwJK6I?si=WPONmjssL9VC1BQd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="obx-section text-only wide"
+                style="background: #F0F0F0;padding: 3vh;">
+                <h2>Polystar's Commitment to Caluculating Containment</h2>
+                <p>
+                    <a href="https://www.bbb.org/us/oh/stow/profile/general-engineering-contractor/polystar-containment-inc-0272-90012976"
+                            target="_blank" rel="nofollow noopener">Polystar Containment</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong>Iste doloremque necessitatibus, corrupti dolor, nobis doloribus in consequuntur fuga ad nostrum facere! Voluptatem nemo cum facilis.</strong> Mollitia molestias exercitationem corrupti ullam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae veniam provident esse, dolores perferendis expedita eveniet, id unde neque commodi velit. Atque eos praesentium velit itaque voluptas eum aspernatur?
+                </p>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt quidem blanditiis, cupiditate adipisci natus, assumenda voluptatum cum ab atque dolor ipsum dolorum, magnam at commodi ducimus fugiat cumque nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eligendi sunt quibusdam, cumque commodi aspernatur nisi. Blanditiis quibusdam, cupiditate fugit explicabo ex quo aliquid praesentium nisi excepturi, debitis eveniet architecto! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum omnis aut delectus explicabo assumenda enim. Quaerat aspernatur fugit, doloribus voluptatibus sunt recusandae nihil perferendis, itaque quis magni tempore vero delectus!
+                </p>
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sunt sapiente accusamus. Hic deleniti iste unde ipsa est, numquam delectus blanditiis quam quae dolorum aperiam nihil autem cupiditate similique magnam.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sunt sapiente accusamus. Hic deleniti iste unde ipsa est, numquam delectus blanditiis quam quae dolorum aperiam nihil autem cupiditate similique magnam.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sunt sapiente accusamus. Hic deleniti iste unde ipsa est, numquam delectus blanditiis quam quae dolorum aperiam nihil autem cupiditate similique magnam.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sunt sapiente accusamus. Hic deleniti iste unde ipsa est, numquam delectus blanditiis quam quae dolorum aperiam nihil autem cupiditate similique magnam.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sunt sapiente accusamus. Hic deleniti iste unde ipsa est, numquam delectus blanditiis quam quae dolorum aperiam nihil autem cupiditate similique magnam.</li>
+                </ul>
+            </div>
+            <div id="faqs" class="obx-section text-only wide faqs">
+                <h2>FAQs About Calculating Containment</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ab nisi aut perspiciatis alias aliquam eius beatae molestias, neque illum veritatis explicabo voluptates laborum autem fuga, porro assumenda! Ducimus, eaque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo, vel earum magni fugit consequatur deserunt officiis non, iusto nulla mollitia iure adipisci unde est provident eos voluptates totam! Ratione?
+                </p>
+                <hr>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h3>
+                <p>Voluptatem enim veniam similique, provident debitis vel asperiores modi praesentium impedit, hic, eum soluta nesciunt. Numquam quas magnam laudantium ab dolor eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut nihil totam quis autem ut excepturi iusto maxime a reiciendis, alias hic sed modi assumenda doloribus! Corporis laudantium reiciendis tempore.</p>
+                <hr>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h3>
+                <p>Voluptatem enim veniam similique, provident debitis vel asperiores modi praesentium impedit, hic, eum soluta nesciunt. Numquam quas magnam laudantium ab dolor eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut nihil totam quis autem ut excepturi iusto maxime a reiciendis, alias hic sed modi assumenda doloribus! Corporis laudantium reiciendis tempore.</p>
+                <hr>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h3>
+                <p>Voluptatem enim veniam similique, provident debitis vel asperiores modi praesentium impedit, hic, eum soluta nesciunt. Numquam quas magnam laudantium ab dolor eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut nihil totam quis autem ut excepturi iusto maxime a reiciendis, alias hic sed modi assumenda doloribus! Corporis laudantium reiciendis tempore.</p>
+                <hr>
+                
+            </div>
+            <div class="obx-section blue-gradient-bg cta"
+                style="background-image: url('https://www.polystarcontainment.com/wp-content/uploads/2023/09/background.png');">
+                <p></p>
+                <p>At Polystar Containment, we understand the complexities of managing stormwater in today's rapidly
+                    changing environment. <strong>Our tailored stormwater management solutions are designed to meet
+                        these challenges, offering innovative, efficient, and effective ways to manage water
+                        sustainably.</strong> Whether you're updating existing infrastructure or embarking on new
+                    projects, our team is ready to assist. For a deeper dive into what we offer or to get started with a
+                    quote, contact us now. Let Polystar be your ally in achieving superior stormwater management and
+                    environmental compliance.</p>
+                <a href="https://www.polystarcontainment.com/contact-us/">contact us</a>
+            </div>
+            <div class="obx-section obx-related-articles">
+                <h2>Related Articles</h2>
+                <div class="flex-row">
+                    <div class="obx-article"><a href="/about-us/resources/what-is-secondary-containment/">
+                            <img src="https://www.polystarcontainment.com/wp-content/uploads/2023/09/fpo-img-2.png"
+                                alt="">
+                            <span class="article-heading">What is Secondary Containment?</span><br>
+                        </a>
+                    </div>
+                    <div class="obx-article"><a href="/government-requirements/">
+                            <img src="https://www.polystarcontainment.com/wp-content/uploads/2023/08/spill-containment-walls.jpg"
+                                alt="spill prevention containment walls">
+                            <span class="article-heading">Secondary Containment for SPCC Regulations</span><br>
+                        </a>
+                    </div>
+                    <div class="obx-article"><a href="/about-us/resources/what-is-secondary-containment/">
+                        <img src="https://www.polystarcontainment.com/wp-content/uploads/2023/09/fpo-img-2.png"
+                            alt="">
+                        <span class="article-heading">What is Secondary Containment?</span><br>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

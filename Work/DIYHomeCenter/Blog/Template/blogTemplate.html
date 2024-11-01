@@ -1,0 +1,398 @@
+<style>
+    #obx-blog .obx-section {
+    margin-bottom: 60px;
+}
+#obx-blog h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+#obx-blog h3 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 20px;
+}
+#obx-blog p {
+    line-height: 1.8;
+}
+#obx-blog .mb-0 {
+    margin-bottom: 0;
+}
+#obx-blog .grey-bg {
+    background-color: #F3F3F3;
+    box-shadow: 0px 3px 6px #00000029;
+}
+#obx-blog .grey-bg.has-shadow {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#obx-blog .jumplinks ul {
+    column-count: 2;
+    margin: 0;
+}
+#obx-blog .jumplinks li {
+    list-style-type: none;
+    position: relative;
+    margin-left: 40px
+}
+#obx-blog .jumplinks li:before {
+    content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC40MTgiIGhlaWdodD0iMTIuODQ1IiB2aWV3Qm94PSIwIDAgMTQuNDE4IDEyLjg0NSI+CiAgPGcgaWQ9Ikljb25fZmVhdGhlci1hcnJvdy1yaWdodCIgZGF0YS1uYW1lPSJJY29uIGZlYXRoZXItYXJyb3ctcmlnaHQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02LjUgLTYuMDk0KSI+CiAgICA8cGF0aCBpZD0iUGF0aF8zMjM4IiBkYXRhLW5hbWU9IlBhdGggMzIzOCIgZD0iTTcuNSwxOEgxOS45MTgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTUuNDg0KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmY3ZDJmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHBhdGggaWQ9IlBhdGhfMzIzOSIgZGF0YS1uYW1lPSJQYXRoIDMyMzkiIGQ9Ik0xOCw3LjVsNi4yMDksNS4wMTZMMTgsMTcuNTMzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNC4yOTEpIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjdkMmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPC9nPgo8L3N2Zz4K');
+    margin: 0 20px 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: -38px;
+}
+#obx-blog .jumplinks p {
+    font: 700 20px/28px 'Avenir', sans-serif;
+    margin-bottom: 20px;
+}
+#obx-blog .basic-content ul li {
+    list-style-type: none;
+    position: relative;
+    margin-left: 20px;
+}
+#obx-blog .basic-content ul li:before{
+    content: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMTBhMiAyIDAgMSAwIDAgNCAyIDIgMCAxIDAgMC00eiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4=');
+    position: absolute;
+    left: -33px;
+    top: -3px;
+}
+#obx-blog .flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+#obx-blog .flex-row .col {
+    align-self: center;
+}
+#obx-blog .star img {
+    width: unset;
+}
+#obx-blog span.star {
+    display: inline-block;
+}
+#obx-blog .product-callout .flex-row {
+    column-gap: 34px;
+}
+#obx-blog .product-callout h2 {
+    margin-bottom: 0;
+}
+#obx-blog .col.media {
+    flex-basis: 33%;
+}
+#obx-blog .col.content {
+    flex-basis: 66%;
+}
+#obx-blog .review-row {
+    margin-bottom: 20px;
+}
+#obx-blog span.grey-text {
+    color: #6F6F70;
+}
+#obx-blog a.obx-button.orange.trailing-gt {
+    background: rgb(255 125 47/var(--tw-text-opacity));
+    color:  #fff;
+    min-width: fit-content;
+    padding: 11px 35px 11px 12px;
+    border-radius: 3px;
+    position: relative;
+}
+#obx-blog a.obx-button.orange.trailing-gt:after {
+    content: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNoZXZyb24tZG91YmxlLXJpZ2h0IiBmaWxsPSIjZmZmIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTUuNTksNy40MUw3LDZMMTMsMTJMNywxOEw1LjU5LDE2LjU5TDEwLjE3LDEyTDUuNTksNy40MU0xMS41OSw3LjQxTDEzLDZMMTksMTJMMTMsMThMMTEuNTksMTYuNTlMMTYuMTcsMTJMMTEuNTksNy40MVoiIC8+PC9zdmc+');
+    position: absolute;
+    bottom: -1px;
+    right: 3px;
+}
+#obx-blog a.obx-button.orange.trailing-gt span:after {
+    content: "\f101";
+    padding-left: 15px
+}
+#obx-blog ol {
+    margin-left: 36px
+}
+#obx-blog ol li::marker {
+    font-weight: 600;
+}
+#obx-blog .obx-section.callout {
+    padding: 40px 0;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+}
+#obx-blog .img-row img {
+    margin-bottom: 10px;
+}
+#obx-blog .img-row span {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eeeeee;
+}
+#obx-blog .img-row span a {
+    font-size: 12px;
+}
+span.bold-caps {
+    display: block;
+    text-transform: uppercase;
+    font-family: Avenir LT W01_55 Roman1475520,Helvetica Neue,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style:oblique;
+    margin-bottom: 10px
+}
+#obx-blog .callout.video-callout .flex-row {
+    column-gap: 66px;
+    margin-bottom: 30px;
+}
+#obx-blog .callout.video-callout .col {
+    flex-basis: 50%;
+}
+#obx-blog .obx-video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+#obx-blog .obx-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#obx-blog .obx-video-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+}
+#obx-blog .obx-faq.obx-section {
+    background-color: #F8F8F8;
+    padding: 60px;
+}
+#obx-blog .obx-faq.obx-section h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #FC7D30
+}
+#obx-blog .faq-item {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #FF7D2F;
+    box-shadow: 0px 0px 50px #0000002B;
+    border-radius: 3px;
+    margin-bottom: 20px
+}
+#obx-blog .faq-item p:last-of-type {
+    margin-bottom: 0;
+}
+#obx-blog .cta-text-container {
+    max-width: 450px;
+    color: #fff;
+    margin-left: 33%
+}
+#obx-blog .cta-text-container h2,
+#obx-blog .cta-text-container p {
+    color: #fff;
+}
+#obx-blog .cta-text-container p {
+    font-size: 26px;
+    line-height: 1.4
+}
+#obx-blog .obx-blog-cta.obx-section {
+    padding: 32.5px;
+}
+#obx-blog .obx-blog-cta.obx-section {
+    border-radius: 10px
+}
+#obx-blog .go-back-row {
+    position: relative;
+}
+#obx-blog .go-back-row a {
+    color: #000000;
+    font-weight: 700;
+    margin-left: 4%;
+}
+#obx-blog .go-back-row a:before {
+    content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC40MTgiIGhlaWdodD0iMTIuODQ1IiB2aWV3Qm94PSIwIDAgMTQuNDE4IDEyLjg0NSI+CiAgPGcgaWQ9Ikljb25fZmVhdGhlci1hcnJvdy1yaWdodCIgZGF0YS1uYW1lPSJJY29uIGZlYXRoZXItYXJyb3ctcmlnaHQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02LjUgLTYuMDk0KSI+CiAgICA8cGF0aCBpZD0iUGF0aF8zMjM4IiBkYXRhLW5hbWU9IlBhdGggMzIzOCIgZD0iTTcuNSwxOEgxOS45MTgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTUuNDg0KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmY3ZDJmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHBhdGggaWQ9IlBhdGhfMzIzOSIgZGF0YS1uYW1lPSJQYXRoIDMyMzkiIGQ9Ik0xOCw3LjVsNi4yMDksNS4wMTZMMTgsMTcuNTMzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNC4yOTEpIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjdkMmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPC9nPgo8L3N2Zz4K');
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+}
+
+@media only screen and (width <= 768px) {
+#obx-blog .jumplinks ul {
+    column-count: 1;
+}
+}
+@media only screen and (width < 550px) {
+    #obx-blog .jumplinks li:before {
+    margin: 0 10px 0 0;
+    
+}
+    #obx-blog .flex-row {
+        flex-direction: column;
+    }
+    #obx-blog .flex-row .col {
+        align-self: unset;
+    }
+    #obx-blog .flex-row .col.media {
+        margin-bottom: 50px
+    }
+    #obx-blog .obx-faq.obx-section {
+        padding: 46px 30px;
+    }
+    #obx-blog .obx-blog-cta.obx-section {
+    border-radius: 0;
+    }
+    #obx-blog .cta-text-container {
+        margin-left: 0;
+    }
+    #obx-blog .go-back-row a {
+    margin-left: 10%;
+    }
+    #obx-blog .obx-faq.obx-section {
+    margin-bottom: 0;
+    }
+}
+</style>
+    
+<!-- template calls for rearranging some site template elements and adding featured products to sidebar 
+ 
+This was marked up assuming it goes into 
+<div class="md:flex lg:mt-13.75"> 
+with the share column removed and the 
+ <div class="post-text-hld md:w-3/4 lg:mt-12.5"> changed to remove the 3/4 class
+-->
+<div id="obx-blog">
+    <div class="intro obx-section">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea</p>
+        <div class="jumplinks grey-bg has-shadow">
+            <p>
+                In this article:
+            </p>
+            <ul>
+                <li><a href="#"><strong>Why Choose Wood?</strong></a></li>
+                <li><a href="#"><strong>A Word About Posts</strong></a></li>
+                <li><a href="#"><strong>Materials for Wood Deck Railing</strong></a></li>
+                <li><a href="#"><strong>Tools to Install Wood Railings</strong></a></li>
+                <li><a href="#"><strong>Basic Steps to Install a Wood Deck Railing</strong></a></li>
+                <li><a href="#"><strong>Materials for Wood Deck Railing</strong></a></li>
+                <li><a href="#"><strong>Enjoy Your Deck</strong></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="basic-content obx-section">
+        <h2>Why Choose Wood? - H2</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+        <p>These are the basic tools you should plan to have on hand for your wood railing project:</p>
+        <ul>
+            <li>Circular Saw or Miter Saw</li>
+            <li>Power Drill with Bits</li>
+            <li>Level</li>
+        </ul>
+    </div>
+    <div class="callout product-callout obx-section">
+        <div class="flex-row">
+            <div class="col media">
+                <img src="https://dummyimage.com/260x260/FF7D2F/fff" alt="">
+            </div>
+            <div class="col content">
+                <h2>Metal Balusters</h2>
+                <!-- Review stars might need to be dynamic -->
+                <div class="review-row">
+                    <span class="star"><img alt="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNC4yNTciIHZpZXdCb3g9IjAgMCAxNSAxNC4yNTciPgogIDxwYXRoIGlkPSJJY29uX2lvbmljLW1kLXN0YXIiIGRhdGEtbmFtZT0iSWNvbiBpb25pYy1tZC1zdGFyIiBkPSJNMTEuMywxNS45NjFsNC42MzUsMi44LTEuMjI2LTUuMjc1TDE4LjgsOS45MzYsMTMuNCw5LjQ3MywxMS4zLDQuNSw5LjE5LDkuNDczLDMuOCw5LjkzNmw0LjA5MSwzLjU0N0w2LjY2MiwxOC43NTdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMy43OTcgLTQuNSkiIGZpbGw9IiNmZjdkMmYiLz4KPC9zdmc+Cg=="></span>
+                    <span class="star"><img alt="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNC4yNTciIHZpZXdCb3g9IjAgMCAxNSAxNC4yNTciPgogIDxwYXRoIGlkPSJJY29uX2lvbmljLW1kLXN0YXIiIGRhdGEtbmFtZT0iSWNvbiBpb25pYy1tZC1zdGFyIiBkPSJNMTEuMywxNS45NjFsNC42MzUsMi44LTEuMjI2LTUuMjc1TDE4LjgsOS45MzYsMTMuNCw5LjQ3MywxMS4zLDQuNSw5LjE5LDkuNDczLDMuOCw5LjkzNmw0LjA5MSwzLjU0N0w2LjY2MiwxOC43NTdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMy43OTcgLTQuNSkiIGZpbGw9IiNmZjdkMmYiLz4KPC9zdmc+Cg=="></span>
+                    <span class="star"><img alt="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNC4yNTciIHZpZXdCb3g9IjAgMCAxNSAxNC4yNTciPgogIDxwYXRoIGlkPSJJY29uX2lvbmljLW1kLXN0YXIiIGRhdGEtbmFtZT0iSWNvbiBpb25pYy1tZC1zdGFyIiBkPSJNMTEuMywxNS45NjFsNC42MzUsMi44LTEuMjI2LTUuMjc1TDE4LjgsOS45MzYsMTMuNCw5LjQ3MywxMS4zLDQuNSw5LjE5LDkuNDczLDMuOCw5LjkzNmw0LjA5MSwzLjU0N0w2LjY2MiwxOC43NTdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMy43OTcgLTQuNSkiIGZpbGw9IiNmZjdkMmYiLz4KPC9zdmc+Cg=="></span>
+                    <span class="star"><img alt="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNC4yNTciIHZpZXdCb3g9IjAgMCAxNSAxNC4yNTciPgogIDxwYXRoIGlkPSJJY29uX2lvbmljLW1kLXN0YXIiIGRhdGEtbmFtZT0iSWNvbiBpb25pYy1tZC1zdGFyIiBkPSJNMTEuMywxNS45NjFsNC42MzUsMi44LTEuMjI2LTUuMjc1TDE4LjgsOS45MzYsMTMuNCw5LjQ3MywxMS4zLDQuNSw5LjE5LDkuNDczLDMuOCw5LjkzNmw0LjA5MSwzLjU0N0w2LjY2MiwxOC43NTdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMy43OTcgLTQuNSkiIGZpbGw9IiNmZjdkMmYiLz4KPC9zdmc+Cg=="></span>
+                    <span class="star"><img alt="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNC4yNTciIHZpZXdCb3g9IjAgMCAxNSAxNC4yNTciPgogIDxwYXRoIGlkPSJJY29uX2lvbmljLW1kLXN0YXIiIGRhdGEtbmFtZT0iSWNvbiBpb25pYy1tZC1zdGFyIiBkPSJNMTEuMywxNS45NjFsNC42MzUsMi44LTEuMjI2LTUuMjc1TDE4LjgsOS45MzYsMTMuNCw5LjQ3MywxMS4zLDQuNSw5LjE5LDkuNDczLDMuOCw5LjkzNmw0LjA5MSwzLjU0N0w2LjY2MiwxOC43NTdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMy43OTcgLTQuNSkiIGZpbGw9IiNmZjdkMmYiLz4KPC9zdmc+Cg=="></span>
+                    <span class="count">(325)</span>
+                    <span class="grey-text italic">5 star reviews</span>
+                </div>
+                
+                <p>
+                    If you’re after a more modern or streamlined vibe, opt for sleek metal balusters. Square and round styles introduce a contemporary touch to your railing, while decorative options can infuse old-world charm. For a visually dynamic design, consider alternating metal balusters with wood.
+                </p>
+                <a href="#" class="obx-button orange trailing-gt">Shop Metal Balusters</a>
+            </div>
+        </div>
+    </div>
+    <div class="basic-content obx-section">
+        <h2>A Word About Posts</h2>
+        <p>If you’re adding a wood railing, it goes without saying that you need posts to attach it to. Seems simple enough. But the type of deck posts can vary based on the specific design and construction of the deck. There are three common types to be aware of:</p>
+        <ol>
+            <li style="
+"><strong>Through-Deck Posts:</strong> These posts extend through the deck surface and are anchored into the ground below, typically with concrete footings, providing support and stability to the deck structure. Above the decking surface, these posts may be wrapped, or clad, in an additional layer of material to add to their girth, provide protection, and achieve a more finished look.</li>
+            <li><strong>Surface-Mounted Posts:</strong> These deck posts are mounted on the surface of the deck and attached with brackets or other hardware to secure them in place.</li>
+            <li><strong>Fascia-Mounted Posts:</strong> These posts are attached with bolts or screws secured through the post and into the deck’s fascia board.</li>
+            
+        </ol>
+    </div>
+    <div class="img-row obx-section">
+        <img src="https://res.cloudinary.com/diyhomecenter/image/upload/f_auto/v1701123297/prod/blog/a-beginners-guide-to-diy-wood-railings/through-surface-fascia-posts_mtkqqe.jpg" alt="">
+        <span class="grey-text italic">Through-deck, surface-mount, and <a href="#"> fascia-mount posts</a></span>
+    </div>
+    <div class="basic-content obx-section">
+        <h2>Materials for Wood Deck Railing</h2>
+        <p>Following are the basic materials you’ll want to gather as you prepare for your DIY wood railing project:</p>
+        <h3>Lumber for Rails and Posts - H3</h3>
+        <p>When it comes to selecting lumber, you have many options. Common and affordable choices like pressure-treated pine, cedar, or redwood offer durability and a classic aesthetic with a moderate level of maintenance. </p>
+        <p>If you’re seeking a touch of luxury and unique grain patterns, consider popular exotic hardwoods such as Ipe, Tigerwood, or Mahogany for your railings.</p>
+        <div class="grey-bg has-shadow">
+                <span class="bold-caps">tip</span>
+                <p class="italic mb-0">A notable advantage of exotic hardwoods is their natural oils that contribute to resistance against insects and decay.</p>
+        </div>
+        <p>For traditional posts, choose between 4x4-inch or 6x6-inch lumber, depending on your design preference. 4x4 posts are the most common choice, however, if you’re envisioning a large, substantial deck, you may want to consider robust 6x6 posts. If you’re planning for fascia-mounted posts, 2x6 or 2x8 lumber can also be used for a unique profile. </p>
+        <p>For the horizontal rails, opt for 2x4 or 2x6 boards based on your aesthetic and functional preferences. The 2x6 boards, with their broader surface, are ideal for creating a cocktail rail-style top board, providing more space for placing drinks or small items while 2x4 boards offer a thinner, traditional appearance.</p>
+        <h3>Balusters or Other Infills</h3>
+        <p>The aesthetic appeal of your wood deck railing is significantly influenced by your choice of balusters or infills—the elements that fill the space between the top and bottom rails. Your wooden railing offers you a lot of creative freedom to personalize your outdoor space just the way you like it… and you certainly aren’t limited to wood balusters. Here are some popular options to bring on the style:</p>
+    </div>
+    <div class="callout video-callout obx-section">
+        <div class="flex-row">
+            <div class="col media">
+                <div class="obx-video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s-jtdKjzQaE?si=8qn-TPZQG1uUFg5G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col content">
+                <h2>Materials for Wood Deck Railing - Video Heading</h2>  
+            </div>
+        </div>
+        <p class="mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+    </div>
+    <div class="obx-faq obx-section">
+        <h2>Frequently Asked Questions</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <div class="faq-item">
+            <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna?</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Lorem ipsum dolor sit amet consetetur sadipscing?</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr?</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+        </div>
+    </div>
+    <!-- related items here (dynamic) -->
+
+    <!-- How to here (dynamic? based on homepage) -->
+
+        <div class="obx-blog-cta obx-section" style="background-image: url('https://dummyimage.com/848x233/324654/324654');">
+        <div class="cta-text-container">
+            <h2>Cta Heading</h2>
+            <p>Lorem Ipsum Dolor Sit Amet Consetetur Ipsum</p>
+            <a href="#" class="obx-button orange trailing-gt">Contact Us</a>
+         </div>
+    </div>
+    <div class="go-back-row obx-section">
+        <a href="/how-to-center/">All Articles</a>
+    </div>
+
+</div>
+
+
+<!-- form here -->

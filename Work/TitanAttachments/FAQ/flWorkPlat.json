@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): Forklift Work Platforms",
+          "section_faqs": [
+            {
+              "faq_question": "Can multiple people work on a forklift work platform at one time?",
+              "faq_answer": "Yes, there are work platforms designed for use by multiple people. Be sure to check the model’s guide regarding maximum occupancy and overall load capacity."
+            },
+            {
+              "faq_question": "What are fork lift work platforms used for?",
+              "faq_answer": "Forklift platforms are used for maintenance, inventory management, picking in warehouses, and other situations where workers need to safely perform aerial tasks."
+            },
+            {
+              "faq_question": "What safety features are available with fork lift platforms? ",
+              "faq_answer": "Forklift work platforms are available with guardrails, toe boards, safety harness attachment points, and non-slip flooring to ensure safety during aerial tasks. Consider your safety needs when choosing a forklift work platform."
+            },
+            {
+              "faq_question": "How are forklift work platforms attached to a forklift?",
+              "faq_answer": "Forklift work platforms are attached to the forklift’s forks using a secure locking mechanism or a pin system. "
+            },
+            {
+              "faq_question": "How high can you raise a work platform for forklifts?",
+              "faq_answer": "The max lift height of forklift work platforms varies by make and model. It’s essential to choose a work platform that is within your forklift’s operational limits."
+            }
+          ]
+        }
+      ]
+    }
+  ]

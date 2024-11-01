@@ -1,0 +1,86 @@
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleBody": {{ article.content | strip_html | json }},
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ shop.url | append: article.url | json }}
+      },
+      "headline": {{ article.title | json }},
+      {% if article.excerpt != blank %}
+        "description": {{ article.excerpt | strip_html | json }},
+      {% endif %}
+      {% if article.image %}
+        {% assign image_size = article.image.width | append: 'x' %}
+        "image": [
+          {{ article | img_url: image_size | prepend: "https:" | json }}
+        ],
+      {% endif %}
+      "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+      "dateModified": {{ article.updated_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+      "dateCreated": {{ article.created_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+      "author": {
+        "@type": "Person",
+        "name": {{ article.author | json }}
+      },
+      "publisher": {
+        "@type": "Organization",
+        {% if page_image %}
+          {% assign image_size = page_image.width | append: 'x' %}
+          "logo": {
+            "@type": "ImageObject",
+            "height": {{ page_image.height | json }},
+            "url": {{ page_image | img_url: image_size | prepend: "https:" | json }},
+            "width": {{ page_image.width | json }}
+          },
+        {% endif %}
+        "name": {{ shop.name | json }}
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Plastic Foaming Soap Dispenser | Signature Collection",
+  "image": "https://cdn.shopify.com/s/files/1/0219/0619/4532/files/Foamer_Bottle_Plastic16_Signature_Amber.png?v=1703102124",
+  "description": "",
+  "brand": {
+    "@type": "Brand",
+    "name": "The Polished Jar"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "{{ product. }}",
+    "priceCurrency": "USD",
+    "price": "",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "1",
+    "reviewCount": "1"
+  },
+  "review": {
+    "@type": "Review",
+    "name": "Great Product",
+    "reviewBody": "This dispenser looks great in my bathroom!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-08-20",
+    "author": {"@type": "Person", "name": "John Doe"},
+    "publisher": {"@type": "Organization", "name": "The Polished Jar"}
+  }
+}
+</script>

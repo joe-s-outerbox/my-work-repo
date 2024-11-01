@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): Skid Steer Mulchers",
+          "section_faqs": [
+            {
+              "faq_question": "What are skid steer mulchers used for?",
+              "faq_answer": "Skid steer mulchers reduce vegetation such as trees, shrubs and brush to smaller, more manageable pieces."
+            },
+            {
+              "faq_question": "How does a tree mulcher attachment affect a skid steer’s performance?",
+              "faq_answer": "It’s important to make sure your mulcher attachment is compatible with your skid steer’s requirements and operational demands as mulcher attachments can affect your skid steer’s maneuverability and hydraulic performance."
+            },
+            {
+              "faq_question": "Can a skid steer mulcher be used in wet or muddy conditions?",
+              "faq_answer": "Yes, skid steer mulchers can be used in wet or muddy conditions, but you’ll want to use caution as this can affect performance and increase wear and tear on your equipment in extreme weather conditions."
+            },
+            {
+              "faq_question": "How do I choose the right forestry mulcher for my needs?",
+              "faq_answer": "Consider the type and quantity of the vegetation you’ll be clearing, your skid steer’s capacity, and the mulcher’s cutting capacity when choosing a skid steer forestry mulcher."
+            },
+            {
+              "faq_question": "How do skid steer mulcher attachments work?",
+              "faq_answer": "Skid steer mulcher attachments connect to your loader’s hydraulic system via hoses. This is what powers the mulcher’s cutting mechanism, which features a rotating drum or disc with sharp blades or teeth to slice through and pulverize vegetation."
+            }
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): 3-Point Pallet Forks",
+          "section_faqs": [
+            {
+              "faq_question": "What’s the difference between clamp-on and quick attach pallet fork tractor attachments? ",
+              "faq_answer": "Quick attach pallet forks attach to your tractor’s loader arms with a quick attach system, while clamp-on pallet forks clamp directly onto your tractor's bucket, making them easy to install and remove. "
+            },
+            {
+              "faq_question": "Can I use my pallet fork tractor attachments to dig or pry? ",
+              "faq_answer": "Pallet forks are not intended for digging or prying, as this could damage them and your tractor’s loader arms. "
+            },
+            {
+              "faq_question": "Does it matter what pallet fork tractor implements I choose? ",
+              "faq_answer": "You’ll want to make sure the pallet forks you choose are compatible with your loader’s mounting system and the material you’ll be maneuvering as pallet fork implements for tractors are available in different designs for different tasks, such as debris forks, extended length pallet forks, adjustable pallet forks, backrest pallet forks, and more."
+            },
+            {
+              "faq_question": "Do I need a counterweight when using pallet forks? ",
+              "faq_answer": "It depends on the weight of the load you’re carrying. If you’re carrying a heavy load, you may need additional tractor accessories, such as a ballast box or a rear-mounted attachment, to maintain stability and prevent tipping."
+            },
+            {
+              "faq_question": "Can I use pallet forks with any tractor?",
+              "faq_answer": "Pallet fork attachments are compatible with most tractors, but it’s essential to make sure to choose pallet forks that are compatible with your tractor’s mounting system and lifting capacity."
+            }
+          ]
+        }
+      ]
+    }
+  ]

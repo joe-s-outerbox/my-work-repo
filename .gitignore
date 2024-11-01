@@ -1,8 +1,18 @@
 #ignore media files
 *.jpg
+*.jpeg
 *.png
 *.webp
 *.gif
 *.mp*
 *.mkv
 *.mov
+*.jpg*
+*.jpeg*
+*.png*
+*.mov*
+*.webp*
+*.gif*
+*.mp**
+*.mkv*
+Work/CollabDrug/resize/

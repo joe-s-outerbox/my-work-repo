@@ -1,0 +1,118 @@
+
+<!-- SHOPIFY -->
+
+<!-- ARTICLE JSON SCHEMA -->
+{%- if request.page_type == 'article' -%}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ shop.url }}{{ article.url |  url_encode }}"
+      },
+      "headline": "{{ article.title | escape }}",
+      "description": "{{ article.excerpt_or_content | truncatewords: 75 | strip_html | escape }}",
+      "image": "{{ article.image | image_url }}",
+      "author": {
+        "@type": "Person",
+        "name": "Ash & Ember"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ash & Ember",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ashandemberoutdoors.com/cdn/shop/files/ash_ember_logo_primary.png?v=1713370577&width=500"
+        }
+      },
+      "datePublished": "{{ article.published_at }}",
+      "dateModified": "{{ article.updated_at }}"
+    }
+    </script>
+    {% endif %}
+    
+    <!-- COLLECTION JSON SCHEMA  -->
+    {%- if request.page_type == 'collection' -%}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "{{ collection.title | escape }}",
+      "description": "{{ page_description | escape }}",
+      "image": {
+        "@type": "ImageObject",
+        "height": "{{ collection.image | height }}",
+        "url": "{{ collection | img_url}}"
+      },
+      "url": "{{ shop.url }}{{ collection.url | url_encode }}",
+      {%- if collection.products.size > 0 -%}
+        "mainEntity": {
+            "@type":"ItemList",
+            "itemListElement": [
+        {%- for product in collection.products -%}
+        {
+          "@type": "ListItem",
+          "position": "{{ forloop.index }}",
+          "item": {
+            "@type": "Product",
+            "name": "{{ product.title | escape }}",
+            "image": "{{ product.featured_image | image_url }}",
+            "description": "{{ product.description | strip_html | replace: '"', '' | replace: '”', '' | strip_newlines }}",
+            "url": "{{ shop.url }}{{ product.url }}",
+            {%- if product.sku -%}"sku": "{{ product.sku }}",{%- endif -%}
+            
+          "offers": {
+            "@type": "Offer",
+            "url": {{ request.origin | append: product.url | json }},
+            "priceCurrency": "USD",
+            "price": "{{ product.price | money_without_currency | replace: ',', '' }}",
+            "itemCondition": "https://schema.org/NewCondition",
+            {%- if product.available -%}"availability": "https://schema.org/InStock"
+            {%- else -%}"availability": "https://schema.org/OutOfStock"{%- endif -%}
+          }
+          }
+        }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+        ]
+      {%- endif -%}
+        }
+    }
+    </script>
+    {% endif %}
+    
+    <!-- PRODUCT JSON SCHEMA  -->
+    {%- if request.page_type == 'product' -%}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Product",
+      "name": {{ product.title | json }},
+      "@id": {{ canonical_url | append: '#product' | json }},
+      "url": {{ request.origin | append: product.url | json }},
+        "image": "{{ product.image }}",
+      "description": {{ product.description | strip_html | json }},
+      {% if product.selected_or_first_available_variant.sku != blank -%}
+        "sku": {{ product.selected_or_first_available_variant.sku | json }},
+      {%- endif %}
+      "brand": {
+        "@type": "Brand",
+        "name": {{ product.vendor | json }}
+      },
+      "offers": [
+        {%- for variant in product.variants -%}
+        {
+            "@type" : "Offer",
+            {%- if variant.sku != blank -%}
+            "sku": {{ variant.sku | json }},
+            {%- endif -%}
+            "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+            "price" : {{ variant.price | divided_by: 100.00 | json }},
+            "priceCurrency" : {{ cart.currency.iso_code | json }},
+            "url" : {{ request.origin | append: variant.url | json }}
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }
+    </script>
+    {% endif %}

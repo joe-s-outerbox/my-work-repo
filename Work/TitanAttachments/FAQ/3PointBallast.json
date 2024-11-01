@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): Ballast Boxes for Tractors",
+          "section_faqs": [
+            {
+              "faq_question": "What are ballast boxes for tractors used for",
+              "faq_answer": "Ballast boxes counterbalance the weight of front-end loader attachments and add traction and stability to your tractor."
+            },
+            {
+              "faq_question": "How much weight do I need to put in a ballast box?",
+              "faq_answer": "The amount of weight you’ll need to add depends on the size of your tractor and the load you’re carrying. Check your loader’s manual to determine how much weight is right for your specific tractor and attachment."
+            },
+            {
+              "faq_question": "What materials can I use to fill a tractor ballast box?",
+              "faq_answer": "Concrete, sand, gravel, and steel weights can all be used to fill your ballast box."
+            },
+            {
+              "faq_question": "What size tractor ballast box do I need",
+              "faq_answer": "The size of the ballast box depends on the size and lifting capacity of your tractor. It's important to select a box that provides enough counterweight without exceeding your tractor's 3 point hitch capacity. "
+            },
+            {
+              "faq_question": "What is the difference between a ballast box and wheel weights?",
+              "faq_answer": "While both provide traction and stability, wheel weights add weight directly to the tires, while a 3 point ballast box adds weight to the back of the tractor using a 3 point hitch and can typically hold more weight."
+            }
+          ]
+        }
+      ]
+    }
+  ]

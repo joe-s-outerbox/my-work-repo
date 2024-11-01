@@ -1,0 +1,62 @@
+<script>
+    var oldEl = document.getElementById("bc-script");
+    if(oldEl) {
+        oldEl.remove();
+    }
+    // Create Script
+    
+    var el = document.createElement('script');
+    el.type = 'application/ld+json';
+    el.id = "bc-script";
+    
+    // Set initial position
+    var position = 0;
+    
+    // Create breadcrumb object
+    var breadcrumb = {
+        position:0,
+        name:"",
+        item:""
+    }
+    
+    // Empty array for list items
+    var listArray = []
+    
+    // Loop through each breadcrumb link and set attributess
+    var items = document.querySelectorAll('.global-views-breadcrumb-item a , .global-views-breadcrumb-item-active');
+    if(items) {
+    for(var i = 0; i < items.length; i++) {
+        var newItem = Object.create(breadcrumb);
+        var curItem = items[i];
+        newItem["@type"] = "ListItem";
+        position++;
+        newItem.position = position;
+        newItem.name = curItem.text;
+        newItem.item = document.location.origin + curItem.getAttribute('href');
+        if(position == items.length) {
+            newItem.item = document.URL;
+            newItem.name = items[i].innerHTML;
+        }
+        listArray.push(newItem);
+    }
+    
+    // Create overarching Schema object
+    var breadcrumbSchema = {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": listArray
+    };
+    
+    // Stringify JSON
+    var finalSchema = JSON.stringify(breadcrumbSchema);
+    
+    // Add schema to Script
+    el.text = finalSchema;
+    
+    // Set head variable with browser fallback
+    var head = document.head || document.getElementsByTagName("head")[0];
+    
+    // Add to head 
+    head.appendChild(el);
+}
+</script>
