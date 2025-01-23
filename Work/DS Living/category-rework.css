@@ -1,0 +1,33 @@
+.full-width-content .content:has(#category-page-flex-wrapper){
+    max-width: 1000px
+}
+div#category-page-flex-wrapper  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div#category-page-flex-wrapper  article {
+    flex-basis: 31%;
+}
+div#category-page-flex-wrapper  article img {
+    width: 100%;
+}
+div#category-page-flex-wrapper  .type-post {
+    display: flex;
+    flex-direction:column;
+    
+}
+
+div#category-page-flex-wrapper  h2.entry-title {
+    font-size: 30px;    
+}
+div#category-page-flex-wrapper  .entry-header {
+    order: 1;
+    margin: 0;
+}
+div#category-page-flex-wrapper  .entry-content p {
+    display: none;
+}
+div#category-page-flex-wrapper footer.entry-footer {
+    display: none;
+}
