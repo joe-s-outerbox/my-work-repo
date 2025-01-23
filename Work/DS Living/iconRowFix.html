@@ -1,0 +1,20 @@
+<style>
+@media only screen and (max-width: 600px) {
+.obx-agency-numbers .gb-block-layout-column-inner {
+    max-width: 97%;
+    margin: 0 auto;
+}
+    .obx-agency-numbers .gb-layout-columns-4>.gb-layout-column-wrap.gb-is-responsive-column {
+        -ms-grid-columns:1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+.obx-agency-numbers .gb-layout-columns-4>.gb-layout-column-wrap.gb-is-responsive-column {
+    grid-template-rows: auto;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "col1 col2"
+"col3 col4";
+}
+}
+</style>

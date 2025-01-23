@@ -1,0 +1,249 @@
+<div id="obx-blog-template" class="calc-wrapper">
+    <div class="column-container">
+        <div class="left-column">
+            <section class="obx-calcuator-template">
+                <div class="obx-section top-content">
+                    <p>
+                        Federal regulations require that your containment system must hold 10% more than your tank's estimated capacity to ensure compliance and prevent environmental hazards. <strong>With Polystar's Secondary Containment Calculator, you can quickly and easily determine the appropriate size of your containment solution for tanks, berms, or other spill containment systems.</strong>
+                    </p>
+                    <p>
+                        Whether you work in oil and gas, manufacturing, or agriculture, ensuring the safety of your facility is critical. Our spill calculator simplifies the process of estimating containment volumes, helping you meet stringent <a href="https://www.epa.gov/oil-spills-prevention-and-preparedness-regulations/overview-spill-prevention-control-and" target="_blank" rel="nofollow noopener">Spill Prevention, Control, and Countermeasure (SPCC) requirements</a> without the guesswork. 
+                    </p>
+                    <div style="border-bottom: 2px solid #cccccc;border-top: 2px solid #cccccc;margin-top: 30px;" class="obx-section text-only wide j-links">
+                        <p style="margin-top: 30px;"><strong>Table of Contents</strong></p>
+                        
+                        <ul class="obx-list" style="margin: 0 0 30px;">
+                            <li><a href="#why-use-our-secondary-containment-calculator">Why Use Our Secondary Containment Calculator?</a></li>
+                            <li><a href="#find-the-answers-you-need">Find the Answers You Need </a></li>
+                            <li><a href="#what-is-secondary-containment">What is Secondary Containment?</a></li>
+                            <li><a href="#how-to-use-the-spill-calculator">How to Use the Spill Calculator</a></li>
+                        </ul>
+                    </div>
+
+                    <h2 id="why-use-our-secondary-containment-calculator">Why Use Our Secondary Containment Calculator?</h2>
+                    <p>
+                        Selecting the right <a href="/product/">containment system</a> is critical for ensuring both safety and compliance. The wrong size or type of containment can result in environmental hazards, fines, or operational downtime. Our Secondary Containment Calculator helps you avoid these risks by providing accurate calculations for your specific needs. 
+                    </p>
+                    <p>
+                        By inputting your tank’s dimensions, you can get an immediate, reliable recommendation that meets federal regulations. This tool not only saves you time but also ensures peace of mind, knowing that your containment solution is compliant and effective.
+                    </p>
+                    <ul>
+                        <li><strong>Ease of Use:</strong> Input your tank or container dimensions, and the calculator provides an instant recommendation.</li>
+                        <li><strong>Regulation Compliance:</strong> Our calculator considers the 10% additional volume required by federal regulations.</li>
+                        <li><strong>Versatility:</strong> Works for a range of industries, including oil storage, chemical processing, and more.</li>
+                    </ul>
+                </div>
+                <div class="obx-section text-only wide" style="background: #F0F0F0;padding: 3vh;">
+                    <h2 id="find-the-answers-you-need" style="color: #41AA00;margin-top: 0;">Find the Answers You Need with Our Oil Tank Capacity Calculator</h2>
+                    <p style="margin-bottom: 0;">
+                        Start using our oil tank capacity calculator below and safeguard your operation against spills today! Please note: local regulations occasionally require more than 110% volume for the containment area. The calculation below follows federal regulations, local requirements may vary.
+                    </p>
+                </div>
+                <div class="obx-section calculator">
+                    <div class="flex-row">
+
+                        <!-- Inches Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Inches (Gallons)</h3>
+                            <form id="inchesForm">
+                                <label for="lengthInches">Length (inches):</label>
+                                <input type="number" id="lengthInches" name="lengthInches" type="number" min="0"
+                                    step="0.1" required>
+                                <label for="widthInches">Width (inches):</label>
+                                <input type="number" id="widthInches" name="widthInches" type="number" min="0"
+                                    step="0.1" required>
+                                <label for="heightInches">Height (inches):</label>
+                                <input type="number" id="heightInches" name="heightInches" type="number" min="0"
+                                    step="0.1" required>
+                                <div class="output">
+                                    <label for="resultInches">Capacity (Gal.)</label>
+                                    <p id="resultInches"></p>
+                                </div>
+                                <button type="button" onclick="calculateInches()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Millimeters Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Millimeters (Liters)</h3>
+                            <form id="mmForm">
+                                <label for="lengthMm">Length (mm)</label>
+                                <input type="number" id="lengthMm" name="lengthMm" type="number" min="0" step="0.1"
+                                    required>
+                                <label for="widthMm">Width (mm)</label>
+                                <input type="number" id="widthMm" name="widthMm" type="number" min="0" step="0.1"
+                                    required>
+                                <label for="heightMm">Height (mm)</label>
+                                <input type="number" id="heightMm" name="heightMm" type="number" min="0" step="0.1"
+                                    required>
+                                <div class="output">
+                                    <label for="resultMM">Capacity (L)</label>
+                                    <p id="resultMM"></p>
+                                </div>
+                                <button type="button" onclick="calculateMM()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Feet Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Feet (Gallons)</h3>
+                            <form id="feetForm">
+                                <label for="lengthFeet">Length (feet)</label>
+                                <input type="number" id="lengthFeet" type="number" min="0" step="0.1" name="lengthFeet"
+                                    required>
+                                <label for="widthFeet">Width (feet)</label>
+                                <input type="number" id="widthFeet" type="number" min="0" step="0.1" name="widthFeet"
+                                    required>
+                                <label for="heightFeet">Height (feet)</label>
+                                <input type="number" id="heightFeet" type="number" min="0" step="0.1" name="heightFeet"
+                                    required>
+                                <div class="output">
+                                    <label for="resultFeet">Capacity (Gal.)</label>
+                                    <p id="resultFeet"></p>
+                                </div>
+                                <button type="button" onclick="calculateFeet()">Calculate </button>
+                            </form>
+                        </div>
+
+                        <!-- Meters Form -->
+                        <div class="form-section">
+                            <h3>Calculate in Meters (Liters)</h3>
+                            <form id="metersForm">
+                                <label for="lengthMeters">Length (meters)</label>
+                                <input type="number" id="lengthMeters" type="number" min="0" step="0.1"
+                                    name="lengthMeters" required>
+                                <label for="widthMeters">Width (meters)</label>
+                                <input type="number" id="widthMeters" type="number" min="0" step="0.1"
+                                    name="widthMeters" required>
+                                <label for="heightMeters">Height (meters)</label>
+                                <input type="number" id="heightMeters" type="number" min="0" step="0.1"
+                                    name="heightMeters" required>
+                                <div class="output">
+                                    <label for="resultMeters">Capacity (L)</label>
+                                    <p id="resultMeters"></p>
+                                </div>
+                                <button type="button" onclick="calculateMeters()">Calculate </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="obx-section text-only wide">
+                <h2 id="what-is-secondary-containment">What is Secondary Containment and Why Does It Matter?</h2>
+                <p>
+                    Secondary containment is a system designed to catch spills or leaks from primary containment units like tanks or storage containers. It's a crucial part of environmental safety and compliance, especially for industries dealing with hazardous materials. 
+                </p>
+                <p>
+                    Federal laws, such as SPCC, mandate that businesses must have appropriate secondary containment to prevent costly fines and mitigate environmental risks.
+                </p>
+            </div>
+            <div class="obx-section text-only wide">
+                <h2 id="how-to-use-the-spill-calculator">How to Use the Spill Calculator Effectively</h2>
+                <p>
+                    Using the spill calculator is pretty straightforward. Enter the dimensions of your tank, and our tool will calculate how many gallons of containment capacity are required. Whether you're handling oil, chemicals, or wastewater, having the right containment solution is key. Be sure to input accurate measurements in the berm calculator to get precise results that ensure compliance and protect against potential spills.
+                </p>
+            </div>
+
+            <div class="obx-section blue-gradient-bg cta"
+                style="background-image: url('/wp-content/uploads/2023/09/background.png');">
+                <h2>Customizable Solutions for Every Industry</h2>
+                <p>Whether you're working with oil storage tanks, railcar transfers, or hazardous chemical facilities, our Secondary Containment Calculator helps you ensure compliance and safety. Calculate the right containment size for your application and choose from Polystar’s wide range of industry-leading containment systems, including <a href="/product/poly-dike/" class="plain-link">Poly Dike MPE®</a>, <a href="/product/camel-tri-star/" class="plain-link">Camel Tri-Star MAX</a>, and other custom spill prevention solutions. </p>
+                <p>Protect your operations and the environment with Polystar’s durable, SPCC-compliant systems.</p>
+                <a href="/contact-us/">contact us</a>
+            </div>
+            <div class="obx-section obx-related-articles">
+                <h2>Related Articles</h2>
+                <div class="flex-row">
+                    <div class="obx-article"><a href="/about-us/resources/what-is-secondary-containment/">
+                            <img src="/wp-content/uploads/2023/09/fpo-img-2.png"
+                                alt="What Is Secondary Containment?">
+                            <span class="article-heading">What is Secondary Containment?</span><br>
+                        </a>
+                    </div>
+                    <div class="obx-article"><a href="/government-requirements/">
+                            <img src="/wp-content/uploads/2023/12/hazardous-waste-secondary-containment.jpg"
+                                alt="Secondary Containment and Chemical Storage">
+                            <span class="article-heading">Secondary Containment and Chemical Storage</span><br>
+                        </a>
+                    </div>
+                    <div class="obx-article"><a href="/about-us/resources/guide-to-secondary-spill-containment/ ">
+                        <img src="/wp-content/uploads/2023/11/guide-to-secondary-spill-containment.jpg"
+                            alt="Guide to Secondary Spill Containment">
+                        <span class="article-heading">Guide to Secondary Spill Containment</span><br>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function calculateInches() {
+        var length = document.getElementById('lengthInches').value;
+        var width = document.getElementById('widthInches').value;
+        var height = document.getElementById('heightInches').value;
+        if (length > 0 && width > 0 && height > 0) {
+            var capacityGallons = (length * width * height) / 231;
+            document.getElementById('resultInches').innerText = capacityGallons.toFixed(2) + ' gallons';
+        } else {
+            document.getElementById('resultInches').innerText = 'Please enter valid dimensions!';
+        }
+    }
+
+    function calculateMM() {
+        var length = document.getElementById('lengthMm').value;
+        var width = document.getElementById('widthMm').value;
+        var height = document.getElementById('heightMm').value;
+        if (length > 0 && width > 0 && height > 0) {
+            var capacityLiters = (length * width * height) / 1000000;
+            document.getElementById('resultMM').innerText = capacityLiters.toFixed(2) + ' liters';
+        } else {
+            document.getElementById('resultMM').innerText = 'Please enter valid dimensions!';
+        }
+    }
+
+    function calculateFeet() {
+        var length = document.getElementById('lengthFeet').value;
+        var width = document.getElementById('widthFeet').value;
+        var height = document.getElementById('heightFeet').value;
+        if (length > 0 && width > 0 && height > 0) {
+            var capacityGallons = length * width * height * 7.48052;
+            document.getElementById('resultFeet').innerText = capacityGallons.toFixed(2) + ' gallons';
+        } else {
+            document.getElementById('resultFeet').innerText = 'Please enter valid dimensions!';
+        }
+    }
+
+    function calculateMeters() {
+        var length = document.getElementById('lengthMeters').value;
+        var width = document.getElementById('widthMeters').value;
+        var height = document.getElementById('heightMeters').value;
+        if (length > 0 && width > 0 && height > 0) {
+            var capacityLiters = length * width * height * 1000;
+            document.getElementById('resultMeters').innerText = capacityLiters.toFixed(2) + ' liters';
+        } else {
+            document.getElementById('resultMeters').innerText = 'Please enter valid dimensions!';
+        }
+    }
+</script>
+<style>
+    h2[id] {
+        scroll-margin-top: 200px;
+    }
+    .calc-wrapper .col.media, .col.content {
+        align-self: center;
+    }
+    @media only screen and (max-width: 991px) {
+        .calc-wrapper .col.media, .col.content {
+        margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 769px) {
+    ul.obx-list.two-column {
+        column-count: 2;
+        column-gap: 30px
+    }
+    }
+    </style>

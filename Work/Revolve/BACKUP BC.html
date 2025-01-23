@@ -1,0 +1,144 @@
+<script>
+    // Create Script
+  var el = document.createElement('script');
+  el.type = 'application/ld+json';
+  
+  // Set initial position
+  var position = 0;
+  
+  // Create breadcrumb object
+  var breadcrumb = {
+      position:0,
+      name:"",
+      item:""
+  }
+  
+  // Empty array for list items
+  var listArray = []
+  
+  // Loop through each breadcrumb link and set attributess
+  var items = document.querySelectorAll('.global-views-breadcrumb-item a , .global-views-breadcrumb-item-active');
+  console.log(items);
+  for(var i = 0; i < items.length; i++) {
+      var newItem = Object.create(breadcrumb);
+      var curItem = items[i];
+  
+      newItem["@type"] = "ListItem";
+      position++;
+      console.log('Position: ' + position);
+      console.log('Length: ' + items.length);
+      newItem.position = position;
+      newItem.name = curItem.text;
+      newItem.item = curItem.getAttribute('href');
+      listArray.push(newItem);
+  }
+  
+  // Create overarching Schema object
+  var breadcrumbSchema = {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": listArray
+  };
+  
+  // Stringify JSON
+  var finalSchema = JSON.stringify(breadcrumbSchema);
+  
+  // Add schema to Script
+  el.text = finalSchema;
+  
+  // Set head variable with browser fallback
+  var head = document.head || document.getElementsByTagName("head")[0];
+  
+  // Add to head (This won't work in codepen)
+  head.appendChild(el);
+  </script><div class="obx-blog">
+  
+      <h2>Softball Training Equipment For Academies and Athletics Programs</h2>
+  
+      <p>
+          Sports academies and athletics organizations turn to Trigon Sports to deliver high-quality softball training equipment. Our family of brands includes <a href="https://www.trigonsports.com/sports-equipment/softball/professional-portable-batting-cage">ProCage™ professional-grade batting cages</a> that provide an ideal hitting environment for batting practice. In addition to <a href="https://www.trigonsports.com/sports-equipment/softball/procage-protective-screens">protective screens</a> and batting tunnel kits, you can find a full array of softball products such as <a href="https://www.trigonsports.com/sports-equipment/softball/bases-homeplates-pitchingrubbers">bases</a>, <a href="https://www.trigonsports.com/sports-equipment/softball/bases-homeplates-pitchingrubbers/pitching-rubbers">pitching rubbers</a> and <a href="https://www.trigonsports.com/sports-equipment/softball/batting-tees">batting tees</a>. Give your maintenance crew the proper softball field equipment to maintain your diamonds. No one does softball equipment better than us.
+      </p>
+  
+      <h2>What Separates Us From Other Softball Equipment Suppliers</h2>
+  
+      <p>
+          Big box stores, sporting goods outlets and general softball equipment suppliers don't carry the professional-grade products that academies, universities and leagues demand. With our lineup of ProCage™ softball practice equipment, you can train with the same gear the pros use. ProCage™ <a href="https://www.trigonsports.com/sports-equipment/softball/batting-tunnel-frame-kits">batting tunnel frame kits</a> and <a href="https://www.trigonsports.com/sports-equipment/softball/procage-batting-tunnel-nets">nets</a> help you create indoor or outdoor spaces where your players can practice pitching mechanics and hitting techniques. Softball batting training equipment like protective screens will keep coaches and players safe during practice. Find all this softball sports equipment in our store along with <a href="https://www.trigonsports.com/sports-equipment/softball/field-covers">field covers</a>, <a href="https://www.trigonsports.com/sports-equipment/softball/softball-bleachers">bleachers</a>, <a href="https://www.trigonsports.com/sports-equipment/softball/softball-team-benches/aluminum-team-benches">team benches</a> and so much more.
+      </p>
+  
+      <hr>
+  
+      <h2>Frequently Asked Questions Regarding Our Softball Equipment Online</h2>
+  
+      <p>
+          As a leading supplier of softball training equipment, we take great pride in providing superior products and customer service. We strive to offer a complete catalog of softball team equipment for youth and adult sports. Learn more about our softball field equipment and other products with some of our frequently asked questions. 
+      </p>
+  
+      <div  class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+          <h3 itemprop="name">What Softball Practice Equipment Do I Need?</h3>
+          <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <p itemprop="text">
+                  In addition to bats, gloves and softballs, you'll need a few more pieces of softball equipment to help your players and coaches succeed. We offer some of the best girls softball equipment around, including batting cages, bases, <a href="https://www.trigonsports.com/Multi-Sport-Pitchback-Rebounder">net rebounders</a>, field covers, <a href="https://www.trigonsports.com/sports-equipment/softball/pitching-mounds">pitching mounds</a> and batting tees.
+              </p>
+          </div>
+      </div>
+      <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+  
+          <h3 itemprop="name">Where Can I Buy Your Softball Equipment?</h3>
+          <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <p itemprop="text">
+                  You can order all of our softball training equipment right here in our online store. Shipping varies by location, but most orders are received within 5 to 10 business days from the date your order is processed. If you need to get our equipment even faster, use our <a href="https://www.trigonsports.com/stores">Dealer Locator</a> to find a local distributor of our family of brands. 
+              </p>
+          </div>
+      </div>
+      </div>
+  
+      <div class="cta" style="background: transparent; margin-top: 50px;">
+          <div class="cta-overlay">
+              <h2>Order Girls Softball Equipment From Trigon Sports</h2>
+  
+              <p style="margin-bottom: 0;">
+                  Replace and upgrade your softball training equipment with new supplies from Trigon Sports. Our lineup of softball field equipment will push your team into the big leagues with professional-grade products. Maintain your diamond and practice like a pro with batting cages, batting tunnels, pitching screens, batting tees and more from one of the industry's leading suppliers. <strong>Order your softball equipment online today.</strong>
+              </p>
+          </div>
+      </div>
+      <div class="content-wheel">
+          <h2>Softball Training Equipment - Related Articles</h2>
+          <div class="flex-row">
+              <div class="flex-item">
+                  <a href="https://www.trigonsports.com/blog/guide-to-choosing-outdoor-batting-cages">
+                      <span class="article-img">
+                          <img alt="Guide to Choosing Outdoor Batting Cages" src="https://www.trigonsports.com/core/media/media.nl?id=2531565&c=736728&h=coXldsBmbmVV08bJRvG4RsakXPSBMPAbK1gK5aB6vrGD0FgH&resizeid=4&resizeh=1400&resizew=1400"/>
+                      </span>
+                  </a>
+                  <a href="https://www.trigonsports.com/blog/guide-to-choosing-outdoor-batting-cages">
+                      <span class="article-title">Guide to Choosing Outdoor Batting Cages
+                      </span>
+                  </a>
+                  <span class="article-description">Outdoor batting cages are vital pieces of practice equipment for amateurs...</span>
+              </div>
+              <div class="flex-item">
+                  <a href="https://www.trigonsports.com/blog/how-to-build-a-baseball-field">
+                      <span class="article-img">
+                          <img alt="How to Build a Baseball Field" src="https://www.trigonsports.com/core/media/media.nl?id=2497436&c=736728&h=Nvqpo-82WQxwywv4CRy_e7SF0Tobp5EeAt84YtiKfPKppBRO&resizeid=4&resizeh=1400&resizew=1400"/>
+                      </span>
+                      </a>
+                  <a href="https://www.trigonsports.com/blog/how-to-build-a-baseball-field">
+                      <span class="article-title">How to Build a Baseball Field</span>
+                  </a>
+                  <span class="article-description">Are you a member of a parks and recreation department who wants to know how to build a baseball field...</span>
+              </div>
+              <div class="flex-item">
+                  <a href="https://www.trigonsports.com/blog/baseball-field-maintenance-checklist">
+                      <span class="article-img">
+                          <img alt="Fun Softball Practice Drills" src="https://www.trigonsports.com/core/media/media.nl?id=2182909&c=736728&h=ps8Zm-WmDgaeerEcsBOXHbTqO5-HiQuJUSk20Te5NpjuJq3r&resizeid=4&resizeh=1400&resizew=1400"/>
+                      </span>
+                  </a>
+                  <a href="https://www.trigonsports.com/blog/baseball-field-maintenance-checklist">
+                      <span class="article-title">Fun Softball Practice Drills</span>
+                  </a>
+                  <span class="article-description">Suppose you want to prepare your softball team for the upcoming season. You’ll need a well-rounded...</span>
+              </div>
+          </div>
+      </div>
+  </div>

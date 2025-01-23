@@ -1,0 +1,19 @@
+.archive-hero.hero-background .h1{
+    color: var(--wp--preset--color--white);
+}
+.headings-container .h1 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.archive-hero .h1 {
+    color: #000c17;
+    text-transform: none;
+    margin-top: 0;
+    font-size: 1.125rem;
+}
+@media (min-width: 992px) {
+    .archive-hero .h1 {
+    font-size: 1.5rem;
+}
+}
+

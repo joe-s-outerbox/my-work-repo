@@ -1,0 +1,43 @@
+[
+    {
+        "id": "/collections/all/exterior",
+        "collection-list": [
+            {
+                "coll":"Body",
+                "link":"/collections/all/exterior__body"
+            },
+            {
+                "coll":"Wipers",
+                "link":"/collections/all/exterior__wipers"
+            },
+            {
+                "coll":"Roof Rack",
+                "link":"/collections/all/exterior__roof_rack"
+            },
+            {
+                "coll":"Mirrors",
+                "link":"/collections/all/exterior__mirrors"
+            },
+            {
+                "coll":"Emblems",
+                "link":"/collections/all/exterior__emblems"
+            },
+            {
+                "coll":"Electrical",
+                "link":"/collections/all/exterior__electrical"
+            },
+            {
+                "coll":"Hardware",
+                "link":"/collections/all/exterior__hardware"
+            },
+            {
+                "coll":"Skid Plate",
+                "link":"/collections/all/exterior__skid_plate"
+            },
+            {
+                "coll":"Windshield Seal",
+                "link":"/collections/all/exterior__windshield_seal"
+            }
+        ]
+    }
+]

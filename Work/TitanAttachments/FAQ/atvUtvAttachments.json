@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "ATV and UTV Attachments",
+          "section_faqs": [
+            {
+              "faq_question": "What are ATV attachments and UTV attachments?",
+              "faq_answer": "ATV attachments are made for all-terrain vehicles, while UTV attachments are made for utility task vehicles."
+            },
+            {
+              "faq_question": "What types of UTV implements and ATV implements are available?",
+              "faq_answer": "There are many types of UTV and ATV attachments available, including plows, winches, dump beds, sprayers, cargo racks, brush guards, and tool bars."
+            },
+            {
+              "faq_question": "How do I choose the right ATV attachments for my vehicle?",
+              "faq_answer": "You’ll want to consider compatibility, purpose, capacity and your vehicle’s mounting system. Make sure your ATV attachments are compatible with the make and model of your vehicle, as well as verifying the attachment you choose is a good match for the tasks you intend to use it for. Also verify that the ATV attachments you choose match your vehicle’s power and load capabilities and mounting system."
+            },
+            {
+              "faq_question": "Can I use ATV attachments and UTV attachments from different manufacturers with my ATV and UTV?",
+              "faq_answer": "Yes, as long as your ATV implements and UTV implements are compatible with your vehicle’s make and model when it comes to mounting system, hitch type, and load capacity."
+            },
+            {
+              "faq_question": "How do I know if specific ATV attachments will fit my ATV?",
+              "faq_answer": "Check the attachment’s specs to ensure compatibility with your vehicle’s make, model, and mounting system. You may want to measure your ATV implements and compare it to your vehicle’s mounting points and dimensions."
+            }
+          ]
+        }
+      ]
+    }
+  ]

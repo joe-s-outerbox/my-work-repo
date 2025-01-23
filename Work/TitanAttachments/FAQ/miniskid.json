@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): Mini Skid Steer Attachments",
+          "section_faqs": [
+            {
+              "faq_question": "How are mini skid steer attachments installed? ",
+              "faq_answer": "Most mini skid steer attachments are installed with a quick attach system for quick and easy connection."
+            },
+            {
+              "faq_question": "Can I use multiple attachments on a mini skid steer? ",
+              "faq_answer": "Some mini skid steers can be used with more than one mini skid steer attachment, but it’s important to make sure the attachments are compatible and safe to use together. "
+            },
+            {
+              "faq_question": "How do I determine the load capacity when using an attachment with a mini skid steer?",
+              "faq_answer": "Consult your mini skid steer’s specs to make sure the combined load of the material you're handling and the mini skid steer attachment itself does not exceed your mini skid steer’s overall capacity. "
+            },
+            {
+              "faq_question": "What are common mini skid loader attachments? ",
+              "faq_answer": "Some mini skid steer attachments include mount plates, hitches, buckets, grapples and more. "
+            },
+            {
+              "faq_question": "Can full-sized attachments be used with mini skid steers? ",
+              "faq_answer": "Mini skid steers typically require mini loader attachments made for their smaller size and capacity. Mini skid steers and full-sized skid steers also often have different mounting systems, which means many full-sized skid steer implements won’t be compatible with mini steers. "
+            }
+          ]
+        }
+      ]
+    }
+  ]

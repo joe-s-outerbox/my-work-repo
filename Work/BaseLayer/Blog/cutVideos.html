@@ -1,0 +1,71 @@
+<div class="youtube" data-embed="7SKNRwdwa7A" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+</div>
+
+<script type="application/ld+json">
+
+</script>
+
+Lexus Floor Liners
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rY-Cl2pkjzE?si=TDtth_sbREZW9css" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+
+Cheve Accessories
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KZoYxau8T-s?si=0bNEvMPTC-9MtpEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+
+Get dog hair
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e3-s0-jM2oM?si=z8dI1a_NZN7nW-Sh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+
+February 2024 Product Spotlight
+#1
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vlKgumn1TsI?si=2rHZg15IUZQj8cxD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+#2
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e3-s0-jM2oM?si=Wwg3KZSmvLC9CYv9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+
+Floor Liners vs Floor Mats
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e3-s0-jM2oM?si=Zi9jMt5KAcb4dEsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+
+Home 
+<div class="iframe-container">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/7SKNRwdwa7A?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
+
+
+
+<div class="obx-video-wrapper">
+    <div class="youtube" data-embed="7SKNRwdwa7A" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+
+
+//Load YouTube Videos on page...
+var ytVid = document.querySelectorAll('.youtube');
+for (var i = 0; i < ytVid.length; i++) {
+    var thumbnail = "https://img.youtube.com/vi/"+ ytVid[i].dataset.embed +"/maxresdefault.jpg";
+
+    // CSS
+    // ytVid[i].style.cssText = "max-width: 560px;margin: 60px auto;";
+
+    //HTML
+    ytVid[i].innerHTML = '<div class="play"></div>' +
+        '<meta itemprop="embedURL" content="https://www.youtube.com/embed/' +  ytVid[i].dataset.embed +'" />' +
+        '<img style="cursor: pointer; width: "100%" width="931" height="524" src="' + thumbnail + '" />';
+
+    //click event that will load YouTube video
+    ytVid[i].addEventListener( "click", function() {
+        this.innerHTML = '<iframe width="560" height="315" frameBorder="0" ' +
+            'allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"' +
+            'src="https://www.youtube.com/embed/' + this.dataset.embed + '?enablejsapi=1&rel=0&showinfo=0&autoplay=1"' +
+            ' allowFullScreen="allowfullscreen"></iframe>';
+    } );
+
+}
+
+})
+</script>

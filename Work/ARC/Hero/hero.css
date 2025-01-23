@@ -1,0 +1,120 @@
+#obx-hero {
+    margin-top: -2px;
+}
+#obx-hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: none;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-bottom: 0
+}
+#obx-hero span {
+    display: block;
+}
+#obx-hero hr {
+    margin: 0 0 20px;
+}
+#obx-hero .hero-top {
+    background-image: url('https://rarecoinpros.com/wp-content/uploads/2024/10/ARC-Homepage-Hero-Resized.jpg');
+    background-size:cover;
+    background-position: center center;
+    box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.6) inset;   
+    margin-bottom: 20px;
+}
+
+#obx-hero .hero-content {
+    max-width: 648px;
+    margin: 0 auto;
+    padding: 48px 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#obx-hero span.sub-head {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+a.obx-button {
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 23px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 0 10px 20px;
+    transition: all .4s ease;
+}
+a.obx-button:hover {
+    text-decoration: none;
+}
+
+a.obx-button.primary {
+    background-color: #CB1345;
+    border: 2px solid #CB1345;
+}
+a.obx-button:hover {
+    background: rgba(0,0,0,.3);
+}
+a.obx-button.secondary {
+    border: 2px solid;
+}
+#obx-hero span.phone,
+#obx-hero span.speak {
+    font-size: 18px
+}
+#obx-hero span.speak {
+    margin-bottom: 5px;
+}
+#obx-hero span.phone a {
+    color: #fff;
+}
+#obx-hero img.phone-icon {
+    height: 20px;
+    margin: 5px
+}
+#obx-hero .hero-bottom {
+    display: flex;
+}
+#obx-hero .hero-bottom img {
+    margin-bottom: 20px;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1140px) {
+    #obx-hero {
+    margin-top: -20px;
+}
+}
+@media only screen and (max-width: 767px) {
+#obx-hero .hero-bottom {
+    display: block;
+}
+#obx-hero .hero-bottom img {
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 600px) {
+    #obx-hero .hero-top {
+        background-position-x: 30%;
+    }
+    #obx-hero .hero-content {
+        max-width: 80%
+    }
+    #obx-hero .sub-head {
+        font-size: 16px
+    }
+    #obx-hero h1 {
+        font-size: 28px;
+        margin-bottom: 30px
+    }
+    a.obx-button.secondary {
+        margin-bottom: 0;
+    }
+    #obx-hero .lower {
+        display: none;
+    }
+}
+

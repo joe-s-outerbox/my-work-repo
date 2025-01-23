@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): JD Adapters and Mounting Plates",
+          "section_faqs": [
+            {
+              "faq_question": "Are these grapple buckets compatible with my John Deere tractor?",
+              "faq_answer": "Yes, these grapple buckets fit all hook and pin mounting systems, including those found on John Deere tractors."
+            },
+            {
+              "faq_question": "Which John Deere tractors can use these grapple bucket attachments? ",
+              "faq_answer": "All John Deere tractors that have a hook and pin style mounting system are compatible with these hook and pin style grapple buckets, adapters, and mounting plates. John Deere also offers quick attach systems. Make sure to check your tractor’s mounting system when choosing a grapple bucket attachment."
+            },
+            {
+              "faq_question": "How do I know if these grapple buckets are compatible with my John Deere tractor?",
+              "faq_answer": "Check your tractor’s load capacity, hydraulic system specifications and mounting system to make sure the attachment is compatible with your John Deere tractor. Or check your tractor’s manual for more information."
+            },
+            {
+              "faq_question": "Can I use third party grapple buckets and mounting plates with my John Deere tractor?",
+              "faq_answer": "Yes, as long as the attachment is compatible with your tractor’s mounting system, hydraulic system specifications, and load capacity it should be fine to use a third party attachment."
+            },
+            {
+              "faq_question": "What is the typical load capacity of John Deere grapples?",
+              "faq_answer": "The load capacity will vary by bucket size and tractor model. It’s essential to check the specifications for both when choosing any tractor attachment."
+            }
+          ]
+        }
+      ]
+    }
+  ]

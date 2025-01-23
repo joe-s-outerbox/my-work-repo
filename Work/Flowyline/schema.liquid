@@ -1,0 +1,39 @@
+{%- if request.page_type == 'collection' -%}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "{{ shop.url }}{{ collection.url | url_encode }}",
+      "name": "{{ collection.title | escape }}",
+      "url": "{{ shop.url }}{{ collection.url | url_encode }}",
+      "description": "{{ collection.metafields.global.description_tag.value }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ shop.url }}{{ collection.url | url_encode }}"
+      },
+      {%- if collection.products.size > 0 -%}
+      "hasPart": [
+      
+      
+        {%- for product in collection.products -%}
+        {
+        "@type": "ListItem",
+        "position": "{{ forloop.index }}",
+        "image": "{{ product.featured_image | image_url }}",
+        "url": "{{ shop.url }}{{ product.url }}",
+        "name": "{{ product.title | escape }}",
+        }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+        ]
+      {%- endif -%}
+        }
+    
+    </script>
+    {% endif %}
+
+
+    "image": {
+        "@type": "ImageObject",
+        "height": "{{ collection.image | height }}",
+        "url": "{{ collection | img_url}}"
+      },

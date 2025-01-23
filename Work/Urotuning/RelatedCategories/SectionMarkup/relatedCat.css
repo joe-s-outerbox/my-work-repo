@@ -1,0 +1,55 @@
+section.obx.related-categories {
+    margin: 0 0 70px 0;
+}
+section.obx.related-categories .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px
+}
+section.obx.related-categories h2 {
+    font: 900 38px / 1 'Proxima Nova', sans-serif;
+    text-align: center;
+    color: #000000;
+}
+section.obx.related-categories .category-item a {
+    display: block;
+    padding: 11px 0;
+    min-height: 40px;
+    min-width: 150px;
+    text-align: center;
+    border: 1px solid rgb(51,51,51);
+    border-radius: 3px;
+}
+section.obx.related-categories .category-item a.long {
+    min-width: 204px;
+}
+section.obx.related-categories .category-item a:hover {
+    text-decoration: none;
+    background: rgb(51,51,51);
+    color: #fff;
+}
+@media (max-width: 1024px) {
+    section.obx.related-categories .flex-row {
+    row-gap: 30px
+    }
+}
+@media (max-width: 768px) {
+    section.obx.related-categories .flex-row {
+        row-gap: 20px
+    }
+}   
+@media (max-width: 767px) {
+    section.obx.related-categories .flex-row {
+        row-gap: 10px;
+    }
+}   
+@media (max-width: 540px) {
+    section.obx.related-categories .flex-row {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    section.obx.related-categories .category-item {
+        flex-basis: 50%;
+    }
+}

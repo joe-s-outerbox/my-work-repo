@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "(FAQs): ATV & UTV Trailer Hitches",
+          "section_faqs": [
+            {
+              "faq_question": "What is an ATV trailer hitch?",
+              "faq_answer": "An ATV hitch is a mounting system attached to an all-terrain vehicle (ATV) that allows for towing trailers, implements, and other equipment."
+            },
+            {
+              "faq_question": "What types of ATV trailer hitch attachments are available?",
+              "faq_answer": "ATV hitches are available as receiver hitches, ball hitches, pin hitches and drawbars. Receiver hitches fit standard hitch receivers, ball hitches allow for towing trailers, pin hitches use a pin and clevis system for connecting trailers or implements, and drawbar hitches offer a more rigid attachment point for towing heavy loads or specific implements."
+            },
+            {
+              "faq_question": "How do I choose the right ATV or UTV trailer hitch for my needs?",
+              "faq_answer": "Consider the weight of the load you’ll be towing, your trailer and implement’s attachment type, and compatibility with your ATV or UTV’s make and model."
+            },
+            {
+              "faq_question": "Is it hard to install an ATV hitch?",
+              "faq_answer": "Most ATV hitches are designed for easy installation and can be installed with the instruction manual and basic tools that you may already have."
+            },
+            {
+              "faq_question": "How do I care for UTV and ATV hitches?",
+              "faq_answer": "Regularly inspect your UTV or ATV hitch for damage and ensure bolts and fasteners are tight. Remove dirt, mud and debris after every use. It’s also important to lubricate any moving parts to prevent rust and to maintain smooth operation. You can also apply rust-inhibiting spray or paint for added rust protection. "
+            }
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,40 @@
+[
+    {
+        "id": "/collections/all/drivetrain",
+        "collection-list": [
+            {    "coll": "Clutch",
+                "link": "/collections/all/drivetrain__clutch"
+            },
+            {    "coll": "Auto Trans",
+                "link": "/collections/all/drivetrain__auto_trans"
+            },
+            {    "coll": "Shifter",
+                "link": "/collections/all/drivetrain__shifter"
+            },
+            {    "coll": "Mounts",
+                "link": "/collections/all/drivetrain__mounts"
+            },
+            {    "coll": "Wheel Bearing/Hub",
+                "link": "/collections/all/drivetrain__wheel_bearing-hub"
+            },
+            {    "coll": "Axles",
+                "link": "/collections/all/drivetrain__axles"
+            },
+            {    "coll": "Differential",
+                "link": "/collections/all/drivetrain__differential"
+            },
+            {    "coll": "Manual Trans",
+                "link": "/collections/all/drivetrain__manual_trans"
+            },
+            {    "coll": "Driveshaft",
+                "link": "/collections/all/drivetrain__driveshaft"
+            },
+            {    "coll": "Prop Shaft",
+                "link": "/collections/all/drivetrain__prop_shaft"
+            },
+            {    "coll": "Transfer Case            ",
+                "link": "/collections/all/drivetrain__transfer_case"
+            }
+        ]
+    }
+]

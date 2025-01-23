@@ -1,0 +1,48 @@
+{% if template == 'collection.all' and request.path != '/collections/all'%}
+    <div id="relcatwrapper">
+      <div class="container">
+            <hr>
+        </div>
+        <section class="obx related-categories">
+          <div class="container">
+          <h2>Related Categories</h2>
+              <div id="relcatmount" class="flex-row" >
+              </div>
+      <script>
+      window.onload = function() {
+      const mountPoint = document.querySelector('#relcatmount');
+      const catName = document.querySelector('.findify-components--text__bold.findify-components--category-facet__content').innerHTML;
+      const filterListDiv = document.querySelector('.findify-components--category-facet__nested');
+      const filterList = filterListDiv.querySelectorAll('span.findify-components--category-facet__content');
+        if (filterList.length <= 1) {
+          const wrapper = document.querySelector('#relcatwrapper'); 
+          wrapper.remove();
+        }
+        else {
+      function decodeHTMLEntities(text) {
+        let parser = new DOMParser();
+        let doc = parser.parseFromString(text, 'text/html');
+        return doc.documentElement.textContent;
+      }
+      let urlObj = new URL(window.location.href);
+      let pathname = urlObj.pathname;
+      let baseURL = pathname.substring(pathname.lastIndexOf('/') + 1);
+      filterList.forEach(span => {
+          let buttonName = span.innerHTML;
+        let buttonURL = baseURL + "__" + buttonName.toLowerCase().replace(" ", "_");
+        let flexItem = document.createElement('div');
+        flexItem.className = "category-item";
+        let buttonElement = document.createElement('a'); 
+        buttonElement.href = buttonURL;
+        buttonName = decodeHTMLEntities(buttonName);
+        buttonElement.textContent = buttonName;
+        flexItem.appendChild(buttonElement)
+        mountPoint.appendChild(flexItem);
+        });
+        }
+      }
+      </script>
+      </div>
+    </section>
+    </div>
+      {% endif%}

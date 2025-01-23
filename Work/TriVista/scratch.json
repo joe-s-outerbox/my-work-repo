@@ -1,0 +1,96 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://trivista.com/",
+            "url": "https://trivista.com/",
+            "name": "TriVista Consulting | Business Consulting Services - TriVista",
+            "isPartOf": {
+                "@id": "https://trivista.com/#website"
+            },
+            "about": {
+                "@id": "https://trivista.com/#organization"
+            },
+            "datePublished": "2018-06-18T19:16:34+00:00",
+            "dateModified": "2024-08-27T13:41:14+00:00",
+            "description": "Get expert business consulting services at TriVista. We offer technology advisory & partner with business leaders to improve their operations, supply chain, & financial performance. Contact TriVista Consulting today!",
+            "breadcrumb": {
+                "@id": "https://trivista.com/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://trivista.com/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://trivista.com/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home"
+                }
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://trivista.com/#website",
+            "url": "https://trivista.com/",
+            "name": "TriVista",
+            "description": "TriVista",
+            "publisher": {
+                "@id": "https://trivista.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://trivista.com/?s={search_term_string}"
+                    },
+                    "query-input": {
+                        "@type": "PropertyValueSpecification",
+                        "valueRequired": true,
+                        "valueName": "search_term_string"
+                    }
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://trivista.com/#organization",
+            "name": "TriVista",
+            "url": "https://trivista.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://trivista.com/#/schema/logo/image/",
+                "url": "https://trivista.com/wp-content/uploads/2018/11/cropped-TriVista_logo_horiz_RGB.png",
+                "contentUrl": "https://trivista.com/wp-content/uploads/2018/11/cropped-TriVista_logo_horiz_RGB.png",
+                "width": 1500,
+                "height": 266,
+                "caption": "TriVista"
+            },
+            "image": {
+                "@id": "https://trivista.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+                "https://www.facebook.com/TriVista",
+                "https://x.com/TriVistaTweets",
+                "https://www.linkedin.com/company/trivista",
+                "https://www.youtube.com/user/UnderstandAsia"
+            ]
+        }
+    ]
+}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfilePage","url":"https://trivista.com/about-us/ourteam/tim-ristoff/","mainEntity":{"@type":"Person","name":"Tim Ristoff","image":"https://trivista.com/wp-content/uploads/2018/06/Tim-Ristoff-Web-223x223.jpg","jobTitle":"Founder and CEO","worksFor":{"@type":"Organization","name":"TriVista"},"sameAs":["https://www.linkedin.com/pub/tim-ristoff/10/99b/3b3"],"description":"Tim Ristoff, TriVista’s Founder and CEO, works with private equity investors, boards, and executive leadership teams to assess and improve middle-market businesses. With 25 years of industry experience before his consulting career, Tim brings extensive Fortune 500 operating expertise to TriVista’s clients.","email":"tim.ristoff@trivista.com","alumniOf":[{"@type":"EducationalOrganization","name":"Pepperdine University","degree":"MBA"},{"@type":"EducationalOrganization","name":"Miami University (Ohio)","degree":"BS"}],"knowsAbout":["Operational Due Diligence","Private Equity","Business Strategy","Middle-Market Businesses","Operational Performance"],"award":["Recognized by Consulting Magazine as one of the fastest-growing management consulting firms globally.","Mid-Market Operations Consulting Firm of the Year from Acquisition International."]}}
+</script>

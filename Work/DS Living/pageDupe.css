@@ -1,0 +1,11 @@
+.wp-block-genesis-blocks-gb-column.obx-article-card.gb-block-layout-column {
+    cursor: pointer;
+}
+.wp-block-genesis-blocks-gb-column.obx-article-card.gb-block-layout-column a {
+    text-decoration: none;
+    color: unset;
+}
+.wp-block-genesis-blocks-gb-column.obx-article-card.gb-block-layout-column:hover h3  {
+    color: red!important;
+}
+

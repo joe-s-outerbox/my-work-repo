@@ -1,0 +1,171 @@
+main#MainContent:has(.obx-resources-wrapper) {
+    background: #fff;
+}
+.obx-resources-wrapper section {
+    padding: 60px 0;
+}
+.obx-resources-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+.flex-row {
+    display: flex;
+}
+.container {
+    max-width: 1310px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.obx.resources.top-banner {
+    padding: 58px 0;
+    background-image: radial-gradient(rgba(109, 109, 109, 1) 0%, rgba(47, 47, 47, 1) 29%, rgba(0, 0, 0, 1) 100%);
+}
+.obx.resources.top-banner h1 {
+    font: 900 46px / 1.065 'Nunito Sans', sans-serif;
+    margin-top: 0;
+}
+.obx.resources.top-banner .flex-row {
+    column-gap: 38px
+}
+.obx.resources.top-banner .col.content {
+    color: #fff;
+}
+.obx.resources h2 {
+    font: 900 46px / 1.065 'Nunito Sans', sans-serif;
+    margin-top: 0;
+}
+
+.subhead {
+    display: block;
+    font: 900 26px / 1.115 'Nunito Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.obx.resources.top-banner .flex-row .col.content {
+    flex-basis: 55%
+}
+.obx.resources.top-banner .flex-row .col.media {
+    flex-basis: 45%
+}
+.ind-card {
+    flex-basis: 20%;
+    position: relative;
+    height: 325px;
+    overflow: hidden;
+}
+
+.overlay {
+    background: #537F53;
+    color: #fff;
+    padding: 10px 15px;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    min-height: 170px;
+    top: 84%;
+}
+.overlay span {
+    display: block;
+}
+.overlay .title {
+    font: 700 18px / 1.8 'Nunito Sans', sans-serif;
+    padding-bottom: 10px;
+    position: relative;
+}
+.overlay .title:after {
+    position: absolute;
+    content: 'x';
+    right: 0;
+}
+.ind-card:hover .overlay{
+    top: unset;
+    bottom: 0;
+}
+
+section.obx.resources.grey {
+    background: #F5F5F5
+}
+.narrow .container {
+    max-width: 1082px;
+    padding: 0 20px;
+}
+.resources h2 {
+    color: #537F53;
+}
+.resources .row-heading {
+    display: block;
+    font: 900 36px / 1.4 'Nunito Sans', sans-serif;
+    margin-bottom: 15px;
+}
+.resources .row-heading + p {
+    margin: 0 0 30px
+}
+section.obx.resources {
+    padding: 60px 0;
+}
+
+span.title {
+    font: 700 18px / 1.2 'Nunito Sans', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    max-width: 238px;
+}
+span.title + p {
+    margin: 0;
+    max-width: 238px;
+}
+.featured-blog-slider a {
+    text-decoration: none;
+}
+
+.featured-blog-slider button.slick-next.slick-arrow {
+    right: -30px;
+    top: 43%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/next-grey.png?v=1737478603);
+    height: 30px;
+    width: 30px;
+}
+.featured-blog-slider button.slick-next.slick-arrow:hover {
+    background-image: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/next-green.png?v=1737479161);
+}
+.featured-blog-slider button.slick-prev.slick-arrow {
+    left: -52px;
+    top: 43%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/next-grey.png?v=1737478603);
+    height: 30px;
+    width: 30px;
+}
+.featured-blog-slider button.slick-prev.slick-arrow:hover {
+    background-image: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/next-green.png?v=1737479161);
+}
+span.copy {
+    margin-bottom: 20px
+}
+
+
+.slide img {
+    margin-bottom: 20px
+}
+
+.obx.resources.cta {
+    text-align: center;
+}
+
+.obx.resources.cta h2,
+.obx.resources.cta {
+    color: #fff;
+}
+.obx.resources.cta p {
+    margin-bottom: 30px
+}
+.obx.resources.cta a.obx-button {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    background: #537F53;
+    border-color: #537F53;
+    min-width: fit-content;
+    padding: 16px 60px;
+}
+.obx.resources.cta a.obx-button:hover {
+    background: transparent;
+    color: #537F53;
+}

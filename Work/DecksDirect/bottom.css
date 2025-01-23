@@ -1,0 +1,117 @@
+section.faq-section .faq{
+    border-top: 1px solid #dcc6bc;
+    padding: 25px 0;
+}
+section.faq-section .container > .faq:last-child{
+    border-bottom: 1px solid #dcc6bc;
+}
+section.faq-section summary.accordion-head,  .obx section.faq-section h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+}
+section.faq-section details[open] summary.accordion-head{margin-bottom:20px;}
+.obx section.faq-section summary.accordion-head h3::after {
+    content: "\002B";
+    color: #dcc6bc;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.obx section.faq-section details > summary {
+    list-style: none;
+}
+.obx section.faq-section details > summary::-webkit-details-marker {
+    display: none;
+}
+.obx section.faq-section details[open] summary.accordion-head h3::after {
+    content: "\2212";
+}
+.obx.bottom-blog-wrapper .obx section.faq-section+section.content-wheel{
+    margin-top: 100px;
+}
+.obx.bottom-blog-wrapper h2 {
+    font: 700 32px/40px Poppins, sans-serif, Arial;
+    color: #1d4588;
+    padding: 0; 
+    margin: 50px 0 20px;
+    border-bottom:none;
+}   
+.obx.bottom-blog-wrapper p,
+.obx.bottom-blog-wrapper li{
+    font: 400 16px/24px "Open Sans", sans-serif, Arial;
+    color: #1B1D1E;
+    margin: 0 0 20px;
+}
+.obx.bottom-blog-wrapper section.faq-section+section.content-wheel{
+    margin-top: 100px;
+}
+.obx.bottom-blog-wrapper section.content-wheel h2{
+    color: #615857;
+    margin: 60px 0 10px; 
+}
+.obx.bottom-blog-wrapper section.content-wheel .container > p:last-of-type{
+    margin-bottom: 0;
+}
+.obx.bottom-blog-wrapper section.content-wheel .related-articles{
+    margin-top: 20px;
+}
+.obx.bottom-blog-wrapper section.content-wheel .related-articles .article{
+    flex-basis: 33%;
+}
+.obx.bottom-blog-wrapper section.content-wheel .related-articles > .article:nth-child(2){
+    margin: 0 25px;
+}
+.obx.bottom-blog-wrapper .related-articles .article span,
+.obx.bottom-blog-wrapper .related-articles img{
+    display: block;
+}
+.obx.bottom-blog-wrapper .related-articles img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+    margin: 0 0 10px;
+}
+.obx.bottom-blog-wrapper .related-articles a{
+    color: unset;
+    text-decoration: none !important;
+    height: 100%;
+    width: 100%;
+}
+.obx.bottom-blog-wrapper .related-articles .article-title{
+    font: 600 20px/28px Poppins, sans-serif, Arial;
+    margin: 0 0 5px 0;
+}
+.obx.bottom-blog-wrapper .related-articles a:hover .article-title{
+    color: #1d4588;
+}
+.obx.bottom-blog-wrapper .related-articles .article-excerpt{
+    font: 400 16px/20px "Open Sans", sans-serif, Arial;
+    margin: 0 0 10px 0;
+}
+.obx.bottom-blog-wrapper .related-articles .article .faux-btn{
+    font: 600 16px/20px "Open Sans", sans-serif, Arial;
+    color: #1d4588;
+}
+.obx.bottom-blog-wrapper .content{
+    max-width: 475px
+}
+.obx.bottom-blog-wrapper .content h2 {
+    color: #fff;
+}
+.obx.bottom-blog-wrapper .btn-white {
+    background: white;
+    border: 2px solid white;
+}
+.obx.bottom-blog-wrapper .btn-white:hover {
+    background: transparent;
+    color: white;
+}
+
+

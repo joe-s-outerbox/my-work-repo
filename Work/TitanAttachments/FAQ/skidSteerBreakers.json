@@ -1,0 +1,31 @@
+[
+    {
+      "faqs": [
+        {
+          "section_title": "Skid Steer Concrete Breakers & Excavator Thumbs",
+          "section_faqs": [
+            {
+              "faq_question": "What is a skid steer hydraulic breaker?",
+              "faq_answer": "A skid steer hydraulic breaker uses a piston to crush or demolish hard materials like concrete, rock, and asphalt using hydraulic power. Skid steer breakers are often used for demolition, construction, and excavation projects."
+            },
+            {
+              "faq_question": "How do I install a hydraulic breaker for skid steers?",
+              "faq_answer": "First, either mount the skid steer breaker to your skid steer’s quick-attach system or align the attachment points and secure with pins or locks. Next, connect the hydraulic hoses between the skid steer and the breaker, making sure the connections are secure and correct. Test the breaker to make sure it operates correctly and make any necessary adjustments before using it on a job."
+            },
+            {
+              "faq_question": "What’s the difference between a skid steer breaker and a skid steer jack hammer?",
+              "faq_answer": "While skid steer breakers and a skid steer jack hammer are both used to break up hard materials like concrete, asphalt, and rock by delivering powerful blows, the way they’re powered is different. A hydraulic breaker for skid steers is run on hydraulic fluid that powers the breaker’s piston. Skid steer jack hammers, on the other hand, are typically powered by compressed air or electricity. The typical skid steer concrete breaker also tends to be larger than the typical skid steer jack hammer. Because of these differences, hydraulic breakers tend to be more powerful than jack hammers."
+            },
+            {
+              "faq_question": "How do I choose a skid steer breaker?",
+              "faq_answer": "First, you’ll need to ensure the skid steer breaker you choose is compatible with your skid steer’s mounting and hydraulic systems. You’ll also want to choose a breaker with the appropriate impact energy and size to make sure it’s up to the task you’ll be using it for."
+            },
+            {
+              "faq_question": "How do I maintain my hydraulic breaker?",
+              "faq_answer": "Regularly inspect your skid steer breaker for signs of damage and wear. Make sure all moving parts are properly lubricated and keep the breaker clean from debris to prevent damage. You’ll also want to monitor hydraulic fluid levels and check for leaks in the hydraulic system."
+            }
+          ]
+        }
+      ]
+    }
+  ]

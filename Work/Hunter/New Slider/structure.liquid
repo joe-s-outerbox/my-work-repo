@@ -1,0 +1,37 @@
+{% assign blog_collection = article.metafields.custom.collection_for_slider.value %}
+
+<div id="obx-new-product-slider">
+    <h2>{{ blog_collection.title }}:</h2>
+    <div class="carousel-slider" id="responsive">
+        <div class="new-slider-wrapper">
+          {% for product in blog_collection.products %}
+            <div class="slide-item">
+                <div class="product">
+                    <img src="{{ product.images[0] |image_url }}" alt="{{ product.title }}" loading="lazy">
+                    <span class="name">{{ product.title }}</span>
+                    <div class="details">
+                      <span class="price">{{ product.price | money }}</span>
+                      <span class="color">{{ product.metafields.custom.color }}</span>
+                      {% if product.metafields.custom.size contains 'Diameter' %}
+                        <span class="diam">{{ product.metafields.custom.size | split: " " | first }}</span>
+                        <span class="sizes">{{ product.metafields.custom.size | remove: "Diameters:"}}</span>
+                      {% endif %}
+                    </div>
+                    <div class="blog-button">
+                      <a href="{{ product.url }}" class="obx-button">View Product</a>
+                    </div>
+                </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="pagination-row">
+            <div class="pagination-wrapper">
+                <div class="slider-pagination">
+                    <button type="button" class="prev-btn"><img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back.svg?v=1714169385" alt=""></button>
+                    <div class="markers"></div>
+                    <button type="button" class="next-btn"><img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back-1.svg?v=1714169385" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

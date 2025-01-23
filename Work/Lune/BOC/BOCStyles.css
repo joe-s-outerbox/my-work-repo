@@ -1,0 +1,288 @@
+.collection-hero__description.rte:has(.obx.boc-template) {
+    max-width: unset;
+}
+.page-width:has(.obx.boc-template) {
+    padding: 0;
+    margin: 0 auto;
+    max-width: unset;
+}
+.section--padding:has(.obx.boc-template) {
+    padding-bottom: 0
+}
+.obx.boc-template section {
+    padding: 60px 0;
+}
+.obx.boc-template {
+    text-align: left;
+    
+}
+.obx.boc-template .obx-container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.obx.boc-template h2 {
+    font-size: 40px;
+}
+.obx.boc-template p,
+.obx.boc-template li {
+    font-size: 16px
+}
+.flex-row {
+    display: flex;
+    column-gap: 90px;
+}
+.col {
+    align-self: center;
+}
+.col.content {
+    flex-basis: 54%;
+}
+.centered {
+    text-align: center;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    cursor: pointer;
+    padding: 18px 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: all ease-in .4s;
+    font-size: 28px;
+    position: relative;
+}
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+.panel p {
+    margin: 0 0 20px
+}
+  .accordion:after {
+    content: url('https://cdn.shopify.com/s/files/1/0257/2481/3363/files/Path_1.png?v=1730948271'); /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    position: absolute;
+    right: 0;
+    top: 42%;
+    transition: all ease-in-out .2s;
+  }
+  
+  .active:after {
+    transform: rotate(180deg) translateY(10px);
+  }
+  
+ul.obx-list li {
+    margin-bottom: 20px;
+}
+ul.obx-list p {
+    margin: 0
+}
+
+.col.split-media img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.basic-content.centered h2,
+.basic-content.centered p {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+
+
+section.obx-split-image {
+    border-bottom: 1px solid #D2D5D9;
+}
+.ra,
+section.obx-split-image:first-of-type {
+    border-top: 1px solid #D2D5D9;
+}
+.beige {
+    background-color: #F5F2EE
+}
+
+
+
+
+
+section.black {
+    background: #000000;
+    color: #fff;
+}
+.obx.boc-template section.black h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.obx.boc-template section.black p {
+    margin-bottom: 20px;
+}
+.obx.button {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 18px 30px;
+    text-decoration: none;
+    border-radius: var(--button-radius);
+    border: var(--button-border-width) solid rgb(var(--color-button-border));
+    color: rgb(var(--color-button-text));
+    background-color: rgb(var(--color-button-background));
+    font-family: var(--font-button-family);
+    min-width: unset;
+    max-width: 100%;
+    min-height: 4.6rem;
+    text-transform: none;
+    font-weight: 600;
+    transition-property: color,background-color,box-shadow;
+    transition-duration: var(--duration-long);
+    transition-timing-function: ease;
+    -webkit-appearance: none;
+    appearance: none;
+    overflow: hidden;
+    box-shadow: var(--button-shadow-horizontal-offset) var(--button-shadow-vertical-offset) rgba(var(--color-shadow),var(--shadow-opacity));
+}
+
+.article {
+    flex-basis: 25%;
+}
+.flex-row.ra {
+    column-gap: 25px;
+}
+
+.faqs .basic-content,
+.faqs .basic-content h2{
+    margin-bottom: 40px;
+}
+
+.faq-item:not(.faq-item:last-of-type) {
+    border-bottom: 1px solid #D2D5D9;
+}
+
+h3.accordion {
+    margin-top: 0
+}
+
+h3.accordion.active {
+    background-color: #fff;
+}
+
+.col.faq-accordion {
+    flex-basis: 50%
+}
+
+
+
+.article a {
+    text-decoration: none;
+    color: #1A1B18;
+}
+.article img {
+    width: 100%;
+    /* outline: none; */
+}
+.article span {
+    display: block;
+    padding: 0 20px 20px;
+}
+.article .title {
+    font-size: 26px;
+    margin: 0;
+}
+.article .date {
+    padding-bottom: 0;
+    font-size: 12px;
+}
+@media only screen and (max-width: 1440px) {
+    .obx.boc-template .obx-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .ra .flex-row {
+        column-gap: unset;
+        justify-content: space-between;
+    }
+    .article {
+        flex-basis: 23%
+    }
+}
+@media only screen and (max-width: 1024px) {
+
+    .flex-row {
+        column-gap: 40px;
+    }
+    .ra .flex-row  {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .article {
+        flex-basis: 45%;
+        margin-bottom: 40px
+    }
+}
+@media only screen and (max-width: 768px) {
+    .obx.boc-template h2 {
+        font-size: 28px;
+    }
+    .faqs .flex-row,
+    .obx-split-image .flex-row {
+        flex-direction: column;
+    }
+    .faqs .col.split-media {
+        display: none;
+    }
+    .col.split-media img {
+        max-height: 345px;
+    }
+    .obx-split-image .col {
+        align-self: unset;
+    }
+    .obx-split-image .col.content {
+        order: 1;
+    }
+    .obx-list {
+        padding-left: 20px;
+    }
+    .ra .flex-row  {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 750px) {
+    
+    .obx.boc-template .obx-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .obx.boc-template .basic-content.centered:not(.faqs .basic-content) {
+        padding: 60px 20px;
+    }
+    h3.accordion {
+        font-size: 20px;
+        max-width: 85%;
+    }
+    h3.accordion::after {
+        right: -60px
+    }
+    .article {
+        flex-basis: 95%;
+        margin-bottom: 40px;
+        align-self: center;
+        margin: 0 auto 30px;
+    }
+}
+
+

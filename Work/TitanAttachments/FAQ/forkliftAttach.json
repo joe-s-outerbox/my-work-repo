@@ -1,0 +1,31 @@
+[
+  {
+    "faqs": [
+      {
+        "section_title": "(FAQs): Forklift Attachments",
+        "section_faqs": [
+          {
+            "faq_question": "What are forklift lifting attachments? ",
+            "faq_answer": "Forklift attachments include any attachments made to fit on a forklift. This can include work platforms, pallet forks, booms, towing jibs, and more. "
+          },
+          {
+            "faq_question": "How do I choose the right fork attachments for my forklift?",
+            "faq_answer": "Your attachment should be compatible with your forklift’s mounting system and will need to match its class. You'll also want to make sure the forklift attachment you choose aligns with your forklift’s capacity and the load weight you’ll be handling. Also consider that the weight of the attachment itself will affect your loader's overall capacity."
+          },
+          {
+            "faq_question": "Do forklift attachments for lifting affect load capacity? ",
+            "faq_answer": "Yes, you’ll need to account for the weight of your attachment when deciding what capacity you’ll need. If you choose a forklift attachment that’s too heavy, it can strain your forklift’s hydraulic system and affect performance and safety as it can make it harder to maneuver your attachment. "
+          },
+          {
+            "faq_question": "What are the benefits of using forklift attachments? ",
+            "faq_answer": "The right forklift attachments can cut back on manual labor and speed up productivity in a big way. And not only does adding an attachment allow you to get more use out of your forklift, you also won’t need to buy separate machines for different jobs. "
+          },
+          {
+            "faq_question": "Can forklift fork attachments be used for all types of loads? ",
+            "faq_answer": "Forklift fork extensions are a good option for anyone handling long or bulky loads that their current fork blades are not able to carry. For smaller or more fragile loads, it’s better to use an attachment more suited to that task."
+          }
+        ]
+      }
+    ]
+  }
+]

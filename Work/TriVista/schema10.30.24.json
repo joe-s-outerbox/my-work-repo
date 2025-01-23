@@ -1,0 +1,141 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://trivista.com/about-us/ourteam/joanna-serkowski/",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Joanna Serkowski",
+    "image": "https://trivista.com/wp-content/uploads/2018/10/Joanna_MG_2851-Shoulder-Shot-With-Hair-Down_cropped-1-223x223.png",
+    "jobTitle": "Managing Director",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "TriVista"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/joannaserkowski/"
+    ],
+    "description": "Joanna Serkowski works with private-equity investors, boards of directors and executive leadership teams to design and implement operational improvement strategies for middle-market companies.",
+    "email": "joanna.serkowski@trivista.com",
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "University of Colorado",
+        "degree": "BS"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Fairfield University",
+        "degree": "MBA"
+      }
+    ],
+    "knowsAbout": [
+      "Operational Due Diligence",
+      "Private Equity",
+      "Business Strategy",
+      "Middle-Market Businesses",
+      "Operational Performance"
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://trivista.com/about-us/ourteam/stuart-lowe/",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Stuart Lowe",
+    "image": "https://trivista.com/wp-content/uploads/2018/06/LinkedIN-065-223x223.jpg",
+    "jobTitle": "President",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "TriVista"
+    },
+    "sameAs": [
+      "http://www.linkedin.com/profile/view?id=15212037&locale=en_US&trk=tyah&trkInfo=tas%3Astuart%20lowe"
+    ],
+    "description": "Stuart Lowe is the President of TriVista. He oversees several of the firm’s practice areas, primarily working with the firm’s private equity clients and executive leadership teams to deliver impactful projects that improve operating performance.
+",
+    "email": "stuart.lowe@trivista.com",
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Wolverhampton University",
+        "degree": "BS in mechanical engineering"
+      }
+    ],
+    "knowsAbout": [
+      "Operational Due Diligence",
+      "Private Equity",
+      "Business Strategy",
+      "Middle-Market Businesses",
+      "Operational Performance"
+    ]
+  }
+}
+</script>
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://trivista.com/about-us/ourteam/mike-mcsweeney/",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Mike McSweeney",
+    "image": "https://trivista.com/wp-content/uploads/2018/10/MikeMcSweeney-Square-223x223.jpg",
+    "jobTitle": "Managing Director",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "TriVista"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/mmcsweeney/"
+    ],
+    "description": "As Managing Director, Mike McSweeney works closely with private equity investors, business owners and executive leadership teams, to support M&A transactions and improve the value of middle-market businesses.",
+    "email": "mtm@trivista.com",
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Bond University",
+        "degree": "BA"
+      }
+    ],
+    "knowsAbout": [
+      "Operational Due Diligence",
+      "Private Equity",
+      "Business Strategy",
+      "Middle-Market Businesses",
+      "Operational Performance"
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Unlocking Transformational Change in Enterprise Value",
+    "description": "Sales, inventory, and operations planning (SIOP) is the integrating function that ties each part of a business’ operations together to achieve targeted financial outcomes. Companies with limited SIOP capabilities often see substantial financial gains when an effective SIOP process is implemented.  Join Scott Sparks and Philip Lee to learn how to assess your SIOP opportunity and unlock transformational value.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/7idMoSzNpp8/default.jpg",
+    "uploadDate": "2020-12-12T00:42:58Z",
+    "duration": "PT45M23S",
+    "embedUrl": "https://www.youtube.com/embed/7idMoSzNpp8",
+    "interactionCount": "123"
+  }</script>
+
+  <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Webinar: Aligning Operations to Protect Value During COVID-19",
+    "description": "Join TriVista CEO Tim Ristoff and Supply Chain Practice Leader Scott Sparks  as they discuss how you can align your operations value chain, bolster portfolio company resiliency, and better position yourself for recovery amidst the COVID-19 pandemic.  Key Takeaways:  Understand the new reality - Review the biggest operational risks that business leaders need to consider - Discuss how to refocus for the future, including: - Focusing on the most profitable SKUs - Rightsizing your operations for resiliency - Securing and de-risking your supply chain - Adjusting to new variability in demand with extra emphasis on SIOP   ABOUT TRIVISTA TriVista is an operations, supply chain, and IT consulting firm that provides operational due diligence to private equity firms, and performance improvement support to operating companies. We've partnered with the world's top investors and executive leadership teams to transform businesses and drive enterprise value.   For more information, please visit www.trivista.com.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/laOnEksJN-0/default.jpg",
+    "uploadDate": "2020-06-03T16:32:34Z",
+    "duration": "PT53M17S",
+    "embedUrl": "https://vimeo.com/187074395"  }
+  </script>

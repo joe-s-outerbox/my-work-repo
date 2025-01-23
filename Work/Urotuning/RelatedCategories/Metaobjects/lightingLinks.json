@@ -1,0 +1,43 @@
+[
+    {
+        "id": "/collections/all/lighting",
+        "collection-list": [
+            {
+                "coll": "Lamin X Film",
+                "link": "/collections/all/lighting__lamin_x_film"
+            },
+            {
+                "coll": "Headlights",
+                "link": "/collections/all/lighting__headlights"
+            },
+            {
+                "coll": "Tail Lights",
+                "link": "/collections/all/lighting__tail_lights"
+            },
+            {
+                "coll": "Turn Signal",
+                "link": "/collections/all/lighting__turn_signal"
+            },
+            {
+                "coll": "Fog Lights",
+                "link": "/collections/all/lighting__fog_lights"
+            },
+            {
+                "coll": "Side Lights",
+                "link": "/collections/all/lighting__side_lights"
+            },
+            {
+                "coll": "License Plate Lights",
+                "link": "/collections/all/lighting__license_plate_lights"
+            },
+            {
+                "coll": "Drl's",
+                "link": "/collections/all/lighting__drl's"
+            },
+            {
+                "coll": "Off Road            ",
+                "link": "/collections/all/lighting__off_road"
+            }
+        ]
+    }
+]
