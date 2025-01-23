@@ -1,0 +1,35 @@
+[
+    {
+        "seo_cw": [
+            {
+                "section_title": "Related Articles",
+                "articles": [
+                    {
+                        "post_url": "https://briggs-riley.co.uk/blogs/travel-source/luggage-sets",
+                        "post_img": "https://briggs-riley.co.uk/cdn/shop/articles/Untitled-4.jpg?v=1672247929",
+                        "post_img_alt": "Luggage Sets",
+                        "post_title": "Luggage Sets",
+                        "post_meta": "December 28, 2022",
+                        "post_excerpt": "Explore different luggage sets to discover which meets your specific travel needs."
+                    },
+                    {
+                        "post_url": "https://briggs-riley.co.uk/blogs/travel-source/perfect-pairings-books-and-bags",
+                        "post_img": "https://briggs-riley.co.uk/cdn/shop/articles/mexgoth_cropped_1d518e9b-2280-42be-b73b-b13aaa608512.jpg?v=1641918353",
+                        "post_img_alt": "Books and Bags",
+                        "post_title": "Perfect Pairings: Books and Bags",
+                        "post_meta": "January 13, 2022",
+                        "post_excerpt": "See which Briggs & Riley bags are the ideal complement for your next favourite read."
+                    },
+                    {
+                        "post_url": "https://briggs-riley.co.uk/blogs/travel-source/hard-vs-soft-shell-luggage-whats-the-difference",
+                        "post_img": "https://briggs-riley.co.uk/cdn/shop/articles/torq.jpg?v=1641912231",
+                        "post_img_alt": "Hard vs. Soft Shell Luggage",
+                        "post_title": "Hard vs. Soft Shell Luggage: What's the Difference?",
+                        "post_meta": "January 11, 2022",
+                        "post_excerpt": "Learn the nuances between soft- and hard-shell luggage to decide which is best for your travels."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "id": "/collections/all/suspension",
+        "collection-list": [
+            {
+                "coll":"Bushings & Components",
+                "link":"/collections/all/suspension__bushings_&_components"
+            },
+            {
+                "coll":"Coilovers",
+                "link":"/collections/all/suspension__coilovers"
+            },
+            {
+                "coll":"Shocks",
+                "link":"/collections/all/suspension__shocks"
+            },
+            {
+                "coll":"Springs",
+                "link":"/collections/all/suspension__springs"
+            },
+            {
+                "coll":"Sway Bar",
+                "link":"/collections/all/suspension__sway_bar"
+            },
+            {
+                "coll":"Air Ride",
+                "link":"/collections/all/suspension__air_ride"
+            },
+            {
+                "coll":"Cup Kit",
+                "link":"/collections/all/suspension__cup_kit"
+            },
+            {
+                "coll":"Camber",
+                "link":"/collections/all/suspension__camber"
+            },
+            {
+                "coll":"Chassis",
+                "link":"/collections/all/suspension__chassis"
+            },
+            {
+                "coll":"Install / Refresh Kits",
+                "link":"/collections/all/suspension__install_-_refresh_kits"
+            },
+            {
+                "coll":"Lift Kits",
+                "link":"/collections/all/suspension__lift_kits"
+            },
+            {
+                "coll":"Suspension Control Units",
+                "link":"/collections/all/suspension__suspension_control_units"
+            }
+        ]
+    }
+]

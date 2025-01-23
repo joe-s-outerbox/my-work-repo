@@ -1,0 +1,80 @@
+#reviews-boc {
+    margin-top: 60px;
+}
+#reviews-boc section {
+    margin-bottom: 60px
+}
+#reviews-boc h2 {
+    margin: 0;
+    font: 700 35px / .914 'Rajdhani';
+    text-transform: uppercase;
+}
+section.reviews.ctas {
+    padding: 60px 0;
+    border-top: 1px solid rgb(136, 136, 136);
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+.reviews.ctas .flex-row {
+    display: flex;
+    column-gap: 18px;
+}
+.reviews.ctas .cta {
+    flex-basis: 50%;
+    border-radius: 8px;
+    min-height: 222px;
+    background-size: cover;
+    background-position-x: right;
+    background-repeat:no-repeat;
+    
+}
+.copy {
+    max-width: 290px;
+    margin: 50px 30px;
+    text-transform: uppercase;
+}
+.copy:has(.subhead) {
+    margin: 36px 30px;
+}
+.copy .subhead {
+    color: #F62F2F;
+    display: block;
+    margin-bottom: 10px;
+    font: 700 14px / 1 'Open Sans';
+}
+.copy.wob h2 {
+    color: #fff;
+}
+.copy.bow h2 {
+    color: #000;
+}
+a.review-cta-btn {
+    color: #fff;
+    background: #F62F2F;
+    padding: 14px;
+    display: block;
+    max-width: fit-content;
+    border-radius: 6px;
+    margin-top: 10px;
+    font: 700 16px / 1 'Rajdhani';
+}
+@media (max-width: 580px) {
+    .reviews.ctas .flex-row {
+        display: block;
+    }
+}
+
+
+
+section.reviews.social {
+    text-align: center;
+}
+#reviews-boc .reviews.social h2 {
+    margin-bottom: 40px;
+    color: rgb(36, 36, 36);
+}
+.reviews.social .social-icons {
+    margin-bottom: 30px;
+}
+.reviews.social .social-icons a {
+    margin: 0 20px
+}

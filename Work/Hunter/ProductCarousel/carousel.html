@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="carousel-wrapper">
+    <h2>Product Carousels:</h2>
+    <div class="carousel-slider" id="responsive">
+        <div class="carousel-content" data-grid='{"xl":3,"lg":3,"md":2,"sm":1}' data-pagination="true">
+            <aside class="slide-item">
+                <div class="product">
+                    <img src="https://dummyimage.com/212x140/cccccc/333333" alt="">
+                    <span class="name">Product name</span>
+                    <span class="price">$1</span>
+                    <span class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    <a href="" class="obx-button">Add to Cart</a>
+                </div>
+            </aside>
+            <aside class="slide-item">
+                <div class="product">
+                    <img src="https://dummyimage.com/212x140/cccccc/333333" alt="">
+                    <span class="name">Product name</span>
+                    <span class="price">$2</span>
+                    <span class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    <a href="" class="obx-button">Add to Cart</a>
+                </div>
+            </aside>
+            <aside class="slide-item">
+                <div class="product">
+                    <img src="https://dummyimage.com/212x140/cccccc/333333" alt="">
+                    <span class="name">Product name</span>
+                    <span class="price">$3</span>
+                    <span class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    <a href="" class="obx-button">Add to Cart</a>
+                </div>
+            </aside>
+            <aside class="slide-item">
+                <div class="product">
+                    <img src="https://dummyimage.com/212x140/cccccc/333333" alt="">
+                    <span class="name">Product name</span>
+                    <span class="price">$4</span>
+                    <span class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    <a href="" class="obx-button">Add to Cart</a>
+                </div>
+            </aside>
+            <aside class="slide-item">
+                <div class="product">
+                    <img src="https://dummyimage.com/212x140/cccccc/333333" alt="">
+                    <span class="name">Product name</span>
+                    <span class="price">$5</span>
+                    <span class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    <a href="" class="obx-button">Add to Cart</a>
+                </div>
+            </aside>
+            <aside class="slide-item">
+                <div class="product">
+                    <img src="https://dummyimage.com/212x140/cccccc/333333" alt="">
+                    <span class="name">Product name</span>
+                    <span class="price">$6</span>
+                    <span class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    <a href="" class="obx-button">Add to Cart</a>
+                </div>
+            </aside>
+            <aside class="slide-item">
+                <div class="product">
+                    <img src="https://dummyimage.com/212x140/cccccc/333333" alt="">
+                    <span class="name">Product name</span>
+                    <span class="price">$7</span>
+                    <span class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                    <a href="" class="obx-button">Add to Cart</a>
+                </div>
+            </aside>
+
+            
+        </div>
+        <div class="pagination-row">
+            <div class="pagination-wrapper">
+                
+                <div class="carousel-pagination">
+                    <button class="carousel-prev-btn"><img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back.svg?v=1714169385" alt=""></button>
+                    <button class="carousel-next-btn"><img src="https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Icon_ionic-ios-arrow-back-1.svg?v=1714169385" alt=""></button>
+                </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<style>
+    @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.5;
+    font-size: 1rem;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: "Montserrat", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    color: #676767;
+    height: 100%;
+    touch-action: manipulation;
+
+}
+
+body {
+    margin: 0;
+    background: #e9e9e9 !important;
+    height: 100%;
+    text-align: center;
+}
+.carousel-wrapper {
+    background: #fff;
+    text-align: left;
+    padding: 60px 0;
+}
+.carousel-slider * {
+    touch-action: manipulation;
+}
+
+.carousel-slider {
+    position: relative;
+    background: transparent;
+    width: 100%;
+    max-width: 735px;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.carousel-slider > .carousel-content {
+    position: relative;
+    -webkit-display: inline-flex;
+    -moz-display: inline-flex;
+    -ms-display: inline-flex;
+    -o-display: inline-flex;
+    display: inline-flex;
+    user-select: none;
+}
+
+.carousel-slider > .carousel-content > .slide-item {
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.carousel-slider > .carousel-content > .slide-item .product{
+    max-width: 212px;
+    border: 1px solid;
+}
+
+.carousel-slider > .carousel-content > .slide-item .product span {
+    display: block;
+}
+.carousel-slider > .carousel-content > .slide-item .product img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+.carousel-slider > .carousel-content > .slide-item .product .name {
+    color: #fff;
+    background-color: #717B85;
+    padding: 9px 11px;
+    font-weight: 700;
+}
+.carousel-slider > .carousel-content > .slide-item .product .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #537F53;
+    margin: 10px 0;
+}
+
+.carousel-slider .carousel-next-btn,
+.carousel-slider .carousel-prev-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-align: center;
+
+}
+
+.carousel-slider .carousel-next-btn:hover,
+.carousel-slider .carousel-prev-btn:hover {
+    cursor: pointer;
+}
+
+.carousel-slider .carousel-next-btn {
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+}
+
+.carousel-slider .carousel-prev-btn {
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+}
+.carousel-slider .pagination-row {
+    position: relative;
+    width: 100%;
+    max-width: fit-content;
+    left: 8%;
+    margin-top: 30px;
+}
+.carousel-slider .pagination-wrapper {
+    position: relative;
+    left: 0;
+}
+.carousel-slider .carousel-pagination {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    max-width: fit-content;
+    position: relative;
+    left: 0;
+}
+
+.carousel-slider .carousel-pagination.stick .item {
+    border-radius: 17px;
+    min-width: 30px;
+    min-height: 5px !important;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+
+.carousel-slider .carousel-pagination .item {
+    transition: all 0.25s ease-in-out;
+    min-height: 10px;
+    min-width: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    text-decoration: none;
+}
+.carousel-slider .carousel-pagination .item.active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+</style>
+<script>
+    let carousel = (el, parameter) => {
+    el = el !==undefined ? el : "";
+    
+    parameter = parameter !== undefined ? parameter : {};
+    let method = {
+        transition: parameter.transition !== undefined ? parameter.transition : null,
+        responsive: parameter.grid !== undefined ? parameter.grid : null,
+        pagination: parameter.pagination !== undefined ? parameter.pagination : false,
+        autoplay: parameter.autoplay !== undefined ? parameter.autoplay : null,
+        playTimer: parameter.autoplay !== undefined && parameter.autoplay.playTimer !== undefined
+            ? parameter.autoplay.playTimer
+            : 2000,
+    },trigger = document.querySelectorAll(".carousel-slider"+el);
+    Array.prototype.forEach.call(trigger, function (el) {
+        
+    let content = el.querySelector (".carousel-content"),
+        count = content.childElementCount,
+        responsive = method.responsive || JSON.parse (content.getAttribute ("data-grid")),
+        widths,
+        d_widths = el.offsetWidth + 50,
+        c_widths = d_widths * count,
+        autoplay = method.autoplay || el.getAttribute ("data-autoplay"),
+        autoplay_timer = method.playTimer || el.getAttribute ("data-timer"),
+        is_pagination = method.pagination || content.getAttribute ("data-pagination"),
+        config = {
+            "lg": 735,
+            "md": 540,
+            "sm": 425
+        },
+        step,
+        pagination_content = el.querySelector (".carousel-pagination");
+    content.firstElementChild.classList.add ("active");
+    content.style.transitionDuration = method.transition || "500ms";
+    this.autoplayEffect = null;
+
+    let index_settings = () => {
+        let slides = content.querySelectorAll (".slide-item");
+        for (i in slides) {
+            slides[ i ].tabIndex = i;
+        }
+    }, size = (widths) => {
+        let item_resize = el.querySelectorAll (".slide-item");
+        
+        Array.prototype.forEach.call (item_resize, (item_size) => {
+            item_size.style.width = widths + "px";
+        });
+    }, responsive_grid = () => {
+        if (responsive) {
+            if (window.innerWidth >= config.lg) {
+                if (responsive.xl !== undefined) {
+                    gridCount = responsive.xl;
+                    widths = Number (d_widths) / Number (gridCount);
+                }
+            } else if (window.innerWidth >= config.md) {
+                if (responsive.lg !== undefined) {
+                    gridCount = responsive.lg;
+                    widths = Number (d_widths) / Number (gridCount);
+                    console.log (d_widths, gridCount, responsive)
+                }
+            } else if (window.innerWidth >= config.sm) {
+                if (responsive.md !== undefined) {
+                    gridCount = responsive.md;
+                    widths = Number (d_widths) / Number (gridCount);
+                }
+            } else if (window.innerWidth < config.sm) {
+                if (responsive.sm !== undefined) {
+                    gridCount = responsive.sm;
+                    widths = Number (d_widths) / Number (gridCount);
+                }
+            }
+        } else {
+            widths = d_widths;
+        }
+        size (widths);
+        c_widths = widths * content.lastElementChild.tabIndex;
+        content.style.minWidth = c_widths;
+        return widths;
+    };
+
+    let autoplay_ = () => {
+        if (autoplay) {
+            let i = 0;
+            let last_i = content.lastElementChild.tabIndex;
+            this.autoplayEffect = setInterval (() => {
+                if (last_i > i) {
+                    content.style.transform = "translate3d(-" + d_widths * i + "px,0px,0px)";
+                    content.children.item (i + 1).classList.add ("active");
+                    content.children.item (i).classList.remove ("active");
+                } else {
+                    content.lastElementChild.classList.remove ("active");
+                    content.firstElementChild.classList.add ("active");
+                    content.style.transform = "translate3d(" + 0 + "px,0px,0px)";
+
+                    i = 0;
+                }
+                i++;
+            }, Number (autoplay_timer));
+        }
+    }, pagination = () => {
+        if (is_pagination) {
+            let pagination_item = el.querySelector (".carousel-pagination");
+            step = d_widths / responsive_grid ();
+            for (let i = 0; i < count - (count % step + 1); i++) {
+                let p_item = document.createElement ("a");
+                p_item.href = "#!";
+                p_item.innerHTML = i + 1;
+                p_item.classList.add ("item");
+                p_item.tabIndex = i;
+                pagination_item.appendChild (p_item);
+            }
+            
+        }
+    }, slider_next = (el) => {
+        let content = el.querySelector (".carousel-content");
+        let last_i = content.lastElementChild.tabIndex;
+        let i = content.querySelector (".slide-item.active").tabIndex + 1;
+        step = d_widths / responsive_grid ();
+        widths = d_widths / step;
+        if (step > 1) {
+            last_i = last_i - step + 1;
+        }
+        if (i <= last_i) {
+            setPageMarkerNext(i);
+            content.children.item (i).classList.add ("active");
+            content.children.item (i - 1).classList.remove ("active");
+            let ml_ = widths * i;
+            content.style.transform = "translate3d(-" + ml_ + "px,0px,0px)";
+            i++;
+        } else {
+            i = 1;
+            setPageMarkerNext(i - 1);
+            content.lastElementChild.classList.remove ("active");
+            content.firstElementChild.classList.add ("active");
+            content.style.transform = "translate3d(" + 0 + "px,0px,0px)";
+        }
+    }, slider_prev = (el) => {
+        let content = el.querySelector (".carousel-content");
+        let last_i = content.lastElementChild.tabIndex;
+        let i = content.querySelector (".slide-item.active").tabIndex;
+        console.log(i)
+        step = d_widths / responsive_grid ();
+        widths = d_widths / step;
+        
+        if (i >= 1) {
+            content.children.item (i - 1).classList.add ("active");
+            content.children.item (i).classList.remove ("active");
+            i--;
+            console.log('index in slider prev: ' + i);
+            setPageMarkerPrev(i);
+            let ml_ = widths * i;
+            content.style.transform = "translate3d(-" + ml_ + "px,0px,0px)";
+
+        } else {
+            
+            i = last_i;
+            content.lastElementChild.classList.add ("active");
+            content.firstElementChild.classList.remove ("active");
+            if (step > 1) {
+                last_i = last_i - step + (content.children % step);
+            }
+            let ml_ = widths * ( last_i -1);
+            content.style.transform = "translate3d(-" + ml_ + "px,0px,0px)";
+            i--;
+            // setPageMarkerPrev(i -1);
+        }
+    }, slider_direction = (el) => {
+        let prev = el.querySelector (".carousel-prev-btn");
+        let next = el.querySelector (".carousel-next-btn");
+        if (el.contains (prev) && el.contains (next)) {
+            prev.addEventListener ("click", () => {
+                window.clearInterval (this.autoplayEffect);
+                slider_prev (el);
+            }, false);
+
+            next.addEventListener ("click", () => {
+                window.clearInterval (this.autoplayEffect);
+                slider_next (el);
+            }, false);
+        }
+        if (el.contains (pagination_content)) {
+            pagination ();
+            let paginate = pagination_content.querySelectorAll (".item");
+            paginate.item(0).classList.add("active");
+            
+            Array.prototype.forEach.call (paginate, (el) => {
+                el.addEventListener ("click", () => {
+                    window.clearInterval (this.autoplayEffect);
+                    let last_i = el.parentNode.lastChild.tabIndex,
+                        i = el.tabIndex;
+                    let ml_ = widths * i;
+                    content.style.transform = "translate3d(-" + ml_ + "px,0px,0px)";
+                    for(let i = 0; i < paginate.length; i++) {
+                        paginate[i].classList.remove("active")
+                    };
+                    paginate.item(i).classList.add("active");
+                    
+                }, false);
+            });
+        }
+
+    },
+    setPageMarkerNext = (index) => {
+        let paginate = pagination_content.querySelectorAll (".item");
+        for(let i = 0; i < paginate.length; i++) {
+                    paginate[i].classList.remove("active")
+                };
+        console.log("index: " + index);
+
+        paginate.item(index).classList.add("active");
+        
+    },
+    setPageMarkerPrev = (index) => {
+        console.log('index in set Prev: ' + index);
+        let paginate = pagination_content.querySelectorAll (".item");
+        for(let i = 0; i < paginate.length; i++) {
+                    paginate[i].classList.remove("active")
+                };
+        if(index < 0) {
+            index = paginate.length - 1;
+        }
+        if(index == paginate.length) {
+            index = paginate.length -1;
+        }
+        console.log("index: " + index);
+
+        paginate.item(index).classList.add("active");
+        
+    };
+    window.addEventListener ("resize", () => {
+        d_widths = el.offsetWidth;
+        console.log (d_widths);
+        responsive_grid ();
+    }, true);
+    responsive_grid ();
+    slider_direction (el);
+    autoplay_ ();
+    index_settings ();
+
+    });
+
+    return this;
+};
+
+carousel();
+</script>
+</body>
+</html>

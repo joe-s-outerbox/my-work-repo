@@ -1,0 +1,25 @@
+[
+    {
+        "seo_faqs": [
+            {
+                "section_anchor": "faqs",
+                "section_title": "Frequently Asked Questions About the Best Carry-On Luggage",
+                "section_description": "As a trusted name in the <a href=\"https://www.statista.com/outlook/cmo/accessories/luggage-bags/worldwide\" target=\"blank\" rel=\"nofollow noopener\">£145.1 billion global luggage market</a>, Briggs & Riley has a wealth of knowledge to share. Here are some common inquiries we receive.",
+                "section_faqs": [
+                    {
+                        "faq_question": "What's the best carry-on luggage?",
+                        "faq_answer": "The best carry-on luggage meets airline restrictions and fits your specific travel requirements. Briggs & Riley offers numerous options to meet your needs."
+                    },
+                    {
+                        "faq_question": "What are the weight limits for carry-on luggage?",
+                        "faq_answer": "Most airlines set specific weight limits for carry-on bags, typically between seven and 10 kilograms. It's important to verify with your airline as these limits can vary."
+                    },
+                    {
+                        "faq_question": "Can I fit a laptop in my carry-on luggage?",
+                        "faq_answer": "Many of our carry-ons include space for laptops and other electronics, ensuring your devices travel safely."
+                    }
+                ]
+            }
+        ]
+    }
+]

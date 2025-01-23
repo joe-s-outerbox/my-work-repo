@@ -1,0 +1,235 @@
+.obx-ppc-install {
+    max-width: 1350px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.obx-landing-test.ppc {
+    background: black;
+}
+.obx-landing-test.ppc .top-banner .content-col {
+    max-width: 855px;
+}
+.obx-landing-test.ppc .content-col p {
+    font-size: 18px;
+}
+.obx-landing-test.ppc .content-col h3 {
+    font-weight: 700;
+}
+.obx-ppc-install p {
+    margin-top: 0;
+}
+.obx-ppc-install .media img,
+.obx-ppc-install .content img {
+    object-fit: cover;
+    width: 100%; 
+}
+.obx-landing-test.ppc .top-banner,
+.obx-ppc-install section {
+    margin-bottom: 100px;
+}
+.obx-landing-test.ppc .top-banner h1 {
+    font-size: 66px;
+    font-weight: 900;
+    line-height: 1.045;
+}
+.obx-ppc-install .flex-row {
+    column-gap: 30px;
+}
+.obx-ppc-install .col {
+    flex-basis: 50%;
+}
+.shadow-wrap {
+    box-shadow: 0 2px 10px 0 rgba(98, 98, 98, 0.34);
+}
+.options .checklist-card .shadow-wrap {
+    padding: 60px;
+}
+.shadow-wrap span{
+    display: block;
+    margin-bottom: 30px
+}
+.options .checklist-card ul > li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 1.8;
+    position: relative;
+}
+.options .checklist-card ul > li:before {
+    content: url(https://cdn.shopify.com/s/files/1/0555/5434/3079/files/Shape_2.png?v=1734042549);
+    position: absolute;
+    left: -33px;
+    bottom: -5px;
+}
+.shadow-wrap ul > li:last-of-type {
+    margin-bottom: 0;
+}
+.obx-ppc-install .install-icons {
+    padding: 60px;
+    background: #F5F5F5;
+}
+.obx-ppc-install h2,
+.obx-ppc-install .install-icons h2 {
+    margin: 0 0 20px;
+}
+.obx-ppc-install .install-icons p:last-of-type {
+    margin-bottom: 0;
+}
+.obx-ppc-install .install-icons .icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25px;
+    flex-basis: 60%;
+}
+.obx-ppc-install .install-icon {
+    flex-basis: 33%;
+    text-align: center;
+    align-self: center;
+    min-height: 160px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 117px 54px;
+    grid-row-gap: 20px;
+}
+.obx-ppc-install .install-icon span,
+.obx-ppc-install .install-icon img {
+    display: block;
+    margin: 0 auto;
+}
+.obx-ppc-install .install-icon img {
+    margin: 40px auto 20px;
+    object-fit: contain;
+}
+.obx-ppc-install .icon-text {
+    line-height: 1.4
+}
+.obx-ppc-install .install-icon .icon-text {
+    font-size: 18px;
+    font-family: Nunito Sans, sans-serif!important;
+    font-weight: 700;
+}
+.obx-ppc-install .install-icons .content {
+    flex-basis: 39%;
+}
+.install-split .col.content a {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 900;
+    padding: 15px 59.5px;
+}
+.green-head-row span.green {
+    font-size: 18px;
+    font-weight: 700;
+    color: #537F53;
+    line-height: 1.778;
+    display: block;
+    margin-bottom: 5px;
+}
+.install-split:has(.green-head-row) .flex-row {
+    column-gap: 0
+}
+.install-split .col.content:has(.green-head-row) {
+    padding: 60px;
+}
+.install-split .footnote {
+    display: block;
+    margin-top: 20px;
+}
+.obx-ppc-install .callout {
+    border-left: 4px solid #537F53;
+    padding: 40px 0 40px 24px;
+    margin-top: 40px
+}
+.obx-ppc-install .callout span {
+    font-size: 33px;
+    font-weight: 700
+}
+@media (max-width: 1024px) {
+         .obx-landing-test.ppc .top-banner  h1 {
+        font-size: 50px;
+    }
+    .obx-landing-test.ppc .top-banner  h3 {
+        font-size: 26px;
+    }   
+    
+    .install-split .col.content:has(.green-head-row) {
+    padding: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .obx-landing-test.ppc .top-banner {
+        background-position-x: 52%;
+    }
+    .obx-landing-test.ppc .top-banner,
+    .obx-ppc-install section {
+        margin-bottom: 50px;
+    }
+    .obx-ppc-install .flex-row {
+        flex-direction: column;
+    }
+    .obx-ppc-install .media {
+        order: -1;
+        margin-bottom: 30px;
+    }
+    .shadow-wrap .media {
+        margin-bottom: 0
+    }
+    .obx-landing-test.ppc .top-banner  h1 {
+        font-size: 50px!important;
+        text-align: center;
+    }
+    .obx-landing-test.ppc .top-banner  h3 {
+        font-size: 26px!important;
+        text-align: center;
+    }
+    .top-banner,
+    .obx-ppc-install .install-icons,
+    .options .checklist-card .shadow-wrap {
+        padding: 30px;
+    }
+    section.grey-bg.install-icons .content {
+        margin-bottom: 60px;
+    }
+    .obx-ppc-install .install-icon {
+         grid-template-rows: 1fr 1fr;
+         row-gap: 0;
+         margin-bottom: 22px; 
+    }
+    .obx-ppc-install .install-icon:last-of-type {
+        margin-bottom: 0
+    }
+    .obx-ppc-install .install-icon img {
+        margin: 0 auto;
+    }
+
+}
+@media (max-width: 650px) {
+    .icons-wrapper {
+        flex-direction: column;
+    }
+    .install-icon {
+        max-width: 60%;
+        margin-bottom: 40px
+    }
+    .obx-ppc-install .install-icons {
+        padding-bottom: 20px;
+    }
+    .faq-heading h2,
+    .obx-ppc-install .callout span {
+        font-size: 28px!important;
+    }
+    .callout {
+        display: none;
+    }
+    .footnote {
+        text-align: center;
+    }
+    .obx-ppc-install .media {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 540px) {
+    .obx-landing-test.ppc .top-banner {
+        background-position-x: 74%;
+    }
+}

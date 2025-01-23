@@ -1,0 +1,301 @@
+<p><!-- wp:html --></p>
+<!--more-->
+<article>
+    <h6><em>(Originally published July 8, 2014; Updated November 21, 2019)</em></h6>
+    <p><img class="alignnone size-full wp-image-17395"
+            src="https://146552.fs1.hubspotusercontent-na1.net/hubfs/146552/Imported_Blog_Media/Why-using-pIC50-instead-of-IC50-will-change-your-life-1-1.jpg"
+            alt="Why Using pIC50 instead of IC50 will change your life (featured image)" width="1200" height="630"></p>
+    <h4>&nbsp;</h4>
+    <h5 style="text-align: left;"><strong><em>From the desk of <a class="cddlinklight"
+                    href="https://www.linkedin.com/in/marc-navre/">Marc Navre, Ph.D.,</a></em></strong></h5>
+    <h6>Co-Founder and CEO, Facile Therapeutics, Inc</h6>
+    <p>&nbsp;</p>
+
+    <div class="toc">
+        <p><strong>In This Article:</strong></p>
+        <ul>
+            <li><a href="#what-is-ic50">What is IC50?</a></li>
+            <li><a href="#the-dose-response-curve">The Dose-Response Curve</a></li>
+            <li><a href="#5-reasons-to-replace-ic50-with-pic50">5 reasons to replace IC50 with pIC50 </a></li>
+            <li><a href="#faqs">FAQs </a></li>
+        </ul>
+    </div>
+    <p>
+        A significant number of CDD Vault subscribers use IC50 values to store and analyze their dose-response data from in-vitro assays. <strong>Now that the automated calculations extension of CDD Vault supports the calculation of pIC50 values, I’d like to convince users of IC50 to consider using pIC50 instead and explain why it will make their lives easier (in the long run) and just make them a finer human being.</strong>
+    </p>
+    <p>
+        I’ve worked in two small biotech companies where I was heading up both biology and informatics, and thus was able to “force” the use of pIC50 values instead of IC50 values. You would have thought I said from now on we will be eating bugs for lunch. It was a bit of an uphill battle, and there is a learning curve, but after six months, everyone was used to it, agreed it was better, and wouldn’t go back. Oh yeah, and it’s just plain “the right thing to do.”
+    </p>
+
+
+    <h2 id="what-is-ic50">What is IC50 in the First Place?</h2>
+    <p>An <a
+            href="https://support.collaborativedrug.com/hc/en-us/articles/214359303-Setting-up-a-Dose-Response-Protocol">IC50
+            measurement</a> tells us the concentration at which a drug is able to inhibit a particular biological
+        process by 50%. For example, if compound A can inhibit 50% of the binding of a ligand to a particular receptor
+        at a concentration of 5 nM, it would have an IC50 value of 5 nM. A closely related concept is the EC50 value
+        which is the potency of a drug to induce a biological process.</p>
+    <p>So then what is a pIC50? It’s simply the negative log of the IC50 value in molar. Watch:</p>
+    <ul>
+        <li>An IC50 of 1 µM is 10<sup>-6</sup> M, which is pIC50 = 6.0</li>
+        <li>An IC50 of 1 nM is 10<sup>-9</sup> M, which is pIC50 = 9.0</li>
+        <li>An IC50 of 10 nM is 10<sup>-8</sup> M, which is pIC50 = 8.0</li>
+        <li>An IC50 of 100 nM is 10<sup>-7</sup> M, which is pIC50 = 7.0</li>
+        <li>An IC50 of 30 nM is 3 x10<sup>-8</sup>&nbsp;M, which is also 10<sup>-7.5</sup> M, which is pIC50 = 7.5</li>
+    </ul>
+    <p>Do you see a pattern? You’re in drug discovery… you’ve been working with pH since you were knocking over
+        graduated cylinders in high school. When working in the lab, did you say that this solution has an acidity of 10
+        µM (10<sup>-5</sup> M) [H<sup>+</sup>]? Of course not. You talked about a solution at pH 5. And you didn’t
+        bother trying to back-calculate in your head … that is, you didn’t try and convert a pH value of 7.5 to 30 nM
+        [H<sup>+</sup>]. That’s because you’ve trained yourself to think in terms of pH, as well as the fact that the
+        acidity of an aqueous solution is a logarithmic function. pH values in experiments go from 1 to 2 to 3, not 10
+        mM to 20 mM to 30 mM [H<sup>+</sup>].</p>
+    <p>That is exactly the way you should think about IC50 values (or when testing agonists, EC50 values). Dose-dependent inhibition (or activation) of an enzyme or cell is a logarithmic phenomenon (with regard to compound
+        concentration), so it makes more sense to view the data this way. And if you look at papers from the big pharma
+        companies, you will notice that they more often than not report inhibition as pIC50 instead of IC50.</p>
+    <p>So should you do it that way just because Merck does it that way? No, so let’s discuss why it <em>is</em> the
+        right way (and why Merck, GSK, etc. use it).</p>
+    <h2 id="the-dose-response-curve">The Dose-Response Curve</h2>
+    <p>When you crunch your dose response data, you are fitting your response (say 0-100%, to keep it simple) against
+        the concentration of test compound (ultimately in molar). But if you look carefully at the equation for which
+        you are running a curve fit (the Four-Parameter Logistic Function, also known as the sigmoid function), what is
+        being calculated is response vs. the <strong>log </strong>of compound concentration.</p>
+    <figure>
+        <figure><img class="alignnone size-full wp-image-7517"
+                src="https://146552.fs1.hubspotusercontent-na1.net/hubfs/146552/Imported_Blog_Media/Screen-Shot-2014-07-07-at-5_03_06-PM-1.png"
+                alt="hill_equation" width="321" height="64"></figure>
+    </figure>
+    <p>where y is the response you have measured at compound concentration <em>x</em>. <em>Top</em> is the response with
+        no inhibitor (aka the maximum asymptote), and <em>bottom</em> is the response when the enzyme (or cell) is fully
+        inhibited (aka the minimum asymptote). And of course, <em>IC50</em> is the inflection point (halfway point
+        between top and bottom), the value you are solving for.</p>
+    <p>So the curve fitting actually solves for the logIC50, not IC50. If you want to know the error from the fit, you
+        can get a standard error (SEM) that surrounds the IC50 symmetrically. But if you start changing the pIC50 value
+        to IC50, that error becomes asymmetric, and makes no sense.</p>
+    <p>You have to go back and do the anti-log to get the IC50. And this is easy these days with computers and Excel. So
+        “everyone does it”. But you lose a lot in taking that “easy step”. What is the advantage? How will this change
+        your life?</p>
+    <p>For starters, think about data presentation and significant figures (you do pay attention to significant figures,
+        don’t you?). Think about presenting IC50 values for a range of weak to potent compounds. Your table probably
+        looks like this:</p>
+    <figure>
+        <figure><img class="alignnone size-full wp-image-7519"
+                src="https://146552.fs1.hubspotusercontent-na1.net/hubfs/146552/Imported_Blog_Media/Screen-Shot-2014-07-07-at-5_11_27-PM-1.png"
+                alt="IC50_table" width="154" height="187"></figure>
+    </figure>
+    <p>It’s hard to review the data for compounds with a wide range of potencies on the same table. With most text
+        editors or word processors, it’s very difficult to get the numbers to line up around the decimal point (which
+        they should do to make it most readable). You are also all over the map with significant figures. Not
+        professional.</p>
+    <p>Now here is the same data where the table shows pIC50 values instead:</p>
+    <figure>
+        <figure><img class="alignnone size-full wp-image-8669"
+                src="https://146552.fs1.hubspotusercontent-na1.net/hubfs/146552/Imported_Blog_Media/Screen-Shot-2015-01-07-at-4_54_49-PM-1.png"
+                alt="pIC50_CDD_Vault" width="152" height="180"></figure>
+    </figure>
+    <p>Look how clean that is. All lined up around the decimal point with no extra effort, and they all have the same
+        number of significant figures. And most importantly, you get a better sense of the relative potencies. Which
+        would you rather present at a project team meetings?</p>
+    <p>Now look at compounds I and J. By linear IC50s, the mindset is “twice as potent”. But look at the pIC50s. The
+        differences aren’t that great… and that’s correct. IC50 is a log function… differences need to be thought about
+        in terms of log differences.</p>
+    <p>Another important advantage is achieved when you try to start getting averages of your compound potencies. The
+        proper way to average IC50 values is to take the geometric mean of the IC50 values, not the arithmetic mean.
+        Recall that the arithmetic mean of n values is the sum of the n values divided by n. In contrast, the geometric
+        mean can be calculated by determining the <em>product</em> of the n values, and then taking the n-root of the
+        product. So if your three values are 4, 5, and 6 µM, the geometric mean is:</p>
+    <figure>
+        <figure><img class="alignnone size-full wp-image-7521"
+                src="https://146552.fs1.hubspotusercontent-na1.net/hubfs/146552/Imported_Blog_Media/Screen-Shot-2014-07-07-at-5_14_09-PM-1.png"
+                alt="geometric_mean" width="285" height="51"></figure>
+    </figure>
+    <p>Note that it is not the same as the arithmetic mean (which of course is 5 µM). However, you can easily calculate
+        the geometric mean of your IC50 values if you use pIC50s. This is because the geometric mean is also the
+        arithmetic means of the logs of the IC50 values.</p>
+    <p>Keep this logarithmic thinking in mind when you select your compound concentrations for your <a
+            href="/cdd-blog/the-dose-response-curve" rel="noopener">dose response curves</a>. The general tendency is to
+        work in factors of 5: 1 nM, 5 nM, 10 nM, etc. But since you are now a pro, and working in log land, you are
+        better off working in factors of about 3, which is roughly half a log. That is, 1 nM, 3 nM, 10 nM, etc. This
+        gives you better spacing on your logarithmic dose response curves. See the figure below. This is a practice that
+        translates effectively into in vivo studies: you get a better spread working at 1, 3 and 10 mg/kg rather than at
+        1, 5 and 10 mg/kg.</p>
+    <p>As an illustration, look at the plots below. This is a theoretical plot where data was fit to the IC50 equation
+        with bottom = 0, top = 100, IC50= 100, and Hill slope=1. In the plot on the left, the compound concentrations
+        were selected linearly (1, 5, 10, 50, etc). In contrast, in the plot on the left, the points were selected
+        logarithmically (1, 3, 10, 30, etc). Note how the points on the right-hand plot are evenly spaced, while on the
+        left-hand slide they are clumped. Since your goal in creating dose-response curves is to sample as much of “dose
+        space” as possible, basing the doses on log intervals gives better sampling. Which shows better experimental
+        design? Which plot gives you greater confidence in your results? Which would you rather show at a project
+        review?</p>
+    <figure>
+        <figure><img class="aligncenter wp-image-7524 size-full"
+                src="https://146552.fs1.hubspotusercontent-na1.net/hubfs/146552/Imported_Blog_Media/Screen-Shot-2014-07-07-at-5_18_38-PM-1-1.png"
+                alt="IC50_plots" width="460" height="201"></figure>
+    </figure>
+    <p>&nbsp;</p>
+    <figure>
+        <figure><img class="wp-image-12291 size-full aligncenter"
+                src="https://146552.fs1.hubspotusercontent-na1.net/hubfs/146552/Imported_Blog_Media/Watch-the-pIC50-Video-1.png"
+                alt="" width="230" height="41"></figure>
+    </figure>
+    <p>&nbsp;</p>
+</article>
+<h2 id="5-reasons-to-replace-ic50-with-pic50">Still not convinced? Here are 5 specific reasons why replacing IC50 with pIC50 will improve your dose-response story
+</h2>
+<p>Switching from IC50 to pIC50 causes you to change how you think about your data and your experimental design. It will
+    encourage you to think logarithmically about your potency data and stop thinking about arithmetic scales.
+    Fundamentally dose-dependent inhibition is a logarithmic phenomenon, so it makes more sense to think of it that way.
+</p>
+<p>&nbsp;</p>
+<h3> 1. pIC50 Will Encourage You to Look at In-Vitro Assay Data Logarithmically.</h3>
+<p>Think about when you plot your IC50 values — your potency data. You use some system for curve fitting, and all these
+    systems use an IC50 equation. But, if you get under the covers and you look at the actual equation that's being fit,
+    you'll see that it is actually the log of your drug concentration being used to determine the log of the IC50 value.
+    The software may report an IC50 for you, but it's back converting it from the log IC50.</p>
+<p>The idea is, when you're looking at the data in your <a
+        href="/cdd-blog/electronic-lab-notebooks-what-they-are-and-why-you-need-one" rel="noopener">electronic lab
+        notebook</a> using pIC50 and not IC50, the transition from the micromolar to the nanomolar inhibitors is
+    smoother and the spacing between potency values is more relevant.</p>
+<h3>&nbsp;</h3>
+<h3>2. pIC50 Will Allow You to Present In-Vitro Assay Data in an Easy-to-Read fFrm</h3>
+<p>When you use pIC50, you can pretty much use two significant figures to cover both micromolar and nanomolar potencies.
+    You've got one digit before the dot and one digit after the dot and that's it.</p>
+<p>What's so great about this? Now your audience can focus on the SAR, and stop doing mental gymnastics trying to
+    understand your IC50 values. pIC50 values are easy for an audience to understand and you will enable you to
+    communicate clearly and effectively.</p>
+<h3>&nbsp;</h3>
+<h3>3. pIC50 Will Make It Easy and Intuitive to Average Your In-Vitro Assay Data.</h3>
+<p>Let's say you've had a bad assay day. You’ve gotten the following three replicates of the same IC50 determination: 1
+    mM, 10 mM, and 5 mM. If you calculate the arithmetic mean, you get an average IC50 of 3.5 mM, but that is
+    incorrect.&nbsp;The right way to average IC50 data is to use the geometric mean because you're working with an
+    exponential value, which turns out to be 3.7 mM (after skipping the complicated math).</p>
+<p>But, if you use pIC50s you can avoid doing the geometric mean math and you can just take the arithmetic mean of the
+    pIC50 values because you're already in a logarithmic space.&nbsp;</p>
+<p>You can do it the difficult way by doing a geometric mean on IC50, or do it the smart and easy way using arithmetic
+    means of your pIC50 values.</p>
+<p>&nbsp;</p>
+<h3>4. pIC50 and Logarithmic Thinking Will Improve How You Plan Your Experiments.</h3>
+<p>Using pIC50 will help before you even start taking out the test tubes for your experiment.</p>
+<p>For example, do you typically set up half decade dilution curves like 1,000, 500, 100, etc.? Do you notice that your
+    data points are clumped up when you plot the data on your logarithmic compound concentration scale, and not evenly
+    spaced? That's because five is not halfway between one and ten on the logarithm scale.&nbsp;</p>
+<p>However, if you're thinking logarithmically, like using pIC50 encourages you to, you would realize that the number
+    halfway between one and ten is actually around three. You can then set up your dilution so it's 1,000, 300, 100, 30,
+    etc., which will allow your data points to fall nicely and smooth out the spacing of the points as they fall along
+    the curve. This is a much nicer way to sample concentration space and get more reliable data from the same amount of
+    work. This applies not only for in vitro experiments but for in vivo experiments as well.</p>
+<h3>&nbsp;</h3>
+<h3>5. pIC50 and Logarithmic Thinking Will Improve How You Look at the Reliability of Your Data.</h3>
+<p>Reporting the reliability of IC50 determinations is complex. You're probably familiar with standard error, but the
+    other less common, but more useful, way to look at the reliability of your data is the 95% confidence interval,
+    which gives you&nbsp;a 95% chance that your true value will be in this range.</p>
+<p>If you use modern software that does curve fitting, you'll notice that it will report the 95% confidence interval of
+    an IC50, but not the standard error. That’s because standard error of an arithmetic value (IC50) doesn’t make sense
+    with logarithmic data.&nbsp;Using this erroneous method will give you incorrect results, such as negative IC50
+    values.</p>
+<p>What is a negative IC50 value? The answer is you should scream because there's no such thing.&nbsp;This is the type
+    of error that occurs when you start thinking in an arithmetic space about a logarithmic value.</p>
+<p>&nbsp;</p>
+<h2 id="faqs">FAQs About pIC 50</h2>
+<p>
+    Understanding how pIC50 can make a difference in your data presentation can make a difference in your studies. Find out more below.
+</p>
+<h3>What is pIC50?</h3>
+<p>
+    pIC50 is the negative log of the IC50 value, offering a logarithmic measure of compound potency. This transformation makes it easier to compare compound effectiveness across experiments, with higher pIC50 values indicating stronger potency. For example, an IC50 of 1 μM converts to a pIC50 of 6.
+</p>
+<h3>How do I calculate pIC50?</h3>
+<p>
+    To determine pIC50, take the negative log of the IC50 value in molar concentration. For instance, an IC50 of 1 nM corresponds to pIC50 = 9, providing a clearer measure of potency.
+</p>
+<h3>How do I convert IC50 to pIC50?</h3>
+<p>
+    Convert IC50 to pIC50 with the formula pIC50 = -log(IC50), where IC50 is in molar concentration. This yields a more intuitive, consistent potency scale for comparison.
+</p>
+<h3>How can I convert pIC50 to IC50?</h3>
+<p>
+    To revert pIC50 to IC50, use IC50 = 10^(-pIC50). This conversion allows you to estimate the original molar concentration from the transformed pIC50 scale.
+</p>
+<h3>Why is pIC50 preferred over IC50?</h3>
+<p>
+    pIC50 provides a more consistent data presentation, aligns with biological systems’ logarithmic response, and simplifies potency comparisons across compounds, aiding in clearer data interpretation.
+</p>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is pIC50?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "pIC50 is the negative logarithmic transformation of the IC50 value, providing a logarithmic scale to measure compound potency more consistently. Higher pIC50 values indicate stronger potency."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate pIC50?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To calculate pIC50, take the negative log of the IC50 value in molar concentration. For example, if IC50 is 1 nM, pIC50 = 9."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I convert IC50 to pIC50?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the formula pIC50 = -log(IC50), where IC50 is expressed in molar concentration, to achieve a more intuitive potency scale."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I convert pIC50 to IC50?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To convert pIC50 back to IC50, use the formula IC50 = 10^(-pIC50) to estimate the molar concentration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is pIC50 preferred over IC50?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "pIC50 is often preferred because it simplifies comparisons, aligns with biological logarithmic responses, and ensures consistent data presentation."
+            }
+          }
+        ]
+      }
+      
+</script>
+<p>&nbsp;</p>
+<div class="obx-blog-cta">
+    <h2>Trust CDD to Improve Your Discover Using pIC50</h2>
+    <p>
+        Transform your drug discovery with CDD by adopting pIC50 for more streamlined and accurate potency analysis. pIC50's logarithmic scale provides clearer insights and simplifies comparisons across compounds. Contact us to learn more about enhancing your research with pIC50 in CDD Vault.
+    </p>
+</div>
+<hr><!-- /wp:html -->
+<p><!-- wp:paragraph --></p>
+<p><i>This blog is authored by members of the CDD Vault community. CDD Vault is a hosted <a
+            href="https://www.collaborativedrug.com/cdd-vault" target="_blank" rel="noopener noreferrer"
+            data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.collaborativedrug.com/cdd-vault&amp;source=gmail&amp;ust=1478041597053000&amp;usg=AFQjCNFrYMj-wVnO9yG-1OAMS9yqhVhO0A">drug
+            discovery informatics</a> platform that securely manages both private and external biological and chemical
+        data. It provides core functionality including <a href="https://info.collaborativedrug.com/cddchemreg"
+            target="_blank" rel="noopener noreferrer"
+            data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://info.collaborativedrug.com/cddchemreg&amp;source=gmail&amp;ust=1478041597053000&amp;usg=AFQjCNEni2InjeGNLQZy3vgNFKTMZsYrmQ">chemical
+            registration</a>, <a href="https://info.collaborativedrug.com/whatstructureactivity" target="_blank"
+            rel="noopener noreferrer"
+            data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://info.collaborativedrug.com/whatstructureactivity&amp;source=gmail&amp;ust=1478041597053000&amp;usg=AFQjCNHPWsPCn_romfuJCaAlTDKHdhsMOQ">structure
+            activity relationship</a></i><i>, <a href="https://www.collaborativedrug.com/cdd-vault/inventory"
+            target="_blank" rel="noopener noreferrer"
+            data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.collaborativedrug.com/cdd-vault/inventory&amp;source=gmail&amp;ust=1478041597053000&amp;usg=AFQjCNHNcAy_gzAVCNKXk0nOKeRAet-DCQ">chemical
+            inventory</a>, and <a href="https://www.collaborativedrug.com/cdd-vault/eln" target="_blank"
+            rel="noopener noreferrer"
+            data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.collaborativedrug.com/cdd-vault/eln&amp;source=gmail&amp;ust=1478041597053000&amp;usg=AFQjCNEA_WpTWfK7a_bmFTTYJ5N5mq-AZA">electronic
+            lab notebook</a> capabilities!</i></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CDD Vault: Drug Discovery Informatics your whole project team will embrace!</strong></p>
+<p><!-- /wp:paragraph --></p>

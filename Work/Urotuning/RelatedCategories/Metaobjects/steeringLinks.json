@@ -1,0 +1,51 @@
+[
+    {
+        "id": "/collections/all/steering",
+        "collection-list": [
+            {
+                "coll": "Tie Rod",
+                "link": "/collections/all/steering__tie_rod"
+            },
+            {
+                "coll": "Column",
+                "link": "/collections/all/steering__column"
+            },
+            {
+                "coll": "Wheel",
+                "link": "/collections/all/steering__wheel"
+            },
+            {
+                "coll": "Rack",
+                "link": "/collections/all/steering__rack"
+            },
+            {
+                "coll": "Pump",
+                "link": "/collections/all/steering__pump"
+            },
+            {
+                "coll": "Lines",
+                "link": "/collections/all/steering__lines"
+            },
+            {
+                "coll": "Reservoir",
+                "link": "/collections/all/steering__reservoir"
+            },
+            {
+                "coll": "Knuckle",
+                "link": "/collections/all/steering__knuckle"
+            },
+            {
+                "coll": "Idler Arm",
+                "link": "/collections/all/steering__idler_arm"
+            },
+            {
+                "coll": "Fluid",
+                "link": "/collections/all/steering__fluid"
+            },
+            {
+                "coll": "Service",
+                "link": "/collections/all/steering__service"
+            }
+        ]
+    }
+]
