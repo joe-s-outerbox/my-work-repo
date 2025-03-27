@@ -1,0 +1,50 @@
+<p><script type="application/ld+json"><br />
+{<br />
+  "@context": "https://schema.org",<br />
+  "@type": "Organization",<br />
+  "name": "Dtracing",<br />
+  "url": "https://dtracing.com/",<br />
+  "logo": "transparentlogo2-2-1024x207.png",<br />
+    "@type": "ContactPoint",<br />
+    "telephone": "+404-480-4754",<br />
+    "contactType": "Customer Service",<br />
+    "areaServed": "US",<br />
+    "availableLanguage": "English"<br />
+  },<br />
+  "sameAs": [<br />
+    "https://www.facebook.com/dtracing",<br />
+    "https://twitter.com/dtracing",<br />
+    "https://www.linkedin.com/company/dtracing"<br />
+  ],<br />
+  "description": "Dtracing provides cutting-edge solutions for digital and data tracing, offering comprehensive services to help businesses track and analyze their data effectively.",<br />
+  "additionalType": "https://www.productontology.org/id/Business",<br />
+  "hasOfferCatalog": {<br />
+    "@type": "OfferCatalog",<br />
+    "name": "Dtracing Services",<br />
+    "itemListElement": [<br />
+      {<br />
+        "@type": "Offer",<br />
+        "name": "Data Analysis",<br />
+        "description": "In-depth data analysis services to help businesses make data-driven decisions.",<br />
+        "priceCurrency": "USD",<br />
+        "price": "1000", // Adjust according to your service pricing<br />
+        "itemOffered": {<br />
+          "@type": "Service",<br />
+          "name": "Data Analysis Service"<br />
+        }<br />
+      },<br />
+      {<br />
+        "@type": "Offer",<br />
+        "name": "Digital Tracing",<br />
+        "description": "Advanced digital tracing services for identifying and tracking digital footprints.",<br />
+        "priceCurrency": "USD",<br />
+        "price": "1500",<br />
+        "itemOffered": {<br />
+          "@type": "Service",<br />
+          "name": "Digital Tracing Service"<br />
+        }<br />
+      }<br />
+    ]<br />
+  }<br />
+}<br />
+</script></p>

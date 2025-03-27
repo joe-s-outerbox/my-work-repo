@@ -1,0 +1,437 @@
+<div>
+    <style>
+        .obx-blog {
+            margin-bottom: 30px;
+        }
+
+        .obx-blog hr {
+            background-color: #e0e0e0;
+            margin: 50px auto;
+        }
+
+        .obx-blog h2,
+        .obx-blog h3,
+        .obx-blog h4 {
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .obx-blog p {
+            margin-bottom: 30px;
+        }
+
+        .obx-blog .list-container {
+            margin: 30px auto;
+        }
+
+        .obx-blog ul,
+        ol {
+            padding-left: 50px;
+        }
+
+        .obx-blog ul li {
+            list-style: disc;
+            color: #4D5256;
+        }
+
+        .obx-blog ol li {
+            list-style: decimal;
+            color: #4D5256;
+        }
+
+        .obx-blog ul li::marker {
+            color: #C01717;
+            font-size: 18px;
+        }
+
+        .obx-blog a.red-btn {
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            max-width: 300px;
+            padding: 15px 5px;
+            margin-top: 30px;
+            color: #fff;
+            background: #C01717;
+            border: 1px solid #fff;
+            text-transform: uppercase;
+            display: block;
+            transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+            text-decoration: none;
+        }
+
+        .obx-blog a.red-btn:hover {
+            opacity: .9;
+        }
+
+        .obx-blog .cta {
+            margin-top: 50px;
+            color: white;
+            background-image: url('/core/media/media.nl?id=2243296&amp;c=736728&amp;h=QtCYpTMuu32QL9NkhWuqV5SwQvoUcvy0FL96-aJB7G_iUff2&amp;372948');
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .obx-blog .cta-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+        }
+
+        .obx-blog .cta h2 {
+            margin-top: 0;
+            color: white;
+        }
+
+        .obx-blog .cta p {
+            color: white;
+        }
+
+        .obx-blog .cta a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .obx-blog .cta a.cta-btn {
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            max-width: 300px;
+            padding: 15px 5px;
+            margin-top: 30px;
+            background: #fff;
+            color: #C01717;
+            border: 1px solid #fff;
+            text-transform: uppercase;
+            display: block;
+            transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+            text-decoration: none;
+        }
+
+        .obx-blog .cta a.cta-btn:hover {
+            opacity: .9;
+        }
+
+        .obx-blog .flex-row {
+            display: flex;
+        }
+
+        .obx-blog .content-wheel {
+            margin: 50px auto 60px;
+        }
+
+        .obx-blog .content-wheel a {
+            text-decoration: none !important;
+        }
+
+        .obx-blog .content-wheel h2 {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .obx-blog .content-wheel .flex-row {
+            display: flex;
+            column-gap: 2%;
+        }
+
+        .obx-blog .content-wheel .flex-item {
+            flex-basis: 32%;
+            margin-top: 40px;
+        }
+
+        .obx-blog .content-wheel .article-img {
+            display: block;
+        }
+
+        .obx-blog .content-wheel .article-img img {
+            width: 100%;
+            padding: 0;
+            display: block;
+            aspect-ratio: 4.5/3;
+            object-fit: cover;
+        }
+
+        .obx-blog .content-wheel .article-title {
+            color: #c01717;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: normal;
+            line-height: 24px;
+            text-transform: uppercase;
+            display: block;
+            margin: 15px auto 10px;
+        }
+
+        .obx-blog .content-wheel .article-title:hover,
+        .obx-blog .content-wheel .article-img:hover {
+            opacity: .8;
+        }
+
+        .obx-blog .content-wheel .article-description {
+            display: block;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+        }
+
+        .obx-blog .obx-vid-wrapper {
+            margin: 60px auto;
+            text-align: center;
+        }
+
+        .obx-blog .obx-vid-wrapper iframe {
+            display: block;
+            max-width: 92vw;
+            margin: auto;
+        }
+
+        .obx-blog .list-container.flex-list ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .obx-blog .list-container.flex-list ul li {
+            min-width: 150px
+        }
+
+        .obx-blog .flex-row.with-media {
+            flex-wrap: wrap;
+            column-gap: 4%;
+            margin: 50px auto;
+        }
+
+        .obx-blog .flex-img {
+            flex-basis: 48%;
+        }
+
+        .obx-blog .flex-img img {
+            display: block;
+            width: 100%;
+        }
+
+        .obx-blog .flex-content {
+            flex-basis: 48%;
+            align-content: center;
+        }
+
+        .obx-blog .flex-content h2:first-child {
+            margin-top: 0;
+        }
+
+        /* obx-content-wheel media queries */
+        @media (max-width: 1215px) {
+            .obx-blog .content-wheel .flex-row {
+                flex-wrap: wrap;
+            }
+
+            .obx-blog .content-wheel h2 {
+                text-align: left;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .obx-blog .content-wheel .flex-row {
+                display: block;
+            }
+
+            .obx-blog .content-wheel .flex-item {
+                max-width: unset;
+            }
+
+            .obx-blog .flex-img {
+                flex-basis: 100%;
+                min-width: unset;
+                margin-bottom: 50px;
+                order: 0;
+            }
+
+            .obx-blog .flex-content {
+                flex-basis: 100%;
+                align-content: center;
+                min-width: unset;
+                order: 1;
+            }
+        }
+        .cta-overlay ul li {
+            color: #fff;
+        }
+    </style><!-- id 310 -->
+    <div class="obx-blog">
+        <div class="cta" style="background: transparent; margin-top: 50px;">
+            <div class="cta-overlay">
+                <h2>Get Focused with Trigon On-Deck Circles</h2>
+                <p>
+                    In baseball, timing is everything. Before stepping into the batter’s box, a player needs a solid warm-up routine—and that starts in the on-deck circle. <strong>The on-deck circle gives batters a place to dial in their timing, loosen up, and get ready for their next at-bat.</strong> 
+                </p>
+                <p style="margin-bottom: 0;">
+                    If you're ready to give your players on-deck circle mats that will keep their integrity for years, check out the selection at Trigon Sports. Whether you’re managing a high-traffic ballpark or a training facility, our batting circles hold up under cleats, resist wear from weather and movement, and keep batters focused on the game, not worrying about their footing. From classic <a href="https://www.trigonsports.com/sports-equipment/baseball-softball-equipment/pro-turf">ProTurf</a> options to fully customized designs, <em>Trigon Sports offers baseball on-deck circles that meet the standards of serious teams at every level.</em>
+                </p>
+            </div>
+        </div>
+
+        <div class="flex-row with-media">
+            <div class="flex-img" style="align-self: center;">
+            <img src="https://736728.app.netsuite.com/core/media/media.nl?id=3569592&amp;c=736728&amp;h=9Zd7fvtTUurJbiAw4iT2uJccpaQkNc8_d7TSrnSsBQZGNg-T&amp;fcts=20250224164113&amp;whence=" alt="On-Deck Circle Mats">
+            </div>
+            <div class="flex-content">
+                <h2>Built for the Big Leagues</h2>
+                <p>
+                    A good on-deck circle takes a beating—cleats grinding in, batters shifting their stance, and constant exposure to sun, rain, and dirt. That’s why Trigon Sports’ on-deck circle mats are made from <a href="https://www.trigonsports.com/ProTurf-6-On-Deck-Circles">high-quality turf</a> or <a href="https://www.trigonsports.com/6-Circular-On-Deck-Circle">heavy-duty rubber</a>, ready to handle the daily grind without wearing out or becoming a hazard.
+                </p>
+                <h3 style="margin-top: 30px;">ProTurf On-Deck Circles:</h3>
+        <ul>
+            <li><strong>Pro-Grade Look:</strong> Matches the field’s aesthetic and blends seamlessly into natural or artificial turf.</li>
+            <li><strong>Cushioned Surface:</strong> Absorbs impact, reducing stress on cleats and minimizing wear on the field.</li>
+            <li><strong>Non-Abrasive:</strong> Turf on-deck circles are easier on players’ joints and won’t damage bats if they make contact during warm-ups.</li>
+        </ul>
+        <h3 style="margin-top: 30px;">Rubber On-Deck Circles:</h3>
+        <ul>
+            <li><strong>Built for Toughness:</strong> Heavy-duty construction resists wear from cleats, bats, and weather.</li>
+            <li><strong>Non-Slip Design:</strong> Provides traction in wet conditions, reducing slips and keeping players stable.</li>
+            <li><strong>Low Maintenance:</strong> Easy to clean and won’t absorb moisture, making it ideal for all-weather play.</li>
+        </ul>
+        <p style="margin-top: 30px;"><em>Whether you prefer the natural feel of turf or the rugged longevity of rubber, Trigon Sports’ baseball on-deck circles are designed to handle the daily grind without losing their edge.</em></p>
+            </div>
+
+        </div>
+        
+        <div class="flex-row with-media">
+
+            <div class="flex-content">
+                <h2>Custom On-Deck Circles: Your Team, Your Brand</h2>
+                <p>
+                    Trigon Sports offers <a href="https://www.trigonsports.com/Pro-Deck-Digital-Print-On-Deck-Circles">custom on-deck circles</a> to match your team’s colors, logo, or branding, creating a professional, polished look that stands out on game day.<strong> Our all-weather memory foam base provides a cushioned feel underfoot, while the super-thick, spike-resistant PVC surface handles heavy cleat traffic without tearing or losing its shape.</strong> No matter how many reps your players take in the batting circle, these materials bounce back and stay game-ready all season long. Plus, with <a href="https://www.corrosionpedia.com/definition/2424/ultraviolet-resistance-uv-resistance" target="_blank" rel="nofollow noopener">UV-resistant printing</a>, your custom design stays sharp and vibrant even under the sun.
+                </p>
+                <p>
+                    From standard team logos to full-scale branded designs, Trigon Sports makes it easy to create a baseball on-deck circle that looks as good as it performs.
+                </p>
+            </div>
+            <div class="flex-img"><img
+                src="https://736728.app.netsuite.com/core/media/media.nl?id=3569591&c=736728&h=S3kQzJ2DcYhFExDnommBlZEMAi8rWrUuLTQsACRQ7dKJ_XPG&fcts=20250224164052&whence="
+                alt="Custom On-Deck Circle"></div>
+        </div>
+
+        <div class="cta" style="background: transparent; margin-top: 50px;">
+            <div class="cta-overlay">
+                <h2>Set It and Forget It: Installation & Maintenance Tips</h2>
+                <p>
+                    A quality on-deck circle isn’t just about performance—it’s about longevity. Proper installation and maintenance ensure your on-deck mats stay in place, hold up under pressure, and keep your field looking sharp all season. 
+                </p>
+                <h3 style="color: #fff;">Installation: Setting Up for Success</h3>
+                <p>
+                    Installing your baseball on-deck circle correctly depends on the playing surface:
+                </p>
+                <ul style="color: #fff;">
+                    <li><strong>Turf Fields:</strong> Lay the on-deck mat flat and secure it with adhesive or Velcro backing to prevent shifting. For removable circles, opt for weighted edges or temporary field tape.</li>
+                    <li><strong>Grass & Dirt Fields:</strong> Place the batting circle on a level surface to prevent tripping hazards. Heavy-duty rubber circles naturally grip the ground, but for extra hold, consider using ground stakes or perimeter edging.</li>
+                    <li><strong>Concrete & Indoor Training Areas:</strong> Use non-slip backing or double-sided adhesive for stability, especially in high-traffic environments.</li>
+                </ul>
+                <h3 style="color: #fff;">Maintenance: Keeping Your On-Deck Circle in Prime Condition</h3>
+                <p>
+                    Regular upkeep keeps your batter’s circle looking fresh and performing at its best:
+                </p>
+                <ul style="color: #fff;">
+                    <li><strong>Clean Off Dirt & Debris:</strong> Use a leaf blower or soft brush to remove dust and infield dirt buildup.</li>
+                    <li><strong>Wash Periodically:</strong> Hose down rubber mats or use mild soap and water for turf circles to maintain color and texture.</li>
+                    <li><strong>Store Properly in Off-Seasons:</strong> Roll up turf on-deck circles for storage, and stack rubber circles flat to avoid warping.</li>
+                    <li><strong>Protect Against Fading & Wear:</strong> UV-resistant materials help prevent sun damage, but for long-term protection, store mats indoors when not in use.</li>
+                </ul>
+                <p style="margin: 30px 0 0;">
+                    By following these steps, your baseball on-deck circles will stay in peak condition, keeping batters ready to hit and your field looking professional.
+                </p>
+            </div>
+        </div>
+        <div class="cta" style="background: transparent; margin-top: 50px;">
+            <div class="cta-overlay">
+                <h2>Get the On-Deck Circles Your Field Deserves</h2>
+
+                <p style="margin-bottom: 0;">
+                    Every detail on the field matters, and the on-deck circle is no exception. Whether you’re looking for a durable, all-weather mat that holds up under heavy cleat traffic or a custom-branded option that reinforces team pride, Trigon Sports has the solution. <strong>Built for performance, longevity, and a professional look, our on-deck circle mats give hitters a reliable warm-up spot while keeping your field organized and protected.</strong> Upgrade your setup with a product designed for serious play—shop Trigon Sports on-deck circles today.
+                </p>
+                <a href="https://www.trigonsports.com/sports-equipment/baseball-softball-equipment/pro-turf/on-deck-circles#" class="red-btn">Shop On-Deck Circles</a>
+            </div>
+        </div>
+        
+        <h2>Frequently Asked Questions: On-Deck Circle Mats</h2>
+        <p>
+            If you'd like to learn more about batter's circle mats, please refer to our helpful FAQ for insights and info. 
+        </p>
+        <div class="schema-faq-code" itemscope="" itemtype="https://schema.org/FAQPage">
+            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+                <h3 itemprop="name">What is an on-deck circle?</h3>
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div itemprop="text">
+                        <p>
+                            An on-deck circle is a designated area near the <a href="https://www.trigonsports.com/sports-equipment/baseball-softball-equipment/field-maintenance-equipment/batters-box-templates">batter’s box</a> where the next hitter warms up before stepping up to the plate. It provides a consistent surface for taking practice swings and getting timing down while keeping players safely positioned before their at-bat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+                <h3 itemprop="name">Where is the on-deck circle in baseball?</h3>
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div itemprop="text">
+                        <p>
+                            The on-deck circle is located outside the foul lines, between home plate and each team’s dugout. There are two circles—one for the home team and one for the visiting team—positioned in foul territory along the field's first- and third-base sides. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+                <h3 itemprop="name">What is the diameter of the on-deck circle in major league baseball?</h3>
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div itemprop="text">
+                        <p>
+                            In Major League Baseball (MLB), the on-deck circle typically has a diameter of 5 feet (60 inches). This size provides enough space for players to take warm-up swings while staying within the designated area. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+                <h3 itemprop="name">How do you keep on-deck circle mats from moving?</h3>
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div itemprop="text">
+                        <p>
+                            For turf fields, adhesive backing, Velcro, or weighted edges can help secure on-deck mats in place. On grass or dirt, rubber mats naturally grip the ground, but for extra stability, you can use perimeter edging, ground stakes, or field tape to keep them from shifting. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-question">
+                <h3 itemprop="name">Can I use an on-deck circle mat indoors?</h3>
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div itemprop="text">
+                        <p>
+                            Absolutely! On-deck mats work great for indoor training facilities, <a href="https://www.trigonsports.com/sports-equipment/baseball-softball-equipment/professional-portable-batting-cage">batting cages</a>, and dugouts. Rubber mats are ideal for hard surfaces like concrete, while turf mats can be placed over padded flooring for a more realistic feel. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wheel">
+            <h2>Related Articles: On-Deck Circles</h2>
+            <div class="flex-row">
+                <div class="flex-item"><a
+                        href="https://www.trigonsports.com/blog/batting-practice-equipment-checklist"><span
+                            class="article-img"><img alt="Batting Practice Equipment"
+                                src="https://www.trigonsports.com/core/media/media.nl?id=3163848&amp;c=736728&amp;h=wqQ6ZGHI7dP7kni_msUGBmScFoWBbHvSD49q-pJGZsly-Sjy"></span></a><a
+                        href="https://www.trigonsports.com/blog/batting-practice-equipment-checklist"><span
+                            class="article-title">Batter Up: The Ultimate Batting Practice Equipment Checklist for Players at Every Level</span></a><span class="article-description">In baseball, the adage
+                        "practice makes perfect" is particularly relevant...</span></div>
+                <div class="flex-item"><a
+                        href="https://www.trigonsports.com/blog/how-to-build-a-baseball-field"><span
+                            class="article-img"><img alt="Building a Baseball Field"
+                                src="https://www.trigonsports.com/core/media/media.nl?id=2497435&c=736728&h=LwX--63bH-Fjxa53iJ6cFbX4-owEvVrx5SpOJc3QJsJcm6jr"></span></a><a
+                        href="https://www.trigonsports.com/blog/how-to-build-a-baseball-field"><span
+                            class="article-title">How To Build a Baseball Field</span></a><span
+                        class="article-description">Are you a member of a parks and recreation department who wants to know...</span></div>
+                <div class="flex-item"><a
+                        href="https://www.trigonsports.com/blog/baseball-field-facility-safety-equipment-guide"><span
+                            class="article-img"><img alt="Baseball Field Safety Equipment"
+                                src="https://www.trigonsports.com/core/media/media.nl?id=3452719&c=736728&h=pF5lAoJiDC8YM_A-LSsf8W0sN5vyhl9VFAq9x9z944iG2a9q"></span></a><a
+                        href="https://www.trigonsports.com/blog/baseball-field-facility-safety-equipment-guide"><span
+                            class="article-title">Comprehensive Guide to Baseball Field & Facility Safety Equipment</span></a><span
+                        class="article-description">In baseball, safety isn't something you leave up to chance....</span></div>
+            </div>
+        </div>
+    </div>
+</div>

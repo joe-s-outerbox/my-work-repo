@@ -1,0 +1,206 @@
+.wp-block-column.content-body.is-layout-flow.wp-block-column-is-layout-flow {}
+#obx-landing .obx.landing.btn a {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Archivo-Expanded";
+    letter-spacing: 0.7px;
+    text-align: center;
+    line-height: 21px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    transition: .2s all ease-in-out;
+}
+#obx-landing .obx.landing.btn.primary a {
+    background: #fff;
+    color: rgba(155, 27, 32, 1);
+}
+#obx-landing .obx.landing.btn.primary a:hover {
+    background: transparent;
+    color: #fff;
+}
+#obx-landing .obx.landing.btn.secondary a {
+    background: transparent;
+    color: #fff
+}
+
+#obx-landing .obx.landing.btn.secondary a:hover {
+    background: #fff;
+    color: rgba(155, 27, 32, 1);
+}
+#obx-landing .obx.landing.btn.primary.red a {
+    border: 2px solid rgba(155, 27, 32, 1);
+    background: rgba(155, 27, 32, 1);
+    color: #fff;
+}
+#obx-landing .obx.landing.btn.primary.red a:hover {
+    background: #fff;
+    color: rgba(155, 27, 32, 1);
+}
+#obx-landing .flex-row {
+    column-gap: 60px
+}
+#obx-landing .content-body {
+    max-width: 1340px;
+    padding: 60px 0px;
+}
+#obx-landing .landing-h2 {
+    opacity: 1;
+    font-weight: 600;
+    letter-spacing: 2.88px;
+    text-align: left;
+    line-height: 46px;
+}
+#obx-landing .obx.landing.top-row p:last-of-type {
+    margin-bottom: 30px;
+}
+#obx-landing .obx.landing.top-row .wp-block-buttons {
+    max-width: fit-content;
+    column-gap: 30px;
+}
+#obx-landing .logo-row {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2) inset;
+}
+#obx-landing .content-body:has(.logo-slider-container) {
+    padding: 25px 0;
+}
+#obx-landing .services-row:has(.intro-text) {
+    padding: 0;
+}
+#obx-landing .intro-text p:last-of-type{
+    margin-bottom: 0;
+}
+#obx-landing .content-body:has(.hoverCard-block) {
+    padding: 50px 0 0
+}
+
+#obx-landing .wp-block-group:has(.services-row) {
+    padding: 100px 16px;
+}
+#obx-landing .landing-hover-card .hoverCard-title {
+    font-family: "Archivo-Expanded";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    line-height: 30px;
+    padding: 30px 15px;
+    background-image: linear-gradient(180deg, rgba(155, 27, 32, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1)90%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 70%, rgba(155, 27, 32, 0));
+}
+
+#obx-landing .landing-hover-card path {
+    fill: #fff
+}
+#obx-landing .hoverCard-content {
+    justify-content: center;
+}
+#obx-landing .hoverCard-title-inner {
+    font-family: "Archivo-Expanded";
+    font-size: 20px;
+    font-weight: 600;
+}
+#obx-landing .hoverCard-title .hover-icon {
+    display: none;
+}
+#obx-landing span.hoverCard-caption::after {
+    content: "Learn more";
+    position: absolute;
+    bottom: 15px;
+    text-transform: uppercase;
+    font-family: "Archivo-Expanded";
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 21px;
+}
+#obx-landing  .bg-img-row {
+    padding: 100px 16px;
+    opacity: 1;
+    background:
+        linear-gradient( rgba(0,0,0,0.5),rgba(155, 27, 32, .8)),
+        url(https://southshorecontrols.com/wp-content/uploads/2024/01/Automotive-1.jpg);
+        rgba(155, 27, 32, 1);
+    color: #fff;
+}
+#obx-landing .bg-img-row h2 {
+    text-align: center;
+    color: #fff
+}
+#obx-landing .bg-img-row p:last-of-type {
+    margin-bottom: 30px
+}
+#obx-landing .two-btn {
+    column-gap: 30px;
+}
+#obx-landing .related-post-image {
+    height: 250px
+}
+#obx-landing .related-posts-block.container.container--xl {
+    column-gap: 30px;
+}
+
+@media (max-width: 781px) {
+    #obx-landing .content-body {
+        padding: 60px 16px;
+    }
+    #obx-landing .flex-row {
+        display: block;
+    }
+    #obx-landing img {
+        width: 100%
+    }
+    #obx-landing .landing-h2 {
+        line-height: 1.286;
+        margin: 30px 0 20px
+    }
+    #obx-landing .obx.landing.top-row .wp-block-buttons {
+        display: block;
+    }
+    #obx-landing .obx.landing.btn.primary a {
+        margin-bottom: 20px;
+    }
+    #obx-landing .wp-block-group:has(.services-row) {
+        padding: 60px 16px;
+    }
+    #obx-landing .services-row {
+        display: block;
+        text-align: center;
+    }
+    #obx-landing .services-row h2 {
+         margin-top: 0;
+         text-align: center;
+    }
+    #obx-landing .services-row .btn {
+        display: none;
+    }
+    #obx-landing .bg-img-row .two-btn {
+    display: block;
+    }
+    #obx-landing .bg-img-row .two-btn .btn {
+        display: block;
+    }
+    #obx-landing .bg-img-row a {
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+        text-align: center;
+    }
+    #obx-landing .related-posts-heading.container,
+    #obx-landing .related-posts-block.container {
+        padding: 0
+    }
+    #obx-landing .related-posts-heading {
+        display: block;
+    }
+    #obx-landing .related-posts-heading h2 {
+        margin-bottom: 20px
+    }
+}
+.breadcrumb-container {
+    margin-top: -5px;
+}
+

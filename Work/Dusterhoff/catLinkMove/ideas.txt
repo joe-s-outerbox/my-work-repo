@@ -1,0 +1,37 @@
+current code to generate links in hero lives in /template-parts/woocommerce/archive-hero.php
+do_action( 'qala_theme/action/before/category_hero_links' );
+				?>
+<?php if ( ( 0 < count( $terms_array ) || have_rows( 'custom_subcategories', $current_term ) ) && 'both' !== $display_type && 'subcategories' !== $display_type ) : ?>
+					<div class="archive-mobile-toggled-content">
+						<div class="archive-link-list">
+							<h4><?php esc_html_e( 'Categories', 'qala-theme' ); ?></h4>
+							<?php if ( have_rows( 'custom_subcategories', $current_term ) && get_field( 'show_custom_subcategories', $current_term ) ) : ?>
+								<?php while ( have_rows( 'custom_subcategories', $current_term ) ) : ?>
+									<?php
+									the_row();
+									$custom_category_link = get_sub_field( 'category', $current_term );
+									?>
+									<a href="<?php echo esc_url( $custom_category_link['url'] ); ?>"><?php echo esc_html( $custom_category_link['title'] ); ?></a>
+								<?php endwhile; ?>
+							<?php else : ?>
+								<?php foreach ( $terms_array as $term_id ) : ?>
+									<?php
+									$term_object = get_term_by( 'id', $term_id, 'product_cat' );
+									$term_link   = get_term_link( $term_id );
+									?>
+									<a href="<?php echo esc_url( $term_link ); ?>"><?php echo esc_html( $term_object->name ); ?></a>
+								<?php endforeach; ?>
+							<?php endif; ?>
+						</div>
+					</div>
+				<?php endif; ?>
+
+
+GPT 
+https://chatgpt.com/c/67a62070-e364-8007-b451-1aae70fa6d48
+
+NOTES
+
+create child theme archive-hero.php
+remove links section
+create inject function

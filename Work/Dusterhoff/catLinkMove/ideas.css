@@ -1,0 +1,29 @@
+.relcat .links {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.relcat .links a {
+    padding: 5px px;
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+.relcat .links a:hover {
+    background: #fff;
+    color: #000;
+}
+.relcat .links {
+    display: block;
+    column-count: 5;
+}
+.relcat .links a {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px
+}

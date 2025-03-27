@@ -20,21 +20,21 @@ section.reviews.ctas {
 }
 .reviews.ctas .cta {
     flex-basis: 50%;
+    padding: 36px 30px;
     border-radius: 8px;
     min-height: 222px;
     background-size: cover;
     background-position-x: right;
     background-repeat:no-repeat;
-    
+}
+.reviews.ctas .cta:not(:has(.subhead)) {
+    padding: 50px 30px;
 }
 .copy {
     max-width: 290px;
-    margin: 50px 30px;
     text-transform: uppercase;
 }
-.copy:has(.subhead) {
-    margin: 36px 30px;
-}
+
 .copy .subhead {
     color: #F62F2F;
     display: block;
@@ -60,6 +60,12 @@ a.review-cta-btn {
 @media (max-width: 580px) {
     .reviews.ctas .flex-row {
         display: block;
+    }
+    .reviews.ctas .cta {
+        padding: 10%;
+    }
+    .reviews.ctas .cta:first-of-type {
+        margin-bottom: 20px;
     }
 }
 

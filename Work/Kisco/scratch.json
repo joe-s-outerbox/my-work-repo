@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "AboutPage", "WholesaleStore"],
+  "name": "About Us – Kisco Candles",
+  "alternateName": "Kisco",
+  "url": "https://kiscocandles.com/pages/about",
+  "logo": "https://kiscocandles.com/cdn/shop/files/Logo.svg?v=1714200371",
+  "description": "Learn about Kisco Candles",
+  "telephone": "732-405-3566",
+  "priceRange": "$$",
+  "image": "https://kiscocandles.com/cdn/shop/files/Logo.svg?v=1714200371",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "732-405-3566",
+    "contactType": "customer service",
+    "areaServed": "US",
+    "availableLanguage": "en"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4475 South Clinton Ave",
+    "addressLocality": "South Plainfield",
+    "addressRegion": "NJ",
+    "postalCode": "07080",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.facebook.com/people/Kisco-Candles/100089858626778/"
+  ],
+  "foundingDate": "2002"
+}
+</script>

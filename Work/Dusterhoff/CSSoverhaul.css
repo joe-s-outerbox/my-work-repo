@@ -1,0 +1,16 @@
+body {
+    background: #282828;
+}
+.site-header,
+.site-footer {
+    background-color: #282828;
+    color: var(--wp--preset--color--white);
+}
+.inner-menu-wrapper.has-mobile-menu ul .menu-item a,
+.woocommerce.single-product .woocommerce-product-details__short-description p, .qala-quickview .woocommerce-product-details__short-description p,
+.inner-menu-wrapper.has-mobile-menu ul .sub-menu .menu-item a {
+    font-size: 1.1rem;
+}
+input {
+    background-color: #fff!important;
+}

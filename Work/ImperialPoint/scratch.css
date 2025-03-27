@@ -1,0 +1,16 @@
+#flag-football-products ul.pcols-lg-4 li.product-col {
+    width: 25% !important;
+    background: none
+}
+
+@media(max-width: 1219px) {
+    #flag-football-products ul.pcols-lg-4 li.product-col  {
+        width:33.3333% !important
+    }
+}
+
+@media(max-width: 575px) {
+    #flag-football-products ul.pcols-lg-4 li.product-col  {
+        width:50% !important
+    }
+}
