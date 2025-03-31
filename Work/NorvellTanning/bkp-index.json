@@ -1,0 +1,1601 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "sections": {
+      "slideshow_NzkiXQ": {
+        "type": "slideshow",
+        "blocks": {
+          "slide_tBGx9d": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Tanning_Profressional_Tanning_Solutions.jpg",
+              "background_mobile": "shopify://shop_images/Norvell_Tanning_Profressional_Tanning_Solutions_m.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Get the Freshest Professional Spray Tan Solutions direct from Norvell",
+              "slideshow_title_tag": false,
+              "heading_size": "h2",
+              "subheading": "",
+              "description": "<p>Enjoy best-in-class shipping rates, exclusive discounts, retail pricing rewards, seamless mobile shopping, plus top-tier support and business tools for professionals.</p>",
+              "description_size": "text-inherit",
+              "button_label": "Shop Solutions",
+              "button_link": "shopify://collections/professional-spray-tan-solution",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_97nfEp": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_NY_ND_913135db-4801-4607-a31e-f61ff7a21306.jpg",
+              "background_mobile": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_NYND_MOBILE.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "#1 Rated Professional Spray Tan Training Program",
+              "slideshow_title_tag": false,
+              "heading_size": "h2",
+              "subheading": "",
+              "description": "<p>There are three ways to train!</p><ol><li>24/7 Online Access Available Anytime</li><li>Live Classroom Setting</li><li>One-on-One In Person Academy</li></ol><p>FREE Core Sunless Certification with <a href=\"/collections/equipment-spraytan-system\" title=\"Spray Tan System\">purchase of new equipment</a>.</p>",
+              "description_size": "text-inherit",
+              "button_label": "Get Certified",
+              "button_link": "shopify://pages/norvell-university",
+              "button_style": "btn--primary"
+            }
+          },
+          "video_LteGJt": {
+            "type": "video",
+            "disabled": true,
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "video": "shopify://files/videos/Norvell Spray Tanning.mp4",
+              "video_url": "https://youtu.be/1cTRsnDdEd8",
+              "video_description": "Spray Tan Artist sprays model in Norvell Booth",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Spray Tan Equipment for Business or Home",
+              "slideshow_title_tag": false,
+              "heading_size": "hd2",
+              "subheading": "",
+              "description": "<p>Buy direct from Norvell for the best pricing and full-service experience.</p>",
+              "description_size": "text-inherit",
+              "button_label": "Shop Spray Tan Equipment",
+              "button_link": "shopify://collections/equipment",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_RwzL7x": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Book_Norvell_LP.png",
+              "background_mobile": "shopify://shop_images/Book_Norvell_LP_Square.png",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Build Your Spray Tan Business with Our Scheduling, Payment Processing, & Marketing Tools",
+              "slideshow_title_tag": false,
+              "heading_size": "hd3",
+              "subheading": "",
+              "description": "",
+              "description_size": "text-inherit",
+              "button_label": "Register Now!",
+              "button_link": "https://admin.norvelltanning.com/en/page/login?_gl=1*1tvgrvh*_gcl_au*MjE0NzIxOTUxNC4xNzI5MDk1NTEw*_ga*NjI5OTM1MTU2LjE3MjA1NDQ0NjQ.*_ga_RL9WR210L2*MTczMzgzODQyMC4xMjkuMC4xNzMzODM4NDIwLjYwLjAuMA..",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_N4r3Px": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Rewards_lockup_black.png",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Stand Out From the Crowd with Norvell Rewards",
+              "slideshow_title_tag": false,
+              "heading_size": "hd3",
+              "subheading": "",
+              "description": "<p>Join today and get 100 points plus 25 more with your first order in the program. Professionals enjoy discounted pricing.</p>",
+              "description_size": "text-inherit",
+              "button_label": "Join Now!",
+              "button_link": "shopify://pages/rewards",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "slide_tBGx9d",
+          "slide_97nfEp",
+          "video_LteGJt",
+          "slide_RwzL7x",
+          "slide_N4r3Px"
+        ],
+        "disabled": true,
+        "settings": {
+          "container": "full",
+          "layout": "split",
+          "slide_height": "adapt",
+          "show_dots": true,
+          "autoplay": true,
+          "autoplay_delay": 10,
+          "controls_position": "below",
+          "show_text_below": false,
+          "text_alignment_mobile": "left",
+          "accessibility_info": "Slideshow about our brand"
+        }
+      },
+      "slideshow_QrVBdK": {
+        "type": "slideshow",
+        "blocks": {
+          "slide_XMdq9T": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_BACKBAR_00c9b890-19e1-476f-956e-96ba41c53d84.jpg",
+              "background_mobile": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_BB_MOBILE.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Spray Tan Expert’s secret to providing an optimal and long-lasting results",
+              "slideshow_title_tag": false,
+              "heading_size": "hd3",
+              "subheading": "Three Step Product Bundle",
+              "description": "<p>Everything you need to maximize Professional spray tan results for a flawless finish and long-lasting color. </p><p><strong>Includes:</strong></p><ul><li>XLATAN Prep Spray 8 oz</li><li>Hydrofirm Spray 8 oz</li><li>Tanlucent Drying Powder 0.5 oz</li></ul>",
+              "description_size": "text-inherit",
+              "button_label": "Shop Kit",
+              "button_link": "https://norvelltanning.com/products/professional-spray-tan-essentials-bundle",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_agd4cU": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/NT_HMPG_Desktop_4.jpg",
+              "background_mobile": "shopify://shop_images/NT_HMPG_Mobile_3.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Something Sweet is Coming...",
+              "slideshow_title_tag": false,
+              "heading_size": "hd2",
+              "subheading": "New Product Coming Soon",
+              "description": "<p>Sign up for Back-in-Stock Notifications to be alerted first when this new product is available to purchase!</p>",
+              "description_size": "text-inherit",
+              "button_label": "Sign up",
+              "button_link": "shopify://products/tuscan-rapid-self-tanning-mousse",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_DQxVp8": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/NT_HMPG_Desktop.jpg",
+              "background_mobile": "shopify://shop_images/NT_HMPG_Mobile_2.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "DHA: The Science Behind Sunless Tanning",
+              "slideshow_title_tag": false,
+              "heading_size": "hd1",
+              "subheading": "",
+              "description": "<p>At Norvell, we ensure the highest quality of naturally derived DHA for flawless, natural-looking results. Norvell and our parent company, Sunless Inc. are the #1 users of DHA in the world! </p><p>We source only the finest DHA from Europe and test each batch to ensure quality and freshness for peak product performance and the most natural-looking tan. </p>",
+              "description_size": "text-inherit",
+              "button_label": "Keep Reading →",
+              "button_link": "shopify://blogs/blog/dha-the-science-behind-sunless-tanning",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_JTkb4m": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Venetian_is_the_Modern_Luxury_Best_of_Luxury_Beauty_Winner_2025.jpg",
+              "background_mobile": "shopify://shop_images/Norvell_Venetian_is_the_Modern_Luxury_Best_of_Luxury_Beauty_Winner_2025_mobile.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Best of Luxury Beauty Awards 2025",
+              "slideshow_title_tag": false,
+              "heading_size": "hd1",
+              "subheading": "MODERN LUXURY WINNER",
+              "description": "<p>Often imitated, but never duplicated. Our best-selling Norvell Venetian™ Self-Tan Mousse was created based on the phenomenal success of the Venetian™ color collection in our professional spray tan solution line.</p><p><a href=\"/blogs/news/best-of-luxury-beauty-award-winner\" title=\"Best of Luxury Beauty Award Winner 2025\">Keep Reading & See Other Winners →</a></p>",
+              "description_size": "text-inherit",
+              "button_label": "Shop 2025 Winner!",
+              "button_link": "shopify://products/instant-self-tan-mousse-venetian",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_Gbh33N": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Rewards_lockup_black.png",
+              "background_mobile": "shopify://shop_images/Norvell_Rewards_lockup_black_square.png",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Stand Out From the Crowd with Beautiful Rewards",
+              "slideshow_title_tag": false,
+              "heading_size": "hd3",
+              "subheading": "",
+              "description": "<p>Join today and get 100 points plus 25 more with your first order in the program.<br/>Discounted Pricing for Professionals</p>",
+              "description_size": "text-inherit",
+              "button_label": "Join Now!",
+              "button_link": "shopify://pages/rewards",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "slide_XMdq9T",
+          "slide_agd4cU",
+          "slide_DQxVp8",
+          "slide_JTkb4m",
+          "slide_Gbh33N"
+        ],
+        "settings": {
+          "container": "full",
+          "layout": "split",
+          "slide_height": "adapt",
+          "show_dots": true,
+          "autoplay": true,
+          "autoplay_delay": 10,
+          "controls_position": "below",
+          "show_text_below": false,
+          "text_alignment_mobile": "center",
+          "accessibility_info": "Slideshow about our brand"
+        }
+      },
+      "slideshow_UFWfqX": {
+        "type": "slideshow",
+        "blocks": {
+          "slide_izmmUb": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_BACKBAR_00c9b890-19e1-476f-956e-96ba41c53d84.jpg",
+              "background_mobile": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_BB_MOBILE.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Spray Tan Expert’s secret to providing an optimal and long-lasting results",
+              "slideshow_title_tag": false,
+              "heading_size": "hd3",
+              "subheading": "Three Step Product Bundle",
+              "description": "<p>Everything you need to maximize Professional spray tan results for a flawless finish and long-lasting color. </p><p><strong>Includes:</strong></p><ul><li>XLATAN Prep Spray 8 oz</li><li>Hydrofirm Spray 8 oz</li><li>Tanlucent Drying Powder 0.5 oz</li></ul>",
+              "description_size": "text-inherit",
+              "button_label": "Shop Kit",
+              "button_link": "https://norvelltanning.com/products/professional-spray-tan-essentials-bundle",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_VW6Nzg": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/NT_HMPG_Desktop.jpg",
+              "background_mobile": "shopify://shop_images/NT_HMPG_Mobile_2.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "DHA: The Science Behind Sunless Tanning",
+              "slideshow_title_tag": false,
+              "heading_size": "hd1",
+              "subheading": "",
+              "description": "<p>At Norvell, we ensure the highest quality of naturally derived DHA for flawless, natural-looking results. Norvell and our parent company, Sunless Inc. are the #1 users of DHA in the world! </p><p>We source only the finest DHA from Europe and test each batch to ensure quality and freshness for peak product performance and the most natural-looking tan. </p>",
+              "description_size": "text-inherit",
+              "button_label": "Keep Reading →",
+              "button_link": "shopify://blogs/blog/dha-the-science-behind-sunless-tanning",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_XnQ4MU": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_BACKBAR_00c9b890-19e1-476f-956e-96ba41c53d84.jpg",
+              "background_mobile": "shopify://shop_images/Norvell_Banners_Jan_Feb_2025_BB_MOBILE.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Spray Tan Expert’s secret to providing an optimal and long-lasting results",
+              "slideshow_title_tag": false,
+              "heading_size": "hd3",
+              "subheading": "Three Step Product Bundle",
+              "description": "<p>Everything you need to maximize Professional spray tan results for a flawless finish and long-lasting color. </p><p><strong>Includes:</strong></p><ul><li>XLATAN Prep Spray 8 oz</li><li>Hydrofirm Spray 8 oz</li><li>Tanlucent Drying Powder 0.5 oz</li></ul>",
+              "description_size": "text-inherit",
+              "button_label": "Shop Kit",
+              "button_link": "https://norvelltanning.com/products/professional-spray-tan-essentials-bundle",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_Gi9jCb": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/NT_HMPG_Desktop_4.jpg",
+              "background_mobile": "shopify://shop_images/NT_HMPG_Mobile_3.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Something Sweet is Coming...",
+              "slideshow_title_tag": false,
+              "heading_size": "hd2",
+              "subheading": "New Product Coming Soon",
+              "description": "<p>Sign up for Back-in-Stock Notifications to be alerted first when this new product is available to purchase!</p>",
+              "description_size": "text-inherit",
+              "button_label": "Sign up",
+              "button_link": "shopify://products/tuscan-rapid-self-tanning-mousse",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_rcEtNG": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Venetian_is_the_Modern_Luxury_Best_of_Luxury_Beauty_Winner_2025.jpg",
+              "background_mobile": "shopify://shop_images/Norvell_Venetian_is_the_Modern_Luxury_Best_of_Luxury_Beauty_Winner_2025_mobile.jpg",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Best of Luxury Beauty Awards 2025",
+              "slideshow_title_tag": false,
+              "heading_size": "hd1",
+              "subheading": "MODERN LUXURY WINNER",
+              "description": "<p>Often imitated, but never duplicated. Our best-selling Norvell Venetian™ Self-Tan Mousse was created based on the phenomenal success of the Venetian™ color collection in our professional spray tan solution line.</p><p><a href=\"/blogs/news/best-of-luxury-beauty-award-winner\" title=\"Best of Luxury Beauty Award Winner 2025\">Keep Reading & See Other Winners →</a></p>",
+              "description_size": "text-inherit",
+              "button_label": "Shop 2025 Winner!",
+              "button_link": "shopify://products/instant-self-tan-mousse-venetian",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_TYAHgV": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "background": "shopify://shop_images/Norvell_Rewards_lockup_black.png",
+              "background_mobile": "shopify://shop_images/Norvell_Rewards_lockup_black_square.png",
+              "image_overlay_opacity": 0,
+              "content_position": "middle-left",
+              "text_alignment": "left",
+              "title": "Stand Out From the Crowd with Beautiful Rewards",
+              "slideshow_title_tag": false,
+              "heading_size": "hd3",
+              "subheading": "",
+              "description": "<p>Join today and get 100 points plus 25 more with your first order in the program.<br/>Discounted Pricing for Professionals</p>",
+              "description_size": "text-inherit",
+              "button_label": "Join Now!",
+              "button_link": "shopify://pages/rewards",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "slide_izmmUb",
+          "slide_VW6Nzg",
+          "slide_XnQ4MU",
+          "slide_Gi9jCb",
+          "slide_rcEtNG",
+          "slide_TYAHgV"
+        ],
+        "disabled": true,
+        "settings": {
+          "container": "full",
+          "layout": "split",
+          "slide_height": "adapt",
+          "show_dots": true,
+          "autoplay": true,
+          "autoplay_delay": 10,
+          "controls_position": "below",
+          "show_text_below": false,
+          "text_alignment_mobile": "center",
+          "accessibility_info": "Slideshow about our brand"
+        }
+      },
+      "slideshow_kYAWHf": {
+        "type": "slideshow",
+        "blocks": {
+          "slide_YiBfxP": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "image_overlay_opacity": 0,
+              "content_position": "top-left",
+              "text_alignment": "left",
+              "title": "Simple Regime: Easy as 1-2-3!",
+              "slideshow_title_tag": false,
+              "heading_size": "hd2",
+              "subheading": "All you need to prepare and extend your clients tan.",
+              "description": "<p>The Glow System for flawless, long-lasting color and radiant skin. All you need to prepare and extend your clients tan. </p>",
+              "description_size": "text-base",
+              "button_label": "Shop Now",
+              "button_link": "shopify://collections/glow-system",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_MwaQNr": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "image_overlay_opacity": 0,
+              "content_position": "top-left",
+              "text_alignment": "left",
+              "title": "Coming Soon…",
+              "slideshow_title_tag": false,
+              "heading_size": "hd1",
+              "subheading": "Fast. Flawless & Deliciously Sun-Kissed.",
+              "description": "<p>Something Bold & Velvety Smooth </p>",
+              "description_size": "text-base",
+              "button_label": "Get Yours",
+              "button_link": "",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_xG8GxG": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "image_overlay_opacity": 0,
+              "content_position": "top-left",
+              "text_alignment": "left",
+              "title": "Indulge Your Clients",
+              "slideshow_title_tag": false,
+              "heading_size": "hd1",
+              "subheading": "Enhance the Spray Tan Experience",
+              "description": "<p>Customize with one or all of our luxurious additives in our ProLab Kit-4 Pack: Vitamin Bath, Hydration Lift, Collagen Boost and DHA Boost.</p>",
+              "description_size": "text-base",
+              "button_label": "Shop ProLab Kit",
+              "button_link": "shopify://products/professional-spray-tan-additives-kit",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_KTXKwD": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "image_overlay_opacity": 0,
+              "content_position": "top-left",
+              "text_alignment": "left",
+              "title": "It’s Color. It’s Skincare. It’s Natural Color Complex™",
+              "slideshow_title_tag": false,
+              "heading_size": "h1",
+              "subheading": "Our proprietary infusion of skin-loving ingredients.",
+              "description": "<p>For a radiant complexion – because healthy skin tans best!</p>",
+              "description_size": "text-base",
+              "button_label": "Learn More",
+              "button_link": "shopify://blogs/blog/norvell-natural-color-complex™",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_XMx78D": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "image_overlay_opacity": 0,
+              "content_position": "top-left",
+              "text_alignment": "left",
+              "title": "Experience Love at First Spray",
+              "slideshow_title_tag": false,
+              "heading_size": "hd2",
+              "subheading": "Tanning Products for Every Skin Tone",
+              "description": "<p>With Norvell Professional Solutions, Equipment and Salon-Quality Self-Tanners</p>",
+              "description_size": "text-base",
+              "button_label": "Fall in Love with Norvell",
+              "button_link": "shopify://collections/shop-all",
+              "button_style": "btn--primary"
+            }
+          },
+          "slide_fkNQTa": {
+            "type": "slide",
+            "settings": {
+              "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+              "image_overlay_opacity": 0,
+              "content_position": "top-left",
+              "text_alignment": "left",
+              "title": "Have you tried Hydrofirm 2.0?",
+              "slideshow_title_tag": false,
+              "heading_size": "hd2",
+              "subheading": "Enhanced and Redefined.",
+              "description": "<p>For a Flawless, Luxurious Tanning Experience!</p><p>Proven to Extend Spray Tan 3 Days Longer, while Hydrating, Firming and Perfecting the Skin*</p><p><em>*Based on 2023 Research Results.</em></p>",
+              "description_size": "text-inherit",
+              "button_label": "Shop Hydrofirm",
+              "button_link": "shopify://products/hydrofirm-moisturizing-setting-spray",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "slide_YiBfxP",
+          "slide_MwaQNr",
+          "slide_xG8GxG",
+          "slide_KTXKwD",
+          "slide_XMx78D",
+          "slide_fkNQTa"
+        ],
+        "disabled": true,
+        "settings": {
+          "container": "full",
+          "layout": "split",
+          "slide_height": "adapt",
+          "show_dots": true,
+          "autoplay": true,
+          "autoplay_delay": 10,
+          "controls_position": "below",
+          "show_text_below": false,
+          "text_alignment_mobile": "center",
+          "accessibility_info": "Slideshow about our brand"
+        }
+      },
+      "countdown_timer_hEQMcw": {
+        "type": "countdown-timer",
+        "blocks": {
+          "heading_PgJnbA": {
+            "type": "heading",
+            "settings": {
+              "heading": "National Spray Tanning Day",
+              "heading_size": "hd2"
+            }
+          },
+          "timer_YCjbH7": {
+            "type": "timer",
+            "settings": {
+              "time": "2025/03/20 12:00 AM",
+              "style": "with_text",
+              "number_size": "hd2"
+            }
+          },
+          "text_VgeUWK": {
+            "type": "text",
+            "settings": {
+              "text": "<h4><strong>Celebrate Full-Body Skin Radiance on National Spray Tanning Day!</strong></h4><p>Join us in making <strong>Thursday, March 20th, 2025</strong>, the largest event yet! Offer your customers free or discounted spray tans to help spread the glow and drive awareness of these transformative services.</p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_jVfBfq": {
+            "type": "button",
+            "settings": {
+              "button_label": "Let's Celebrate! →",
+              "button_link": "shopify://blogs/news/national-spray-tanning-day-2025",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "heading_PgJnbA",
+          "timer_YCjbH7",
+          "text_VgeUWK",
+          "button_jVfBfq"
+        ],
+        "disabled": true,
+        "settings": {
+          "container": "fixed",
+          "color_schema": "scheme-4",
+          "background_image": "shopify://shop_images/NT_HMPG_Desktop_3.jpg",
+          "image_overlay_opacity": 0,
+          "content_alignment": "start",
+          "text_alignment": "center",
+          "padding_top": 56,
+          "padding_bottom": 56,
+          "show_section_divider": false,
+          "divider_width": "full"
+        }
+      },
+      "countdown_timer_qjPRjc": {
+        "type": "countdown-timer",
+        "blocks": {
+          "heading_kD8LWE": {
+            "type": "heading",
+            "settings": {
+              "heading": "Black Friday Countdown!",
+              "heading_size": "hd2"
+            }
+          },
+          "text_PFTapV": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Deals Start 11/28 8PM EST</p>",
+              "text_size": "text-base"
+            }
+          },
+          "timer_eMbtPm": {
+            "type": "timer",
+            "settings": {
+              "time": "2024/11/28 08:00 PM",
+              "style": "with_text",
+              "number_size": "hd2"
+            }
+          },
+          "button_KHjWhF": {
+            "type": "button",
+            "settings": {
+              "button_label": "Get Ready By Downloading Our App",
+              "button_link": "https://pk3qdkpz.tapc.art/",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "heading_kD8LWE",
+          "text_PFTapV",
+          "timer_eMbtPm",
+          "button_KHjWhF"
+        ],
+        "disabled": true,
+        "settings": {
+          "container": "full",
+          "color_schema": "scheme-4",
+          "image_overlay_opacity": 0,
+          "content_alignment": "center",
+          "text_alignment": "center",
+          "padding_top": 26,
+          "padding_bottom": 26,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "video_with_text_rgMRAr": {
+        "type": "video-with-text",
+        "blocks": {
+          "heading_hxgDTe": {
+            "type": "heading",
+            "settings": {
+              "heading": "Professional Spray Tan Equipment & Solutions for<em> Flawless </em>Results",
+              "heading_size": "hd2",
+              "heading_highlight_style": "underline"
+            }
+          },
+          "text_e3PHCb": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Norvell Tanning has been the leader in sunless tanning for over four decades. We use skin-friendly ingredients and state-of-the-art technology to develop professional spray tanning equipment and solutions that deliver flawless results.</p><p>As the original spray tan innovator, we set the industry standards for quality by combining naturally derived DHA with antioxidants and moisturizers for a radiant, healthy tan. This is why so many professionals worldwide insist on Norvell Tanning equipment and spray tan solutions in their salons, making us the #1 choice in the industry.<br/></p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_ddFNaM": {
+            "type": "button",
+            "settings": {
+              "button_label": "Shop Now",
+              "button_link": "shopify://collections/shop-all",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "heading_hxgDTe",
+          "text_e3PHCb",
+          "button_ddFNaM"
+        ],
+        "settings": {
+          "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+          "video": "shopify://files/videos/Norvell Spray Tanning.mp4",
+          "video_url": "",
+          "video_ratio": "adapt",
+          "description": "Norvell Spray Tan artist sprays model using M1000 spray tan system.",
+          "enable_video_autoplay": true,
+          "enable_video_looping": true,
+          "video_placement": "first",
+          "enable_parallax": false,
+          "parallax_direction": "vertical",
+          "text_alignment": "left",
+          "padding_top": 50,
+          "padding_bottom": 0,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "rich_text_RqEkDp": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_KXbx6H": {
+            "type": "heading",
+            "settings": {
+              "heading": "Best Sellers & Trending Spray Tan Solutions",
+              "heading_h1": true,
+              "heading_size": "hd2",
+              "heading_highlight_style": "none"
+            }
+          },
+          "text_CkBDHR": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Norvell is favored by professionals for its superior fade-off and even coverage. Discover the difference for yourself!</p>",
+              "text_size": "text-inherit"
+            }
+          }
+        },
+        "block_order": [
+          "heading_KXbx6H",
+          "text_CkBDHR"
+        ],
+        "settings": {
+          "color_scheme": "",
+          "content_alignment": "left",
+          "padding_top": 32,
+          "padding_bottom": 0,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "featured_collection_zYkDba": {
+        "type": "featured-collection",
+        "settings": {
+          "color_scheme": "",
+          "header_layout": "vertical",
+          "heading": "",
+          "heading_size": "h1",
+          "heading_highlight_style": "none",
+          "subheading": "",
+          "description": "",
+          "text_size": "text-inherit",
+          "show_collection_description": false,
+          "collection": "best-sellers",
+          "limit": 6,
+          "columns": 6,
+          "column_gap": "medium",
+          "row_gap": "none",
+          "grid_layout": "standard",
+          "enable_slider": true,
+          "controls_position": "inside",
+          "pcard_image_ratio": "",
+          "columns_mobile": "2",
+          "swipe_on_mobile": true,
+          "show_all_button_on_top": false,
+          "button_label": "",
+          "button_style": "btn--primary",
+          "padding_top": 0,
+          "padding_bottom": 26,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "rich_text_3U4nCG": {
+        "type": "rich-text",
+        "blocks": {
+          "text_R3KWzF": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Norvell solutions allow you to serve a wide range of clientele: from those who want quick results to those who want their tan to develop more gradually. Explore our tanning solutions, including instant glow formulas and hydration-rich tans, all designed to deliver perfect, long-lasting color and customer satisfaction.</p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_iDJC8b": {
+            "type": "button",
+            "settings": {
+              "button_label": "Find Your Solution",
+              "button_link": "shopify://collections/professional-spray-tan-solution",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "text_R3KWzF",
+          "button_iDJC8b"
+        ],
+        "settings": {
+          "color_scheme": "",
+          "content_alignment": "left",
+          "padding_top": 0,
+          "padding_bottom": 32,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "feature_list_cW3d9c": {
+        "type": "feature-list",
+        "blocks": {
+          "feature_item_VbCwL3": {
+            "type": "feature_item",
+            "settings": {
+              "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+              "icon": "gluten-free",
+              "icon_style": "btn--secondary",
+              "text": "Gluten Free"
+            }
+          },
+          "feature_item_NzxQGa": {
+            "type": "feature_item",
+            "settings": {
+              "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+              "icon": "paraben-free",
+              "icon_style": "btn--secondary",
+              "text": "Paraben Free"
+            }
+          },
+          "feature_item_PJJgbw": {
+            "type": "feature_item",
+            "settings": {
+              "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+              "icon": "cruelty-free",
+              "icon_style": "btn--secondary",
+              "text": "Cruelty Free"
+            }
+          },
+          "feature_item_gBgLft": {
+            "type": "feature_item",
+            "settings": {
+              "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+              "icon": "sulfate-free",
+              "icon_style": "btn--secondary",
+              "text": "Sulfate Free"
+            }
+          },
+          "feature_item_R8A8eX": {
+            "type": "feature_item",
+            "settings": {
+              "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+              "icon": "100-vegan",
+              "icon_style": "btn--secondary",
+              "text": "100% Vegan"
+            }
+          },
+          "feature_item_BpFjJD": {
+            "type": "feature_item",
+            "settings": {
+              "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+              "icon": "nut-free",
+              "icon_style": "btn--secondary",
+              "text": "Nut Allergy Free"
+            }
+          },
+          "feature_item_aJxJ9i": {
+            "type": "feature_item",
+            "settings": {
+              "color_scheme": "scheme-0e5cc90e-3d95-48d1-a7c4-72a2657c21c1",
+              "icon": "non-camedogenic",
+              "icon_style": "btn--secondary",
+              "text": "Non-Comedogenic"
+            }
+          }
+        },
+        "block_order": [
+          "feature_item_VbCwL3",
+          "feature_item_NzxQGa",
+          "feature_item_PJJgbw",
+          "feature_item_gBgLft",
+          "feature_item_R8A8eX",
+          "feature_item_BpFjJD",
+          "feature_item_aJxJ9i"
+        ],
+        "settings": {
+          "color_scheme": "scheme-1",
+          "subheading": "",
+          "heading": "Our Tanning Products Are",
+          "heading_size": "hd2",
+          "heading_highlight_style": "none",
+          "description": "",
+          "text_size": "text-base",
+          "item_alignment": "center",
+          "icon_size": "extra-large",
+          "swipe_on_mobile": false,
+          "padding_top": 100,
+          "padding_bottom": 100,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "image_with_text_B97Ukq": {
+        "type": "image-with-text",
+        "blocks": {
+          "heading_FbxwXw": {
+            "type": "heading",
+            "settings": {
+              "heading": "Natural and Long-Lasting Spray Tan Solutions",
+              "header_tag": true,
+              "heading_size": "hd2",
+              "heading_highlight_style": "none"
+            }
+          },
+          "text_PT6DKQ": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Norvell provides picture-perfect tans without the pesky sun spots or streaky aftermath. Crafted for the discerning spray tan artist, our solutions marry science and sunless beauty to offer quick-drying, flawless results every time. <br/><br/>We owe much of the success of our spray tan formulations to our silent partners, the professional spray tan artists. Thanks to their feedback, we've been able to develop natural-looking, long-lasting spray tan solutions using innovative and proprietary formulations. </p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_EzWhWC": {
+            "type": "button",
+            "disabled": true,
+            "settings": {
+              "button_label": "Learn More",
+              "button_link": "#",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "heading_FbxwXw",
+          "text_PT6DKQ",
+          "button_EzWhWC"
+        ],
+        "settings": {
+          "section_color_scheme": "",
+          "color_scheme": "scheme-2",
+          "image": "shopify://shop_images/Woman_in_White_Bikini.jpg",
+          "image_height": "adapt",
+          "layout": "image_first",
+          "desktop_content_position": "center",
+          "desktop_content_alignment": "left",
+          "enable_parallax": false,
+          "parallax_direction": "vertical",
+          "mobile_content_alignment": "left",
+          "padding_top": 50,
+          "padding_bottom": 50,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "products_bundle_cFjE73": {
+        "type": "products-bundle",
+        "blocks": {
+          "product_tNmVzg": {
+            "type": "product",
+            "settings": {
+              "product": "m1000-spray-tan-system",
+              "color_scheme": "scheme-inverse",
+              "horizontal_position": 13,
+              "vertical_position": 66
+            }
+          },
+          "product_63XUQd": {
+            "type": "product",
+            "settings": {
+              "product": "venetian-professional-spray-tan-solution",
+              "color_scheme": "scheme-inverse",
+              "horizontal_position": 10,
+              "vertical_position": 40
+            }
+          },
+          "product_bNtrwr": {
+            "type": "product",
+            "settings": {
+              "product": "dark-professional-spray-tan-solution",
+              "color_scheme": "scheme-inverse",
+              "horizontal_position": 24,
+              "vertical_position": 18
+            }
+          },
+          "product_w3aUQm": {
+            "type": "product",
+            "settings": {
+              "product": "tuscan-plus-professional-spray-tan-solution",
+              "color_scheme": "scheme-inverse",
+              "horizontal_position": 42,
+              "vertical_position": 34
+            }
+          },
+          "product_j7FdwP": {
+            "type": "product",
+            "settings": {
+              "product": "",
+              "color_scheme": "scheme-inverse",
+              "horizontal_position": 66,
+              "vertical_position": 38
+            }
+          }
+        },
+        "block_order": [
+          "product_tNmVzg",
+          "product_63XUQd",
+          "product_bNtrwr",
+          "product_w3aUQm",
+          "product_j7FdwP"
+        ],
+        "disabled": true,
+        "settings": {
+          "color_scheme": "scheme-1",
+          "image": "shopify://shop_images/Norvell_starter_kit.jpg",
+          "heading": "Starter Kit",
+          "heading_size": "h1",
+          "heading_highlight_style": "none",
+          "subheading": "For Spray Tan Artists",
+          "description": "<p>Ready to start your journey as a professional spray tan artist? Purchase this kit to get started today.</p>",
+          "padding_top": 100,
+          "padding_bottom": 50,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "rich_text_iENMqL": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_MkpyYk": {
+            "type": "heading",
+            "settings": {
+              "heading": "Subscribe & Save 10%",
+              "heading_h1": false,
+              "heading_size": "hd2",
+              "heading_highlight_style": "none"
+            }
+          },
+          "text_Xcktea": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Save 10% on all Professional Spray Tan Solutions and Back Bar products with a subscription.</p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_hBp7Mm": {
+            "type": "button",
+            "settings": {
+              "button_label": "Shop Eligible Tanning Products",
+              "button_link": "shopify://collections/subscribe-and-save",
+              "button_style": "btn--underline"
+            }
+          }
+        },
+        "block_order": [
+          "heading_MkpyYk",
+          "text_Xcktea",
+          "button_hBp7Mm"
+        ],
+        "settings": {
+          "color_scheme": "",
+          "content_alignment": "center",
+          "padding_top": 32,
+          "padding_bottom": 0,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "featured_collection_KFTNxe": {
+        "type": "featured-collection",
+        "settings": {
+          "color_scheme": "",
+          "header_layout": "vertical",
+          "heading": "",
+          "heading_size": "h1",
+          "heading_highlight_style": "none",
+          "subheading": "",
+          "description": "",
+          "text_size": "text-inherit",
+          "show_collection_description": false,
+          "collection": "subscribe-and-save",
+          "limit": 6,
+          "columns": 6,
+          "column_gap": "medium",
+          "row_gap": "none",
+          "grid_layout": "standard",
+          "enable_slider": true,
+          "controls_position": "inside",
+          "pcard_image_ratio": "adapt",
+          "columns_mobile": "2",
+          "swipe_on_mobile": true,
+          "show_all_button_on_top": false,
+          "button_label": "",
+          "button_style": "btn--primary",
+          "padding_top": 0,
+          "padding_bottom": 50,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "image_with_text_WA3CfG": {
+        "type": "image-with-text",
+        "blocks": {
+          "subheading_8BbRq4": {
+            "type": "subheading",
+            "settings": {
+              "subheading": "JUST LANDED"
+            }
+          },
+          "heading_eAziNn": {
+            "type": "heading",
+            "settings": {
+              "heading": "Exclusive Invitation for Spray Tan Professionals",
+              "header_tag": true,
+              "heading_size": "hd3",
+              "heading_highlight_style": "none"
+            }
+          },
+          "text_rkpTxM": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Create your Norvell VIP account and start earning rewards. You'll enjoy insider benefits and an enhanced experience:</p><ul><li>Easily manage your orders</li><li>Get exclusive deals</li><li>Enjoy multiple shipping options</li><li>Gain access to new and exclusive products</li><li>Take advantage of special promotions</li><li>Receive VIP support and insider tips</li></ul><p>Shop anytime, anywhere and take advantage of your exclusive rewards today! <span style=\"text-decoration:underline\">Learn More &gt;</span><br/></p><p><a href=\"https://apps.apple.com/us/app/norvell-professional/id6736374344\" target=\"_blank\" title=\"https://apps.apple.com/us/app/norvell-professional/id6736374344\">Download on the Apple App Store</a></p><p><a href=\"https://play.google.com/store/apps/details?id=co.app.id_xv1vY7VAU3&pli=1\" target=\"_blank\" title=\"https://play.google.com/store/apps/details?id=co.app.id_xv1vY7VAU3&pli=1\">Get it on Google Play</a></p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_iApLVK": {
+            "type": "button",
+            "settings": {
+              "button_label": "Download Our App!",
+              "button_link": "https://pk3qdkpz.tapc.art/",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "subheading_8BbRq4",
+          "heading_eAziNn",
+          "text_rkpTxM",
+          "button_iApLVK"
+        ],
+        "settings": {
+          "section_color_scheme": "scheme-f135f57d-69f6-4c1d-bd3a-40361420ed42",
+          "color_scheme": "scheme-1",
+          "image": "shopify://shop_images/download_mobile_app.png",
+          "image_height": "adapt",
+          "layout": "text_first",
+          "desktop_content_position": "center",
+          "desktop_content_alignment": "left",
+          "enable_parallax": false,
+          "parallax_direction": "vertical",
+          "mobile_content_alignment": "left",
+          "padding_top": 100,
+          "padding_bottom": 100,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "image_with_text_VLfpDb": {
+        "type": "image-with-text",
+        "blocks": {
+          "subheading_6RfYfU": {
+            "type": "subheading",
+            "settings": {
+              "subheading": "Color • Artistry • Excellence"
+            }
+          },
+          "heading_hT3PPA": {
+            "type": "heading",
+            "settings": {
+              "heading": "Get Your Spray Tan Certification",
+              "header_tag": true,
+              "heading_size": "hd3",
+              "heading_highlight_style": "none"
+            }
+          },
+          "text_Q9crXc": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Norvell is the top choice among spray tan professionals, and it's easy to see why. At the core of our success is <a href=\"/pages/norvell-university\" title=\"Norvell University\">Norvell University</a>, the go-to training program for artisans of sunless tanning. Over 15,000 people are already certified, and its success continues to grow. </p><p>If you want to perfect that natural glow for your clients – as a beginner or a long-time salon operator – Novell University gives you the skills and confidence to take your talents to the next level.</p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_jUEjPy": {
+            "type": "button",
+            "settings": {
+              "button_label": "Sign Up Today",
+              "button_link": "shopify://pages/norvell-university",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "subheading_6RfYfU",
+          "heading_hT3PPA",
+          "text_Q9crXc",
+          "button_jUEjPy"
+        ],
+        "settings": {
+          "section_color_scheme": "",
+          "color_scheme": "",
+          "image": "shopify://shop_images/NU.png",
+          "image_height": "adapt",
+          "layout": "image_first",
+          "desktop_content_position": "center",
+          "desktop_content_alignment": "left",
+          "enable_parallax": false,
+          "parallax_direction": "vertical",
+          "mobile_content_alignment": "left",
+          "padding_top": 100,
+          "padding_bottom": 100,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "image_with_text_K7YBrq": {
+        "type": "image-with-text",
+        "blocks": {
+          "heading_mHnV3e": {
+            "type": "heading",
+            "settings": {
+              "heading": "Professional Spray Tan Equipment",
+              "header_tag": true,
+              "heading_size": "hd3",
+              "heading_highlight_style": "none"
+            }
+          },
+          "text_cctYzr": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Refine your tanning service with our professional-grade spray tan machines, tents, and accessories designed for both efficiency and perfection. Our easy-to-use equipment provides precise coverage, which is ideal for beginners and seasoned artists alike. Whether you're crafting that perfect sun-kissed glow or setting up your mobile tanning business, our tools stand behind your artistry, fostering confidence and satisfaction with every flawless application.</p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_ikHE8e": {
+            "type": "button",
+            "settings": {
+              "button_label": "Shop Tanning Equipment",
+              "button_link": "shopify://collections/equipment",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "heading_mHnV3e",
+          "text_cctYzr",
+          "button_ikHE8e"
+        ],
+        "settings": {
+          "section_color_scheme": "",
+          "color_scheme": "",
+          "image": "shopify://shop_images/N-UNIV_ACADEMY-1_bf90fe8d-50bb-40b5-aa37-c344084e9936.jpg",
+          "image_height": "small",
+          "layout": "image_first",
+          "desktop_content_position": "center",
+          "desktop_content_alignment": "left",
+          "enable_parallax": false,
+          "parallax_direction": "vertical",
+          "mobile_content_alignment": "left",
+          "padding_top": 100,
+          "padding_bottom": 100,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "image_with_text_rLJCQ6": {
+        "type": "image-with-text",
+        "blocks": {
+          "heading_WchFgF": {
+            "type": "heading",
+            "settings": {
+              "heading": "Get Rewarded for Using the Best Spray Tan Equipment on the Market",
+              "header_tag": true,
+              "heading_size": "hd3",
+              "heading_highlight_style": "none"
+            }
+          },
+          "text_EHPd9a": {
+            "type": "text",
+            "settings": {
+              "text": "<p>The <a href=\"/pages/rewards\" title=\"Rewards\">Norvell Tanning Rewards Program</a> is tailor-made for artists who deliver flawless Norvell spray tans. Enjoy exclusive resources, discounts, and perks that help you perfect your craft and grow your business. </p>",
+              "text_size": "text-inherit"
+            }
+          },
+          "button_dfcNYc": {
+            "type": "button",
+            "settings": {
+              "button_label": "Learn More",
+              "button_link": "shopify://pages/rewards",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "heading_WchFgF",
+          "text_EHPd9a",
+          "button_dfcNYc"
+        ],
+        "settings": {
+          "section_color_scheme": "",
+          "color_scheme": "",
+          "image": "shopify://shop_images/Norvell_Rewards_Logo_sq.png",
+          "image_height": "small",
+          "layout": "image_first",
+          "desktop_content_position": "center",
+          "desktop_content_alignment": "left",
+          "enable_parallax": false,
+          "parallax_direction": "vertical",
+          "mobile_content_alignment": "left",
+          "padding_top": 100,
+          "padding_bottom": 100,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "featured_blog_p8gUPa": {
+        "type": "featured-blog",
+        "settings": {
+          "color_scheme": "scheme-619e2f43-7ee5-480d-a328-6ccf9b6fdf75",
+          "heading": "Norvell News & Events",
+          "heading_size": "hd2",
+          "heading_highlight_style": "none",
+          "subheading": "",
+          "description": "<p><a href=\"/blogs/news\" title=\"Norvell News\">Keep Reading →</a></p>",
+          "blog": "news",
+          "post_limit": 4,
+          "columns_desktop": 4,
+          "column_gap": "small",
+          "columns_mobile": "2",
+          "swipe_on_mobile": true,
+          "card_title_size": "h3",
+          "show_date": false,
+          "show_excerpt": true,
+          "show_button": true,
+          "padding_top": 50,
+          "padding_bottom": 50,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "testimonials_8JHr3L": {
+        "type": "testimonials",
+        "blocks": {
+          "testimonial_AJkdTA": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Most requested spray solution is Venetian Plus. New and repeat clients are thrilled with the initial color and rave about the finished color. </p><p><em><strong>Owner LeTan LeBronze Sun Solarium & Wellness</strong></em><br/></p>",
+              "author": "Teresa B.",
+              "bio": "13 Year Norvell User",
+              "product": "venetian-plus-professional-spray-tan-solution",
+              "icon": "none"
+            }
+          },
+          "testimonial_D7Mq7i": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>As someone who's prone to cystic acne and sensitive to almost anything on my face, Revive was the first exfoliator I found that isn't too rough. It has become my go-to exfoliator.</p><p><em><strong>Assistant General Manager of Bronze Sol Tanning Salons</strong></em></p>",
+              "author": "Ashley S.",
+              "bio": "12 Year Norvell User",
+              "product": "skin-refining-scrub-vivid",
+              "icon": "none"
+            }
+          },
+          "testimonial_33tAjm": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>An excellent product for maintaining a spray tan or just keeping my skin moisturized. Its ability to prevent uneven fading which keeps your tan looking smooth and radiant for longer.</p>",
+              "author": "Joanna S.",
+              "bio": "Owner of Summer Sheen. San Diego, CA",
+              "product": "body-butter-glow-system",
+              "icon": "none"
+            }
+          },
+          "testimonial_RgfDDw": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>I call this liquid pantyhose, offering a beautiful flawless instant color. The remarkable violet undertones, it offers me a color to complement any outfit or event.</p><p><em><strong>SI Sales Team Member</strong></em></p>",
+              "author": "Courtney F.",
+              "bio": "16 Years Norvell User",
+              "product": "self-tan-lotion-venetian",
+              "icon": "none"
+            }
+          },
+          "testimonial_dhi3Xf": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>A great addition to extend the life of your spray tan or for last minute color. Pairs with the blending mitt and you have the ultimate combo! It’s perfect for the majority of skin tones.</p><p><em><strong>Owner/Operator Liquid Sunsation Spray Tanning</strong></em></p>",
+              "author": "Christy P.",
+              "bio": "15 Year Norvell User",
+              "product": "instant-self-tan-mousse-venetian",
+              "icon": "none"
+            }
+          },
+          "testimonial_abi6JN": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Norvell Body Butter is just amazing on the skin and the smell is not overdone. Put it on once and your moisturized for the day! It makes my tired mid age hands look and feel 20 again!</p>",
+              "author": "Rachel H.",
+              "bio": "SI Customer Service",
+              "product": "body-butter-glow-system",
+              "icon": "none"
+            }
+          },
+          "testimonial_kCm4hi": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Easy to apply and streak-free. Applying one coat gives me a natural looking tan while adding more layers gives me more of a deeper and darker just off the beach tan. </p><p><em><strong>Owner/</strong></em><strong>Operator</strong><em><strong> Tans, Teeth & Hair & NU Specialist/Academy</strong></em></p>",
+              "author": "Lisa S.",
+              "bio": "25 Year Norvell User",
+              "product": "self-tan-lotion-venetian",
+              "icon": "none"
+            }
+          },
+          "testimonial_dDRMwy": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Easy application, lightweight, and delivers a gorgeous, natural-looking tan. The violet and brown undertones work well with a wide range of skin tones. Color develops evenly and lasts several days, with a smooth, streak-free finish.</p>",
+              "author": "Joanna S.",
+              "bio": "Owner of Summer Sheen. San Diego, CA",
+              "product": "instant-self-tan-mousse-venetian",
+              "icon": "none"
+            }
+          }
+        },
+        "block_order": [
+          "testimonial_AJkdTA",
+          "testimonial_D7Mq7i",
+          "testimonial_33tAjm",
+          "testimonial_RgfDDw",
+          "testimonial_dhi3Xf",
+          "testimonial_abi6JN",
+          "testimonial_kCm4hi",
+          "testimonial_dDRMwy"
+        ],
+        "settings": {
+          "color_scheme": "scheme-inverse",
+          "heading": "Testimonials",
+          "heading_size": "hd3",
+          "heading_highlight_style": "none",
+          "subheading": "",
+          "description": "",
+          "text_size": "text-base",
+          "card_color_scheme": "",
+          "card_layout": "1",
+          "columns_desktop": 4,
+          "column_gap": "medium",
+          "enable_slider": true,
+          "columns_mobile": "1",
+          "swipe_on_mobile": true,
+          "padding_top": 50,
+          "padding_bottom": 100,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "testimonials_yV4ieT": {
+        "type": "testimonials",
+        "blocks": {
+          "testimonial_fjY9y6": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>A great addition to extend the life of your spray tan or for last minute color. Pairs with the blending mitt and you have the ultimate combo! It’s perfect for the majority of skin tones.</p><h6><em>Owner/Operator Liquid Sunsation Spray Tanning</em></h6>",
+              "author": "Christy P.",
+              "bio": "15 Year Norvell User",
+              "product": "instant-self-tan-mousse-venetian",
+              "icon": "none"
+            }
+          },
+          "testimonial_3Qr4W9": {
+            "type": "testimonial",
+            "disabled": true,
+            "settings": {
+              "text": "<p>Revive is exactly what the name says, a true revival of your skin. Twelve years of tanning industry experience has taught me to be kind to your skin if you want it to be kind to you. As someone who's prone to cystic acne and sensitive to almost anything on my face, Norvell's Revive was the first exfoliator I found that isn't too rough. It leaves me glowing as I exfoliate my dull skin away. I love how it's gentle enough to use on my face and is the perfect prep product to properly exfoliate my entire body for my next spray tan. Revive has become my regular go-to exfoliator before anything else.</p><h6><em>Assistant General Manager of Bronze Sol Tanning Salons</em></h6>",
+              "author": "Ashley S.",
+              "bio": "12 Year Norvell User",
+              "product": "skin-refining-scrub-vivid",
+              "icon": "none"
+            }
+          },
+          "testimonial_AwXcYD": {
+            "type": "testimonial",
+            "disabled": true,
+            "settings": {
+              "text": "<p>A favorite daily go-to product of mine is the Norvell Glow System Post-Tan Body Butter. It is an excellent product for maintaining a spray tan or just keeping my skin moisturized. It’s designed to deeply moisturize the skin, which is key for extending the life of a tan. One of the standout features is its ability to prevent uneven fading which keeps your tan looking smooth and radiant for longer. The scent is light and pleasant, and it absorbs well without feeling greasy. If you're looking for a product that keeps your skin soft while ensuring your tan stays fresh, it’s a great addition to your post-tan routine!</p>",
+              "author": "Joanna S.",
+              "bio": "Owner of Summer Sheen. San Diego, CA",
+              "product": "body-butter-glow-system",
+              "icon": "none"
+            }
+          },
+          "testimonial_UVMdqJ": {
+            "type": "testimonial",
+            "disabled": true,
+            "settings": {
+              "text": "<p>One of my favorite Norvell retail products is the Norvell Venetian Self-Tanning Mousse. I love its easy application, lightweight texture, and the gorgeous, natural-looking tan it delivers. The Venetian line is great because it has violet and brown undertones that work well with a wide range of skin tones. The color develops evenly, lasts for several days, and has a smooth, streak-free finish.</p>",
+              "author": "Joanna S.",
+              "bio": "Owner of Summer Sheen. San Diego, CA",
+              "product": "instant-self-tan-mousse-venetian",
+              "icon": "none"
+            }
+          },
+          "testimonial_kAF3bq": {
+            "type": "testimonial",
+            "disabled": true,
+            "settings": {
+              "text": "<p>My absolute favorite product is Norvell Gradual Self-Tanning Lotion. I call this my liquid pantyhose, offering a beautiful flawless instant color. I love to use this product on its own when I forget to get a spray tan but also to help longevity of a spray tan. With the remarkable violet undertones, it offers me a color to complement any outfit or event.</p><h6><em>SI Sales Team Member</em></h6>",
+              "author": "Courtney F.",
+              "bio": "16 Years Norvell User",
+              "product": "self-tan-lotion-venetian",
+              "icon": "none"
+            }
+          },
+          "testimonial_nr6kgJ": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Norvell Body Butter is just amazing on the skin and the smell is not overdone. Put it on once and your moisturized for the day! It makes my tired mid age hands look and feel 20 again!</p>",
+              "author": "Rachel H.",
+              "bio": "SI Customer Service",
+              "product": "body-butter-glow-system",
+              "icon": "none"
+            }
+          },
+          "testimonial_Atyh7w": {
+            "type": "testimonial",
+            "disabled": true,
+            "settings": {
+              "text": "<p>I absolutely love Norvell Venetian Gradual Self-Tanning Lotion & CC Cream. It is easy to apply and has streak-free formulas. Applying one coat gives me a natural looking tan while adding more layers gives me more of a deeper and darker just off the beach tan. I can’t go wrong when applying with the Norvell Blending Mitt. It is the perfect tool for a flawless all-over application. Soft and simple to use, the mitt protects my palms and fingernail areas from unwanted colors.</p><h6><em>Owner/operatior Tans,Teeth & Hair & NU Specialist/Academy</em></h6>",
+              "author": "Lisa S.",
+              "bio": "25 Year Norvell User",
+              "product": "self-tan-lotion-venetian",
+              "icon": "none"
+            }
+          },
+          "testimonial_Trz8Hq": {
+            "type": "testimonial",
+            "disabled": true,
+            "settings": {
+              "text": "<p>For over thirteen years, I have used only Norvell Sunless Solutions for my custom hand held spray tans. Our most requested spray solution is Venetian Plus, and now our 2nd highest request is the new Tuscan solution. New and repeat clients are thrilled with the initial color of both solutions and rave about the finished color of their custom spray tan after their first essential rinse. Our Tuscan clients absolutely love the rose/gold finish that mimics the natural sunlight. Our top selling retail product is the Norvell clear drops, and they're not just popular with our sunless clients, our UV clients love them as well. Our at home kits are our #1 retail seller. Thank you Norvell for all the innovation of products!</p><h6><em>Owner LeTan LeBronze Sun Solarium & Wellness</em><br/></h6>",
+              "author": "Teresa B.",
+              "bio": "13 Year Norvell User",
+              "product": "venetian-plus-professional-spray-tan-solution",
+              "icon": "none"
+            }
+          }
+        },
+        "block_order": [
+          "testimonial_fjY9y6",
+          "testimonial_3Qr4W9",
+          "testimonial_AwXcYD",
+          "testimonial_UVMdqJ",
+          "testimonial_kAF3bq",
+          "testimonial_nr6kgJ",
+          "testimonial_Atyh7w",
+          "testimonial_Trz8Hq"
+        ],
+        "disabled": true,
+        "settings": {
+          "color_scheme": "scheme-inverse",
+          "heading": "Testimonials",
+          "heading_size": "h2",
+          "heading_highlight_style": "none",
+          "subheading": "",
+          "description": "",
+          "text_size": "text-base",
+          "card_color_scheme": "",
+          "card_layout": "1",
+          "columns_desktop": 4,
+          "column_gap": "medium",
+          "enable_slider": true,
+          "columns_mobile": "1",
+          "swipe_on_mobile": true,
+          "padding_top": 100,
+          "padding_bottom": 80,
+          "show_section_divider": false,
+          "divider_width": "fixed"
+        }
+      },
+      "custom_liquid_4VGEYX": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "<div\n\tclass=\"yotpo yotpo-pictures-widget\"\n\tdata-gallery-id=\"66fc11c189772a2844e6365c\">\n</div>",
+          "color_scheme": "",
+          "padding_top": 32,
+          "padding_bottom": 50
+        }
+      }
+    },
+    "order": [
+      "slideshow_NzkiXQ",
+      "slideshow_QrVBdK",
+      "slideshow_UFWfqX",
+      "slideshow_kYAWHf",
+      "countdown_timer_hEQMcw",
+      "countdown_timer_qjPRjc",
+      "video_with_text_rgMRAr",
+      "rich_text_RqEkDp",
+      "featured_collection_zYkDba",
+      "rich_text_3U4nCG",
+      "feature_list_cW3d9c",
+      "image_with_text_B97Ukq",
+      "products_bundle_cFjE73",
+      "rich_text_iENMqL",
+      "featured_collection_KFTNxe",
+      "image_with_text_WA3CfG",
+      "image_with_text_VLfpDb",
+      "image_with_text_K7YBrq",
+      "image_with_text_rLJCQ6",
+      "featured_blog_p8gUPa",
+      "testimonials_8JHr3L",
+      "testimonials_yV4ieT",
+      "custom_liquid_4VGEYX"
+    ]
+  }
+  
